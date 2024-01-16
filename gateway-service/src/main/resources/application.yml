@@ -1,0 +1,6 @@
+# Gateway configuration
+# NexusPay Configuration
+
+spring:
+  application:
+    name: gateway-service

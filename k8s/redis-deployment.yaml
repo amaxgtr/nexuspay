@@ -1,0 +1,6 @@
+# Redis deployment
+# NexusPay Configuration
+
+spring:
+  application:
+    name: k8s

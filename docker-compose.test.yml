@@ -1,0 +1,6 @@
+# Test environment compose
+# NexusPay Configuration
+
+spring:
+  application:
+    name: docker-compose.test.yml

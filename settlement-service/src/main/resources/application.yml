@@ -1,0 +1,6 @@
+# Settlement service config
+# NexusPay Configuration
+
+spring:
+  application:
+    name: settlement-service

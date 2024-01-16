@@ -1,0 +1,41 @@
+package io.nexuspay.payment;
+
+import io.nexuspay.common.events.PaymentEvent;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.kafka.core.KafkaTemplate;
+import org.springframework.kafka.support.SendResult;
+import org.springframework.stereotype.Component;
+
+import java.util.concurrent.CompletableFuture;
+
+@Slf4j
+@Component
+@RequiredArgsConstructor
+public class PaymentEventProducer {
+
+    @Value("${kafka.topics.payments:nexuspay.payments}")
+    private String paymentsTopic;
+
+    private final KafkaTemplate<String, PaymentEvent> kafkaTemplate;
+
+    public void publish(PaymentEvent event) {
+        String key = event.getPaymentId().toString();
+
+        CompletableFuture<SendResult<String, PaymentEvent>> future =
+            kafkaTemplate.send(paymentsTopic, key, event);
+
+        future.whenComplete((result, ex) -> {
+            if (ex != null) {
+                log.error("Failed to publish PaymentEvent paymentId={} type={}",
+                    event.getPaymentId(), event.getType(), ex);
+            } else {
+                log.debug("Published PaymentEvent paymentId={} type={} partition={} offset={}",
+                    event.getPaymentId(), event.getType(),
+                    result.getRecordMetadata().partition(),
+                    result.getRecordMetadata().offset());
+            }
+        });
+    }
+}

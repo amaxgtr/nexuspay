@@ -1,0 +1,6 @@
+# Notification service config
+# NexusPay Configuration
+
+spring:
+  application:
+    name: notification-service

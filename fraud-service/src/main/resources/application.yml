@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: fraud-service
+  kafka:
+    bootstrap-servers: ${KAFKA_BROKERS:localhost:9092}
+    consumer:
+      group-id: fraud-service
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring.json.trusted.packages: io.nexuspay.common.events
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: 6379
+      password: ${REDIS_PASSWORD:}
+      timeout: 2000ms
+
+fraud:
+  ml:
+    enabled: true
+    model-path: /models/fraud-v2.pkl
+  score:
+    block-threshold: 85
+    review-threshold: 60
+  velocity:
+    card-limit: 10
+    merchant-limit: 1000
+    window-minutes: 60
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,prometheus

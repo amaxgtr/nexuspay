@@ -1,0 +1,6 @@
+# Ledger service configuration
+# NexusPay Configuration
+
+spring:
+  application:
+    name: ledger-service

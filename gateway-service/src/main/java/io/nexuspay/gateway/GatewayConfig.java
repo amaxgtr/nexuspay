@@ -1,0 +1,14 @@
+package gateway-service.io.nexuspay.gateway;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * Spring Cloud Gateway routes
+ */
+@Configuration
+public class GatewayConfig {
+
+    // Spring Cloud Gateway routes
+
+}

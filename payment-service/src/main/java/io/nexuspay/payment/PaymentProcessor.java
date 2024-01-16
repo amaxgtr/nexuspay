@@ -1,0 +1,73 @@
+package io.nexuspay.payment;
+
+import io.nexuspay.payment.entity.Payment;
+import lombok.Builder;
+import lombok.Data;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+import java.time.Duration;
+import java.util.UUID;
+
+@Slf4j
+@Component
+@RequiredArgsConstructor
+public class PaymentProcessor {
+
+    @Value("${gateway.timeout-ms:5000}")
+    private long timeoutMs;
+
+    @Value("${gateway.max-retries:3}")
+    private int maxRetries;
+
+    private final GatewayClient gatewayClient;
+
+    public Result charge(Payment payment) {
+        log.debug("Charging gateway paymentId={} amount={}", payment.getId(), payment.getAmount());
+
+        for (int attempt = 1; attempt <= maxRetries; attempt++) {
+            try {
+                GatewayClient.Response response = gatewayClient.charge(
+                    payment.getAmount(),
+                    payment.getCurrency(),
+                    payment.getId().toString(),
+                    Duration.ofMillis(timeoutMs)
+                );
+
+                if (response.isSuccess()) {
+                    return Result.success(response.getReference());
+                }
+
+                log.warn("Gateway declined paymentId={} attempt={} code={}",
+                    payment.getId(), attempt, response.getDeclineCode());
+                return Result.failure(response.getDeclineCode());
+
+            } catch (GatewayTimeoutException e) {
+                log.warn("Gateway timeout paymentId={} attempt={}/{}", payment.getId(), attempt, maxRetries);
+                if (attempt == maxRetries) {
+                    throw new PaymentException("Gateway timeout after " + maxRetries + " attempts", e);
+                }
+            }
+        }
+
+        return Result.failure("MAX_RETRIES_EXCEEDED");
+    }
+
+    @Data
+    @Builder
+    public static class Result {
+        private final boolean success;
+        private final String reference;
+        private final String declineCode;
+
+        public static Result success(String reference) {
+            return Result.builder().success(true).reference(reference).build();
+        }
+
+        public static Result failure(String declineCode) {
+            return Result.builder().success(false).declineCode(declineCode).build();
+        }
+    }
+}

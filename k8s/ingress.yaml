@@ -1,0 +1,6 @@
+# Nginx ingress configuration
+# NexusPay Configuration
+
+spring:
+  application:
+    name: k8s

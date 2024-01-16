@@ -1,0 +1,6 @@
+# Security scanning workflow
+# NexusPay Configuration
+
+spring:
+  application:
+    name: .github

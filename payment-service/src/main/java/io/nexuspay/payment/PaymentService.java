@@ -1,0 +1,80 @@
+package io.nexuspay.payment;
+
+import io.nexuspay.common.events.PaymentEvent;
+import io.nexuspay.common.util.IdempotencyUtil;
+import io.nexuspay.payment.dto.PaymentRequest;
+import io.nexuspay.payment.dto.PaymentResponse;
+import io.nexuspay.payment.entity.Payment;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.time.Instant;
+import java.util.UUID;
+
+@Slf4j
+@Service
+@RequiredArgsConstructor
+public class PaymentService {
+
+    private final PaymentRepository paymentRepository;
+    private final PaymentProcessor paymentProcessor;
+    private final PaymentEventProducer eventProducer;
+    private final IdempotencyUtil idempotencyUtil;
+
+    @Transactional
+    public PaymentResponse processPayment(PaymentRequest request) {
+        log.info("Processing payment for merchant={} amount={} currency={}",
+            request.getMerchantId(), request.getAmount(), request.getCurrency());
+
+        // Idempotency check
+        if (idempotencyUtil.isDuplicate(request.getIdempotencyKey())) {
+            log.warn("Duplicate payment request detected key={}", request.getIdempotencyKey());
+            return paymentRepository.findByIdempotencyKey(request.getIdempotencyKey())
+                .map(this::toResponse)
+                .orElseThrow(() -> new PaymentException("Idempotency conflict"));
+        }
+
+        Payment payment = Payment.builder()
+            .id(UUID.randomUUID())
+            .merchantId(request.getMerchantId())
+            .amount(request.getAmount())
+            .currency(request.getCurrency())
+            .idempotencyKey(request.getIdempotencyKey())
+            .status(PaymentStatus.PENDING)
+            .createdAt(Instant.now())
+            .build();
+
+        paymentRepository.save(payment);
+
+        try {
+            PaymentProcessor.Result result = paymentProcessor.charge(payment);
+            payment.setStatus(result.isSuccess() ? PaymentStatus.COMPLETED : PaymentStatus.FAILED);
+            payment.setGatewayReference(result.getReference());
+            paymentRepository.save(payment);
+
+            eventProducer.publish(PaymentEvent.completed(payment));
+            log.info("Payment completed paymentId={} status={}", payment.getId(), payment.getStatus());
+
+            return toResponse(payment);
+
+        } catch (Exception e) {
+            log.error("Payment processing failed paymentId={}", payment.getId(), e);
+            payment.setStatus(PaymentStatus.FAILED);
+            paymentRepository.save(payment);
+            eventProducer.publish(PaymentEvent.failed(payment));
+            throw new PaymentException("Payment processing failed", e);
+        }
+    }
+
+    private PaymentResponse toResponse(Payment payment) {
+        return PaymentResponse.builder()
+            .paymentId(payment.getId())
+            .status(payment.getStatus())
+            .amount(payment.getAmount())
+            .currency(payment.getCurrency())
+            .createdAt(payment.getCreatedAt())
+            .build();
+    }
+}

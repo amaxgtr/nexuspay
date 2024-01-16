@@ -1,0 +1,6 @@
+# Compliance service config
+# NexusPay Configuration
+
+spring:
+  application:
+    name: compliance-service

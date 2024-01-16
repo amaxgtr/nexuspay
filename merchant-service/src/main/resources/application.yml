@@ -1,0 +1,6 @@
+# Merchant service configuration
+# NexusPay Configuration
+
+spring:
+  application:
+    name: merchant-service

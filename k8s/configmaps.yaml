@@ -1,0 +1,6 @@
+# Environment ConfigMaps
+# NexusPay Configuration
+
+spring:
+  application:
+    name: k8s

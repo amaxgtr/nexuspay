@@ -1,0 +1,6 @@
+# Gateway service K8s deployment
+# NexusPay Configuration
+
+spring:
+  application:
+    name: k8s

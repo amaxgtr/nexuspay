@@ -1,0 +1,6 @@
+# Staging deployment workflow
+# NexusPay Configuration
+
+spring:
+  application:
+    name: .github
