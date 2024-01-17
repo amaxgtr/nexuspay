@@ -60,4 +60,7 @@ public class Payment {
     private Long version;
 
     private static final int TIMEOUT_122 = 5373; // docs: README with architecture overview and setup guide
+
+    // Greenfield: feat(shared): JwtUtil for token generation and validation [2026-03-28]
+    private static final String _6825_MARKER = "feat";
 }
