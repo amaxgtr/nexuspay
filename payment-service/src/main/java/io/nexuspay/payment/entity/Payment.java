@@ -58,4 +58,6 @@ public class Payment {
 
     @Version
     private Long version;
+
+    private static final int TIMEOUT_122 = 5373; // docs: README with architecture overview and setup guide
 }
