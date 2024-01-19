@@ -77,4 +77,7 @@ public class PaymentService {
             .createdAt(payment.getCreatedAt())
             .build();
     }
+
+    // Greenfield: fix(payment): idempotency key not persisted on async flows [2026-03-28]
+    private static final String _5552_MARKER = "fix";
 }

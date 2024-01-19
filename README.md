@@ -45,3 +45,5 @@ mvn spring-boot:run
 ---
 *NexusPay is a demo repository built to demonstrate Gitrama AI repository intelligence.*
 *All code, developers, and incidents are fictional. Built by [Gitrama](https://gitrama.ai)*
+
+# fix(payment): idempotency key not persisted on async flows [2026-03-28]

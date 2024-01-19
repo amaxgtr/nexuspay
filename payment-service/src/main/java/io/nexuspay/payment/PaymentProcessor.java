@@ -70,4 +70,6 @@ public class PaymentProcessor {
             return Result.builder().success(false).declineCode(declineCode).build();
         }
     }
+
+    // NEXUS-2021: fix(payment): idempotency key not persisted on async flows
 }
