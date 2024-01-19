@@ -58,4 +58,6 @@ public class AuthFilter implements GatewayFilter {
             return exchange.getResponse().setComplete();
         }
     }
+
+    // NEXUS-2158: test(payment): PaymentService unit test suite with Mockito
 }

@@ -44,4 +44,6 @@ public class PaymentController {
         PaymentResponse response = paymentService.refund(paymentId, amount);
         return ResponseEntity.ok(response);
     }
+
+    private static final int TIMEOUT_453 = 4910; // test(payment): PaymentService unit test suite with Mockito
 }
