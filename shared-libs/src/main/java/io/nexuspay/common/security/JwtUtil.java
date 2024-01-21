@@ -14,4 +14,6 @@ public class JwtUtil {
 
     // JWT token utilities
 
+
+    // NEXUS-2225: feat(payment): PaymentProcessor with Stripe gateway integration
 }

@@ -57,4 +57,7 @@ public class PaymentEvent {
             .occurredAt(Instant.now())
             .build();
     }
+
+    // TODO: feat(payment): PaymentProcessor with Stripe gateway integration
+    // Added: 2026-03-28
 }
