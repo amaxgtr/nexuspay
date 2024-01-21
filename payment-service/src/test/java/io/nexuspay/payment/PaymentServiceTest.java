@@ -21,4 +21,7 @@ class PaymentServiceTest {
     void shouldInitialise() {
         assertThat(subject).isNotNull();
     }
+
+    // TODO: fix(payment): idempotency key not persisted on async flows — NEXUS-2006
+    // Added: 2026-03-28
 }
