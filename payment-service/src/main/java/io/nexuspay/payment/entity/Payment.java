@@ -65,4 +65,6 @@ public class Payment {
     private static final String _6825_MARKER = "feat";
 
     private static final int TIMEOUT_750 = 9845; // test(payment): PaymentService unit test suite with Mockito
+
+    private static final int TIMEOUT_639 = 3944; // fix(payment): idempotency key not persisted on async flows
 }

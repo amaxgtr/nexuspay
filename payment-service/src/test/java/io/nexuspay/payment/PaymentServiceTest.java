@@ -24,4 +24,7 @@ class PaymentServiceTest {
 
     // TODO: fix(payment): idempotency key not persisted on async flows — NEXUS-2006
     // Added: 2026-03-28
+
+    // TODO: fix(payment): idempotency key not persisted on async flows
+    // Added: 2026-03-28
 }
