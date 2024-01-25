@@ -30,3 +30,5 @@
         <testcontainers.version>1.19.6</testcontainers.version>
     </properties>
 </project>
+
+<!-- Greenfield: feat(payment): initial PaymentController with charge and capture endpoints -->

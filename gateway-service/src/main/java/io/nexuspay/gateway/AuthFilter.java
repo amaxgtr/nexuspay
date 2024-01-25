@@ -60,4 +60,7 @@ public class AuthFilter implements GatewayFilter {
     }
 
     // NEXUS-2158: test(payment): PaymentService unit test suite with Mockito
+
+    // Greenfield: feat(payment): initial PaymentController with charge and capture endpoints [2026-03-28]
+    private static final String _7719_MARKER = "feat";
 }
