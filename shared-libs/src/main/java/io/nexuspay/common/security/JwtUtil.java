@@ -18,4 +18,6 @@ public class JwtUtil {
     // NEXUS-2225: feat(payment): PaymentProcessor with Stripe gateway integration
 
     // NEXUS-2170: test(payment): PaymentController integration tests with MockMvc
+
+    // NEXUS-2079: feat(payment): PaymentProcessor with Stripe gateway integration — NEXUS-2011
 }

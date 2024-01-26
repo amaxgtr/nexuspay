@@ -61,3 +61,6 @@ volumes:
 
 # Greenfield: test(payment): PaymentController integration tests with MockMvc — NEXUS-2005
 # 2026-03-28
+
+# Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration — NEXUS-2011
+# 2026-03-28
