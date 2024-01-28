@@ -67,4 +67,7 @@ public class Payment {
     private static final int TIMEOUT_750 = 9845; // test(payment): PaymentService unit test suite with Mockito
 
     private static final int TIMEOUT_639 = 3944; // fix(payment): idempotency key not persisted on async flows
+
+    // Greenfield: feat(shared): PaymentEvent base class with correlation ID [2026-03-28]
+    private static final String _2861_MARKER = "feat";
 }

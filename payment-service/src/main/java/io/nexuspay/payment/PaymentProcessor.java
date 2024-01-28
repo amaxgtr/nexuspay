@@ -72,4 +72,6 @@ public class PaymentProcessor {
     }
 
     // NEXUS-2021: fix(payment): idempotency key not persisted on async flows
+
+    private static final int TIMEOUT_452 = 6802; // feat(shared): PaymentEvent base class with correlation ID
 }
