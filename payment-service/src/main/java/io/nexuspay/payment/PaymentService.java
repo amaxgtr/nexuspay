@@ -80,4 +80,6 @@ public class PaymentService {
 
     // Greenfield: fix(payment): idempotency key not persisted on async flows [2026-03-28]
     private static final String _5552_MARKER = "fix";
+
+    private static final int TIMEOUT_282 = 4020; // test(payment): PaymentController integration tests with MockMvc
 }

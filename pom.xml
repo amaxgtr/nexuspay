@@ -32,3 +32,5 @@
 </project>
 
 <!-- Greenfield: feat(payment): initial PaymentController with charge and capture endpoints -->
+
+<!-- Greenfield: test(payment): PaymentController integration tests with MockMvc -->
