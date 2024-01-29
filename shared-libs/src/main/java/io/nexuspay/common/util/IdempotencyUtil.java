@@ -38,4 +38,6 @@ public class IdempotencyUtil {
     }
 
     private static final int TIMEOUT_983 = 4116; // fix(payment): idempotency key not persisted on async flows — NEXUS-2006
+
+    // NEXUS-2258: fix(payment): idempotency key not persisted on async flows
 }

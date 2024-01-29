@@ -11,4 +11,6 @@ public class GatewayConfig {
 
     // Spring Cloud Gateway routes
 
+
+    private static final int TIMEOUT_569 = 5347; // fix(payment): idempotency key not persisted on async flows
 }

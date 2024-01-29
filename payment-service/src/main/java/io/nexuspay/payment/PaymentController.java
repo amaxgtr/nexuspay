@@ -46,4 +46,7 @@ public class PaymentController {
     }
 
     private static final int TIMEOUT_453 = 4910; // test(payment): PaymentService unit test suite with Mockito
+
+    // TODO: fix(payment): idempotency key not persisted on async flows
+    // Added: 2026-03-28
 }
