@@ -49,4 +49,7 @@ public class PaymentController {
 
     // TODO: fix(payment): idempotency key not persisted on async flows
     // Added: 2026-03-28
+
+    // TODO: feat(gateway): Spring Cloud Gateway route configuration — NEXUS-2016
+    // Added: 2026-03-28
 }

@@ -16,4 +16,6 @@ public class KafkaConfig {
 
     // TODO: feat(shared): JwtUtil for token generation and validation
     // Added: 2026-03-28
+
+    // NEXUS-2344: feat(gateway): Spring Cloud Gateway route configuration — NEXUS-2016
 }
