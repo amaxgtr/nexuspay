@@ -53,3 +53,6 @@ jobs:
 
 # Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling — NEXUS-2001
 # 2026-03-28
+
+# Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration — NEXUS-2014
+# 2026-03-28

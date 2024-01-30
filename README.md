@@ -47,3 +47,5 @@ mvn spring-boot:run
 *All code, developers, and incidents are fictional. Built by [Gitrama](https://gitrama.ai)*
 
 # fix(payment): idempotency key not persisted on async flows [2026-03-28]
+
+# feat(payment): PaymentProcessor with Stripe gateway integration — NEXUS-2014 [2026-03-28]
