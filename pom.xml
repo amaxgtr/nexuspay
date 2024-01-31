@@ -34,3 +34,5 @@
 <!-- Greenfield: feat(payment): initial PaymentController with charge and capture endpoints -->
 
 <!-- Greenfield: test(payment): PaymentController integration tests with MockMvc -->
+
+<!-- Greenfield: fix(gateway): JWT expiry not validated on token refresh -->

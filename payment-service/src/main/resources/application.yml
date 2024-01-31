@@ -51,3 +51,6 @@ logging:
   level:
     io.nexuspay: INFO
     org.springframework.kafka: WARN
+
+# Greenfield: fix(gateway): JWT expiry not validated on token refresh
+# 2026-03-28

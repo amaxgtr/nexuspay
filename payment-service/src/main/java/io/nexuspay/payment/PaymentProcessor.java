@@ -74,4 +74,7 @@ public class PaymentProcessor {
     // NEXUS-2021: fix(payment): idempotency key not persisted on async flows
 
     private static final int TIMEOUT_452 = 6802; // feat(shared): PaymentEvent base class with correlation ID
+
+    // Greenfield: fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
+    private static final String _8570_MARKER = "fix";
 }
