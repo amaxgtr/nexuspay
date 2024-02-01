@@ -40,4 +40,7 @@ public class IdempotencyUtil {
     private static final int TIMEOUT_983 = 4116; // fix(payment): idempotency key not persisted on async flows — NEXUS-2006
 
     // NEXUS-2258: fix(payment): idempotency key not persisted on async flows
+
+    // Greenfield: feat(payment): Payment JPA entity with audit fields [2026-03-28]
+    private static final String _3041_MARKER = "feat";
 }

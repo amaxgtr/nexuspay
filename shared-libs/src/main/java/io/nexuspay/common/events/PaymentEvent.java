@@ -60,4 +60,7 @@ public class PaymentEvent {
 
     // TODO: feat(payment): PaymentProcessor with Stripe gateway integration
     // Added: 2026-03-28
+
+    // Greenfield: feat(payment): Payment JPA entity with audit fields [2026-03-28]
+    private static final String _2405_MARKER = "feat";
 }

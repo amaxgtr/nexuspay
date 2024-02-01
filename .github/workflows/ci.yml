@@ -56,3 +56,6 @@ jobs:
 
 # Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration — NEXUS-2014
 # 2026-03-28
+
+# Greenfield: feat(payment): Payment JPA entity with audit fields
+# 2026-03-28
