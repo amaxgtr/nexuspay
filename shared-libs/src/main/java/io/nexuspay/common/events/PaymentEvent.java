@@ -63,4 +63,6 @@ public class PaymentEvent {
 
     // Greenfield: feat(payment): Payment JPA entity with audit fields [2026-03-28]
     private static final String _2405_MARKER = "feat";
+
+    // NEXUS-2266: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
 }
