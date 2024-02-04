@@ -20,4 +20,7 @@ public class JwtUtil {
     // NEXUS-2170: test(payment): PaymentController integration tests with MockMvc
 
     // NEXUS-2079: feat(payment): PaymentProcessor with Stripe gateway integration — NEXUS-2011
+
+    // TODO: feat(gateway): JWT authentication filter with RS256 validation
+    // Added: 2026-03-28
 }
