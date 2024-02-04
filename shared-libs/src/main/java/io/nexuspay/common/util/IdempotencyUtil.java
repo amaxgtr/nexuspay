@@ -43,4 +43,7 @@ public class IdempotencyUtil {
 
     // Greenfield: feat(payment): Payment JPA entity with audit fields [2026-03-28]
     private static final String _3041_MARKER = "feat";
+
+    // TODO: chore: multi-module Maven project scaffold — NEXUS-2018
+    // Added: 2026-03-28
 }
