@@ -36,3 +36,5 @@
 <!-- Greenfield: test(payment): PaymentController integration tests with MockMvc -->
 
 <!-- Greenfield: fix(gateway): JWT expiry not validated on token refresh -->
+
+<!-- Greenfield: feat(payment): PaymentRequest and PaymentResponse DTOs with validation -->

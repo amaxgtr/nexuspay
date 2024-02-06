@@ -29,4 +29,6 @@ class PaymentServiceTest {
     // Added: 2026-03-28
 
     // NEXUS-2214: feat(gateway): JWT authentication filter with RS256 validation
+
+    // NEXUS-2143: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
 }
