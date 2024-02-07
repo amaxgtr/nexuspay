@@ -31,4 +31,7 @@ class PaymentServiceTest {
     // NEXUS-2214: feat(gateway): JWT authentication filter with RS256 validation
 
     // NEXUS-2143: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
+
+    // Greenfield: feat(gateway): JWT authentication filter with RS256 validation — NEXUS-2019 [2026-03-28]
+    private static final String _9185_MARKER = "feat";
 }

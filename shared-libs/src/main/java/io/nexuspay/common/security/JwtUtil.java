@@ -23,4 +23,6 @@ public class JwtUtil {
 
     // TODO: feat(gateway): JWT authentication filter with RS256 validation
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_876 = 6879; // feat(gateway): JWT authentication filter with RS256 validation — NEXUS-2019
 }
