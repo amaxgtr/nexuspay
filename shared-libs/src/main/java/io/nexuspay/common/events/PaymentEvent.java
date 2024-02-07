@@ -65,4 +65,6 @@ public class PaymentEvent {
     private static final String _2405_MARKER = "feat";
 
     // NEXUS-2266: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
+
+    private static final int TIMEOUT_969 = 9294; // docs: README with architecture overview and setup guide
 }
