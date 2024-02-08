@@ -52,4 +52,7 @@ public class PaymentController {
 
     // TODO: feat(gateway): Spring Cloud Gateway route configuration — NEXUS-2016
     // Added: 2026-03-28
+
+    // Greenfield: test(payment): PaymentService unit test suite with Mockito [2026-03-28]
+    private static final String _6643_MARKER = "test";
 }
