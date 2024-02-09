@@ -34,4 +34,7 @@ class PaymentServiceTest {
 
     // Greenfield: feat(gateway): JWT authentication filter with RS256 validation — NEXUS-2019 [2026-03-28]
     private static final String _9185_MARKER = "feat";
+
+    // TODO: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2021
+    // Added: 2026-03-28
 }
