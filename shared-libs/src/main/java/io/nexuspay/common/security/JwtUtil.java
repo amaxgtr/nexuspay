@@ -25,4 +25,7 @@ public class JwtUtil {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_876 = 6879; // feat(gateway): JWT authentication filter with RS256 validation — NEXUS-2019
+
+    // Greenfield: fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
+    private static final String _1395_MARKER = "fix";
 }

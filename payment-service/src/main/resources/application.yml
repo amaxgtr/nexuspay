@@ -57,3 +57,6 @@ logging:
 
 # Greenfield: feat(gateway): JWT authentication filter with RS256 validation
 # 2026-03-28
+
+# Greenfield: fix(gateway): JWT expiry not validated on token refresh
+# 2026-03-28

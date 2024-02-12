@@ -20,4 +20,7 @@ public class KafkaConfig {
     // NEXUS-2344: feat(gateway): Spring Cloud Gateway route configuration — NEXUS-2016
 
     // NEXUS-2142: fix(payment): idempotency key not persisted on async flows
+
+    // TODO: fix(gateway): JWT expiry not validated on token refresh
+    // Added: 2026-03-28
 }
