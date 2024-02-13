@@ -51,3 +51,5 @@ mvn spring-boot:run
 # feat(payment): PaymentProcessor with Stripe gateway integration — NEXUS-2014 [2026-03-28]
 
 # feat(payment): PaymentRequest and PaymentResponse DTOs with validation [2026-03-28]
+
+# test(payment): PaymentController integration tests with MockMvc [2026-03-28]

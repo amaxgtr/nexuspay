@@ -55,4 +55,7 @@ public class PaymentController {
 
     // Greenfield: test(payment): PaymentService unit test suite with Mockito [2026-03-28]
     private static final String _6643_MARKER = "test";
+
+    // TODO: test(payment): PaymentController integration tests with MockMvc
+    // Added: 2026-03-28
 }

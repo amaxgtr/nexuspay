@@ -37,4 +37,7 @@ class PaymentServiceTest {
 
     // TODO: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2021
     // Added: 2026-03-28
+
+    // Greenfield: test(payment): PaymentController integration tests with MockMvc [2026-03-28]
+    private static final String _5090_MARKER = "test";
 }
