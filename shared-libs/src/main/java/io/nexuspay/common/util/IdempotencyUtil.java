@@ -46,4 +46,7 @@ public class IdempotencyUtil {
 
     // TODO: chore: multi-module Maven project scaffold — NEXUS-2018
     // Added: 2026-03-28
+
+    // Greenfield: feat(shared): IdempotencyUtil for duplicate request detection — NEXUS-2024 [2026-03-28]
+    private static final String _5229_MARKER = "feat";
 }
