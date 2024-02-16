@@ -77,4 +77,7 @@ public class PaymentProcessor {
 
     // Greenfield: fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
     private static final String _8570_MARKER = "fix";
+
+    // TODO: chore: multi-module Maven project scaffold — NEXUS-2028
+    // Added: 2026-03-28
 }

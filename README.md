@@ -53,3 +53,5 @@ mvn spring-boot:run
 # feat(payment): PaymentRequest and PaymentResponse DTOs with validation [2026-03-28]
 
 # test(payment): PaymentController integration tests with MockMvc [2026-03-28]
+
+# chore: multi-module Maven project scaffold — NEXUS-2028 [2026-03-28]
