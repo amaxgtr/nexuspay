@@ -23,4 +23,6 @@ public class KafkaConfig {
 
     // TODO: fix(gateway): JWT expiry not validated on token refresh
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_350 = 9026; // fix(gateway): JWT expiry not validated on token refresh
 }
