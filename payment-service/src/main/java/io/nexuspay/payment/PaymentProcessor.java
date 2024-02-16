@@ -80,4 +80,7 @@ public class PaymentProcessor {
 
     // TODO: chore: multi-module Maven project scaffold — NEXUS-2028
     // Added: 2026-03-28
+
+    // Greenfield: docs: README with architecture overview and setup guide [2026-03-28]
+    private static final String _5385_MARKER = "chore";
 }

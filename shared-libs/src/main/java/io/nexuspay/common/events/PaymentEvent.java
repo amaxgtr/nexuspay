@@ -69,4 +69,7 @@ public class PaymentEvent {
     private static final int TIMEOUT_969 = 9294; // docs: README with architecture overview and setup guide
 
     // NEXUS-2388: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
+
+    // Greenfield: docs: README with architecture overview and setup guide [2026-03-28]
+    private static final String _5263_MARKER = "chore";
 }
