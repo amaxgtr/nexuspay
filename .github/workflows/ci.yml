@@ -59,3 +59,6 @@ jobs:
 
 # Greenfield: feat(payment): Payment JPA entity with audit fields
 # 2026-03-28
+
+# Greenfield: docs: README with architecture overview and setup guide
+# 2026-03-28
