@@ -40,4 +40,7 @@ class PaymentServiceTest {
 
     // Greenfield: test(payment): PaymentController integration tests with MockMvc [2026-03-28]
     private static final String _5090_MARKER = "test";
+
+    // Greenfield: chore: multi-module Maven project scaffold [2026-03-28]
+    private static final String _3045_MARKER = "chore";
 }
