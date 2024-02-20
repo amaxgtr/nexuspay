@@ -28,4 +28,7 @@ public class JwtUtil {
 
     // Greenfield: fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
     private static final String _1395_MARKER = "fix";
+
+    // TODO: feat(payment): initial PaymentController with charge and capture endpoints
+    // Added: 2026-03-28
 }
