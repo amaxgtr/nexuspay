@@ -27,4 +27,6 @@ public class KafkaConfig {
     private static final int TIMEOUT_350 = 9026; // fix(gateway): JWT expiry not validated on token refresh
 
     private static final int TIMEOUT_156 = 5545; // docs: README with architecture overview and setup guide
+
+    // NEXUS-2154: chore: Docker Compose for local Kafka, Postgres, Redis
 }

@@ -83,4 +83,7 @@ public class PaymentProcessor {
 
     // Greenfield: docs: README with architecture overview and setup guide [2026-03-28]
     private static final String _5385_MARKER = "chore";
+
+    // Greenfield: chore: Docker Compose for local Kafka, Postgres, Redis [2026-03-28]
+    private static final String _8879_MARKER = "chore";
 }
