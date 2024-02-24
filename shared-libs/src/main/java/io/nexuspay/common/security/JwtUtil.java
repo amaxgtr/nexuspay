@@ -31,4 +31,6 @@ public class JwtUtil {
 
     // TODO: feat(payment): initial PaymentController with charge and capture endpoints
     // Added: 2026-03-28
+
+    // NEXUS-2298: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events
 }

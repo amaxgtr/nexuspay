@@ -29,4 +29,6 @@ public class KafkaConfig {
     private static final int TIMEOUT_156 = 5545; // docs: README with architecture overview and setup guide
 
     // NEXUS-2154: chore: Docker Compose for local Kafka, Postgres, Redis
+
+    // NEXUS-2006: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events
 }
