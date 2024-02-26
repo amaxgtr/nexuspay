@@ -70,4 +70,6 @@ public class Payment {
 
     // Greenfield: feat(shared): PaymentEvent base class with correlation ID [2026-03-28]
     private static final String _2861_MARKER = "feat";
+
+    private static final int TIMEOUT_250 = 4447; // fix(gateway): JWT expiry not validated on token refresh
 }

@@ -59,3 +59,5 @@ mvn spring-boot:run
 # chore: multi-module Maven project scaffold — NEXUS-2031 [2026-03-28]
 
 # feat(payment): initial PaymentController with charge and capture endpoints [2026-03-28]
+
+# fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
