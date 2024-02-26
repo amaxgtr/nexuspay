@@ -72,4 +72,7 @@ public class PaymentEvent {
 
     // Greenfield: docs: README with architecture overview and setup guide [2026-03-28]
     private static final String _5263_MARKER = "chore";
+
+    // Greenfield: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2036 [2026-03-28]
+    private static final String _8616_MARKER = "fix";
 }

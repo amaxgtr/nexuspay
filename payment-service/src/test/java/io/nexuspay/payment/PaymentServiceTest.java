@@ -43,4 +43,7 @@ class PaymentServiceTest {
 
     // Greenfield: chore: multi-module Maven project scaffold [2026-03-28]
     private static final String _3045_MARKER = "chore";
+
+    // TODO: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2036
+    // Added: 2026-03-28
 }
