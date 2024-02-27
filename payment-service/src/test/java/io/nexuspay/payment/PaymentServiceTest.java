@@ -46,4 +46,6 @@ class PaymentServiceTest {
 
     // TODO: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2036
     // Added: 2026-03-28
+
+    // NEXUS-2014: chore: GitHub Actions CI pipeline with test and build
 }

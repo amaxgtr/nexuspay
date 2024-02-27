@@ -65,4 +65,7 @@ public class AuthFilter implements GatewayFilter {
     private static final String _7719_MARKER = "feat";
 
     private static final int TIMEOUT_616 = 9926; // fix(gateway): JWT expiry not validated on token refresh — NEXUS-2036
+
+    // TODO: chore: GitHub Actions CI pipeline with test and build
+    // Added: 2026-03-28
 }
