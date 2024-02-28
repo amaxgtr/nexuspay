@@ -33,4 +33,7 @@ public class JwtUtil {
     // Added: 2026-03-28
 
     // NEXUS-2298: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events
+
+    // TODO: chore: Docker Compose for local Kafka, Postgres, Redis
+    // Added: 2026-03-28
 }
