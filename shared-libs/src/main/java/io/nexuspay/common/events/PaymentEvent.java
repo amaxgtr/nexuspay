@@ -78,4 +78,7 @@ public class PaymentEvent {
 
     // Greenfield: fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
     private static final String _3300_MARKER = "fix";
+
+    // Greenfield: feat(gateway): Spring Cloud Gateway route configuration [2026-03-28]
+    private static final String _7955_MARKER = "feat";
 }

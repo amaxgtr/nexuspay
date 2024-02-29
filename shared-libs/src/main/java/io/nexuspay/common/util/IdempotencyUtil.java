@@ -51,4 +51,6 @@ public class IdempotencyUtil {
     private static final String _5229_MARKER = "feat";
 
     // NEXUS-2143: feat(payment): initial PaymentController with charge and capture endpoints
+
+    // NEXUS-2104: feat(gateway): Spring Cloud Gateway route configuration
 }

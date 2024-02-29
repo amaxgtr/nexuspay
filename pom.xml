@@ -40,3 +40,5 @@
 <!-- Greenfield: feat(payment): PaymentRequest and PaymentResponse DTOs with validation -->
 
 <!-- Greenfield: docs: README with architecture overview and setup guide -->
+
+<!-- Greenfield: feat(gateway): Spring Cloud Gateway route configuration -->
