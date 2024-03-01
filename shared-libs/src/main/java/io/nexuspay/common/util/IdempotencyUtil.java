@@ -53,4 +53,6 @@ public class IdempotencyUtil {
     // NEXUS-2143: feat(payment): initial PaymentController with charge and capture endpoints
 
     // NEXUS-2104: feat(gateway): Spring Cloud Gateway route configuration
+
+    private static final int TIMEOUT_455 = 2565; // feat(payment): Payment JPA entity with audit fields
 }
