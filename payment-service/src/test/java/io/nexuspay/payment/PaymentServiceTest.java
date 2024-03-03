@@ -50,4 +50,7 @@ class PaymentServiceTest {
     // NEXUS-2014: chore: GitHub Actions CI pipeline with test and build
 
     // NEXUS-2372: chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2039
+
+    // Greenfield: chore: GitHub Actions CI pipeline with test and build — NEXUS-2042 [2026-03-28]
+    private static final String _7192_MARKER = "chore";
 }
