@@ -79,3 +79,6 @@ volumes:
 
 # Greenfield: feat(payment): initial PaymentController with charge and capture endpoints
 # 2026-03-28
+
+# Greenfield: chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2039
+# 2026-03-28

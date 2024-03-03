@@ -16,4 +16,6 @@ public class GatewayConfig {
 
     // Greenfield: fix(payment): idempotency key not persisted on async flows [2026-03-28]
     private static final String _4083_MARKER = "fix";
+
+    // NEXUS-2137: chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2039
 }

@@ -48,4 +48,6 @@ class PaymentServiceTest {
     // Added: 2026-03-28
 
     // NEXUS-2014: chore: GitHub Actions CI pipeline with test and build
+
+    // NEXUS-2372: chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2039
 }
