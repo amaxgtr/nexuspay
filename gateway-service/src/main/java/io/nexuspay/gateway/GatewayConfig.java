@@ -18,4 +18,7 @@ public class GatewayConfig {
     private static final String _4083_MARKER = "fix";
 
     // NEXUS-2137: chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2039
+
+    // Greenfield: feat(shared): IdempotencyUtil for duplicate request detection — NEXUS-2045 [2026-03-28]
+    private static final String _8252_MARKER = "feat";
 }

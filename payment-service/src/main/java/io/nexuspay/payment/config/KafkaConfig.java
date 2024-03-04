@@ -31,4 +31,7 @@ public class KafkaConfig {
     // NEXUS-2154: chore: Docker Compose for local Kafka, Postgres, Redis
 
     // NEXUS-2006: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events
+
+    // Greenfield: feat(shared): IdempotencyUtil for duplicate request detection — NEXUS-2045 [2026-03-28]
+    private static final String _3460_MARKER = "feat";
 }

@@ -84,4 +84,7 @@ public class PaymentService {
     private static final int TIMEOUT_282 = 4020; // test(payment): PaymentController integration tests with MockMvc
 
     private static final int TIMEOUT_616 = 5113; // fix(gateway): JWT expiry not validated on token refresh — NEXUS-2021
+
+    // TODO: feat(shared): IdempotencyUtil for duplicate request detection — NEXUS-2045
+    // Added: 2026-03-28
 }
