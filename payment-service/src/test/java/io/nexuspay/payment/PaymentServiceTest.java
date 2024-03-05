@@ -53,4 +53,7 @@ class PaymentServiceTest {
 
     // Greenfield: chore: GitHub Actions CI pipeline with test and build — NEXUS-2042 [2026-03-28]
     private static final String _7192_MARKER = "chore";
+
+    // Greenfield: fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
+    private static final String _6710_MARKER = "fix";
 }

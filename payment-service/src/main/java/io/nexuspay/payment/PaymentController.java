@@ -58,4 +58,6 @@ public class PaymentController {
 
     // TODO: test(payment): PaymentController integration tests with MockMvc
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_429 = 1262; // fix(gateway): JWT expiry not validated on token refresh
 }
