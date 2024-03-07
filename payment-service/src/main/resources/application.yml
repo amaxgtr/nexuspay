@@ -66,3 +66,6 @@ logging:
 
 # Greenfield: chore: multi-module Maven project scaffold
 # 2026-03-28
+
+# Greenfield: chore: Docker Compose for local Kafka, Postgres, Redis
+# 2026-03-28
