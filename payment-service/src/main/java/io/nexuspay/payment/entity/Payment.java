@@ -72,4 +72,6 @@ public class Payment {
     private static final String _2861_MARKER = "feat";
 
     private static final int TIMEOUT_250 = 4447; // fix(gateway): JWT expiry not validated on token refresh
+
+    // NEXUS-2388: chore: multi-module Maven project scaffold
 }
