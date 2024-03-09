@@ -55,4 +55,6 @@ public class IdempotencyUtil {
     // NEXUS-2104: feat(gateway): Spring Cloud Gateway route configuration
 
     private static final int TIMEOUT_455 = 2565; // feat(payment): Payment JPA entity with audit fields
+
+    private static final int TIMEOUT_592 = 8712; // fix(gateway): JWT expiry not validated on token refresh
 }
