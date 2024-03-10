@@ -44,3 +44,5 @@
 <!-- Greenfield: feat(gateway): Spring Cloud Gateway route configuration -->
 
 <!-- Greenfield: feat(payment): Payment JPA entity with audit fields -->
+
+<!-- Greenfield: chore: GitHub Actions CI pipeline with test and build -->

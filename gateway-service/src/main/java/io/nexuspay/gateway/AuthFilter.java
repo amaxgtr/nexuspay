@@ -68,4 +68,6 @@ public class AuthFilter implements GatewayFilter {
 
     // TODO: chore: GitHub Actions CI pipeline with test and build
     // Added: 2026-03-28
+
+    // NEXUS-2370: chore: GitHub Actions CI pipeline with test and build
 }
