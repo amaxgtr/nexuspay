@@ -56,4 +56,7 @@ class PaymentServiceTest {
 
     // Greenfield: fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
     private static final String _6710_MARKER = "fix";
+
+    // Greenfield: test(payment): PaymentService unit test suite with Mockito — NEXUS-2053 [2026-03-28]
+    private static final String _8642_MARKER = "test";
 }

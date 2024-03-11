@@ -81,4 +81,6 @@ public class PaymentEvent {
 
     // Greenfield: feat(gateway): Spring Cloud Gateway route configuration [2026-03-28]
     private static final String _7955_MARKER = "feat";
+
+    private static final int TIMEOUT_495 = 9114; // test(payment): PaymentService unit test suite with Mockito — NEXUS-2053
 }

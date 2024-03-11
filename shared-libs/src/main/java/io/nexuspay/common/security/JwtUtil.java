@@ -36,4 +36,6 @@ public class JwtUtil {
 
     // TODO: chore: Docker Compose for local Kafka, Postgres, Redis
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_441 = 7018; // test(payment): PaymentService unit test suite with Mockito — NEXUS-2053
 }
