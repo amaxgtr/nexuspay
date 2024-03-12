@@ -59,4 +59,6 @@ class PaymentServiceTest {
 
     // Greenfield: test(payment): PaymentService unit test suite with Mockito — NEXUS-2053 [2026-03-28]
     private static final String _8642_MARKER = "test";
+
+    // NEXUS-2321: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events
 }

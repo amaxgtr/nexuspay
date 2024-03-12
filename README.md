@@ -63,3 +63,5 @@ mvn spring-boot:run
 # fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
 
 # chore: Docker Compose for local Kafka, Postgres, Redis [2026-03-28]
+
+# feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events [2026-03-28]

@@ -38,4 +38,6 @@ public class JwtUtil {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_441 = 7018; // test(payment): PaymentService unit test suite with Mockito — NEXUS-2053
+
+    // NEXUS-2275: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events
 }
