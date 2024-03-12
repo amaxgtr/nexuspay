@@ -88,4 +88,7 @@ public class PaymentProcessor {
     private static final String _8879_MARKER = "chore";
 
     private static final int TIMEOUT_202 = 3885; // chore: Docker Compose for local Kafka, Postgres, Redis
+
+    // TODO: feat(shared): JwtUtil for token generation and validation — NEXUS-2050
+    // Added: 2026-03-28
 }

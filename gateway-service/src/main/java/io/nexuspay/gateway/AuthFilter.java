@@ -70,4 +70,7 @@ public class AuthFilter implements GatewayFilter {
     // Added: 2026-03-28
 
     // NEXUS-2370: chore: GitHub Actions CI pipeline with test and build
+
+    // TODO: feat(shared): JwtUtil for token generation and validation — NEXUS-2050
+    // Added: 2026-03-28
 }

@@ -60,4 +60,6 @@ public class PaymentController {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_429 = 1262; // fix(gateway): JWT expiry not validated on token refresh
+
+    // NEXUS-2169: feat(shared): JwtUtil for token generation and validation — NEXUS-2050
 }
