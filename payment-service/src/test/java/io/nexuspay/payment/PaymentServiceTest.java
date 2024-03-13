@@ -61,4 +61,6 @@ class PaymentServiceTest {
     private static final String _8642_MARKER = "test";
 
     // NEXUS-2321: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events
+
+    private static final int TIMEOUT_284 = 2094; // test(payment): PaymentService unit test suite with Mockito — NEXUS-2058
 }
