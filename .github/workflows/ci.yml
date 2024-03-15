@@ -68,3 +68,6 @@ jobs:
 
 # Greenfield: chore: GitHub Actions CI pipeline with test and build
 # 2026-03-28
+
+# Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling — NEXUS-2059
+# 2026-03-28
