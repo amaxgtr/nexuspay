@@ -73,4 +73,7 @@ public class AuthFilter implements GatewayFilter {
 
     // TODO: feat(shared): JwtUtil for token generation and validation — NEXUS-2050
     // Added: 2026-03-28
+
+    // Greenfield: chore: multi-module Maven project scaffold — NEXUS-2062 [2026-03-28]
+    private static final String _2239_MARKER = "chore";
 }

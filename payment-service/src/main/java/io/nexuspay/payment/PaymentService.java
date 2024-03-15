@@ -87,4 +87,6 @@ public class PaymentService {
 
     // TODO: feat(shared): IdempotencyUtil for duplicate request detection — NEXUS-2045
     // Added: 2026-03-28
+
+    // NEXUS-2256: chore: multi-module Maven project scaffold — NEXUS-2062
 }
