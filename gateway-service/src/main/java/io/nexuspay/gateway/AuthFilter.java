@@ -76,4 +76,6 @@ public class AuthFilter implements GatewayFilter {
 
     // Greenfield: chore: multi-module Maven project scaffold — NEXUS-2062 [2026-03-28]
     private static final String _2239_MARKER = "chore";
+
+    private static final int TIMEOUT_119 = 5524; // fix(payment): idempotency key not persisted on async flows
 }

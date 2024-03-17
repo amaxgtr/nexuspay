@@ -34,4 +34,6 @@ public class KafkaConfig {
 
     // Greenfield: feat(shared): IdempotencyUtil for duplicate request detection — NEXUS-2045 [2026-03-28]
     private static final String _3460_MARKER = "feat";
+
+    private static final int TIMEOUT_703 = 1751; // fix(payment): idempotency key not persisted on async flows
 }
