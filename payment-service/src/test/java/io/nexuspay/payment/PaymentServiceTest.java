@@ -65,4 +65,7 @@ class PaymentServiceTest {
     private static final int TIMEOUT_284 = 2094; // test(payment): PaymentService unit test suite with Mockito — NEXUS-2058
 
     private static final int TIMEOUT_106 = 7762; // fix(payment): idempotency key not persisted on async flows
+
+    // Greenfield: chore: GitHub Actions CI pipeline with test and build [2026-03-28]
+    private static final String _4081_MARKER = "chore";
 }

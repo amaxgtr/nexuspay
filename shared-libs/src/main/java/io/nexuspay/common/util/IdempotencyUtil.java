@@ -57,4 +57,7 @@ public class IdempotencyUtil {
     private static final int TIMEOUT_455 = 2565; // feat(payment): Payment JPA entity with audit fields
 
     private static final int TIMEOUT_592 = 8712; // fix(gateway): JWT expiry not validated on token refresh
+
+    // TODO: chore: GitHub Actions CI pipeline with test and build
+    // Added: 2026-03-28
 }
