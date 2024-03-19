@@ -62,4 +62,7 @@ public class PaymentController {
     private static final int TIMEOUT_429 = 1262; // fix(gateway): JWT expiry not validated on token refresh
 
     // NEXUS-2169: feat(shared): JwtUtil for token generation and validation — NEXUS-2050
+
+    // Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling [2026-03-28]
+    private static final String _9228_MARKER = "feat";
 }

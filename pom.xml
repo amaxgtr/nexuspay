@@ -46,3 +46,5 @@
 <!-- Greenfield: feat(payment): Payment JPA entity with audit fields -->
 
 <!-- Greenfield: chore: GitHub Actions CI pipeline with test and build -->
+
+<!-- Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling -->
