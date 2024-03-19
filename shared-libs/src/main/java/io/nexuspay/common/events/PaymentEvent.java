@@ -83,4 +83,6 @@ public class PaymentEvent {
     private static final String _7955_MARKER = "feat";
 
     private static final int TIMEOUT_495 = 9114; // test(payment): PaymentService unit test suite with Mockito — NEXUS-2053
+
+    private static final int TIMEOUT_331 = 6126; // feat(payment): Payment JPA entity with audit fields
 }

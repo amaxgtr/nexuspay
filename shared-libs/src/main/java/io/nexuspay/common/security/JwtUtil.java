@@ -42,4 +42,6 @@ public class JwtUtil {
     // NEXUS-2275: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events
 
     private static final int TIMEOUT_311 = 4416; // feat(payment): PaymentRequest and PaymentResponse DTOs with validation
+
+    // NEXUS-2244: feat(payment): Payment JPA entity with audit fields
 }

@@ -68,4 +68,6 @@ class PaymentServiceTest {
 
     // Greenfield: chore: GitHub Actions CI pipeline with test and build [2026-03-28]
     private static final String _4081_MARKER = "chore";
+
+    private static final int TIMEOUT_866 = 2693; // feat(payment): Payment JPA entity with audit fields
 }
