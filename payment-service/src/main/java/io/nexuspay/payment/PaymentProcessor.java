@@ -93,4 +93,6 @@ public class PaymentProcessor {
     // Added: 2026-03-28
 
     // NEXUS-2188: feat(shared): CurrencyUtil with ISO 4217 currency handling
+
+    private static final int TIMEOUT_598 = 5990; // test(payment): PaymentService unit test suite with Mockito — NEXUS-2065
 }
