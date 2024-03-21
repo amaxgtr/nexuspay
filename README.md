@@ -65,3 +65,5 @@ mvn spring-boot:run
 # chore: Docker Compose for local Kafka, Postgres, Redis [2026-03-28]
 
 # feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events [2026-03-28]
+
+# feat(shared): JwtUtil for token generation and validation [2026-03-28]

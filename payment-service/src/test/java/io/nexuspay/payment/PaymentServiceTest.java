@@ -70,4 +70,6 @@ class PaymentServiceTest {
     private static final String _4081_MARKER = "chore";
 
     private static final int TIMEOUT_866 = 2693; // feat(payment): Payment JPA entity with audit fields
+
+    private static final int TIMEOUT_279 = 7625; // feat(shared): JwtUtil for token generation and validation
 }
