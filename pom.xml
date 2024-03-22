@@ -48,3 +48,5 @@
 <!-- Greenfield: chore: GitHub Actions CI pipeline with test and build -->
 
 <!-- Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling -->
+
+<!-- Greenfield: feat(payment): PaymentService orchestration layer with idempotency -->
