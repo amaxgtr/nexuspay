@@ -71,3 +71,5 @@ mvn spring-boot:run
 # feat(payment): PaymentService orchestration layer with idempotency [2026-03-28]
 
 # feat(payment): initial PaymentController with charge and capture endpoints — NEXUS-2066 [2026-03-28]
+
+# feat(shared): JwtUtil for token generation and validation [2026-03-28]

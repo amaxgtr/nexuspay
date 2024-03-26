@@ -69,3 +69,6 @@ logging:
 
 # Greenfield: chore: Docker Compose for local Kafka, Postgres, Redis
 # 2026-03-28
+
+# Greenfield: feat(shared): JwtUtil for token generation and validation
+# 2026-03-28

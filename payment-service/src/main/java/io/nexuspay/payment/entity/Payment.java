@@ -77,4 +77,6 @@ public class Payment {
 
     // TODO: fix(gateway): JWT expiry not validated on token refresh
     // Added: 2026-03-28
+
+    // NEXUS-2208: feat(shared): JwtUtil for token generation and validation
 }
