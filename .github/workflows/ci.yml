@@ -77,3 +77,6 @@ jobs:
 
 # Greenfield: feat(payment): initial PaymentController with charge and capture endpoints — NEXUS-2066
 # 2026-03-28
+
+# Greenfield: test(payment): PaymentService unit test suite with Mockito
+# 2026-03-28
