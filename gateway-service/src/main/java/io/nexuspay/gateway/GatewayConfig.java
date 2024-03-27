@@ -21,4 +21,7 @@ public class GatewayConfig {
 
     // Greenfield: feat(shared): IdempotencyUtil for duplicate request detection — NEXUS-2045 [2026-03-28]
     private static final String _8252_MARKER = "feat";
+
+    // TODO: feat(gateway): JWT authentication filter with RS256 validation
+    // Added: 2026-03-28
 }
