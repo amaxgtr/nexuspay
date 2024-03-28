@@ -89,4 +89,6 @@ public class PaymentService {
     // Added: 2026-03-28
 
     // NEXUS-2256: chore: multi-module Maven project scaffold — NEXUS-2062
+
+    // NEXUS-2264: feat(shared): PaymentEvent base class with correlation ID
 }
