@@ -73,3 +73,5 @@ mvn spring-boot:run
 # feat(payment): initial PaymentController with charge and capture endpoints — NEXUS-2066 [2026-03-28]
 
 # feat(shared): JwtUtil for token generation and validation [2026-03-28]
+
+# feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events [2026-03-28]

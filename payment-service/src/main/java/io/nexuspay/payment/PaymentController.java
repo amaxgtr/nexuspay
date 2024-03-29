@@ -65,4 +65,7 @@ public class PaymentController {
 
     // Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling [2026-03-28]
     private static final String _9228_MARKER = "feat";
+
+    // Greenfield: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events [2026-03-28]
+    private static final String _2061_MARKER = "feat";
 }
