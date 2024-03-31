@@ -60,4 +60,7 @@ public class IdempotencyUtil {
 
     // TODO: chore: GitHub Actions CI pipeline with test and build
     // Added: 2026-03-28
+
+    // TODO: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2071
+    // Added: 2026-03-28
 }
