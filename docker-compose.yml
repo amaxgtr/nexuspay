@@ -94,3 +94,6 @@ volumes:
 
 # Greenfield: fix(payment): idempotency key not persisted on async flows
 # 2026-03-28
+
+# Greenfield: feat(shared): IdempotencyUtil for duplicate request detection
+# 2026-03-28

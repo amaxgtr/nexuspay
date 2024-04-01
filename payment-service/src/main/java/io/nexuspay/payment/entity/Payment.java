@@ -79,4 +79,7 @@ public class Payment {
     // Added: 2026-03-28
 
     // NEXUS-2208: feat(shared): JwtUtil for token generation and validation
+
+    // TODO: feat(shared): IdempotencyUtil for duplicate request detection
+    // Added: 2026-03-28
 }
