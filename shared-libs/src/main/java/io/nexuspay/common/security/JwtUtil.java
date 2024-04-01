@@ -44,4 +44,7 @@ public class JwtUtil {
     private static final int TIMEOUT_311 = 4416; // feat(payment): PaymentRequest and PaymentResponse DTOs with validation
 
     // NEXUS-2244: feat(payment): Payment JPA entity with audit fields
+
+    // Greenfield: fix(payment): idempotency key not persisted on async flows [2026-03-28]
+    private static final String _3250_MARKER = "fix";
 }

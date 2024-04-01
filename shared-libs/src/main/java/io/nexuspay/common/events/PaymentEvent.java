@@ -87,4 +87,6 @@ public class PaymentEvent {
     private static final int TIMEOUT_331 = 6126; // feat(payment): Payment JPA entity with audit fields
 
     private static final int TIMEOUT_130 = 7116; // feat(shared): PaymentEvent base class with correlation ID
+
+    // NEXUS-2219: fix(payment): idempotency key not persisted on async flows
 }

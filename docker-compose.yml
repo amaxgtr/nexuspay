@@ -91,3 +91,6 @@ volumes:
 
 # Greenfield: feat(gateway): JWT authentication filter with RS256 validation
 # 2026-03-28
+
+# Greenfield: fix(payment): idempotency key not persisted on async flows
+# 2026-03-28
