@@ -80,3 +80,6 @@ jobs:
 
 # Greenfield: test(payment): PaymentService unit test suite with Mockito
 # 2026-03-28
+
+# Greenfield: feat(payment): initial PaymentController with charge and capture endpoints
+# 2026-03-28

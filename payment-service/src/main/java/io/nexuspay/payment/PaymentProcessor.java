@@ -95,4 +95,7 @@ public class PaymentProcessor {
     // NEXUS-2188: feat(shared): CurrencyUtil with ISO 4217 currency handling
 
     private static final int TIMEOUT_598 = 5990; // test(payment): PaymentService unit test suite with Mockito — NEXUS-2065
+
+    // Greenfield: feat(payment): initial PaymentController with charge and capture endpoints [2026-03-28]
+    private static final String _7212_MARKER = "feat";
 }
