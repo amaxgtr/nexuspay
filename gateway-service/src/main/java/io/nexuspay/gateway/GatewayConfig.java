@@ -24,4 +24,6 @@ public class GatewayConfig {
 
     // TODO: feat(gateway): JWT authentication filter with RS256 validation
     // Added: 2026-03-28
+
+    // NEXUS-2372: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
 }
