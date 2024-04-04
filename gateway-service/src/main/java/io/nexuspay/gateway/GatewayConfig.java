@@ -26,4 +26,6 @@ public class GatewayConfig {
     // Added: 2026-03-28
 
     // NEXUS-2372: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
+
+    // NEXUS-2148: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2075
 }
