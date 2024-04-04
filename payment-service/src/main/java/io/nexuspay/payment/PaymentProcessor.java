@@ -98,4 +98,7 @@ public class PaymentProcessor {
 
     // Greenfield: feat(payment): initial PaymentController with charge and capture endpoints [2026-03-28]
     private static final String _7212_MARKER = "feat";
+
+    // Greenfield: feat(shared): PaymentEvent base class with correlation ID — NEXUS-2078 [2026-03-28]
+    private static final String _6052_MARKER = "feat";
 }

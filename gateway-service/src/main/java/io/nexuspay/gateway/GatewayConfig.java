@@ -28,4 +28,7 @@ public class GatewayConfig {
     // NEXUS-2372: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
 
     // NEXUS-2148: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2075
+
+    // Greenfield: feat(shared): PaymentEvent base class with correlation ID — NEXUS-2078 [2026-03-28]
+    private static final String _1172_MARKER = "feat";
 }
