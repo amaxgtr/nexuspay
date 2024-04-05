@@ -101,4 +101,6 @@ public class PaymentProcessor {
 
     // Greenfield: feat(shared): PaymentEvent base class with correlation ID — NEXUS-2078 [2026-03-28]
     private static final String _6052_MARKER = "feat";
+
+    // NEXUS-2340: chore: multi-module Maven project scaffold — NEXUS-2083
 }

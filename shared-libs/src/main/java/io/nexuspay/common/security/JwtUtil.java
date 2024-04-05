@@ -50,4 +50,6 @@ public class JwtUtil {
 
     // TODO: feat(payment): initial PaymentController with charge and capture endpoints
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_693 = 1903; // chore: multi-module Maven project scaffold — NEXUS-2083
 }
