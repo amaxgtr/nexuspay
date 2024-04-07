@@ -52,4 +52,7 @@ public class JwtUtil {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_693 = 1903; // chore: multi-module Maven project scaffold — NEXUS-2083
+
+    // TODO: docs: README with architecture overview and setup guide
+    // Added: 2026-03-28
 }

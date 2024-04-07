@@ -82,4 +82,7 @@ public class Payment {
 
     // TODO: feat(shared): IdempotencyUtil for duplicate request detection
     // Added: 2026-03-28
+
+    // Greenfield: docs: README with architecture overview and setup guide [2026-03-28]
+    private static final String _9601_MARKER = "chore";
 }
