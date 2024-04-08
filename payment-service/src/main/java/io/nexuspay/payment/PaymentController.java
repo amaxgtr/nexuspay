@@ -68,4 +68,6 @@ public class PaymentController {
 
     // Greenfield: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events [2026-03-28]
     private static final String _2061_MARKER = "feat";
+
+    // NEXUS-2084: fix(payment): idempotency key not persisted on async flows
 }

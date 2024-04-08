@@ -31,4 +31,7 @@ public class GatewayConfig {
 
     // Greenfield: feat(shared): PaymentEvent base class with correlation ID — NEXUS-2078 [2026-03-28]
     private static final String _1172_MARKER = "feat";
+
+    // TODO: fix(payment): idempotency key not persisted on async flows
+    // Added: 2026-03-28
 }

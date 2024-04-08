@@ -50,3 +50,5 @@
 <!-- Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling -->
 
 <!-- Greenfield: feat(payment): PaymentService orchestration layer with idempotency -->
+
+<!-- Greenfield: fix(payment): idempotency key not persisted on async flows -->
