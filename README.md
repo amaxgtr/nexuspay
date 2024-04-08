@@ -75,3 +75,5 @@ mvn spring-boot:run
 # feat(shared): JwtUtil for token generation and validation [2026-03-28]
 
 # feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events [2026-03-28]
+
+# fix(payment): idempotency key not persisted on async flows [2026-03-28]
