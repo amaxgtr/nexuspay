@@ -105,4 +105,6 @@ public class PaymentProcessor {
     // NEXUS-2340: chore: multi-module Maven project scaffold — NEXUS-2083
 
     private static final int TIMEOUT_210 = 9908; // feat(payment): PaymentService orchestration layer with idempotency
+
+    private static final int TIMEOUT_216 = 2783; // feat(payment): Payment JPA entity with audit fields
 }

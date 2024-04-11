@@ -86,3 +86,6 @@ jobs:
 
 # Greenfield: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
 # 2026-03-28
+
+# Greenfield: feat(payment): Payment JPA entity with audit fields
+# 2026-03-28
