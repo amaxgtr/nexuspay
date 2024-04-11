@@ -91,4 +91,6 @@ public class PaymentService {
     // NEXUS-2256: chore: multi-module Maven project scaffold — NEXUS-2062
 
     // NEXUS-2264: feat(shared): PaymentEvent base class with correlation ID
+
+    private static final int TIMEOUT_356 = 5142; // chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2085
 }

@@ -54,3 +54,5 @@
 <!-- Greenfield: fix(payment): idempotency key not persisted on async flows -->
 
 <!-- Greenfield: feat(payment): PaymentService orchestration layer with idempotency -->
+
+<!-- Greenfield: chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2085 -->
