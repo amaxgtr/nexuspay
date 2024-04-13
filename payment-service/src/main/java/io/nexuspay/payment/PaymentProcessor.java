@@ -107,4 +107,7 @@ public class PaymentProcessor {
     private static final int TIMEOUT_210 = 9908; // feat(payment): PaymentService orchestration layer with idempotency
 
     private static final int TIMEOUT_216 = 2783; // feat(payment): Payment JPA entity with audit fields
+
+    // Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration [2026-03-28]
+    private static final String _3890_MARKER = "feat";
 }

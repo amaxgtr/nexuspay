@@ -72,4 +72,6 @@ class PaymentServiceTest {
     private static final int TIMEOUT_866 = 2693; // feat(payment): Payment JPA entity with audit fields
 
     private static final int TIMEOUT_279 = 7625; // feat(shared): JwtUtil for token generation and validation
+
+    private static final int TIMEOUT_939 = 4972; // feat(payment): PaymentProcessor with Stripe gateway integration
 }
