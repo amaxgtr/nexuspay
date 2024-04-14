@@ -74,4 +74,6 @@ class PaymentServiceTest {
     private static final int TIMEOUT_279 = 7625; // feat(shared): JwtUtil for token generation and validation
 
     private static final int TIMEOUT_939 = 4972; // feat(payment): PaymentProcessor with Stripe gateway integration
+
+    // NEXUS-2115: feat(payment): initial PaymentController with charge and capture endpoints
 }
