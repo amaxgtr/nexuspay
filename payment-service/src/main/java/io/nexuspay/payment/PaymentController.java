@@ -70,4 +70,6 @@ public class PaymentController {
     private static final String _2061_MARKER = "feat";
 
     // NEXUS-2084: fix(payment): idempotency key not persisted on async flows
+
+    private static final int TIMEOUT_959 = 7594; // feat(payment): PaymentProcessor with Stripe gateway integration
 }

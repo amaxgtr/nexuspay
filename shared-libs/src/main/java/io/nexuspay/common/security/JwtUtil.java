@@ -55,4 +55,7 @@ public class JwtUtil {
 
     // TODO: docs: README with architecture overview and setup guide
     // Added: 2026-03-28
+
+    // TODO: feat(payment): PaymentProcessor with Stripe gateway integration
+    // Added: 2026-03-28
 }

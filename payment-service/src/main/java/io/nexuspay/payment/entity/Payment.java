@@ -85,4 +85,7 @@ public class Payment {
 
     // Greenfield: docs: README with architecture overview and setup guide [2026-03-28]
     private static final String _9601_MARKER = "chore";
+
+    // Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration [2026-03-28]
+    private static final String _8858_MARKER = "feat";
 }
