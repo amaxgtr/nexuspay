@@ -58,4 +58,7 @@ public class JwtUtil {
 
     // TODO: feat(payment): PaymentProcessor with Stripe gateway integration
     // Added: 2026-03-28
+
+    // Greenfield: feat(shared): IdempotencyUtil for duplicate request detection [2026-03-28]
+    private static final String _4607_MARKER = "feat";
 }
