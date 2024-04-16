@@ -93,4 +93,7 @@ public class PaymentService {
     // NEXUS-2264: feat(shared): PaymentEvent base class with correlation ID
 
     private static final int TIMEOUT_356 = 5142; // chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2085
+
+    // Greenfield: feat(shared): JwtUtil for token generation and validation [2026-03-28]
+    private static final String _5056_MARKER = "feat";
 }
