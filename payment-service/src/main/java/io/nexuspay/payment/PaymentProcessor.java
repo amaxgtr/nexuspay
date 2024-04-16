@@ -110,4 +110,6 @@ public class PaymentProcessor {
 
     // Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration [2026-03-28]
     private static final String _3890_MARKER = "feat";
+
+    // NEXUS-2326: test(payment): PaymentController integration tests with MockMvc
 }

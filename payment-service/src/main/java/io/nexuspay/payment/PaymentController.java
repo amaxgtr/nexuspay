@@ -72,4 +72,7 @@ public class PaymentController {
     // NEXUS-2084: fix(payment): idempotency key not persisted on async flows
 
     private static final int TIMEOUT_959 = 7594; // feat(payment): PaymentProcessor with Stripe gateway integration
+
+    // TODO: test(payment): PaymentController integration tests with MockMvc
+    // Added: 2026-03-28
 }
