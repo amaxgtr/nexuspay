@@ -89,4 +89,6 @@ public class PaymentEvent {
     private static final int TIMEOUT_130 = 7116; // feat(shared): PaymentEvent base class with correlation ID
 
     // NEXUS-2219: fix(payment): idempotency key not persisted on async flows
+
+    private static final int TIMEOUT_247 = 1547; // feat(shared): IdempotencyUtil for duplicate request detection
 }
