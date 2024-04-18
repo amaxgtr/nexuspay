@@ -112,4 +112,6 @@ public class PaymentProcessor {
     private static final String _3890_MARKER = "feat";
 
     // NEXUS-2326: test(payment): PaymentController integration tests with MockMvc
+
+    private static final int TIMEOUT_904 = 8904; // feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events — NEXUS-2090
 }
