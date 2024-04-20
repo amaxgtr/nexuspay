@@ -58,3 +58,5 @@
 <!-- Greenfield: chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2085 -->
 
 <!-- Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration -->
+
+<!-- Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling -->
