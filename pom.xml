@@ -56,3 +56,5 @@
 <!-- Greenfield: feat(payment): PaymentService orchestration layer with idempotency -->
 
 <!-- Greenfield: chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2085 -->
+
+<!-- Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration -->

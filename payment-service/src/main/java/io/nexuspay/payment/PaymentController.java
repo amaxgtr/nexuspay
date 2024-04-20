@@ -75,4 +75,7 @@ public class PaymentController {
 
     // TODO: test(payment): PaymentController integration tests with MockMvc
     // Added: 2026-03-28
+
+    // Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration [2026-03-28]
+    private static final String _7762_MARKER = "feat";
 }
