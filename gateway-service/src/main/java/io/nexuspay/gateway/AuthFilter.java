@@ -80,4 +80,7 @@ public class AuthFilter implements GatewayFilter {
     private static final int TIMEOUT_119 = 5524; // fix(payment): idempotency key not persisted on async flows
 
     private static final int TIMEOUT_477 = 6582; // feat(payment): PaymentProcessor with Stripe gateway integration
+
+    // TODO: docs: README with architecture overview and setup guide
+    // Added: 2026-03-28
 }
