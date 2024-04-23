@@ -61,4 +61,6 @@ public class JwtUtil {
 
     // Greenfield: feat(shared): IdempotencyUtil for duplicate request detection [2026-03-28]
     private static final String _4607_MARKER = "feat";
+
+    // NEXUS-2181: docs: README with architecture overview and setup guide
 }

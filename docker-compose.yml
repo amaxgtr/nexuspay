@@ -103,3 +103,6 @@ volumes:
 
 # Greenfield: feat(payment): initial PaymentController with charge and capture endpoints
 # 2026-03-28
+
+# Greenfield: docs: README with architecture overview and setup guide
+# 2026-03-28
