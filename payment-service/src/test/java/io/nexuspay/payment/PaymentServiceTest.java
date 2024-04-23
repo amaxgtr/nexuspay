@@ -76,4 +76,7 @@ class PaymentServiceTest {
     private static final int TIMEOUT_939 = 4972; // feat(payment): PaymentProcessor with Stripe gateway integration
 
     // NEXUS-2115: feat(payment): initial PaymentController with charge and capture endpoints
+
+    // Greenfield: docs: README with architecture overview and setup guide [2026-03-28]
+    private static final String _7476_MARKER = "chore";
 }

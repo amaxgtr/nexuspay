@@ -91,4 +91,7 @@ public class PaymentEvent {
     // NEXUS-2219: fix(payment): idempotency key not persisted on async flows
 
     private static final int TIMEOUT_247 = 1547; // feat(shared): IdempotencyUtil for duplicate request detection
+
+    // TODO: docs: README with architecture overview and setup guide
+    // Added: 2026-03-28
 }
