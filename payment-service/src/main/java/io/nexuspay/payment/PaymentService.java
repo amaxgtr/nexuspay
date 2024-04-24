@@ -96,4 +96,6 @@ public class PaymentService {
 
     // Greenfield: feat(shared): JwtUtil for token generation and validation [2026-03-28]
     private static final String _5056_MARKER = "feat";
+
+    // NEXUS-2158: feat(payment): initial PaymentController with charge and capture endpoints — NEXUS-2094
 }
