@@ -81,3 +81,6 @@ logging:
 
 # Greenfield: test(payment): PaymentController integration tests with MockMvc
 # 2026-03-28
+
+# Greenfield: docs: README with architecture overview and setup guide — NEXUS-2099
+# 2026-03-28
