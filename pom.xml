@@ -62,3 +62,5 @@
 <!-- Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling -->
 
 <!-- Greenfield: docs: README with architecture overview and setup guide -->
+
+<!-- Greenfield: feat(gateway): Spring Cloud Gateway route configuration -->

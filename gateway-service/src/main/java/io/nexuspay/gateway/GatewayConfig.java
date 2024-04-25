@@ -36,4 +36,7 @@ public class GatewayConfig {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_280 = 7754; // docs: README with architecture overview and setup guide
+
+    // TODO: feat(gateway): Spring Cloud Gateway route configuration
+    // Added: 2026-03-28
 }

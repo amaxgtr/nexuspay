@@ -63,4 +63,7 @@ public class IdempotencyUtil {
 
     // TODO: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2071
     // Added: 2026-03-28
+
+    // TODO: feat(gateway): Spring Cloud Gateway route configuration
+    // Added: 2026-03-28
 }
