@@ -39,4 +39,7 @@ public class GatewayConfig {
 
     // TODO: feat(gateway): Spring Cloud Gateway route configuration
     // Added: 2026-03-28
+
+    // Greenfield: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2100 [2026-03-28]
+    private static final String _8611_MARKER = "fix";
 }

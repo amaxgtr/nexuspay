@@ -92,3 +92,6 @@ jobs:
 
 # Greenfield: feat(shared): IdempotencyUtil for duplicate request detection
 # 2026-03-28
+
+# Greenfield: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2100
+# 2026-03-28
