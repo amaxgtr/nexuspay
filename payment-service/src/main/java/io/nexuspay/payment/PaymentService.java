@@ -98,4 +98,7 @@ public class PaymentService {
     private static final String _5056_MARKER = "feat";
 
     // NEXUS-2158: feat(payment): initial PaymentController with charge and capture endpoints — NEXUS-2094
+
+    // TODO: docs: README with architecture overview and setup guide — NEXUS-2102
+    // Added: 2026-03-28
 }

@@ -95,3 +95,6 @@ jobs:
 
 # Greenfield: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2100
 # 2026-03-28
+
+# Greenfield: docs: README with architecture overview and setup guide — NEXUS-2102
+# 2026-03-28
