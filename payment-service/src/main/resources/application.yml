@@ -84,3 +84,6 @@ logging:
 
 # Greenfield: docs: README with architecture overview and setup guide — NEXUS-2099
 # 2026-03-28
+
+# Greenfield: fix(gateway): JWT expiry not validated on token refresh
+# 2026-03-28
