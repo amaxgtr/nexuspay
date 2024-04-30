@@ -78,4 +78,7 @@ public class PaymentController {
 
     // Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration [2026-03-28]
     private static final String _7762_MARKER = "feat";
+
+    // Greenfield: feat(payment): initial PaymentController with charge and capture endpoints [2026-03-28]
+    private static final String _5050_MARKER = "feat";
 }
