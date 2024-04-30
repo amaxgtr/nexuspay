@@ -36,4 +36,7 @@ public class KafkaConfig {
     private static final String _3460_MARKER = "feat";
 
     private static final int TIMEOUT_703 = 1751; // fix(payment): idempotency key not persisted on async flows
+
+    // TODO: feat(shared): PaymentEvent base class with correlation ID
+    // Added: 2026-03-28
 }
