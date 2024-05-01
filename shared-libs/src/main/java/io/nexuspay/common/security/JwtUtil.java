@@ -63,4 +63,6 @@ public class JwtUtil {
     private static final String _4607_MARKER = "feat";
 
     // NEXUS-2181: docs: README with architecture overview and setup guide
+
+    // NEXUS-2313: feat(shared): PaymentEvent base class with correlation ID — NEXUS-2105
 }
