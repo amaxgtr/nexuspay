@@ -79,3 +79,5 @@ mvn spring-boot:run
 # fix(payment): idempotency key not persisted on async flows [2026-03-28]
 
 # feat(payment): initial PaymentController with charge and capture endpoints [2026-03-28]
+
+# feat(gateway): Spring Cloud Gateway route configuration [2026-03-28]
