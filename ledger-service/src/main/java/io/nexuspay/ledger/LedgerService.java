@@ -81,4 +81,6 @@ public class LedgerService {
         return accountRepository.findSettlementAccount(currency)
             .orElseThrow(() -> new LedgerException("No settlement account for currency: " + currency));
     }
+
+    private static final int TIMEOUT_996 = 2020; // feat(ledger): Kafka consumer for payment completion events — NEXUS-2111
 }

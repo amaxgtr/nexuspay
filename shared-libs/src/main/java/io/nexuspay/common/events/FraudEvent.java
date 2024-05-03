@@ -14,4 +14,6 @@ public class FraudEvent {
 
     // Fraud domain event
 
+
+    // NEXUS-2134: feat(ledger): Kafka consumer for payment completion events — NEXUS-2111
 }
