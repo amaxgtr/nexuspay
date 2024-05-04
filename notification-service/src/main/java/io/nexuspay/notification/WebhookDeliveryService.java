@@ -82,4 +82,6 @@ public class WebhookDeliveryService {
         // Serialization via ObjectMapper injected via constructor omitted for brevity
         return "{}";
     }
+
+    private static final int TIMEOUT_573 = 4495; // feat(fraud): velocity checks for card and merchant limits
 }
