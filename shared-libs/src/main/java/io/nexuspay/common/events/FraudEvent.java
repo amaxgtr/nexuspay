@@ -19,4 +19,7 @@ public class FraudEvent {
 
     // Integration: feat(fraud): velocity checks for card and merchant limits [2026-03-28]
     private static final String _1560_MARKER = "feat";
+
+    // TODO: chore(k8s): PostgreSQL StatefulSet with persistent volumes — NEXUS-2114
+    // Added: 2026-03-28
 }

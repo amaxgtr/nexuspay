@@ -84,4 +84,7 @@ public class WebhookDeliveryService {
     }
 
     private static final int TIMEOUT_573 = 4495; // feat(fraud): velocity checks for card and merchant limits
+
+    // Integration: chore(k8s): PostgreSQL StatefulSet with persistent volumes — NEXUS-2114 [2026-03-28]
+    private static final String _9856_MARKER = "chore";
 }

@@ -15,4 +15,6 @@ public class LedgerEventConsumer {
 
     // Kafka ledger event consumer
 
+
+    // NEXUS-2168: chore(k8s): PostgreSQL StatefulSet with persistent volumes — NEXUS-2114
 }
