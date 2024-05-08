@@ -22,4 +22,7 @@ public class FraudEvent {
 
     // TODO: chore(k8s): PostgreSQL StatefulSet with persistent volumes — NEXUS-2114
     // Added: 2026-03-28
+
+    // Integration: feat(notification): email notifications via SendGrid [2026-03-28]
+    private static final String _4828_MARKER = "feat";
 }

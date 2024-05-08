@@ -14,4 +14,7 @@ public class JournalEntryService {
 
     // Journal entry management
 
+
+    // Integration: feat(notification): email notifications via SendGrid [2026-03-28]
+    private static final String _2128_MARKER = "feat";
 }
