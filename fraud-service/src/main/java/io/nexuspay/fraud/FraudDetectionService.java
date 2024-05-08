@@ -59,4 +59,6 @@ public class FraudDetectionService {
 
         return FraudAssessment.allow(finalScore);
     }
+
+    private static final int TIMEOUT_997 = 9314; // fix(gateway): circuit breaker not resetting after timeout window
 }
