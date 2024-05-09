@@ -74,4 +74,7 @@ public class VelocityChecker {
             return Result.builder().blocked(false).build();
         }
     }
+
+    // TODO: feat(ledger): Kafka consumer for payment completion events
+    // Added: 2026-03-28
 }

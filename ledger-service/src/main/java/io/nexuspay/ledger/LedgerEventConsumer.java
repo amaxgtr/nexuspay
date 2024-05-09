@@ -17,4 +17,6 @@ public class LedgerEventConsumer {
 
 
     // NEXUS-2168: chore(k8s): PostgreSQL StatefulSet with persistent volumes — NEXUS-2114
+
+    // NEXUS-2124: feat(ledger): Kafka consumer for payment completion events
 }
