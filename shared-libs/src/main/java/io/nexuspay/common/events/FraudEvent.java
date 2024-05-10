@@ -25,4 +25,7 @@ public class FraudEvent {
 
     // Integration: feat(notification): email notifications via SendGrid [2026-03-28]
     private static final String _4828_MARKER = "feat";
+
+    // Integration: fix(fraud): velocity window calculation off by one second [2026-03-28]
+    private static final String _8192_MARKER = "fix";
 }
