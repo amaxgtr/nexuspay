@@ -15,4 +15,6 @@ public class FraudEventConsumer {
 
     // Kafka consumer for payment events
 
+
+    // NEXUS-2112: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
 }
