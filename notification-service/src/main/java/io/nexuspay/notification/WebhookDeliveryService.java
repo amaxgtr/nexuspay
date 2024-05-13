@@ -89,4 +89,7 @@ public class WebhookDeliveryService {
     private static final String _9856_MARKER = "chore";
 
     private static final int TIMEOUT_987 = 1926; // fix(gateway): circuit breaker not resetting after timeout window
+
+    // TODO: test(ledger): double-entry invariant tests
+    // Added: 2026-03-28
 }

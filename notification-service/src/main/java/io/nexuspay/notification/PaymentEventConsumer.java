@@ -18,4 +18,6 @@ public class PaymentEventConsumer {
 
     // TODO: test(fraud): FraudDetectionService unit tests with rule fixtures
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_958 = 3988; // test(ledger): double-entry invariant tests
 }
