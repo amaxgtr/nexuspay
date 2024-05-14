@@ -28,4 +28,7 @@ public class FraudEvent {
 
     // Integration: fix(fraud): velocity window calculation off by one second [2026-03-28]
     private static final String _8192_MARKER = "fix";
+
+    // TODO: feat(fraud): Kafka consumer for PaymentCreated events
+    // Added: 2026-03-28
 }
