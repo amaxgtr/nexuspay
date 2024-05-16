@@ -31,4 +31,6 @@ public class FraudEvent {
 
     // TODO: feat(fraud): Kafka consumer for PaymentCreated events
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_287 = 6386; // feat(fraud): FraudEvent publishing on high-risk transactions
 }
