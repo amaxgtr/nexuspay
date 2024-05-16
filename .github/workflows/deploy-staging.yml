@@ -10,3 +10,6 @@ spring:
 
 # Integration: test(notification): webhook delivery and retry integration tests — NEXUS-2118
 # 2026-03-28
+
+# Integration: chore(ci): staging deployment workflow with smoke tests — NEXUS-2121
+# 2026-03-28

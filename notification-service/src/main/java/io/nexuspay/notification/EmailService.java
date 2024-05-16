@@ -14,4 +14,7 @@ public class EmailService {
 
     // Email delivery service
 
+
+    // TODO: chore(ci): staging deployment workflow with smoke tests — NEXUS-2121
+    // Added: 2026-03-28
 }
