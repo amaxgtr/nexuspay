@@ -13,3 +13,6 @@ spring:
 
 # Integration: chore(ci): staging deployment workflow with smoke tests — NEXUS-2121
 # 2026-03-28
+
+# Integration: feat(ledger): account balance calculation with optimistic locking
+# 2026-03-28
