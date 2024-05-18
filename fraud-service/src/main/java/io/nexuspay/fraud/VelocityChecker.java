@@ -80,4 +80,7 @@ public class VelocityChecker {
 
     // Integration: feat(gateway): Redis-based rate limiting per merchant API key [2026-03-28]
     private static final String _9891_MARKER = "feat";
+
+    // TODO: fix(gateway): circuit breaker not resetting after timeout window — NEXUS-2124
+    // Added: 2026-03-28
 }
