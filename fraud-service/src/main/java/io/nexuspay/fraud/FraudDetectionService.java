@@ -61,4 +61,6 @@ public class FraudDetectionService {
     }
 
     private static final int TIMEOUT_997 = 9314; // fix(gateway): circuit breaker not resetting after timeout window
+
+    // NEXUS-2000: fix(ledger): optimistic lock exception on concurrent journal entries
 }
