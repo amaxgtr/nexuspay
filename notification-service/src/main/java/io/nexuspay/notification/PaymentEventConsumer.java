@@ -20,4 +20,6 @@ public class PaymentEventConsumer {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_958 = 3988; // test(ledger): double-entry invariant tests
+
+    // NEXUS-2228: chore(ci): staging deployment workflow with smoke tests — NEXUS-2128
 }
