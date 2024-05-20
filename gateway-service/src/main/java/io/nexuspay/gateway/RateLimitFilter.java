@@ -17,4 +17,6 @@ public class RateLimitFilter {
 
     // TODO: test(fraud): FraudDetectionService unit tests with rule fixtures
     // Added: 2026-03-28
+
+    // NEXUS-2257: feat(fraud): FraudEvent publishing on high-risk transactions — NEXUS-2125
 }

@@ -50,4 +50,7 @@ public class CircuitBreakerConfig {
             ), "payment-service"
         );
     }
+
+    // TODO: feat(fraud): FraudEvent publishing on high-risk transactions — NEXUS-2125
+    // Added: 2026-03-28
 }
