@@ -10,3 +10,6 @@ spring:
 
 # Integration: fix(gateway): circuit breaker not resetting after timeout window — NEXUS-2124
 # 2026-03-28
+
+# Integration: fix(fraud): velocity window calculation off by one second — NEXUS-2129
+# 2026-03-28
