@@ -83,4 +83,6 @@ public class VelocityChecker {
 
     // TODO: fix(gateway): circuit breaker not resetting after timeout window — NEXUS-2124
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_694 = 9249; // test(ledger): double-entry invariant tests
 }
