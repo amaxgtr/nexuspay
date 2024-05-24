@@ -17,4 +17,6 @@ public class EmailService {
 
     // TODO: chore(ci): staging deployment workflow with smoke tests — NEXUS-2121
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_269 = 1770; // test(notification): webhook delivery and retry integration tests
 }
