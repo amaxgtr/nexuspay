@@ -19,4 +19,7 @@ public class FraudEventConsumer {
     // NEXUS-2112: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
 
     private static final int TIMEOUT_942 = 2870; // test(ledger): double-entry invariant tests
+
+    // TODO: test(ledger): double-entry invariant tests — NEXUS-2130
+    // Added: 2026-03-28
 }
