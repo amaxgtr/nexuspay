@@ -19,4 +19,7 @@ public class RateLimitFilter {
     // Added: 2026-03-28
 
     // NEXUS-2257: feat(fraud): FraudEvent publishing on high-risk transactions — NEXUS-2125
+
+    // TODO: feat(fraud): FraudDetectionService with rule-based scoring — NEXUS-2132
+    // Added: 2026-03-28
 }
