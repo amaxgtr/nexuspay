@@ -22,4 +22,7 @@ public class JournalEntryService {
 
     // Integration: chore(ci): staging deployment workflow with smoke tests — NEXUS-2121 [2026-03-28]
     private static final String _9331_MARKER = "chore";
+
+    // TODO: fix(notification): webhook signature invalid for Unicode payloads — NEXUS-2034
+    // Added: 2026-03-28
 }
