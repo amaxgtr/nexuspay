@@ -25,4 +25,7 @@ public class JournalEntryService {
 
     // TODO: fix(notification): webhook signature invalid for Unicode payloads — NEXUS-2034
     // Added: 2026-03-28
+
+    // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
+    // Added: 2026-03-28
 }

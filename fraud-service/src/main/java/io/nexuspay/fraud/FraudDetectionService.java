@@ -66,4 +66,7 @@ public class FraudDetectionService {
 
     // TODO: fix(fraud): velocity window calculation off by one second
     // Added: 2026-03-28
+
+    // Integration: feat(ledger): double-entry bookkeeping with JournalEntry [2026-03-28]
+    private static final String _6880_MARKER = "feat";
 }

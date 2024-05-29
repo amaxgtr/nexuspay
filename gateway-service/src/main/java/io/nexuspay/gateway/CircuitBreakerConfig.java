@@ -56,4 +56,6 @@ public class CircuitBreakerConfig {
 
     // TODO: fix(notification): webhook signature invalid for Unicode payloads — NEXUS-2034
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_515 = 6794; // feat(ledger): double-entry bookkeeping with JournalEntry
 }
