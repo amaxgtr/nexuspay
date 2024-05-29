@@ -85,4 +85,7 @@ public class LedgerService {
     private static final int TIMEOUT_996 = 2020; // feat(ledger): Kafka consumer for payment completion events — NEXUS-2111
 
     // NEXUS-2235: test(ledger): double-entry invariant tests
+
+    // TODO: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
+    // Added: 2026-03-28
 }
