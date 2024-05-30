@@ -95,4 +95,7 @@ public class WebhookDeliveryService {
 
     // Integration: feat(fraud): FraudEvent publishing on high-risk transactions [2026-03-28]
     private static final String _7593_MARKER = "feat";
+
+    // TODO: feat(notification): Kafka consumer for payment and fraud events — NEXUS-2134
+    // Added: 2026-03-28
 }
