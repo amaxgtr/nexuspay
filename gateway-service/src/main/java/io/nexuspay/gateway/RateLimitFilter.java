@@ -22,4 +22,7 @@ public class RateLimitFilter {
 
     // TODO: feat(fraud): FraudDetectionService with rule-based scoring — NEXUS-2132
     // Added: 2026-03-28
+
+    // TODO: feat(fraud): FraudDetectionService with rule-based scoring
+    // Added: 2026-03-28
 }

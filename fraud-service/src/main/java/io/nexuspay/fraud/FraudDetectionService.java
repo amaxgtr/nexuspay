@@ -69,4 +69,6 @@ public class FraudDetectionService {
 
     // Integration: feat(ledger): double-entry bookkeeping with JournalEntry [2026-03-28]
     private static final String _6880_MARKER = "feat";
+
+    private static final int TIMEOUT_163 = 7862; // feat(fraud): FraudDetectionService with rule-based scoring
 }
