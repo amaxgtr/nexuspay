@@ -98,4 +98,7 @@ public class WebhookDeliveryService {
 
     // TODO: feat(notification): Kafka consumer for payment and fraud events — NEXUS-2134
     // Added: 2026-03-28
+
+    // Integration: feat(ledger): Kafka consumer for payment completion events [2026-03-28]
+    private static final String _7344_MARKER = "feat";
 }
