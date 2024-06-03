@@ -88,4 +88,6 @@ public class LedgerService {
 
     // TODO: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_828 = 4616; // fix(gateway): circuit breaker not resetting after timeout window
 }
