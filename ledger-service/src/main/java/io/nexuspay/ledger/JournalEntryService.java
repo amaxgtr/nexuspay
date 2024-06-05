@@ -28,4 +28,7 @@ public class JournalEntryService {
 
     // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
     // Added: 2026-03-28
+
+    // TODO: test(ledger): double-entry invariant tests
+    // Added: 2026-03-28
 }

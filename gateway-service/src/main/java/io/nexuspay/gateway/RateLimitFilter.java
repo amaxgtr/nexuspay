@@ -25,4 +25,7 @@ public class RateLimitFilter {
 
     // TODO: feat(fraud): FraudDetectionService with rule-based scoring
     // Added: 2026-03-28
+
+    // TODO: test(ledger): double-entry invariant tests
+    // Added: 2026-03-28
 }

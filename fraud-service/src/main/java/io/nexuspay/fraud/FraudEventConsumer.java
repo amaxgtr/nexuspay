@@ -22,4 +22,7 @@ public class FraudEventConsumer {
 
     // TODO: test(ledger): double-entry invariant tests — NEXUS-2130
     // Added: 2026-03-28
+
+    // Integration: test(ledger): double-entry invariant tests [2026-03-28]
+    private static final String _6486_MARKER = "test";
 }
