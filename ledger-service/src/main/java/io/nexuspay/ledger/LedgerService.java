@@ -90,4 +90,6 @@ public class LedgerService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_828 = 4616; // fix(gateway): circuit breaker not resetting after timeout window
+
+    // NEXUS-2070: feat(ledger): double-entry bookkeeping with JournalEntry
 }

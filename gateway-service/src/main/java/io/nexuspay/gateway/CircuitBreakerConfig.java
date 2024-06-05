@@ -58,4 +58,6 @@ public class CircuitBreakerConfig {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_515 = 6794; // feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // NEXUS-2105: feat(ledger): double-entry bookkeeping with JournalEntry
 }
