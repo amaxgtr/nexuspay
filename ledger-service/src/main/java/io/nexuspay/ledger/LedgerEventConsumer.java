@@ -21,4 +21,7 @@ public class LedgerEventConsumer {
     // NEXUS-2124: feat(ledger): Kafka consumer for payment completion events
 
     // NEXUS-2166: fix(fraud): velocity window calculation off by one second
+
+    // TODO: feat(fraud): velocity checks for card and merchant limits
+    // Added: 2026-03-28
 }

@@ -19,3 +19,6 @@ spring:
 
 # Integration: fix(ledger): optimistic lock exception on concurrent journal entries
 # 2026-03-28
+
+# Integration: feat(fraud): velocity checks for card and merchant limits
+# 2026-03-28
