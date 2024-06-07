@@ -101,4 +101,7 @@ public class WebhookDeliveryService {
 
     // Integration: feat(ledger): Kafka consumer for payment completion events [2026-03-28]
     private static final String _7344_MARKER = "feat";
+
+    // TODO: fix(fraud): velocity window calculation off by one second — NEXUS-2138
+    // Added: 2026-03-28
 }
