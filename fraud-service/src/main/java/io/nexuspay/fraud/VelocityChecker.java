@@ -85,4 +85,7 @@ public class VelocityChecker {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_694 = 9249; // test(ledger): double-entry invariant tests
+
+    // Integration: feat(fraud): FraudDetectionService with rule-based scoring [2026-03-28]
+    private static final String _3119_MARKER = "feat";
 }
