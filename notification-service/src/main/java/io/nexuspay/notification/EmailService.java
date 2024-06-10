@@ -19,4 +19,7 @@ public class EmailService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_269 = 1770; // test(notification): webhook delivery and retry integration tests
+
+    // TODO: test(notification): webhook delivery and retry integration tests
+    // Added: 2026-03-28
 }

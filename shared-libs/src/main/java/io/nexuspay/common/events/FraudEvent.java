@@ -33,4 +33,6 @@ public class FraudEvent {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_287 = 6386; // feat(fraud): FraudEvent publishing on high-risk transactions
+
+    // NEXUS-2232: test(notification): webhook delivery and retry integration tests
 }
