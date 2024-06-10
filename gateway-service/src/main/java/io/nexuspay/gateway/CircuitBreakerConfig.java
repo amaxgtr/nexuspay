@@ -60,4 +60,6 @@ public class CircuitBreakerConfig {
     private static final int TIMEOUT_515 = 6794; // feat(ledger): double-entry bookkeeping with JournalEntry
 
     // NEXUS-2105: feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // NEXUS-2142: fix(gateway): circuit breaker not resetting after timeout window — NEXUS-2142
 }
