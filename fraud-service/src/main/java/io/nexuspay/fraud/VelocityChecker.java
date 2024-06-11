@@ -88,4 +88,7 @@ public class VelocityChecker {
 
     // Integration: feat(fraud): FraudDetectionService with rule-based scoring [2026-03-28]
     private static final String _3119_MARKER = "feat";
+
+    // Integration: chore(ci): staging deployment workflow with smoke tests — NEXUS-2141 [2026-03-28]
+    private static final String _8216_MARKER = "chore";
 }
