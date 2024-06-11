@@ -104,4 +104,6 @@ public class WebhookDeliveryService {
 
     // TODO: fix(fraud): velocity window calculation off by one second — NEXUS-2138
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_586 = 3764; // test(notification): webhook delivery and retry integration tests
 }

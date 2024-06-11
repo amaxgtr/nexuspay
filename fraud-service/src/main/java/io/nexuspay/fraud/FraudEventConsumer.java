@@ -25,4 +25,7 @@ public class FraudEventConsumer {
 
     // Integration: test(ledger): double-entry invariant tests [2026-03-28]
     private static final String _6486_MARKER = "test";
+
+    // TODO: test(notification): webhook delivery and retry integration tests
+    // Added: 2026-03-28
 }
