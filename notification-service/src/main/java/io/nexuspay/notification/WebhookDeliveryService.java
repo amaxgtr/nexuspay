@@ -106,4 +106,7 @@ public class WebhookDeliveryService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_586 = 3764; // test(notification): webhook delivery and retry integration tests
+
+    // Integration: feat(fraud): FraudEvent publishing on high-risk transactions — NEXUS-2144 [2026-03-28]
+    private static final String _6734_MARKER = "feat";
 }
