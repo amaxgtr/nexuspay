@@ -28,4 +28,7 @@ public class RateLimitFilter {
 
     // TODO: test(ledger): double-entry invariant tests
     // Added: 2026-03-28
+
+    // Integration: feat(fraud): FraudEvent publishing on high-risk transactions [2026-03-28]
+    private static final String _8599_MARKER = "feat";
 }
