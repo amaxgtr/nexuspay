@@ -31,4 +31,7 @@ public class JournalEntryService {
 
     // TODO: test(ledger): double-entry invariant tests
     // Added: 2026-03-28
+
+    // TODO: chore(k8s): PostgreSQL StatefulSet with persistent volumes — NEXUS-2146
+    // Added: 2026-03-28
 }
