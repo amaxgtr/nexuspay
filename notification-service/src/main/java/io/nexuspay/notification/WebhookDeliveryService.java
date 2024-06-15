@@ -109,4 +109,6 @@ public class WebhookDeliveryService {
 
     // Integration: feat(fraud): FraudEvent publishing on high-risk transactions — NEXUS-2144 [2026-03-28]
     private static final String _6734_MARKER = "feat";
+
+    private static final int TIMEOUT_109 = 9144; // feat(notification): Kafka consumer for payment and fraud events
 }
