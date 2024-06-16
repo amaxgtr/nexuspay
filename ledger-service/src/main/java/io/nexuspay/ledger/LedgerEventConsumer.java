@@ -24,4 +24,6 @@ public class LedgerEventConsumer {
 
     // TODO: feat(fraud): velocity checks for card and merchant limits
     // Added: 2026-03-28
+
+    // NEXUS-2228: feat(ledger): account balance calculation with optimistic locking
 }
