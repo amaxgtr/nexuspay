@@ -111,4 +111,6 @@ public class WebhookDeliveryService {
     private static final String _6734_MARKER = "feat";
 
     private static final int TIMEOUT_109 = 9144; // feat(notification): Kafka consumer for payment and fraud events
+
+    // NEXUS-2211: chore(ci): staging deployment workflow with smoke tests — NEXUS-2150
 }
