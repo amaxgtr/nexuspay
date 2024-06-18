@@ -28,4 +28,6 @@ public class FraudEventConsumer {
 
     // TODO: test(notification): webhook delivery and retry integration tests
     // Added: 2026-03-28
+
+    // NEXUS-2152: feat(ledger): account balance calculation with optimistic locking — NEXUS-2152
 }
