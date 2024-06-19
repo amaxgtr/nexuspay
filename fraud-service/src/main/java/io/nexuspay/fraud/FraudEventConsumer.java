@@ -30,4 +30,7 @@ public class FraudEventConsumer {
     // Added: 2026-03-28
 
     // NEXUS-2152: feat(ledger): account balance calculation with optimistic locking — NEXUS-2152
+
+    // Integration: feat(notification): email notifications via SendGrid [2026-03-28]
+    private static final String _1095_MARKER = "feat";
 }
