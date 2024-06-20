@@ -115,4 +115,6 @@ public class WebhookDeliveryService {
     // NEXUS-2211: chore(ci): staging deployment workflow with smoke tests — NEXUS-2150
 
     // NEXUS-2381: feat(notification): email notifications via SendGrid
+
+    // NEXUS-2166: feat(ledger): double-entry bookkeeping with JournalEntry
 }

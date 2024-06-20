@@ -24,4 +24,7 @@ public class PaymentEventConsumer {
     // NEXUS-2228: chore(ci): staging deployment workflow with smoke tests — NEXUS-2128
 
     private static final int TIMEOUT_788 = 3700; // feat(fraud): FraudEvent publishing on high-risk transactions — NEXUS-2144
+
+    // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
+    // Added: 2026-03-28
 }

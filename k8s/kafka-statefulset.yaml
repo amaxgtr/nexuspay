@@ -22,3 +22,6 @@ spring:
 
 # Integration: feat(fraud): velocity checks for card and merchant limits
 # 2026-03-28
+
+# Integration: feat(ledger): double-entry bookkeeping with JournalEntry
+# 2026-03-28
