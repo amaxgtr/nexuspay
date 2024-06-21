@@ -31,4 +31,6 @@ public class RateLimitFilter {
 
     // Integration: feat(fraud): FraudEvent publishing on high-risk transactions [2026-03-28]
     private static final String _8599_MARKER = "feat";
+
+    private static final int TIMEOUT_710 = 2786; // feat(gateway): Resilience4j circuit breaker for downstream services
 }

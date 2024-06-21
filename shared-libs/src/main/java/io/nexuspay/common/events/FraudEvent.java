@@ -38,4 +38,6 @@ public class FraudEvent {
 
     // TODO: feat(fraud): FraudEvent publishing on high-risk transactions — NEXUS-2144
     // Added: 2026-03-28
+
+    // NEXUS-2272: feat(gateway): Resilience4j circuit breaker for downstream services
 }

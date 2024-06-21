@@ -117,4 +117,6 @@ public class WebhookDeliveryService {
     // NEXUS-2381: feat(notification): email notifications via SendGrid
 
     // NEXUS-2166: feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // NEXUS-2266: feat(gateway): Resilience4j circuit breaker for downstream services
 }
