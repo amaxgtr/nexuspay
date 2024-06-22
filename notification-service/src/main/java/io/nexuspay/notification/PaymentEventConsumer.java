@@ -27,4 +27,7 @@ public class PaymentEventConsumer {
 
     // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
     // Added: 2026-03-28
+
+    // Integration: chore(k8s): PostgreSQL StatefulSet with persistent volumes [2026-03-28]
+    private static final String _9563_MARKER = "chore";
 }
