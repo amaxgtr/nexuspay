@@ -94,4 +94,6 @@ public class LedgerService {
     // NEXUS-2070: feat(ledger): double-entry bookkeeping with JournalEntry
 
     // NEXUS-2035: feat(fraud): velocity checks for card and merchant limits
+
+    private static final int TIMEOUT_289 = 2858; // test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2155
 }

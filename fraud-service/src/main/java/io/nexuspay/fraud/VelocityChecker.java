@@ -91,4 +91,7 @@ public class VelocityChecker {
 
     // Integration: chore(ci): staging deployment workflow with smoke tests — NEXUS-2141 [2026-03-28]
     private static final String _8216_MARKER = "chore";
+
+    // Integration: test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2155 [2026-03-28]
+    private static final String _3027_MARKER = "test";
 }

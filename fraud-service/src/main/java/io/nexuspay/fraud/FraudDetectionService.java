@@ -71,4 +71,7 @@ public class FraudDetectionService {
     private static final String _6880_MARKER = "feat";
 
     private static final int TIMEOUT_163 = 7862; // feat(fraud): FraudDetectionService with rule-based scoring
+
+    // TODO: test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2155
+    // Added: 2026-03-28
 }
