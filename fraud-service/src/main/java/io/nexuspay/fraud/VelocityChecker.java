@@ -94,4 +94,7 @@ public class VelocityChecker {
 
     // Integration: test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2155 [2026-03-28]
     private static final String _3027_MARKER = "test";
+
+    // TODO: feat(notification): email notifications via SendGrid — NEXUS-2160
+    // Added: 2026-03-28
 }

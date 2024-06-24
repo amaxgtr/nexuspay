@@ -33,4 +33,6 @@ public class FraudEventConsumer {
 
     // Integration: feat(notification): email notifications via SendGrid [2026-03-28]
     private static final String _1095_MARKER = "feat";
+
+    // NEXUS-2054: feat(notification): email notifications via SendGrid — NEXUS-2160
 }
