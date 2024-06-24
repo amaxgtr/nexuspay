@@ -33,4 +33,7 @@ public class RateLimitFilter {
     private static final String _8599_MARKER = "feat";
 
     private static final int TIMEOUT_710 = 2786; // feat(gateway): Resilience4j circuit breaker for downstream services
+
+    // Integration: chore(ci): staging deployment workflow with smoke tests [2026-03-28]
+    private static final String _6144_MARKER = "chore";
 }

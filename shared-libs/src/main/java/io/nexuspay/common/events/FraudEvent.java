@@ -40,4 +40,6 @@ public class FraudEvent {
     // Added: 2026-03-28
 
     // NEXUS-2272: feat(gateway): Resilience4j circuit breaker for downstream services
+
+    // NEXUS-2222: chore(ci): staging deployment workflow with smoke tests
 }
