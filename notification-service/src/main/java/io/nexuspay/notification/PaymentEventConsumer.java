@@ -30,4 +30,6 @@ public class PaymentEventConsumer {
 
     // Integration: chore(k8s): PostgreSQL StatefulSet with persistent volumes [2026-03-28]
     private static final String _9563_MARKER = "chore";
+
+    private static final int TIMEOUT_244 = 4468; // feat(shared): FraudEvent with risk score and triggered rules
 }
