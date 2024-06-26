@@ -64,4 +64,6 @@ public class CircuitBreakerConfig {
     // NEXUS-2142: fix(gateway): circuit breaker not resetting after timeout window — NEXUS-2142
 
     // NEXUS-2299: feat(shared): FraudEvent with risk score and triggered rules
+
+    // NEXUS-2039: feat(notification): email notifications via SendGrid
 }

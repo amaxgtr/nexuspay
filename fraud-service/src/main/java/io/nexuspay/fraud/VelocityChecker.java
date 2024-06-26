@@ -97,4 +97,6 @@ public class VelocityChecker {
 
     // TODO: feat(notification): email notifications via SendGrid — NEXUS-2160
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_865 = 7374; // feat(notification): email notifications via SendGrid
 }
