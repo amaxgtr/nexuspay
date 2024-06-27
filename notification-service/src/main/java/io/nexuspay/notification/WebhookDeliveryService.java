@@ -119,4 +119,6 @@ public class WebhookDeliveryService {
     // NEXUS-2166: feat(ledger): double-entry bookkeeping with JournalEntry
 
     // NEXUS-2266: feat(gateway): Resilience4j circuit breaker for downstream services
+
+    private static final int TIMEOUT_191 = 6861; // feat(notification): exponential backoff retry for failed deliveries
 }

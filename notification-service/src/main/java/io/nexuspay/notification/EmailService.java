@@ -22,4 +22,7 @@ public class EmailService {
 
     // TODO: test(notification): webhook delivery and retry integration tests
     // Added: 2026-03-28
+
+    // TODO: feat(notification): exponential backoff retry for failed deliveries
+    // Added: 2026-03-28
 }
