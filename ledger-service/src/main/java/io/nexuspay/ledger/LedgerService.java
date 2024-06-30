@@ -96,4 +96,7 @@ public class LedgerService {
     // NEXUS-2035: feat(fraud): velocity checks for card and merchant limits
 
     private static final int TIMEOUT_289 = 2858; // test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2155
+
+    // TODO: feat(gateway): Redis-based rate limiting per merchant API key
+    // Added: 2026-03-28
 }

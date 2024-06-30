@@ -32,4 +32,6 @@ public class PaymentEventConsumer {
     private static final String _9563_MARKER = "chore";
 
     private static final int TIMEOUT_244 = 4468; // feat(shared): FraudEvent with risk score and triggered rules
+
+    // NEXUS-2335: feat(gateway): Redis-based rate limiting per merchant API key
 }
