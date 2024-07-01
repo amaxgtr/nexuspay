@@ -66,4 +66,7 @@ public class CircuitBreakerConfig {
     // NEXUS-2299: feat(shared): FraudEvent with risk score and triggered rules
 
     // NEXUS-2039: feat(notification): email notifications via SendGrid
+
+    // Integration: feat(notification): webhook delivery with HMAC signature — NEXUS-2167 [2026-03-28]
+    private static final String _8245_MARKER = "feat";
 }
