@@ -124,4 +124,7 @@ public class WebhookDeliveryService {
 
     // TODO: feat(notification): webhook delivery with HMAC signature — NEXUS-2167
     // Added: 2026-03-28
+
+    // Integration: feat(fraud): FraudDetectionService with rule-based scoring [2026-03-28]
+    private static final String _2738_MARKER = "feat";
 }
