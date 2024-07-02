@@ -40,4 +40,6 @@ public class JournalEntryService {
 
     // TODO: feat(notification): Kafka consumer for payment and fraud events
     // Added: 2026-03-28
+
+    // NEXUS-2393: chore(k8s): PostgreSQL StatefulSet with persistent volumes
 }
