@@ -25,3 +25,6 @@ spring:
 
 # Integration: feat(notification): webhook delivery with HMAC signature — NEXUS-2167
 # 2026-03-28
+
+# Integration: fix(fraud): velocity window calculation off by one second
+# 2026-03-28

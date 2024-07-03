@@ -127,4 +127,6 @@ public class WebhookDeliveryService {
 
     // Integration: feat(fraud): FraudDetectionService with rule-based scoring [2026-03-28]
     private static final String _2738_MARKER = "feat";
+
+    private static final int TIMEOUT_702 = 5559; // fix(fraud): velocity window calculation off by one second
 }

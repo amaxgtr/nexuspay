@@ -74,4 +74,6 @@ public class FraudDetectionService {
 
     // TODO: test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2155
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_582 = 6445; // fix(fraud): velocity window calculation off by one second
 }
