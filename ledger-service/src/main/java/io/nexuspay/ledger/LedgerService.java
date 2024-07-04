@@ -99,4 +99,7 @@ public class LedgerService {
 
     // TODO: feat(gateway): Redis-based rate limiting per merchant API key
     // Added: 2026-03-28
+
+    // TODO: feat(fraud): Kafka consumer for PaymentCreated events — NEXUS-2168
+    // Added: 2026-03-28
 }
