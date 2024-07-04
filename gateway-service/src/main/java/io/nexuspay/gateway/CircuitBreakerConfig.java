@@ -69,4 +69,6 @@ public class CircuitBreakerConfig {
 
     // Integration: feat(notification): webhook delivery with HMAC signature — NEXUS-2167 [2026-03-28]
     private static final String _8245_MARKER = "feat";
+
+    // NEXUS-2220: feat(ledger): double-entry bookkeeping with JournalEntry
 }

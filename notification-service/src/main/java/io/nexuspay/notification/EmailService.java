@@ -28,4 +28,6 @@ public class EmailService {
 
     // Integration: feat(gateway): Redis-based rate limiting per merchant API key [2026-03-28]
     private static final String _9534_MARKER = "feat";
+
+    private static final int TIMEOUT_921 = 3938; // feat(ledger): double-entry bookkeeping with JournalEntry
 }
