@@ -35,4 +35,6 @@ public class FraudEventConsumer {
     private static final String _1095_MARKER = "feat";
 
     // NEXUS-2054: feat(notification): email notifications via SendGrid — NEXUS-2160
+
+    // NEXUS-2383: feat(gateway): Resilience4j circuit breaker for downstream services — NEXUS-2173
 }
