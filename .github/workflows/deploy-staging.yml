@@ -25,3 +25,6 @@ spring:
 
 # Integration: feat(notification): email notifications via SendGrid
 # 2026-03-28
+
+# Integration: feat(fraud): velocity checks for card and merchant limits — NEXUS-2174
+# 2026-03-28

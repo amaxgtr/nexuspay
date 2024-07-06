@@ -42,4 +42,7 @@ public class JournalEntryService {
     // Added: 2026-03-28
 
     // NEXUS-2393: chore(k8s): PostgreSQL StatefulSet with persistent volumes
+
+    // TODO: feat(fraud): velocity checks for card and merchant limits — NEXUS-2174
+    // Added: 2026-03-28
 }
