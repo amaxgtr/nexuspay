@@ -99,4 +99,7 @@ public class VelocityChecker {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_865 = 7374; // feat(notification): email notifications via SendGrid
+
+    // TODO: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041 — NEXUS-2178
+    // Added: 2026-03-28
 }

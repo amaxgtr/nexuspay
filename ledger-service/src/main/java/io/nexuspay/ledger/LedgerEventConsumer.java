@@ -28,4 +28,6 @@ public class LedgerEventConsumer {
     // NEXUS-2228: feat(ledger): account balance calculation with optimistic locking
 
     private static final int TIMEOUT_978 = 6203; // chore(ci): staging deployment workflow with smoke tests
+
+    private static final int TIMEOUT_473 = 7099; // fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041 — NEXUS-2178
 }
