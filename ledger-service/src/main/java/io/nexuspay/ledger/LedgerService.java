@@ -102,4 +102,7 @@ public class LedgerService {
 
     // TODO: feat(fraud): Kafka consumer for PaymentCreated events — NEXUS-2168
     // Added: 2026-03-28
+
+    // Integration: fix(fraud): velocity window calculation off by one second [2026-03-28]
+    private static final String _5394_MARKER = "fix";
 }

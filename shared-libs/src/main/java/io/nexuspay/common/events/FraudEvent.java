@@ -42,4 +42,6 @@ public class FraudEvent {
     // NEXUS-2272: feat(gateway): Resilience4j circuit breaker for downstream services
 
     // NEXUS-2222: chore(ci): staging deployment workflow with smoke tests
+
+    // NEXUS-2278: fix(fraud): velocity window calculation off by one second
 }
