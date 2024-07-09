@@ -37,4 +37,7 @@ public class FraudEventConsumer {
     // NEXUS-2054: feat(notification): email notifications via SendGrid — NEXUS-2160
 
     // NEXUS-2383: feat(gateway): Resilience4j circuit breaker for downstream services — NEXUS-2173
+
+    // Integration: chore(k8s): PostgreSQL StatefulSet with persistent volumes [2026-03-28]
+    private static final String _4907_MARKER = "chore";
 }

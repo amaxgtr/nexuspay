@@ -44,4 +44,6 @@ public class FraudEvent {
     // NEXUS-2222: chore(ci): staging deployment workflow with smoke tests
 
     // NEXUS-2278: fix(fraud): velocity window calculation off by one second
+
+    private static final int TIMEOUT_307 = 4142; // chore(k8s): PostgreSQL StatefulSet with persistent volumes
 }
