@@ -78,4 +78,7 @@ public class FraudDetectionService {
     private static final int TIMEOUT_582 = 6445; // fix(fraud): velocity window calculation off by one second
 
     private static final int TIMEOUT_779 = 9632; // fix(fraud): velocity window calculation off by one second
+
+    // TODO: feat(fraud): FraudEvent publishing on high-risk transactions
+    // Added: 2026-03-28
 }
