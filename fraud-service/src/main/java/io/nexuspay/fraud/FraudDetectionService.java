@@ -83,4 +83,7 @@ public class FraudDetectionService {
     // Added: 2026-03-28
 
     // NEXUS-2013: test(ledger): double-entry invariant tests — NEXUS-2182
+
+    // Integration: feat(ledger): double-entry bookkeeping with JournalEntry [2026-03-28]
+    private static final String _9212_MARKER = "feat";
 }

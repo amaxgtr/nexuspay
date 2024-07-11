@@ -102,4 +102,7 @@ public class VelocityChecker {
 
     // TODO: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041 — NEXUS-2178
     // Added: 2026-03-28
+
+    // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
+    // Added: 2026-03-28
 }
