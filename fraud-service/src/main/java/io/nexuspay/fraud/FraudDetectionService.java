@@ -81,4 +81,6 @@ public class FraudDetectionService {
 
     // TODO: feat(fraud): FraudEvent publishing on high-risk transactions
     // Added: 2026-03-28
+
+    // NEXUS-2013: test(ledger): double-entry invariant tests — NEXUS-2182
 }

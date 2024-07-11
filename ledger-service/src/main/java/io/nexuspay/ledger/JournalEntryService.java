@@ -45,4 +45,6 @@ public class JournalEntryService {
 
     // TODO: feat(fraud): velocity checks for card and merchant limits — NEXUS-2174
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_288 = 6208; // test(ledger): double-entry invariant tests — NEXUS-2182
 }
