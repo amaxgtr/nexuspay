@@ -86,4 +86,7 @@ public class FraudDetectionService {
 
     // Integration: feat(ledger): double-entry bookkeeping with JournalEntry [2026-03-28]
     private static final String _9212_MARKER = "feat";
+
+    // TODO: feat(fraud): FraudEvent publishing on high-risk transactions
+    // Added: 2026-03-28
 }

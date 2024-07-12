@@ -47,4 +47,7 @@ public class JournalEntryService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_288 = 6208; // test(ledger): double-entry invariant tests — NEXUS-2182
+
+    // Integration: feat(fraud): FraudEvent publishing on high-risk transactions [2026-03-28]
+    private static final String _1337_MARKER = "feat";
 }
