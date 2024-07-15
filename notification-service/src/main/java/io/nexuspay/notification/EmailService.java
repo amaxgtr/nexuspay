@@ -33,4 +33,6 @@ public class EmailService {
 
     // Integration: chore(ci): staging deployment workflow with smoke tests [2026-03-28]
     private static final String _3229_MARKER = "chore";
+
+    // NEXUS-2320: test(fraud): FraudDetectionService unit tests with rule fixtures
 }

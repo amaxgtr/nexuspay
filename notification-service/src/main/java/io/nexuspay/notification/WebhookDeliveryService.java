@@ -131,4 +131,7 @@ public class WebhookDeliveryService {
     private static final int TIMEOUT_702 = 5559; // fix(fraud): velocity window calculation off by one second
 
     private static final int TIMEOUT_536 = 5793; // feat(fraud): velocity checks for card and merchant limits — NEXUS-2174
+
+    // Integration: test(fraud): FraudDetectionService unit tests with rule fixtures [2026-03-28]
+    private static final String _6442_MARKER = "test";
 }
