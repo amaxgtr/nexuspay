@@ -71,4 +71,6 @@ public class CircuitBreakerConfig {
     private static final String _8245_MARKER = "feat";
 
     // NEXUS-2220: feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // NEXUS-2343: chore(ci): staging deployment workflow with smoke tests
 }

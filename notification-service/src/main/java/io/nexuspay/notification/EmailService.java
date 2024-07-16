@@ -30,4 +30,7 @@ public class EmailService {
     private static final String _9534_MARKER = "feat";
 
     private static final int TIMEOUT_921 = 3938; // feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // Integration: chore(ci): staging deployment workflow with smoke tests [2026-03-28]
+    private static final String _3229_MARKER = "chore";
 }

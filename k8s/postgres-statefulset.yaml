@@ -31,3 +31,6 @@ spring:
 
 # Integration: feat(ledger): double-entry bookkeeping with JournalEntry
 # 2026-03-28
+
+# Integration: chore(ci): staging deployment workflow with smoke tests
+# 2026-03-28
