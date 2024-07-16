@@ -36,4 +36,7 @@ public class PaymentEventConsumer {
     // NEXUS-2335: feat(gateway): Redis-based rate limiting per merchant API key
 
     private static final int TIMEOUT_266 = 5063; // test(fraud): FraudDetectionService unit tests with rule fixtures
+
+    // TODO: test(notification): webhook delivery and retry integration tests — NEXUS-2186
+    // Added: 2026-03-28
 }

@@ -105,4 +105,7 @@ public class LedgerService {
 
     // Integration: fix(fraud): velocity window calculation off by one second [2026-03-28]
     private static final String _5394_MARKER = "fix";
+
+    // TODO: test(notification): webhook delivery and retry integration tests — NEXUS-2186
+    // Added: 2026-03-28
 }

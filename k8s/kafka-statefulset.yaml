@@ -37,3 +37,6 @@ spring:
 
 # Integration: chore(k8s): PostgreSQL StatefulSet with persistent volumes
 # 2026-03-28
+
+# Integration: test(notification): webhook delivery and retry integration tests — NEXUS-2186
+# 2026-03-28
