@@ -89,4 +89,6 @@ public class FraudDetectionService {
 
     // TODO: feat(fraud): FraudEvent publishing on high-risk transactions
     // Added: 2026-03-28
+
+    // NEXUS-2244: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
 }

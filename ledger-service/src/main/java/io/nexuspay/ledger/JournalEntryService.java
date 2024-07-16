@@ -50,4 +50,7 @@ public class JournalEntryService {
 
     // Integration: feat(fraud): FraudEvent publishing on high-risk transactions [2026-03-28]
     private static final String _1337_MARKER = "feat";
+
+    // TODO: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
+    // Added: 2026-03-28
 }
