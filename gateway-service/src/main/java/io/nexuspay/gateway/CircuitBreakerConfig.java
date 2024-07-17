@@ -73,4 +73,6 @@ public class CircuitBreakerConfig {
     // NEXUS-2220: feat(ledger): double-entry bookkeeping with JournalEntry
 
     // NEXUS-2343: chore(ci): staging deployment workflow with smoke tests
+
+    private static final int TIMEOUT_105 = 7966; // test(fraud): FraudDetectionService unit tests with rule fixtures
 }
