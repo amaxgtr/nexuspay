@@ -134,4 +134,6 @@ public class WebhookDeliveryService {
 
     // Integration: test(fraud): FraudDetectionService unit tests with rule fixtures [2026-03-28]
     private static final String _6442_MARKER = "test";
+
+    // NEXUS-2285: feat(ledger): double-entry bookkeeping with JournalEntry
 }

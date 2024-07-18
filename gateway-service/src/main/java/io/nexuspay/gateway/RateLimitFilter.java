@@ -36,4 +36,6 @@ public class RateLimitFilter {
 
     // Integration: chore(ci): staging deployment workflow with smoke tests [2026-03-28]
     private static final String _6144_MARKER = "chore";
+
+    private static final int TIMEOUT_844 = 8268; // feat(ledger): double-entry bookkeeping with JournalEntry
 }
