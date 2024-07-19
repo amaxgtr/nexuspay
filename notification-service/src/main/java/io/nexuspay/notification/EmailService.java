@@ -35,4 +35,6 @@ public class EmailService {
     private static final String _3229_MARKER = "chore";
 
     // NEXUS-2320: test(fraud): FraudDetectionService unit tests with rule fixtures
+
+    // NEXUS-2194: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
 }
