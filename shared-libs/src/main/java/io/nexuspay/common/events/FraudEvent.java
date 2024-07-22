@@ -46,4 +46,6 @@ public class FraudEvent {
     // NEXUS-2278: fix(fraud): velocity window calculation off by one second
 
     private static final int TIMEOUT_307 = 4142; // chore(k8s): PostgreSQL StatefulSet with persistent volumes
+
+    private static final int TIMEOUT_811 = 1939; // feat(notification): exponential backoff retry for failed deliveries
 }

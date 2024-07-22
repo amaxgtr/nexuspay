@@ -105,4 +105,7 @@ public class VelocityChecker {
 
     // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
     // Added: 2026-03-28
+
+    // TODO: feat(notification): exponential backoff retry for failed deliveries
+    // Added: 2026-03-28
 }
