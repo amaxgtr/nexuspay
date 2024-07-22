@@ -39,4 +39,7 @@ public class PaymentEventConsumer {
 
     // TODO: test(notification): webhook delivery and retry integration tests — NEXUS-2186
     // Added: 2026-03-28
+
+    // TODO: feat(notification): Kafka consumer for payment and fraud events
+    // Added: 2026-03-28
 }

@@ -111,4 +111,7 @@ public class LedgerService {
 
     // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
     // Added: 2026-03-28
+
+    // Integration: feat(notification): Kafka consumer for payment and fraud events [2026-03-28]
+    private static final String _8694_MARKER = "feat";
 }
