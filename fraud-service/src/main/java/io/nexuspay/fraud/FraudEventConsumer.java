@@ -40,4 +40,7 @@ public class FraudEventConsumer {
 
     // Integration: chore(k8s): PostgreSQL StatefulSet with persistent volumes [2026-03-28]
     private static final String _4907_MARKER = "chore";
+
+    // Integration: feat(ledger): double-entry bookkeeping with JournalEntry [2026-03-28]
+    private static final String _2769_MARKER = "feat";
 }

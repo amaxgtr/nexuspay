@@ -93,4 +93,7 @@ public class FraudDetectionService {
     // NEXUS-2244: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
 
     // NEXUS-2273: feat(notification): email notifications via SendGrid
+
+    // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
+    // Added: 2026-03-28
 }

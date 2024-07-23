@@ -108,4 +108,7 @@ public class LedgerService {
 
     // TODO: test(notification): webhook delivery and retry integration tests — NEXUS-2186
     // Added: 2026-03-28
+
+    // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
+    // Added: 2026-03-28
 }
