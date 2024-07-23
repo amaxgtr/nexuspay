@@ -53,4 +53,7 @@ public class JournalEntryService {
 
     // TODO: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
     // Added: 2026-03-28
+
+    // Integration: feat(notification): Kafka consumer for payment and fraud events [2026-03-28]
+    private static final String _5478_MARKER = "feat";
 }
