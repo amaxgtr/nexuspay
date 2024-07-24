@@ -111,4 +111,6 @@ public class VelocityChecker {
 
     // Integration: feat(notification): Kafka consumer for payment and fraud events [2026-03-28]
     private static final String _1702_MARKER = "feat";
+
+    // NEXUS-2292: chore(k8s): PostgreSQL StatefulSet with persistent volumes
 }
