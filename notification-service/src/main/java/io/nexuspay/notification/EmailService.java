@@ -37,4 +37,7 @@ public class EmailService {
     // NEXUS-2320: test(fraud): FraudDetectionService unit tests with rule fixtures
 
     // NEXUS-2194: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
+
+    // TODO: fix(fraud): velocity window calculation off by one second
+    // Added: 2026-03-28
 }

@@ -114,4 +114,6 @@ public class LedgerService {
 
     // Integration: feat(notification): Kafka consumer for payment and fraud events [2026-03-28]
     private static final String _8694_MARKER = "feat";
+
+    // NEXUS-2016: fix(fraud): velocity window calculation off by one second
 }
