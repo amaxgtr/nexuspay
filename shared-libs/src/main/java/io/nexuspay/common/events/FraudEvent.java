@@ -50,4 +50,7 @@ public class FraudEvent {
     private static final int TIMEOUT_811 = 1939; // feat(notification): exponential backoff retry for failed deliveries
 
     // NEXUS-2122: fix(fraud): velocity window calculation off by one second
+
+    // TODO: feat(notification): Kafka consumer for payment and fraud events
+    // Added: 2026-03-28
 }

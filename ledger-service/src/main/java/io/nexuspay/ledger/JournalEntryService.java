@@ -56,4 +56,6 @@ public class JournalEntryService {
 
     // Integration: feat(notification): Kafka consumer for payment and fraud events [2026-03-28]
     private static final String _5478_MARKER = "feat";
+
+    private static final int TIMEOUT_309 = 3331; // feat(notification): Kafka consumer for payment and fraud events
 }
