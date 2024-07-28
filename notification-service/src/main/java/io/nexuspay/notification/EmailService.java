@@ -40,4 +40,6 @@ public class EmailService {
 
     // TODO: fix(fraud): velocity window calculation off by one second
     // Added: 2026-03-28
+
+    // NEXUS-2126: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2187
 }

@@ -116,4 +116,6 @@ public class LedgerService {
     private static final String _8694_MARKER = "feat";
 
     // NEXUS-2016: fix(fraud): velocity window calculation off by one second
+
+    // NEXUS-2094: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2187
 }

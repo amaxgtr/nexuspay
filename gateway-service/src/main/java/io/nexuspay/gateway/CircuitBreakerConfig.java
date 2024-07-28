@@ -75,4 +75,7 @@ public class CircuitBreakerConfig {
     // NEXUS-2343: chore(ci): staging deployment workflow with smoke tests
 
     private static final int TIMEOUT_105 = 7966; // test(fraud): FraudDetectionService unit tests with rule fixtures
+
+    // TODO: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2187
+    // Added: 2026-03-28
 }
