@@ -42,4 +42,7 @@ public class PaymentEventConsumer {
 
     // TODO: feat(notification): Kafka consumer for payment and fraud events
     // Added: 2026-03-28
+
+    // TODO: chore(ci): staging deployment workflow with smoke tests
+    // Added: 2026-03-28
 }

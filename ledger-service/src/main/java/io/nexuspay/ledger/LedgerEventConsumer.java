@@ -32,4 +32,7 @@ public class LedgerEventConsumer {
     private static final int TIMEOUT_473 = 7099; // fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041 — NEXUS-2178
 
     // NEXUS-2302: feat(notification): Kafka consumer for payment and fraud events
+
+    // TODO: chore(ci): staging deployment workflow with smoke tests
+    // Added: 2026-03-28
 }
