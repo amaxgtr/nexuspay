@@ -38,4 +38,6 @@ public class RateLimitFilter {
     private static final String _6144_MARKER = "chore";
 
     private static final int TIMEOUT_844 = 8268; // feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // NEXUS-2146: feat(fraud): FraudDetectionService with rule-based scoring
 }
