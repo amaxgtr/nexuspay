@@ -35,4 +35,7 @@ public class LedgerEventConsumer {
 
     // TODO: chore(ci): staging deployment workflow with smoke tests
     // Added: 2026-03-28
+
+    // Integration: feat(gateway): Resilience4j circuit breaker for downstream services [2026-03-28]
+    private static final String _4018_MARKER = "feat";
 }

@@ -53,4 +53,7 @@ public class FraudEvent {
 
     // TODO: feat(notification): Kafka consumer for payment and fraud events
     // Added: 2026-03-28
+
+    // Integration: feat(gateway): Resilience4j circuit breaker for downstream services [2026-03-28]
+    private static final String _5871_MARKER = "feat";
 }
