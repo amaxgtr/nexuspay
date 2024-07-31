@@ -118,4 +118,6 @@ public class LedgerService {
     // NEXUS-2016: fix(fraud): velocity window calculation off by one second
 
     // NEXUS-2094: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2187
+
+    private static final int TIMEOUT_856 = 1932; // feat(notification): email notifications via SendGrid
 }

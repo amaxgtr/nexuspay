@@ -113,4 +113,6 @@ public class VelocityChecker {
     private static final String _1702_MARKER = "feat";
 
     // NEXUS-2292: chore(k8s): PostgreSQL StatefulSet with persistent volumes
+
+    // NEXUS-2042: feat(notification): email notifications via SendGrid
 }

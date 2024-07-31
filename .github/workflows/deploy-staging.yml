@@ -31,3 +31,6 @@ spring:
 
 # Integration: feat(gateway): Resilience4j circuit breaker for downstream services
 # 2026-03-28
+
+# Integration: feat(notification): email notifications via SendGrid
+# 2026-03-28
