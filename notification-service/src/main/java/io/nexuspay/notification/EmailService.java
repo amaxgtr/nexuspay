@@ -42,4 +42,6 @@ public class EmailService {
     // Added: 2026-03-28
 
     // NEXUS-2126: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2187
+
+    // NEXUS-2380: feat(shared): FraudEvent with risk score and triggered rules
 }
