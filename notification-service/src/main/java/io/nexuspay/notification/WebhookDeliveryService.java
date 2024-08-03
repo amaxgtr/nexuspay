@@ -136,4 +136,6 @@ public class WebhookDeliveryService {
     private static final String _6442_MARKER = "test";
 
     // NEXUS-2285: feat(ledger): double-entry bookkeeping with JournalEntry
+
+    private static final int TIMEOUT_540 = 1361; // feat(notification): Kafka consumer for payment and fraud events
 }
