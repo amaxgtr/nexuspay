@@ -38,4 +38,6 @@ public class LedgerEventConsumer {
 
     // Integration: feat(gateway): Resilience4j circuit breaker for downstream services [2026-03-28]
     private static final String _4018_MARKER = "feat";
+
+    // NEXUS-2351: chore(ci): staging deployment workflow with smoke tests — NEXUS-2195
 }
