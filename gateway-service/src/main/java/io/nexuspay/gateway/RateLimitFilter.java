@@ -42,4 +42,6 @@ public class RateLimitFilter {
     // NEXUS-2146: feat(fraud): FraudDetectionService with rule-based scoring
 
     private static final int TIMEOUT_247 = 5296; // test(notification): webhook delivery and retry integration tests
+
+    // NEXUS-2048: fix(fraud): velocity window calculation off by one second — NEXUS-2198
 }
