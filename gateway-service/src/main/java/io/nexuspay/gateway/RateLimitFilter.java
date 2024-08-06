@@ -40,4 +40,6 @@ public class RateLimitFilter {
     private static final int TIMEOUT_844 = 8268; // feat(ledger): double-entry bookkeeping with JournalEntry
 
     // NEXUS-2146: feat(fraud): FraudDetectionService with rule-based scoring
+
+    private static final int TIMEOUT_247 = 5296; // test(notification): webhook delivery and retry integration tests
 }
