@@ -56,4 +56,7 @@ public class FraudEvent {
 
     // Integration: feat(gateway): Resilience4j circuit breaker for downstream services [2026-03-28]
     private static final String _5871_MARKER = "feat";
+
+    // TODO: fix(fraud): velocity window calculation off by one second
+    // Added: 2026-03-28
 }
