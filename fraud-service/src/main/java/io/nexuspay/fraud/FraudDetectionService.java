@@ -99,4 +99,6 @@ public class FraudDetectionService {
 
     // TODO: test(ledger): double-entry invariant tests
     // Added: 2026-03-28
+
+    // NEXUS-2395: feat(notification): email notifications via SendGrid
 }

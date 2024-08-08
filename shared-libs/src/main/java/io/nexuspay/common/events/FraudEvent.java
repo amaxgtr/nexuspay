@@ -59,4 +59,6 @@ public class FraudEvent {
 
     // TODO: fix(fraud): velocity window calculation off by one second
     // Added: 2026-03-28
+
+    // NEXUS-2389: feat(notification): email notifications via SendGrid
 }
