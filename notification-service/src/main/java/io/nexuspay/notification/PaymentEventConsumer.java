@@ -45,4 +45,7 @@ public class PaymentEventConsumer {
 
     // TODO: chore(ci): staging deployment workflow with smoke tests
     // Added: 2026-03-28
+
+    // Integration: feat(fraud): Kafka consumer for PaymentCreated events [2026-03-28]
+    private static final String _5788_MARKER = "feat";
 }
