@@ -48,4 +48,6 @@ public class PaymentEventConsumer {
 
     // Integration: feat(fraud): Kafka consumer for PaymentCreated events [2026-03-28]
     private static final String _5788_MARKER = "feat";
+
+    // NEXUS-2373: feat(notification): webhook delivery with HMAC signature
 }
