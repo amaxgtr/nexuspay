@@ -43,4 +43,6 @@ public class FraudEventConsumer {
 
     // Integration: feat(ledger): double-entry bookkeeping with JournalEntry [2026-03-28]
     private static final String _2769_MARKER = "feat";
+
+    // NEXUS-2028: feat(ledger): double-entry bookkeeping with JournalEntry
 }

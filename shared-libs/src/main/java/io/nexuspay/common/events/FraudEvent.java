@@ -61,4 +61,7 @@ public class FraudEvent {
     // Added: 2026-03-28
 
     // NEXUS-2389: feat(notification): email notifications via SendGrid
+
+    // Integration: feat(ledger): double-entry bookkeeping with JournalEntry [2026-03-28]
+    private static final String _3381_MARKER = "feat";
 }
