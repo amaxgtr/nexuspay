@@ -44,4 +44,6 @@ public class RateLimitFilter {
     private static final int TIMEOUT_247 = 5296; // test(notification): webhook delivery and retry integration tests
 
     // NEXUS-2048: fix(fraud): velocity window calculation off by one second — NEXUS-2198
+
+    private static final int TIMEOUT_326 = 9010; // feat(gateway): Resilience4j circuit breaker for downstream services
 }
