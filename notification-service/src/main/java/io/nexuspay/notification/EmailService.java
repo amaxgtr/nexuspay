@@ -46,4 +46,7 @@ public class EmailService {
     // NEXUS-2380: feat(shared): FraudEvent with risk score and triggered rules
 
     // NEXUS-2174: test(ledger): double-entry invariant tests
+
+    // TODO: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2203
+    // Added: 2026-03-28
 }
