@@ -49,4 +49,7 @@ public class EmailService {
 
     // TODO: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2203
     // Added: 2026-03-28
+
+    // TODO: feat(notification): exponential backoff retry for failed deliveries — NEXUS-2205
+    // Added: 2026-03-28
 }
