@@ -115,4 +115,6 @@ public class VelocityChecker {
     // NEXUS-2292: chore(k8s): PostgreSQL StatefulSet with persistent volumes
 
     // NEXUS-2042: feat(notification): email notifications via SendGrid
+
+    // NEXUS-2258: chore(ci): staging deployment workflow with smoke tests — NEXUS-2209
 }
