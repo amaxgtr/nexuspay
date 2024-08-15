@@ -52,4 +52,6 @@ public class EmailService {
 
     // TODO: feat(notification): exponential backoff retry for failed deliveries — NEXUS-2205
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_154 = 1498; // feat(fraud): FraudDetectionService with rule-based scoring — NEXUS-2213
 }

@@ -48,4 +48,6 @@ public class RateLimitFilter {
     private static final int TIMEOUT_326 = 9010; // feat(gateway): Resilience4j circuit breaker for downstream services
 
     private static final int TIMEOUT_171 = 3527; // chore(ci): staging deployment workflow with smoke tests — NEXUS-2209
+
+    // NEXUS-2168: feat(fraud): FraudDetectionService with rule-based scoring — NEXUS-2213
 }
