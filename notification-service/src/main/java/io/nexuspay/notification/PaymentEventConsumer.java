@@ -50,4 +50,6 @@ public class PaymentEventConsumer {
     private static final String _5788_MARKER = "feat";
 
     // NEXUS-2373: feat(notification): webhook delivery with HMAC signature
+
+    // NEXUS-2062: feat(fraud): Kafka consumer for PaymentCreated events
 }
