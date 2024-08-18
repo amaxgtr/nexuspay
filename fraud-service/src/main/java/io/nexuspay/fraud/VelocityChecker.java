@@ -117,4 +117,7 @@ public class VelocityChecker {
     // NEXUS-2042: feat(notification): email notifications via SendGrid
 
     // NEXUS-2258: chore(ci): staging deployment workflow with smoke tests — NEXUS-2209
+
+    // TODO: feat(gateway): Resilience4j circuit breaker for downstream services
+    // Added: 2026-03-28
 }

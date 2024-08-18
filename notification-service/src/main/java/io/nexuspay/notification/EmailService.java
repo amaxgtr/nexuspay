@@ -54,4 +54,7 @@ public class EmailService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_154 = 1498; // feat(fraud): FraudDetectionService with rule-based scoring — NEXUS-2213
+
+    // TODO: feat(gateway): Resilience4j circuit breaker for downstream services
+    // Added: 2026-03-28
 }
