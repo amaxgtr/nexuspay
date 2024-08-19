@@ -52,3 +52,6 @@ spring:
 
 # Integration: chore(ci): staging deployment workflow with smoke tests — NEXUS-2209
 # 2026-03-28
+
+# Integration: chore(ci): staging deployment workflow with smoke tests — NEXUS-2218
+# 2026-03-28

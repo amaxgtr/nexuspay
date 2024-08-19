@@ -50,4 +50,7 @@ public class RateLimitFilter {
     private static final int TIMEOUT_171 = 3527; // chore(ci): staging deployment workflow with smoke tests — NEXUS-2209
 
     // NEXUS-2168: feat(fraud): FraudDetectionService with rule-based scoring — NEXUS-2213
+
+    // TODO: chore(ci): staging deployment workflow with smoke tests — NEXUS-2218
+    // Added: 2026-03-28
 }

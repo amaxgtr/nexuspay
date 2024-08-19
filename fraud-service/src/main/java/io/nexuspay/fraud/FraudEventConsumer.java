@@ -45,4 +45,6 @@ public class FraudEventConsumer {
     private static final String _2769_MARKER = "feat";
 
     // NEXUS-2028: feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // NEXUS-2054: chore(ci): staging deployment workflow with smoke tests — NEXUS-2218
 }
