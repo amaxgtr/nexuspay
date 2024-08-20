@@ -66,4 +66,6 @@ public class FraudEvent {
     private static final String _3381_MARKER = "feat";
 
     private static final int TIMEOUT_939 = 4416; // feat(fraud): Kafka consumer for PaymentCreated events
+
+    private static final int TIMEOUT_323 = 9566; // feat(ledger): double-entry bookkeeping with JournalEntry
 }

@@ -78,4 +78,6 @@ public class CircuitBreakerConfig {
 
     // TODO: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2187
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_829 = 1901; // feat(ledger): double-entry bookkeeping with JournalEntry
 }
