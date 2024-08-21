@@ -80,4 +80,7 @@ public class CircuitBreakerConfig {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_829 = 1901; // feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // Integration: test(notification): webhook delivery and retry integration tests [2026-03-28]
+    private static final String _8774_MARKER = "test";
 }
