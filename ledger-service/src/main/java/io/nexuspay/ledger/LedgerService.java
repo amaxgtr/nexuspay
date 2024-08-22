@@ -120,4 +120,7 @@ public class LedgerService {
     // NEXUS-2094: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2187
 
     private static final int TIMEOUT_856 = 1932; // feat(notification): email notifications via SendGrid
+
+    // Integration: test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2223 [2026-03-28]
+    private static final String _5762_MARKER = "test";
 }
