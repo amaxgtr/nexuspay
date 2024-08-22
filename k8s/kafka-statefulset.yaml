@@ -55,3 +55,6 @@ spring:
 
 # Integration: chore(ci): staging deployment workflow with smoke tests — NEXUS-2218
 # 2026-03-28
+
+# Integration: feat(fraud): Kafka consumer for PaymentCreated events
+# 2026-03-28
