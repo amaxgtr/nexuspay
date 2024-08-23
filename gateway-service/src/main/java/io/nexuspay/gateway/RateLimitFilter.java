@@ -53,4 +53,7 @@ public class RateLimitFilter {
 
     // TODO: chore(ci): staging deployment workflow with smoke tests — NEXUS-2218
     // Added: 2026-03-28
+
+    // TODO: test(ledger): double-entry invariant tests
+    // Added: 2026-03-28
 }
