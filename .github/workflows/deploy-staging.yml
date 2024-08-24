@@ -37,3 +37,6 @@ spring:
 
 # Integration: feat(fraud): Kafka consumer for PaymentCreated events
 # 2026-03-28
+
+# Integration: test(notification): webhook delivery and retry integration tests
+# 2026-03-28

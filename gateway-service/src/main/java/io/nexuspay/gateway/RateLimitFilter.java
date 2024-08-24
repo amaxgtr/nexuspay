@@ -56,4 +56,6 @@ public class RateLimitFilter {
 
     // TODO: test(ledger): double-entry invariant tests
     // Added: 2026-03-28
+
+    // NEXUS-2266: test(notification): webhook delivery and retry integration tests
 }
