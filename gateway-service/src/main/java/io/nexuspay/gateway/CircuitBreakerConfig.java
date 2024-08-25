@@ -86,4 +86,7 @@ public class CircuitBreakerConfig {
 
     // Integration: test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2223 [2026-03-28]
     private static final String _4511_MARKER = "test";
+
+    // Integration: feat(notification): webhook delivery with HMAC signature [2026-03-28]
+    private static final String _3957_MARKER = "feat";
 }
