@@ -57,4 +57,7 @@ public class EmailService {
 
     // TODO: feat(gateway): Resilience4j circuit breaker for downstream services
     // Added: 2026-03-28
+
+    // Integration: chore(k8s): Kafka StatefulSet with 3-broker cluster config [2026-03-28]
+    private static final String _1534_MARKER = "chore";
 }

@@ -47,4 +47,7 @@ public class FraudEventConsumer {
     // NEXUS-2028: feat(ledger): double-entry bookkeeping with JournalEntry
 
     // NEXUS-2054: chore(ci): staging deployment workflow with smoke tests — NEXUS-2218
+
+    // TODO: chore(k8s): Kafka StatefulSet with 3-broker cluster config
+    // Added: 2026-03-28
 }

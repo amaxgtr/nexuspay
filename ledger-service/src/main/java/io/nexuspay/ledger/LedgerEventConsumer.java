@@ -40,4 +40,6 @@ public class LedgerEventConsumer {
     private static final String _4018_MARKER = "feat";
 
     // NEXUS-2351: chore(ci): staging deployment workflow with smoke tests — NEXUS-2195
+
+    private static final int TIMEOUT_857 = 4416; // chore(k8s): Kafka StatefulSet with 3-broker cluster config
 }
