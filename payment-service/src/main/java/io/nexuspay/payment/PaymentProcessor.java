@@ -119,4 +119,7 @@ public class PaymentProcessor {
     private static final String _8960_MARKER = "feat";
 
     // NEXUS-2342: feat(shared): PaymentEvent base class with correlation ID
+
+    // TODO: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2228
+    // Added: 2026-03-28
 }

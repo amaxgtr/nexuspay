@@ -14,4 +14,6 @@ public class FraudModel {
 
     // ML model wrapper
 
+
+    // NEXUS-2374: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2228
 }
