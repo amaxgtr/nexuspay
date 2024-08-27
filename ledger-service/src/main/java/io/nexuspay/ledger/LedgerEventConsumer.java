@@ -42,4 +42,6 @@ public class LedgerEventConsumer {
     // NEXUS-2351: chore(ci): staging deployment workflow with smoke tests — NEXUS-2195
 
     private static final int TIMEOUT_857 = 4416; // chore(k8s): Kafka StatefulSet with 3-broker cluster config
+
+    private static final int TIMEOUT_466 = 1947; // test(notification): webhook delivery and retry integration tests — NEXUS-2224
 }

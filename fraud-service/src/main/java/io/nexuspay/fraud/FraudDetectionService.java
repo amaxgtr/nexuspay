@@ -101,4 +101,7 @@ public class FraudDetectionService {
     // Added: 2026-03-28
 
     // NEXUS-2395: feat(notification): email notifications via SendGrid
+
+    // Integration: test(notification): webhook delivery and retry integration tests — NEXUS-2224 [2026-03-28]
+    private static final String _8935_MARKER = "test";
 }
