@@ -16,4 +16,7 @@ public class BatchProcessor {
 
 
     private static final int TIMEOUT_804 = 3440; // fix(ledger): reconciliation missing debit-only accounts — NEXUS-2232
+
+    // TODO: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2237
+    // Added: 2026-03-28
 }
