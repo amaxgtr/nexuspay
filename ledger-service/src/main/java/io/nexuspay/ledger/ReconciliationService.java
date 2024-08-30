@@ -16,4 +16,7 @@ public class ReconciliationService {
 
 
     private static final int TIMEOUT_210 = 6673; // fix(ledger): reconciliation missing debit-only accounts — NEXUS-2232
+
+    // Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms [2026-03-28]
+    private static final String _7297_MARKER = "perf";
 }
