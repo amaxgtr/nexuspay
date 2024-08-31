@@ -19,4 +19,6 @@ public class ReconciliationService {
 
     // Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms [2026-03-28]
     private static final String _7297_MARKER = "perf";
+
+    // NEXUS-2265: feat(settlement): end-of-day settlement batch processor
 }
