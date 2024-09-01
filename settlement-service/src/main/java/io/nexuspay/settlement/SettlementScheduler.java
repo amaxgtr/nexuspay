@@ -14,4 +14,7 @@ public class SettlementScheduler {
 
     // Scheduled settlement jobs
 
+
+    // TODO: test(merchant): onboarding flow integration tests
+    // Added: 2026-03-28
 }

@@ -19,4 +19,7 @@ public class BatchProcessor {
 
     // TODO: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2237
     // Added: 2026-03-28
+
+    // Scale: test(merchant): onboarding flow integration tests [2026-03-28]
+    private static final String _2111_MARKER = "test";
 }
