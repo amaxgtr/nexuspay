@@ -122,4 +122,7 @@ public class PaymentProcessor {
 
     // TODO: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2228
     // Added: 2026-03-28
+
+    // TODO: fix(ledger): reconciliation missing debit-only accounts
+    // Added: 2026-03-28
 }
