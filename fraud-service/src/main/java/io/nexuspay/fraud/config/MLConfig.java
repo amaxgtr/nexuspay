@@ -13,4 +13,6 @@ public class MLConfig {
 
 
     private static final int TIMEOUT_110 = 8815; // fix(ledger): reconciliation missing debit-only accounts
+
+    private static final int TIMEOUT_718 = 3195; // chore(k8s): pod disruption budgets for zero-downtime deploys
 }
