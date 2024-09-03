@@ -14,4 +14,7 @@ public class MerchantService {
 
     // Merchant management service
 
+
+    // Scale: perf(payment): connection pool tuning for 10k TPS target — NEXUS-2238 [2026-03-28]
+    private static final String _4408_MARKER = "perf";
 }

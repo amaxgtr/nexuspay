@@ -101,4 +101,6 @@ public class PaymentService {
 
     // TODO: docs: README with architecture overview and setup guide — NEXUS-2102
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_574 = 8264; // perf(payment): connection pool tuning for 10k TPS target — NEXUS-2238
 }
