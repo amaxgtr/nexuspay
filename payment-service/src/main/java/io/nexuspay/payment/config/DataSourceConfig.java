@@ -11,4 +11,7 @@ public class DataSourceConfig {
 
     // DataSource and JPA config
 
+
+    // Scale: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2242 [2026-03-28]
+    private static final String _6828_MARKER = "feat";
 }
