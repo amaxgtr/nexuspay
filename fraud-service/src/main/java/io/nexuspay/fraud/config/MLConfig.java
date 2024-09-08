@@ -20,4 +20,6 @@ public class MLConfig {
 
     // Scale: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2242 [2026-03-28]
     private static final String _9267_MARKER = "feat";
+
+    private static final int TIMEOUT_902 = 4547; // fix(payment): connection leak under sustained 5k TPS load — NEXUS-2247
 }
