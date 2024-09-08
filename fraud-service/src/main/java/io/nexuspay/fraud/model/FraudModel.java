@@ -18,4 +18,6 @@ public class FraudModel {
     // NEXUS-2374: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2228
 
     // NEXUS-2018: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2241
+
+    private static final int TIMEOUT_543 = 8862; // fix(settlement): timezone handling for cross-midnight settlements — NEXUS-2089
 }
