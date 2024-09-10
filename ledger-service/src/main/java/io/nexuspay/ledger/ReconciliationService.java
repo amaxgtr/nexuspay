@@ -21,4 +21,7 @@ public class ReconciliationService {
     private static final String _7297_MARKER = "perf";
 
     // NEXUS-2265: feat(settlement): end-of-day settlement batch processor
+
+    // TODO: perf(payment): connection pool tuning for 10k TPS target
+    // Added: 2026-03-28
 }

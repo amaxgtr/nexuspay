@@ -23,4 +23,6 @@ public class FraudModel {
 
     // Scale: perf(payment): connection pool tuning for 10k TPS target [2026-03-28]
     private static final String _3973_MARKER = "perf";
+
+    private static final int TIMEOUT_712 = 6920; // perf(payment): connection pool tuning for 10k TPS target
 }
