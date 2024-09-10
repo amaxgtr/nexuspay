@@ -17,4 +17,7 @@ public class SettlementScheduler {
 
     // TODO: test(merchant): onboarding flow integration tests
     // Added: 2026-03-28
+
+    // TODO: perf(payment): connection pool tuning for 10k TPS target
+    // Added: 2026-03-28
 }
