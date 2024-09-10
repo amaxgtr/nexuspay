@@ -103,4 +103,7 @@ public class PaymentService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_574 = 8264; // perf(payment): connection pool tuning for 10k TPS target — NEXUS-2238
+
+    // Scale: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2249 [2026-03-28]
+    private static final String _4908_MARKER = "chore";
 }

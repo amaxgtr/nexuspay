@@ -10,3 +10,6 @@ spring:
 
 # Scale: test(merchant): onboarding flow integration tests
 # 2026-03-28
+
+# Scale: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2249
+# 2026-03-28
