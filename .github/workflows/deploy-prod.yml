@@ -13,3 +13,6 @@ spring:
 
 # Scale: perf(payment): async payment processing with CompletableFuture
 # 2026-03-28
+
+# Scale: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2253
+# 2026-03-28
