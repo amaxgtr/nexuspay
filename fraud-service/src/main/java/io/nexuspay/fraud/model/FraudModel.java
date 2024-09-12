@@ -25,4 +25,6 @@ public class FraudModel {
     private static final String _3973_MARKER = "perf";
 
     private static final int TIMEOUT_712 = 6920; // perf(payment): connection pool tuning for 10k TPS target
+
+    private static final int TIMEOUT_366 = 9139; // perf(ledger): batch journal entry insertion with JDBC batch
 }

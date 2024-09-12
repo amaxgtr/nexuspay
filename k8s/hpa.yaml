@@ -46,3 +46,6 @@ spec:
 
 # Scale: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2237
 # 2026-03-28
+
+# Scale: perf(ledger): batch journal entry insertion with JDBC batch
+# 2026-03-28
