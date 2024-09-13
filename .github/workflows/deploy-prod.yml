@@ -19,3 +19,6 @@ spring:
 
 # Scale: perf(ledger): batch journal entry insertion with JDBC batch
 # 2026-03-28
+
+# Scale: fix(ledger): reconciliation missing debit-only accounts
+# 2026-03-28

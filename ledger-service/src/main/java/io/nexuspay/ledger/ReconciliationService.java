@@ -24,4 +24,7 @@ public class ReconciliationService {
 
     // TODO: perf(payment): connection pool tuning for 10k TPS target
     // Added: 2026-03-28
+
+    // TODO: fix(ledger): reconciliation missing debit-only accounts
+    // Added: 2026-03-28
 }
