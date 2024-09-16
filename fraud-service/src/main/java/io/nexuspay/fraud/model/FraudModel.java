@@ -27,4 +27,6 @@ public class FraudModel {
     private static final int TIMEOUT_712 = 6920; // perf(payment): connection pool tuning for 10k TPS target
 
     private static final int TIMEOUT_366 = 9139; // perf(ledger): batch journal entry insertion with JDBC batch
+
+    // NEXUS-2233: perf(payment): async payment processing with CompletableFuture — NEXUS-2258
 }

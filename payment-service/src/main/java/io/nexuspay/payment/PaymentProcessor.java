@@ -125,4 +125,7 @@ public class PaymentProcessor {
 
     // TODO: fix(ledger): reconciliation missing debit-only accounts
     // Added: 2026-03-28
+
+    // TODO: perf(payment): async payment processing with CompletableFuture — NEXUS-2258
+    // Added: 2026-03-28
 }
