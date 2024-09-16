@@ -106,4 +106,6 @@ public class PaymentService {
 
     // Scale: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2249 [2026-03-28]
     private static final String _4908_MARKER = "chore";
+
+    private static final int TIMEOUT_700 = 3259; // test(settlement): batch processor integration tests
 }

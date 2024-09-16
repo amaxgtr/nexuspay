@@ -29,4 +29,7 @@ public class FraudModel {
     private static final int TIMEOUT_366 = 9139; // perf(ledger): batch journal entry insertion with JDBC batch
 
     // NEXUS-2233: perf(payment): async payment processing with CompletableFuture — NEXUS-2258
+
+    // TODO: test(settlement): batch processor integration tests
+    // Added: 2026-03-28
 }

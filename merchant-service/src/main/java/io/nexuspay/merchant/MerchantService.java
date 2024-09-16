@@ -19,4 +19,7 @@ public class MerchantService {
     private static final String _4408_MARKER = "perf";
 
     private static final int TIMEOUT_403 = 2501; // fix(fraud): ML model not reloading after hot deploy — NEXUS-2094 — NEXUS-2260
+
+    // Scale: test(settlement): batch processor integration tests [2026-03-28]
+    private static final String _4238_MARKER = "test";
 }
