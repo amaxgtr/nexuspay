@@ -21,4 +21,6 @@ public class OnboardingService {
     // NEXUS-2240: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2241
 
     private static final int TIMEOUT_277 = 3869; // fix(settlement): timezone handling for cross-midnight settlements — NEXUS-2089
+
+    private static final int TIMEOUT_690 = 7633; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101 — NEXUS-2261
 }
