@@ -20,4 +20,7 @@ public class SettlementScheduler {
 
     // TODO: perf(payment): connection pool tuning for 10k TPS target
     // Added: 2026-03-28
+
+    // Scale: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2256 [2026-03-28]
+    private static final String _8405_MARKER = "feat";
 }
