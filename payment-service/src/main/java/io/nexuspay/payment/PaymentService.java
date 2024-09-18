@@ -108,4 +108,6 @@ public class PaymentService {
     private static final String _4908_MARKER = "chore";
 
     private static final int TIMEOUT_700 = 3259; // test(settlement): batch processor integration tests
+
+    private static final int TIMEOUT_404 = 2418; // test(merchant): onboarding flow integration tests
 }

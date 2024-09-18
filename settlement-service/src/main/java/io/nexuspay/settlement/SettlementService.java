@@ -17,4 +17,7 @@ public class SettlementService {
 
     // TODO: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2228
     // Added: 2026-03-28
+
+    // TODO: test(merchant): onboarding flow integration tests
+    // Added: 2026-03-28
 }
