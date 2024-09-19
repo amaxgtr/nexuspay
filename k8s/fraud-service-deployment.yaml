@@ -13,3 +13,6 @@ spring:
 
 # Scale: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2249
 # 2026-03-28
+
+# Scale: perf(payment): async payment processing with CompletableFuture — NEXUS-2266
+# 2026-03-28

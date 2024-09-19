@@ -19,4 +19,7 @@ public class FraudRuleEngine {
 
     // Scale: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094 — NEXUS-2260 [2026-03-28]
     private static final String _1862_MARKER = "fix";
+
+    // Scale: perf(payment): async payment processing with CompletableFuture — NEXUS-2266 [2026-03-28]
+    private static final String _9564_MARKER = "perf";
 }
