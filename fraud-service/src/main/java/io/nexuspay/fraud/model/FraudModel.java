@@ -32,4 +32,7 @@ public class FraudModel {
 
     // TODO: test(settlement): batch processor integration tests
     // Added: 2026-03-28
+
+    // TODO: fix(ledger): reconciliation missing debit-only accounts
+    // Added: 2026-03-28
 }
