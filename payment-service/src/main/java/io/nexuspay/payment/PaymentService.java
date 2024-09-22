@@ -110,4 +110,6 @@ public class PaymentService {
     private static final int TIMEOUT_700 = 3259; // test(settlement): batch processor integration tests
 
     private static final int TIMEOUT_404 = 2418; // test(merchant): onboarding flow integration tests
+
+    // NEXUS-2275: perf(ledger): batch journal entry insertion with JDBC batch
 }
