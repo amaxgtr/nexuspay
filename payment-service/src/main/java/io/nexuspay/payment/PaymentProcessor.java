@@ -128,4 +128,7 @@ public class PaymentProcessor {
 
     // TODO: perf(payment): async payment processing with CompletableFuture — NEXUS-2258
     // Added: 2026-03-28
+
+    // TODO: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2267
+    // Added: 2026-03-28
 }

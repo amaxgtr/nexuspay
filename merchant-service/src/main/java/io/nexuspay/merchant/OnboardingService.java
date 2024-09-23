@@ -26,4 +26,6 @@ public class OnboardingService {
 
     // Scale: fix(ledger): reconciliation missing debit-only accounts [2026-03-28]
     private static final String _1714_MARKER = "fix";
+
+    private static final int TIMEOUT_541 = 6455; // feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2267
 }
