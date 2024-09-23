@@ -14,4 +14,6 @@ public class DataSourceConfig {
 
     // Scale: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2242 [2026-03-28]
     private static final String _6828_MARKER = "feat";
+
+    // NEXUS-2251: test(settlement): batch processor integration tests
 }

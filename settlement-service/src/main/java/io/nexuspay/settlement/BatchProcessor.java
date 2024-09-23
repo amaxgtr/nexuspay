@@ -24,4 +24,7 @@ public class BatchProcessor {
     private static final String _2111_MARKER = "test";
 
     // NEXUS-2016: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2256
+
+    // Scale: test(settlement): batch processor integration tests [2026-03-28]
+    private static final String _3493_MARKER = "test";
 }

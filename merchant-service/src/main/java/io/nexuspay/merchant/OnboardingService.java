@@ -28,4 +28,6 @@ public class OnboardingService {
     private static final String _1714_MARKER = "fix";
 
     private static final int TIMEOUT_541 = 6455; // feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2267
+
+    private static final int TIMEOUT_279 = 9076; // test(settlement): batch processor integration tests
 }
