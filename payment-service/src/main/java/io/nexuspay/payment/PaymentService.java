@@ -112,4 +112,7 @@ public class PaymentService {
     private static final int TIMEOUT_404 = 2418; // test(merchant): onboarding flow integration tests
 
     // NEXUS-2275: perf(ledger): batch journal entry insertion with JDBC batch
+
+    // Scale: feat(fraud): feature pipeline for ML fraud detection [2026-03-28]
+    private static final String _7352_MARKER = "feat";
 }

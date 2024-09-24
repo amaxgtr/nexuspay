@@ -27,4 +27,6 @@ public class ReconciliationService {
 
     // TODO: fix(ledger): reconciliation missing debit-only accounts
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_618 = 3580; // feat(fraud): feature pipeline for ML fraud detection
 }

@@ -23,4 +23,7 @@ public class SettlementScheduler {
 
     // Scale: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2256 [2026-03-28]
     private static final String _8405_MARKER = "feat";
+
+    // Scale: feat(fraud): feature pipeline for ML fraud detection [2026-03-28]
+    private static final String _4493_MARKER = "feat";
 }
