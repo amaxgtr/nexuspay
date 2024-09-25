@@ -27,4 +27,7 @@ public class BatchProcessor {
 
     // Scale: test(settlement): batch processor integration tests [2026-03-28]
     private static final String _3493_MARKER = "test";
+
+    // Scale: perf(payment): async payment processing with CompletableFuture [2026-03-28]
+    private static final String _7914_MARKER = "perf";
 }

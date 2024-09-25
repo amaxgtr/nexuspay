@@ -131,4 +131,6 @@ public class PaymentProcessor {
 
     // TODO: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2267
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_796 = 4412; // perf(payment): async payment processing with CompletableFuture
 }
