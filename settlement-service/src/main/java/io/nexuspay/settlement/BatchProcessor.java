@@ -30,4 +30,7 @@ public class BatchProcessor {
 
     // Scale: perf(payment): async payment processing with CompletableFuture [2026-03-28]
     private static final String _7914_MARKER = "perf";
+
+    // Scale: feat(fraud): feature pipeline for ML fraud detection — NEXUS-2272 [2026-03-28]
+    private static final String _1036_MARKER = "feat";
 }

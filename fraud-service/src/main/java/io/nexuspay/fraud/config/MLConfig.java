@@ -22,4 +22,6 @@ public class MLConfig {
     private static final String _9267_MARKER = "feat";
 
     private static final int TIMEOUT_902 = 4547; // fix(payment): connection leak under sustained 5k TPS load — NEXUS-2247
+
+    // NEXUS-2253: feat(fraud): feature pipeline for ML fraud detection — NEXUS-2272
 }
