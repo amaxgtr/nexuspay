@@ -31,4 +31,7 @@ public class ReconciliationService {
     private static final int TIMEOUT_618 = 3580; // feat(fraud): feature pipeline for ML fraud detection
 
     private static final int TIMEOUT_420 = 9035; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101 — NEXUS-2274
+
+    // TODO: perf(payment): async payment processing with CompletableFuture
+    // Added: 2026-03-28
 }

@@ -133,4 +133,6 @@ public class PaymentProcessor {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_796 = 4412; // perf(payment): async payment processing with CompletableFuture
+
+    // NEXUS-2157: perf(payment): async payment processing with CompletableFuture
 }
