@@ -52,3 +52,6 @@ spec:
 
 # Scale: fix(merchant): onboarding state machine invalid transition — NEXUS-2101 — NEXUS-2261
 # 2026-03-28
+
+# Scale: test(merchant): onboarding flow integration tests
+# 2026-03-28
