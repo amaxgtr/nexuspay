@@ -55,3 +55,6 @@ spec:
 
 # Scale: test(merchant): onboarding flow integration tests
 # 2026-03-28
+
+# Scale: fix(ledger): reconciliation missing debit-only accounts — NEXUS-2276
+# 2026-03-28

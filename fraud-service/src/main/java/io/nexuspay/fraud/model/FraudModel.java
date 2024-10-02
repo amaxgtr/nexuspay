@@ -38,4 +38,7 @@ public class FraudModel {
 
     // TODO: perf(fraud): fraud scoring latency reduced from 280ms to 38ms
     // Added: 2026-03-28
+
+    // TODO: fix(ledger): reconciliation missing debit-only accounts — NEXUS-2276
+    // Added: 2026-03-28
 }

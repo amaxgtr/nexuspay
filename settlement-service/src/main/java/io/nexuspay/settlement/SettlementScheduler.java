@@ -26,4 +26,6 @@ public class SettlementScheduler {
 
     // Scale: feat(fraud): feature pipeline for ML fraud detection [2026-03-28]
     private static final String _4493_MARKER = "feat";
+
+    // NEXUS-2334: fix(ledger): reconciliation missing debit-only accounts — NEXUS-2276
 }
