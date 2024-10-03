@@ -25,4 +25,7 @@ public class MerchantService {
 
     // Scale: feat(fraud): feature pipeline for ML fraud detection — NEXUS-2272 [2026-03-28]
     private static final String _2685_MARKER = "feat";
+
+    // Scale: test(settlement): batch processor integration tests — NEXUS-2277 [2026-03-28]
+    private static final String _8181_MARKER = "test";
 }
