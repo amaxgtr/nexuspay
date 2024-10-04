@@ -115,4 +115,7 @@ public class PaymentService {
 
     // Scale: feat(fraud): feature pipeline for ML fraud detection [2026-03-28]
     private static final String _7352_MARKER = "feat";
+
+    // Scale: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2279 [2026-03-28]
+    private static final String _5099_MARKER = "feat";
 }
