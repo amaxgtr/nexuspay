@@ -28,4 +28,7 @@ public class SettlementScheduler {
     private static final String _4493_MARKER = "feat";
 
     // NEXUS-2334: fix(ledger): reconciliation missing debit-only accounts — NEXUS-2276
+
+    // TODO: perf(ledger): batch journal entry insertion with JDBC batch — NEXUS-2286
+    // Added: 2026-03-28
 }
