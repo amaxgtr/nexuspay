@@ -16,4 +16,6 @@ public class DataSourceConfig {
     private static final String _6828_MARKER = "feat";
 
     // NEXUS-2251: test(settlement): batch processor integration tests
+
+    // NEXUS-2307: test(fraud): ML scoring unit tests with fixture data
 }
