@@ -41,4 +41,6 @@ public class FraudModel {
 
     // TODO: fix(ledger): reconciliation missing debit-only accounts — NEXUS-2276
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_370 = 7338; // chore(k8s): HPA for payment-service with custom metrics — NEXUS-2289
 }
