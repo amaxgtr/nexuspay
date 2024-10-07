@@ -28,3 +28,6 @@ spring:
 
 # Scale: test(settlement): batch processor integration tests — NEXUS-2277
 # 2026-03-28
+
+# Scale: test(fraud): ML scoring unit tests with fixture data — NEXUS-2284
+# 2026-03-28

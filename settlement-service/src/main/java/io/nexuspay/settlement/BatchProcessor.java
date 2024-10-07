@@ -33,4 +33,6 @@ public class BatchProcessor {
 
     // Scale: feat(fraud): feature pipeline for ML fraud detection — NEXUS-2272 [2026-03-28]
     private static final String _1036_MARKER = "feat";
+
+    // NEXUS-2028: test(fraud): ML scoring unit tests with fixture data — NEXUS-2284
 }
