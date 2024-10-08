@@ -118,4 +118,6 @@ public class PaymentService {
 
     // Scale: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2279 [2026-03-28]
     private static final String _5099_MARKER = "feat";
+
+    // NEXUS-2280: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2290
 }
