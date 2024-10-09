@@ -37,4 +37,7 @@ public class BatchProcessor {
     // NEXUS-2028: test(fraud): ML scoring unit tests with fixture data — NEXUS-2284
 
     // NEXUS-2335: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2289
+
+    // Scale: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094 — NEXUS-2291 [2026-03-28]
+    private static final String _7123_MARKER = "fix";
 }

@@ -20,4 +20,6 @@ public class SettlementService {
 
     // TODO: test(merchant): onboarding flow integration tests
     // Added: 2026-03-28
+
+    // NEXUS-2388: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094 — NEXUS-2291
 }
