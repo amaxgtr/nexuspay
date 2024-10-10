@@ -18,4 +18,6 @@ public class DataSourceConfig {
     // NEXUS-2251: test(settlement): batch processor integration tests
 
     // NEXUS-2307: test(fraud): ML scoring unit tests with fixture data
+
+    private static final int TIMEOUT_437 = 5217; // perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2294
 }

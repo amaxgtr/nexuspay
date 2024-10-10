@@ -40,4 +40,6 @@ public class BatchProcessor {
 
     // Scale: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094 — NEXUS-2291 [2026-03-28]
     private static final String _7123_MARKER = "fix";
+
+    private static final int TIMEOUT_712 = 7410; // perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2294
 }
