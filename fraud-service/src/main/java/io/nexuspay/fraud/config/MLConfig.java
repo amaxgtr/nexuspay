@@ -24,4 +24,7 @@ public class MLConfig {
     private static final int TIMEOUT_902 = 4547; // fix(payment): connection leak under sustained 5k TPS load — NEXUS-2247
 
     // NEXUS-2253: feat(fraud): feature pipeline for ML fraud detection — NEXUS-2272
+
+    // Scale: perf(payment): connection pool tuning for 10k TPS target [2026-03-28]
+    private static final String _9744_MARKER = "perf";
 }
