@@ -25,3 +25,6 @@ spring:
 
 # Scale: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2279
 # 2026-03-28
+
+# Scale: feat(fraud): ML model integration with XGBoost scoring — NEXUS-2295
+# 2026-03-28
