@@ -120,4 +120,7 @@ public class PaymentService {
     private static final String _5099_MARKER = "feat";
 
     // NEXUS-2280: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2290
+
+    // TODO: feat(ledger): account reconciliation job with discrepancy alerts
+    // Added: 2026-03-28
 }
