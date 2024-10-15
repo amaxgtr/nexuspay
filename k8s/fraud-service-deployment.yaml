@@ -31,3 +31,6 @@ spring:
 
 # Scale: test(fraud): ML scoring unit tests with fixture data — NEXUS-2284
 # 2026-03-28
+
+# Scale: feat(settlement): settlement report PDF and CSV generation — NEXUS-2296
+# 2026-03-28
