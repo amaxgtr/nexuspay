@@ -28,3 +28,6 @@ spring:
 
 # Scale: feat(fraud): ML model integration with XGBoost scoring — NEXUS-2295
 # 2026-03-28
+
+# Scale: fix(merchant): onboarding state machine invalid transition — NEXUS-2101
+# 2026-03-28
