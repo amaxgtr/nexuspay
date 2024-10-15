@@ -42,4 +42,7 @@ public class BatchProcessor {
     private static final String _7123_MARKER = "fix";
 
     private static final int TIMEOUT_712 = 7410; // perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2294
+
+    // Scale: chore(k8s): production deployment workflow with canary release [2026-03-28]
+    private static final String _1988_MARKER = "chore";
 }

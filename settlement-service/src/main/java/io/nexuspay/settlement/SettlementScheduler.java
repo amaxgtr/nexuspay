@@ -31,4 +31,6 @@ public class SettlementScheduler {
 
     // TODO: perf(ledger): batch journal entry insertion with JDBC batch — NEXUS-2286
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_628 = 7855; // chore(k8s): production deployment workflow with canary release
 }
