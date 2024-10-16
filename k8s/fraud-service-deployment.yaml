@@ -34,3 +34,6 @@ spring:
 
 # Scale: feat(settlement): settlement report PDF and CSV generation — NEXUS-2296
 # 2026-03-28
+
+# Scale: feat(fraud): ML model integration with XGBoost scoring — NEXUS-2301
+# 2026-03-28
