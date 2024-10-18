@@ -45,4 +45,7 @@ public class FraudModel {
     private static final int TIMEOUT_370 = 7338; // chore(k8s): HPA for payment-service with custom metrics — NEXUS-2289
 
     // NEXUS-2274: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2294
+
+    // Scale: perf(ledger): batch journal entry insertion with JDBC batch — NEXUS-2302 [2026-03-28]
+    private static final String _7578_MARKER = "perf";
 }

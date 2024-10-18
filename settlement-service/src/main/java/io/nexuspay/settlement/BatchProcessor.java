@@ -45,4 +45,6 @@ public class BatchProcessor {
 
     // Scale: chore(k8s): production deployment workflow with canary release [2026-03-28]
     private static final String _1988_MARKER = "chore";
+
+    private static final int TIMEOUT_904 = 7747; // perf(ledger): batch journal entry insertion with JDBC batch — NEXUS-2302
 }

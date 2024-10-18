@@ -123,4 +123,7 @@ public class PaymentService {
 
     // TODO: feat(ledger): account reconciliation job with discrepancy alerts
     // Added: 2026-03-28
+
+    // TODO: perf(ledger): batch journal entry insertion with JDBC batch — NEXUS-2302
+    // Added: 2026-03-28
 }
