@@ -116,3 +116,6 @@ spec:
 
 # Scale: feat(fraud): ML model integration with XGBoost scoring — NEXUS-2295
 # 2026-03-28
+
+# Scale: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
+# 2026-03-28

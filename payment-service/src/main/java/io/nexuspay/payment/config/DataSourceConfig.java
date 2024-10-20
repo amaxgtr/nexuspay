@@ -22,4 +22,6 @@ public class DataSourceConfig {
     private static final int TIMEOUT_437 = 5217; // perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2294
 
     // NEXUS-2390: feat(merchant): merchant onboarding with KYC document flow
+
+    // NEXUS-2017: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
 }
