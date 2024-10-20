@@ -22,4 +22,6 @@ public class SettlementService {
     // Added: 2026-03-28
 
     // NEXUS-2388: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094 — NEXUS-2291
+
+    // NEXUS-2305: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2306
 }

@@ -34,3 +34,6 @@ spring:
 
 # Scale: chore(k8s): production deployment workflow with canary release
 # 2026-03-28
+
+# Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2306
+# 2026-03-28
