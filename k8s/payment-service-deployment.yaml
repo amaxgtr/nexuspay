@@ -119,3 +119,6 @@ spec:
 
 # Scale: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
 # 2026-03-28
+
+# Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms
+# 2026-03-28
