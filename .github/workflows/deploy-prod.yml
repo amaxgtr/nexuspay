@@ -37,3 +37,6 @@ spring:
 
 # Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2306
 # 2026-03-28
+
+# Scale: feat(fraud): feature pipeline for ML fraud detection
+# 2026-03-28

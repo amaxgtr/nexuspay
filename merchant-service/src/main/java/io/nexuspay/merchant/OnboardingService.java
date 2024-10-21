@@ -30,4 +30,7 @@ public class OnboardingService {
     private static final int TIMEOUT_541 = 6455; // feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2267
 
     private static final int TIMEOUT_279 = 9076; // test(settlement): batch processor integration tests
+
+    // TODO: feat(fraud): feature pipeline for ML fraud detection
+    // Added: 2026-03-28
 }

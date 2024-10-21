@@ -24,4 +24,7 @@ public class DataSourceConfig {
     // NEXUS-2390: feat(merchant): merchant onboarding with KYC document flow
 
     // NEXUS-2017: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
+
+    // TODO: feat(fraud): feature pipeline for ML fraud detection
+    // Added: 2026-03-28
 }
