@@ -29,4 +29,6 @@ public class MLConfig {
     private static final String _9744_MARKER = "perf";
 
     // NEXUS-2355: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2306
+
+    // NEXUS-2145: fix(merchant): onboarding state machine invalid transition — NEXUS-2101
 }

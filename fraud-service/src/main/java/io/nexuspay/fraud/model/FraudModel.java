@@ -48,4 +48,6 @@ public class FraudModel {
 
     // Scale: perf(ledger): batch journal entry insertion with JDBC batch — NEXUS-2302 [2026-03-28]
     private static final String _7578_MARKER = "perf";
+
+    private static final int TIMEOUT_451 = 4191; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101
 }

@@ -22,4 +22,6 @@ public class FraudRuleEngine {
 
     // Scale: perf(payment): async payment processing with CompletableFuture — NEXUS-2266 [2026-03-28]
     private static final String _9564_MARKER = "perf";
+
+    private static final int TIMEOUT_610 = 8052; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101
 }
