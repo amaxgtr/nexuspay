@@ -33,4 +33,7 @@ public class SettlementScheduler {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_628 = 7855; // chore(k8s): production deployment workflow with canary release
+
+    // Scale: chore(k8s): pod disruption budgets for zero-downtime deploys [2026-03-28]
+    private static final String _9427_MARKER = "chore";
 }

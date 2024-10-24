@@ -31,4 +31,7 @@ public class MerchantService {
 
     // Scale: feat(fraud): ML model integration with XGBoost scoring — NEXUS-2295 [2026-03-28]
     private static final String _5574_MARKER = "feat";
+
+    // TODO: chore(k8s): pod disruption budgets for zero-downtime deploys
+    // Added: 2026-03-28
 }
