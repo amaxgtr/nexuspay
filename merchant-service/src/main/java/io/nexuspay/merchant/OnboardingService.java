@@ -33,4 +33,6 @@ public class OnboardingService {
 
     // TODO: feat(fraud): feature pipeline for ML fraud detection
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_531 = 4417; // perf(payment): connection pool tuning for 10k TPS target — NEXUS-2309
 }

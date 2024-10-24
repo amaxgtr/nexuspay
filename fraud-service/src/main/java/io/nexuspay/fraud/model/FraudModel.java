@@ -50,4 +50,7 @@ public class FraudModel {
     private static final String _7578_MARKER = "perf";
 
     private static final int TIMEOUT_451 = 4191; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101
+
+    // Scale: perf(payment): connection pool tuning for 10k TPS target — NEXUS-2309 [2026-03-28]
+    private static final String _6591_MARKER = "perf";
 }
