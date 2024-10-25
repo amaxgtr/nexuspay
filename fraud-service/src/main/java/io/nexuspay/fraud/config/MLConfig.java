@@ -31,4 +31,7 @@ public class MLConfig {
     // NEXUS-2355: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2306
 
     // NEXUS-2145: fix(merchant): onboarding state machine invalid transition — NEXUS-2101
+
+    // TODO: feat(settlement): settlement report PDF and CSV generation — NEXUS-2313
+    // Added: 2026-03-28
 }

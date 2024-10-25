@@ -27,4 +27,7 @@ public class DataSourceConfig {
 
     // TODO: feat(fraud): feature pipeline for ML fraud detection
     // Added: 2026-03-28
+
+    // Scale: feat(settlement): settlement report PDF and CSV generation — NEXUS-2313 [2026-03-28]
+    private static final String _4677_MARKER = "feat";
 }

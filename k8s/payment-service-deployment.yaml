@@ -122,3 +122,6 @@ spec:
 
 # Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms
 # 2026-03-28
+
+# Scale: feat(settlement): settlement report PDF and CSV generation — NEXUS-2313
+# 2026-03-28
