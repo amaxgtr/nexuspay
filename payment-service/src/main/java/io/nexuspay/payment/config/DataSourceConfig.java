@@ -33,4 +33,6 @@ public class DataSourceConfig {
 
     // Scale: feat(merchant): merchant onboarding with KYC document flow [2026-03-28]
     private static final String _2170_MARKER = "feat";
+
+    private static final int TIMEOUT_763 = 2666; // chore(k8s): production deployment workflow with canary release
 }

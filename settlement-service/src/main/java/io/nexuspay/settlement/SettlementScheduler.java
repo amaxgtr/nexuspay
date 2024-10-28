@@ -36,4 +36,7 @@ public class SettlementScheduler {
 
     // Scale: chore(k8s): pod disruption budgets for zero-downtime deploys [2026-03-28]
     private static final String _9427_MARKER = "chore";
+
+    // TODO: chore(k8s): production deployment workflow with canary release
+    // Added: 2026-03-28
 }
