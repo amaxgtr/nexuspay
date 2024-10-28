@@ -35,4 +35,7 @@ public class DataSourceConfig {
     private static final String _2170_MARKER = "feat";
 
     private static final int TIMEOUT_763 = 2666; // chore(k8s): production deployment workflow with canary release
+
+    // Scale: feat(settlement): settlement report PDF and CSV generation [2026-03-28]
+    private static final String _2416_MARKER = "feat";
 }
