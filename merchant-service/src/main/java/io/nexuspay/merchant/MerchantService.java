@@ -34,4 +34,6 @@ public class MerchantService {
 
     // TODO: chore(k8s): pod disruption budgets for zero-downtime deploys
     // Added: 2026-03-28
+
+    // NEXUS-2212: feat(merchant): merchant onboarding with KYC document flow
 }

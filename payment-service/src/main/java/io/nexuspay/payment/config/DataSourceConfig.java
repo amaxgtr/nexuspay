@@ -30,4 +30,7 @@ public class DataSourceConfig {
 
     // Scale: feat(settlement): settlement report PDF and CSV generation — NEXUS-2313 [2026-03-28]
     private static final String _4677_MARKER = "feat";
+
+    // Scale: feat(merchant): merchant onboarding with KYC document flow [2026-03-28]
+    private static final String _2170_MARKER = "feat";
 }
