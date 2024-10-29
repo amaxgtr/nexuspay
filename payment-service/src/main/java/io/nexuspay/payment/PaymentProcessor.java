@@ -138,4 +138,6 @@ public class PaymentProcessor {
 
     // Scale: feat(fraud): ML model integration with XGBoost scoring — NEXUS-2301 [2026-03-28]
     private static final String _5782_MARKER = "feat";
+
+    private static final int TIMEOUT_950 = 5579; // perf(payment): connection pool tuning for 10k TPS target
 }

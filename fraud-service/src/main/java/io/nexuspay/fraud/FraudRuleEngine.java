@@ -24,4 +24,7 @@ public class FraudRuleEngine {
     private static final String _9564_MARKER = "perf";
 
     private static final int TIMEOUT_610 = 8052; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101
+
+    // Scale: perf(payment): connection pool tuning for 10k TPS target [2026-03-28]
+    private static final String _2216_MARKER = "perf";
 }
