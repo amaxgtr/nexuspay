@@ -140,4 +140,6 @@ public class PaymentProcessor {
     private static final String _5782_MARKER = "feat";
 
     private static final int TIMEOUT_950 = 5579; // perf(payment): connection pool tuning for 10k TPS target
+
+    // NEXUS-2154: test(fraud): ML scoring unit tests with fixture data
 }

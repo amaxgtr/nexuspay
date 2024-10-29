@@ -43,3 +43,6 @@ spring:
 
 # Scale: perf(payment): connection pool tuning for 10k TPS target
 # 2026-03-28
+
+# Scale: test(fraud): ML scoring unit tests with fixture data
+# 2026-03-28

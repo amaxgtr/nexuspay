@@ -36,4 +36,7 @@ public class MerchantService {
     // Added: 2026-03-28
 
     // NEXUS-2212: feat(merchant): merchant onboarding with KYC document flow
+
+    // TODO: test(fraud): ML scoring unit tests with fixture data
+    // Added: 2026-03-28
 }
