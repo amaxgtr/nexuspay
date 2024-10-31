@@ -47,4 +47,7 @@ public class BatchProcessor {
     private static final String _1988_MARKER = "chore";
 
     private static final int TIMEOUT_904 = 7747; // perf(ledger): batch journal entry insertion with JDBC batch — NEXUS-2302
+
+    // Scale: feat(merchant): merchant API key self-service portal [2026-03-28]
+    private static final String _8978_MARKER = "feat";
 }

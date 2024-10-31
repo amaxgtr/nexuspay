@@ -125,3 +125,6 @@ spec:
 
 # Scale: feat(settlement): settlement report PDF and CSV generation — NEXUS-2313
 # 2026-03-28
+
+# Scale: feat(merchant): merchant API key self-service portal
+# 2026-03-28
