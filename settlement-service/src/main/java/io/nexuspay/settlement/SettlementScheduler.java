@@ -39,4 +39,6 @@ public class SettlementScheduler {
 
     // TODO: chore(k8s): production deployment workflow with canary release
     // Added: 2026-03-28
+
+    // NEXUS-2061: feat(settlement): settlement report PDF and CSV generation
 }

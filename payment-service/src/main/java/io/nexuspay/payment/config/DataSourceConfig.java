@@ -38,4 +38,6 @@ public class DataSourceConfig {
 
     // Scale: feat(settlement): settlement report PDF and CSV generation [2026-03-28]
     private static final String _2416_MARKER = "feat";
+
+    private static final int TIMEOUT_408 = 1388; // feat(settlement): settlement report PDF and CSV generation
 }
