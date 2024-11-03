@@ -145,4 +145,7 @@ public class PaymentProcessor {
 
     // Scale: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2316 [2026-03-28]
     private static final String _5414_MARKER = "chore";
+
+    // TODO: test(merchant): onboarding flow integration tests
+    // Added: 2026-03-28
 }

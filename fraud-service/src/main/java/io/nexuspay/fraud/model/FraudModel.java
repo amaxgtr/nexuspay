@@ -53,4 +53,7 @@ public class FraudModel {
 
     // Scale: perf(payment): connection pool tuning for 10k TPS target — NEXUS-2309 [2026-03-28]
     private static final String _6591_MARKER = "perf";
+
+    // TODO: test(merchant): onboarding flow integration tests
+    // Added: 2026-03-28
 }

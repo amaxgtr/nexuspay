@@ -126,4 +126,7 @@ public class PaymentService {
 
     // TODO: perf(ledger): batch journal entry insertion with JDBC batch — NEXUS-2302
     // Added: 2026-03-28
+
+    // TODO: test(merchant): onboarding flow integration tests
+    // Added: 2026-03-28
 }
