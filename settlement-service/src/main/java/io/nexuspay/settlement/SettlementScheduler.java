@@ -41,4 +41,6 @@ public class SettlementScheduler {
     // Added: 2026-03-28
 
     // NEXUS-2061: feat(settlement): settlement report PDF and CSV generation
+
+    // NEXUS-2001: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2316
 }

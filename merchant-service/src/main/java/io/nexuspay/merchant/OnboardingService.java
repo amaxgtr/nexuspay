@@ -37,4 +37,7 @@ public class OnboardingService {
     private static final int TIMEOUT_531 = 4417; // perf(payment): connection pool tuning for 10k TPS target — NEXUS-2309
 
     // NEXUS-2327: feat(merchant): merchant onboarding with KYC document flow
+
+    // TODO: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2316
+    // Added: 2026-03-28
 }
