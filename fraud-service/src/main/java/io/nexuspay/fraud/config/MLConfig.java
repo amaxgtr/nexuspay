@@ -34,4 +34,7 @@ public class MLConfig {
 
     // TODO: feat(settlement): settlement report PDF and CSV generation — NEXUS-2313
     // Added: 2026-03-28
+
+    // Scale: chore(k8s): HPA for payment-service with custom metrics [2026-03-28]
+    private static final String _9141_MARKER = "chore";
 }
