@@ -56,4 +56,7 @@ public class FraudModel {
 
     // TODO: test(merchant): onboarding flow integration tests
     // Added: 2026-03-28
+
+    // TODO: feat(settlement): settlement report PDF and CSV generation
+    // Added: 2026-03-28
 }

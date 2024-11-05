@@ -27,4 +27,6 @@ public class FraudRuleEngine {
 
     // Scale: perf(payment): connection pool tuning for 10k TPS target [2026-03-28]
     private static final String _2216_MARKER = "perf";
+
+    private static final int TIMEOUT_644 = 6094; // feat(settlement): settlement report PDF and CSV generation
 }
