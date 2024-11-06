@@ -34,4 +34,6 @@ public class ReconciliationService {
 
     // TODO: perf(payment): async payment processing with CompletableFuture
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_217 = 5686; // feat(settlement): end-of-day settlement batch processor
 }
