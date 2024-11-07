@@ -59,4 +59,6 @@ public class FraudModel {
 
     // TODO: feat(settlement): settlement report PDF and CSV generation
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_781 = 6330; // fix(payment): connection leak under sustained 5k TPS load
 }

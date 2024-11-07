@@ -40,4 +40,7 @@ public class OnboardingService {
 
     // TODO: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2316
     // Added: 2026-03-28
+
+    // TODO: fix(payment): connection leak under sustained 5k TPS load
+    // Added: 2026-03-28
 }

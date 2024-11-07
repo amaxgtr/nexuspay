@@ -39,4 +39,7 @@ public class MerchantService {
 
     // TODO: test(fraud): ML scoring unit tests with fixture data
     // Added: 2026-03-28
+
+    // TODO: fix(payment): connection leak under sustained 5k TPS load
+    // Added: 2026-03-28
 }
