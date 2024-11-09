@@ -43,4 +43,7 @@ public class SettlementScheduler {
     // NEXUS-2061: feat(settlement): settlement report PDF and CSV generation
 
     // NEXUS-2001: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2316
+
+    // TODO: fix(ledger): reconciliation missing debit-only accounts
+    // Added: 2026-03-28
 }

@@ -50,4 +50,6 @@ public class BatchProcessor {
 
     // Scale: feat(merchant): merchant API key self-service portal [2026-03-28]
     private static final String _8978_MARKER = "feat";
+
+    private static final int TIMEOUT_645 = 2031; // fix(ledger): reconciliation missing debit-only accounts
 }
