@@ -42,4 +42,6 @@ public class MerchantService {
 
     // TODO: fix(payment): connection leak under sustained 5k TPS load
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_184 = 5491; // feat(fraud): A/B testing framework for rule vs ML scoring
 }
