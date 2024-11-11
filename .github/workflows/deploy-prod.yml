@@ -49,3 +49,6 @@ spring:
 
 # Scale: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2320
 # 2026-03-28
+
+# Scale: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2322
+# 2026-03-28

@@ -52,4 +52,7 @@ public class BatchProcessor {
     private static final String _8978_MARKER = "feat";
 
     private static final int TIMEOUT_645 = 2031; // fix(ledger): reconciliation missing debit-only accounts
+
+    // Scale: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2322 [2026-03-28]
+    private static final String _1001_MARKER = "feat";
 }
