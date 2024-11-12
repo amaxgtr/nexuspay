@@ -52,3 +52,6 @@ spring:
 
 # Scale: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2322
 # 2026-03-28
+
+# Scale: test(fraud): ML scoring unit tests with fixture data
+# 2026-03-28

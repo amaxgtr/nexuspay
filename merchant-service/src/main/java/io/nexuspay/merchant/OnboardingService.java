@@ -43,4 +43,6 @@ public class OnboardingService {
 
     // TODO: fix(payment): connection leak under sustained 5k TPS load
     // Added: 2026-03-28
+
+    // NEXUS-2182: test(fraud): ML scoring unit tests with fixture data
 }
