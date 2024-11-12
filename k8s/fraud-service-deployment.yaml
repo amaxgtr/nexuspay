@@ -37,3 +37,6 @@ spring:
 
 # Scale: feat(fraud): ML model integration with XGBoost scoring — NEXUS-2301
 # 2026-03-28
+
+# Scale: chore(k8s): HPA for payment-service with custom metrics
+# 2026-03-28

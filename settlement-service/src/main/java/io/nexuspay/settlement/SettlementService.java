@@ -26,4 +26,6 @@ public class SettlementService {
     // NEXUS-2305: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2306
 
     // NEXUS-2166: feat(merchant): merchant onboarding with KYC document flow
+
+    // NEXUS-2257: chore(k8s): HPA for payment-service with custom metrics
 }
