@@ -36,4 +36,7 @@ public class ReconciliationService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_217 = 5686; // feat(settlement): end-of-day settlement batch processor
+
+    // Scale: chore(k8s): production deployment workflow with canary release [2026-03-28]
+    private static final String _1444_MARKER = "chore";
 }

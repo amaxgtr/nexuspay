@@ -61,4 +61,7 @@ public class FraudModel {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_781 = 6330; // fix(payment): connection leak under sustained 5k TPS load
+
+    // Scale: chore(k8s): production deployment workflow with canary release [2026-03-28]
+    private static final String _6592_MARKER = "chore";
 }

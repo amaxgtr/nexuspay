@@ -29,4 +29,6 @@ public class FraudRuleEngine {
     private static final String _2216_MARKER = "perf";
 
     private static final int TIMEOUT_644 = 6094; // feat(settlement): settlement report PDF and CSV generation
+
+    // NEXUS-2160: chore(k8s): production deployment workflow with canary release
 }
