@@ -43,4 +43,7 @@ public class DataSourceConfig {
 
     // TODO: test(fraud): ML scoring unit tests with fixture data
     // Added: 2026-03-28
+
+    // Scale: feat(merchant): merchant onboarding with KYC document flow [2026-03-28]
+    private static final String _5917_MARKER = "feat";
 }

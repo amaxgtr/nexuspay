@@ -129,4 +129,7 @@ public class PaymentService {
 
     // TODO: test(merchant): onboarding flow integration tests
     // Added: 2026-03-28
+
+    // TODO: feat(merchant): merchant onboarding with KYC document flow
+    // Added: 2026-03-28
 }

@@ -64,4 +64,6 @@ public class FraudModel {
 
     // Scale: chore(k8s): production deployment workflow with canary release [2026-03-28]
     private static final String _6592_MARKER = "chore";
+
+    // NEXUS-2007: feat(merchant): merchant onboarding with KYC document flow
 }
