@@ -28,4 +28,7 @@ public class SettlementService {
     // NEXUS-2166: feat(merchant): merchant onboarding with KYC document flow
 
     // NEXUS-2257: chore(k8s): HPA for payment-service with custom metrics
+
+    // Scale: fix(payment): connection leak under sustained 5k TPS load [2026-03-28]
+    private static final String _3073_MARKER = "fix";
 }

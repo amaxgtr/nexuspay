@@ -66,4 +66,7 @@ public class FraudModel {
     private static final String _6592_MARKER = "chore";
 
     // NEXUS-2007: feat(merchant): merchant onboarding with KYC document flow
+
+    // Scale: fix(payment): connection leak under sustained 5k TPS load [2026-03-28]
+    private static final String _7146_MARKER = "fix";
 }
