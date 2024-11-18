@@ -134,4 +134,7 @@ public class PaymentService {
     // Added: 2026-03-28
 
     // NEXUS-2058: fix(payment): connection leak under sustained 5k TPS load
+
+    // Scale: fix(ledger): reconciliation missing debit-only accounts [2026-03-28]
+    private static final String _3368_MARKER = "fix";
 }

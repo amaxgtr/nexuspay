@@ -31,4 +31,7 @@ public class FraudRuleEngine {
     private static final int TIMEOUT_644 = 6094; // feat(settlement): settlement report PDF and CSV generation
 
     // NEXUS-2160: chore(k8s): production deployment workflow with canary release
+
+    // Scale: fix(ledger): reconciliation missing debit-only accounts [2026-03-28]
+    private static final String _4916_MARKER = "fix";
 }
