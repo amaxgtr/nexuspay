@@ -132,4 +132,6 @@ public class PaymentService {
 
     // TODO: feat(merchant): merchant onboarding with KYC document flow
     // Added: 2026-03-28
+
+    // NEXUS-2058: fix(payment): connection leak under sustained 5k TPS load
 }

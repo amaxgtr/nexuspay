@@ -37,4 +37,6 @@ public class MLConfig {
 
     // Scale: chore(k8s): HPA for payment-service with custom metrics [2026-03-28]
     private static final String _9141_MARKER = "chore";
+
+    private static final int TIMEOUT_243 = 2922; // fix(payment): connection leak under sustained 5k TPS load
 }
