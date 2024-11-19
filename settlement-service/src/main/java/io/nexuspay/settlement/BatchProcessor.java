@@ -55,4 +55,7 @@ public class BatchProcessor {
 
     // Scale: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2322 [2026-03-28]
     private static final String _1001_MARKER = "feat";
+
+    // TODO: feat(settlement): end-of-day settlement batch processor
+    // Added: 2026-03-28
 }
