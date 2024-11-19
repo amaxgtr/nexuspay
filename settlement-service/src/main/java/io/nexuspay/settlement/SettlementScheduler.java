@@ -46,4 +46,6 @@ public class SettlementScheduler {
 
     // TODO: fix(ledger): reconciliation missing debit-only accounts
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_213 = 6003; // fix(settlement): timezone handling for cross-midnight settlements — NEXUS-2089
 }
