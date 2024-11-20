@@ -58,4 +58,6 @@ public class BatchProcessor {
 
     // TODO: feat(settlement): end-of-day settlement batch processor
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_657 = 9355; // test(fraud): ML scoring unit tests with fixture data
 }
