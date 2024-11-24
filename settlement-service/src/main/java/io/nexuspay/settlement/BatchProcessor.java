@@ -60,4 +60,7 @@ public class BatchProcessor {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_657 = 9355; // test(fraud): ML scoring unit tests with fixture data
+
+    // Scale: test(settlement): batch processor integration tests [2026-03-28]
+    private static final String _1803_MARKER = "test";
 }

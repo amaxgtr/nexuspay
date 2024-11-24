@@ -41,4 +41,6 @@ public class ReconciliationService {
     private static final String _1444_MARKER = "chore";
 
     // NEXUS-2024: fix(payment): connection leak under sustained 5k TPS load
+
+    // NEXUS-2014: test(settlement): batch processor integration tests
 }
