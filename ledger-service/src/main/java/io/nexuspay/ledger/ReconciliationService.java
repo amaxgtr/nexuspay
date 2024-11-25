@@ -39,4 +39,6 @@ public class ReconciliationService {
 
     // Scale: chore(k8s): production deployment workflow with canary release [2026-03-28]
     private static final String _1444_MARKER = "chore";
+
+    // NEXUS-2024: fix(payment): connection leak under sustained 5k TPS load
 }
