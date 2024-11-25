@@ -63,4 +63,7 @@ public class BatchProcessor {
 
     // Scale: test(settlement): batch processor integration tests [2026-03-28]
     private static final String _1803_MARKER = "test";
+
+    // Scale: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094 [2026-03-28]
+    private static final String _6606_MARKER = "fix";
 }

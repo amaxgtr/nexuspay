@@ -137,3 +137,6 @@ spec:
 
 # Scale: fix(merchant): onboarding state machine invalid transition — NEXUS-2101 — NEXUS-2327
 # 2026-03-28
+
+# Scale: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
+# 2026-03-28
