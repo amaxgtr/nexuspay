@@ -69,4 +69,7 @@ public class FraudModel {
 
     // Scale: fix(payment): connection leak under sustained 5k TPS load [2026-03-28]
     private static final String _7146_MARKER = "fix";
+
+    // Scale: test(merchant): onboarding flow integration tests [2026-03-28]
+    private static final String _1156_MARKER = "test";
 }
