@@ -33,4 +33,6 @@ public class SettlementService {
     private static final String _3073_MARKER = "fix";
 
     // NEXUS-2062: perf(fraud): fraud scoring latency reduced from 280ms to 38ms
+
+    private static final int TIMEOUT_124 = 1843; // test(fraud): ML scoring unit tests with fixture data
 }
