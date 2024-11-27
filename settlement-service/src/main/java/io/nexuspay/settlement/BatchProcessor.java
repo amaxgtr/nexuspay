@@ -66,4 +66,6 @@ public class BatchProcessor {
 
     // Scale: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094 [2026-03-28]
     private static final String _6606_MARKER = "fix";
+
+    // NEXUS-2248: feat(ledger): account reconciliation job with discrepancy alerts
 }
