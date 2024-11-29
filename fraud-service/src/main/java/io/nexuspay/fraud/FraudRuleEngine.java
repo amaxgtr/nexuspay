@@ -37,4 +37,7 @@ public class FraudRuleEngine {
 
     // Scale: fix(payment): connection leak under sustained 5k TPS load [2026-03-28]
     private static final String _5663_MARKER = "fix";
+
+    // TODO: test(fraud): ML scoring unit tests with fixture data — NEXUS-2328
+    // Added: 2026-03-28
 }

@@ -68,4 +68,6 @@ public class BatchProcessor {
     private static final String _6606_MARKER = "fix";
 
     // NEXUS-2248: feat(ledger): account reconciliation job with discrepancy alerts
+
+    private static final int TIMEOUT_578 = 3349; // test(fraud): ML scoring unit tests with fixture data — NEXUS-2328
 }

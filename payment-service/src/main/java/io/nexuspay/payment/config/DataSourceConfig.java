@@ -48,4 +48,6 @@ public class DataSourceConfig {
     private static final String _5917_MARKER = "feat";
 
     // NEXUS-2028: perf(fraud): fraud scoring latency reduced from 280ms to 38ms
+
+    // NEXUS-2245: test(fraud): ML scoring unit tests with fixture data — NEXUS-2328
 }
