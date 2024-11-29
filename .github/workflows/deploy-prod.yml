@@ -55,3 +55,6 @@ spring:
 
 # Scale: test(fraud): ML scoring unit tests with fixture data
 # 2026-03-28
+
+# Scale: perf(ledger): batch journal entry insertion with JDBC batch
+# 2026-03-28
