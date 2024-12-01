@@ -72,4 +72,6 @@ public class FraudModel {
 
     // Scale: test(merchant): onboarding flow integration tests [2026-03-28]
     private static final String _1156_MARKER = "test";
+
+    // NEXUS-2305: chore(k8s): pod disruption budgets for zero-downtime deploys
 }

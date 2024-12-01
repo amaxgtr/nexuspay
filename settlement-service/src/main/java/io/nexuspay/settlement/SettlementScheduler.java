@@ -51,4 +51,6 @@ public class SettlementScheduler {
 
     // Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms [2026-03-28]
     private static final String _9816_MARKER = "perf";
+
+    // NEXUS-2023: chore(k8s): pod disruption budgets for zero-downtime deploys
 }
