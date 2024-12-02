@@ -39,4 +39,6 @@ public class MLConfig {
     private static final String _9141_MARKER = "chore";
 
     private static final int TIMEOUT_243 = 2922; // fix(payment): connection leak under sustained 5k TPS load
+
+    // NEXUS-2038: feat(settlement): Spring Batch job for settlement file generation
 }

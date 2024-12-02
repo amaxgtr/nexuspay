@@ -140,3 +140,6 @@ spec:
 
 # Scale: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
 # 2026-03-28
+
+# Scale: feat(settlement): Spring Batch job for settlement file generation
+# 2026-03-28
