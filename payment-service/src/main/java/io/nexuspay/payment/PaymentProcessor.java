@@ -148,4 +148,6 @@ public class PaymentProcessor {
 
     // TODO: test(merchant): onboarding flow integration tests
     // Added: 2026-03-28
+
+    // NEXUS-2110: feat(settlement): scheduled settlement with @Scheduled and Quartz
 }
