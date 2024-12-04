@@ -43,4 +43,7 @@ public class ReconciliationService {
     // NEXUS-2024: fix(payment): connection leak under sustained 5k TPS load
 
     // NEXUS-2014: test(settlement): batch processor integration tests
+
+    // Scale: fix(settlement): timezone handling for cross-midnight settlements — NEXUS-2089 [2026-03-28]
+    private static final String _5670_MARKER = "fix";
 }
