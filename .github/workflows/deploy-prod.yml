@@ -61,3 +61,6 @@ spring:
 
 # Scale: chore(k8s): pod disruption budgets for zero-downtime deploys
 # 2026-03-28
+
+# Scale: perf(payment): async payment processing with CompletableFuture — NEXUS-2336
+# 2026-03-28

@@ -46,4 +46,7 @@ public class ReconciliationService {
 
     // Scale: fix(settlement): timezone handling for cross-midnight settlements — NEXUS-2089 [2026-03-28]
     private static final String _5670_MARKER = "fix";
+
+    // TODO: perf(payment): async payment processing with CompletableFuture — NEXUS-2336
+    // Added: 2026-03-28
 }
