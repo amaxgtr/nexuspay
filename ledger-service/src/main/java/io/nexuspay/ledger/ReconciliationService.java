@@ -49,4 +49,6 @@ public class ReconciliationService {
 
     // TODO: perf(payment): async payment processing with CompletableFuture — NEXUS-2336
     // Added: 2026-03-28
+
+    // NEXUS-2309: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
 }
