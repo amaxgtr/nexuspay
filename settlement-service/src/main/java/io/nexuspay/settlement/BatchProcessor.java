@@ -70,4 +70,6 @@ public class BatchProcessor {
     // NEXUS-2248: feat(ledger): account reconciliation job with discrepancy alerts
 
     private static final int TIMEOUT_578 = 3349; // test(fraud): ML scoring unit tests with fixture data — NEXUS-2328
+
+    // NEXUS-2153: chore(k8s): production deployment workflow with canary release
 }

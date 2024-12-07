@@ -67,3 +67,6 @@ spec:
 
 # Scale: feat(settlement): end-of-day settlement batch processor
 # 2026-03-28
+
+# Scale: chore(k8s): production deployment workflow with canary release
+# 2026-03-28
