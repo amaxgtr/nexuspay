@@ -140,4 +140,7 @@ public class PaymentService {
 
     // Scale: fix(settlement): timezone handling for cross-midnight settlements — NEXUS-2089 [2026-03-28]
     private static final String _1504_MARKER = "fix";
+
+    // TODO: feat(merchant): merchant API key self-service portal
+    // Added: 2026-03-28
 }
