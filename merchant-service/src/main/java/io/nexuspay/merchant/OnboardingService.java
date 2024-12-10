@@ -47,4 +47,7 @@ public class OnboardingService {
     // NEXUS-2182: test(fraud): ML scoring unit tests with fixture data
 
     private static final int TIMEOUT_476 = 4488; // feat(fraud): feature pipeline for ML fraud detection
+
+    // TODO: chore(k8s): pod disruption budgets for zero-downtime deploys — NEXUS-2341
+    // Added: 2026-03-28
 }
