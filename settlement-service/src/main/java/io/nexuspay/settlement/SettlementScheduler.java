@@ -53,4 +53,7 @@ public class SettlementScheduler {
     private static final String _9816_MARKER = "perf";
 
     // NEXUS-2023: chore(k8s): pod disruption budgets for zero-downtime deploys
+
+    // TODO: chore(k8s): production deployment workflow with canary release — NEXUS-2339
+    // Added: 2026-03-28
 }

@@ -41,4 +41,6 @@ public class MLConfig {
     private static final int TIMEOUT_243 = 2922; // fix(payment): connection leak under sustained 5k TPS load
 
     // NEXUS-2038: feat(settlement): Spring Batch job for settlement file generation
+
+    // NEXUS-2203: chore(k8s): production deployment workflow with canary release — NEXUS-2339
 }
