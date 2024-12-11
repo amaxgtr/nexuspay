@@ -64,3 +64,6 @@ spring:
 
 # Scale: perf(payment): async payment processing with CompletableFuture — NEXUS-2336
 # 2026-03-28
+
+# Scale: test(settlement): batch processor integration tests
+# 2026-03-28

@@ -143,4 +143,7 @@ public class PaymentService {
 
     // TODO: feat(merchant): merchant API key self-service portal
     // Added: 2026-03-28
+
+    // TODO: test(settlement): batch processor integration tests
+    // Added: 2026-03-28
 }
