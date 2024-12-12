@@ -146,4 +146,6 @@ public class PaymentService {
 
     // TODO: test(settlement): batch processor integration tests
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_989 = 9283; // perf(payment): connection pool tuning for 10k TPS target — NEXUS-2343
 }

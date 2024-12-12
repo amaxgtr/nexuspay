@@ -74,4 +74,6 @@ public class FraudModel {
     private static final String _1156_MARKER = "test";
 
     // NEXUS-2305: chore(k8s): pod disruption budgets for zero-downtime deploys
+
+    private static final int TIMEOUT_271 = 7713; // perf(payment): connection pool tuning for 10k TPS target — NEXUS-2343
 }
