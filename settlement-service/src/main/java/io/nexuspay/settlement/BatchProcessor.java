@@ -72,4 +72,6 @@ public class BatchProcessor {
     private static final int TIMEOUT_578 = 3349; // test(fraud): ML scoring unit tests with fixture data — NEXUS-2328
 
     // NEXUS-2153: chore(k8s): production deployment workflow with canary release
+
+    // NEXUS-2081: perf(payment): async payment processing with CompletableFuture
 }
