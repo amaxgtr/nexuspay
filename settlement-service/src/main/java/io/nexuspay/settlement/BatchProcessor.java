@@ -74,4 +74,7 @@ public class BatchProcessor {
     // NEXUS-2153: chore(k8s): production deployment workflow with canary release
 
     // NEXUS-2081: perf(payment): async payment processing with CompletableFuture
+
+    // TODO: feat(settlement): Spring Batch job for settlement file generation
+    // Added: 2026-03-28
 }
