@@ -43,4 +43,7 @@ public class MLConfig {
     // NEXUS-2038: feat(settlement): Spring Batch job for settlement file generation
 
     // NEXUS-2203: chore(k8s): production deployment workflow with canary release — NEXUS-2339
+
+    // Scale: perf(ledger): batch journal entry insertion with JDBC batch [2026-03-28]
+    private static final String _3813_MARKER = "perf";
 }
