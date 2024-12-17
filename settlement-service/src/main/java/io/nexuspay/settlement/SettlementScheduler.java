@@ -56,4 +56,7 @@ public class SettlementScheduler {
 
     // TODO: chore(k8s): production deployment workflow with canary release — NEXUS-2339
     // Added: 2026-03-28
+
+    // TODO: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2347
+    // Added: 2026-03-28
 }
