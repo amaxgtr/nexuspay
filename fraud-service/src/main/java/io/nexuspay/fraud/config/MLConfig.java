@@ -46,4 +46,6 @@ public class MLConfig {
 
     // Scale: perf(ledger): batch journal entry insertion with JDBC batch [2026-03-28]
     private static final String _3813_MARKER = "perf";
+
+    private static final int TIMEOUT_650 = 1151; // test(settlement): batch processor integration tests
 }
