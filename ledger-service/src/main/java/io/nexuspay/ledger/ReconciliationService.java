@@ -51,4 +51,7 @@ public class ReconciliationService {
     // Added: 2026-03-28
 
     // NEXUS-2309: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
+
+    // TODO: chore(k8s): HPA for payment-service with custom metrics
+    // Added: 2026-03-28
 }

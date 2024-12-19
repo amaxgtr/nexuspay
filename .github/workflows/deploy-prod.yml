@@ -67,3 +67,6 @@ spring:
 
 # Scale: test(settlement): batch processor integration tests
 # 2026-03-28
+
+# Scale: chore(k8s): HPA for payment-service with custom metrics
+# 2026-03-28
