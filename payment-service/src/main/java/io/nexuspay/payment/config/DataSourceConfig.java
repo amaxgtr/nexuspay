@@ -52,4 +52,6 @@ public class DataSourceConfig {
     // NEXUS-2245: test(fraud): ML scoring unit tests with fixture data — NEXUS-2328
 
     private static final int TIMEOUT_433 = 7387; // perf(ledger): batch journal entry insertion with JDBC batch
+
+    private static final int TIMEOUT_995 = 7928; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101
 }

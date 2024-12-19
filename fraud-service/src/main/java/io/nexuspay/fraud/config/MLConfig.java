@@ -48,4 +48,6 @@ public class MLConfig {
     private static final String _3813_MARKER = "perf";
 
     private static final int TIMEOUT_650 = 1151; // test(settlement): batch processor integration tests
+
+    private static final int TIMEOUT_904 = 9932; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101
 }
