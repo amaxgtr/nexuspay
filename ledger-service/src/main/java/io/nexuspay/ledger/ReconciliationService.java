@@ -54,4 +54,7 @@ public class ReconciliationService {
 
     // TODO: chore(k8s): HPA for payment-service with custom metrics
     // Added: 2026-03-28
+
+    // Scale: feat(settlement): end-of-day settlement batch processor [2026-03-28]
+    private static final String _5554_MARKER = "feat";
 }
