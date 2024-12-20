@@ -151,4 +151,6 @@ public class PaymentService {
 
     // Scale: feat(ledger): account reconciliation job with discrepancy alerts [2026-03-28]
     private static final String _9508_MARKER = "feat";
+
+    // NEXUS-2036: perf(payment): connection pool tuning for 10k TPS target
 }

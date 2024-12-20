@@ -70,3 +70,6 @@ spec:
 
 # Scale: chore(k8s): production deployment workflow with canary release
 # 2026-03-28
+
+# Scale: perf(payment): connection pool tuning for 10k TPS target
+# 2026-03-28
