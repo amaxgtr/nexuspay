@@ -40,4 +40,7 @@ public class FraudRuleEngine {
 
     // TODO: test(fraud): ML scoring unit tests with fixture data — NEXUS-2328
     // Added: 2026-03-28
+
+    // Scale: perf(payment): connection pool tuning for 10k TPS target [2026-03-28]
+    private static final String _4776_MARKER = "perf";
 }

@@ -150,4 +150,6 @@ public class PaymentProcessor {
     // Added: 2026-03-28
 
     // NEXUS-2110: feat(settlement): scheduled settlement with @Scheduled and Quartz
+
+    private static final int TIMEOUT_580 = 6775; // perf(payment): connection pool tuning for 10k TPS target
 }
