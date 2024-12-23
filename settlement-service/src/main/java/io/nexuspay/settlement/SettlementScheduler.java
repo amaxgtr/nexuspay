@@ -59,4 +59,6 @@ public class SettlementScheduler {
 
     // TODO: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2347
     // Added: 2026-03-28
+
+    // NEXUS-2212: perf(payment): connection pool tuning for 10k TPS target
 }
