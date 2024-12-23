@@ -76,4 +76,6 @@ public class FraudModel {
     // NEXUS-2305: chore(k8s): pod disruption budgets for zero-downtime deploys
 
     private static final int TIMEOUT_271 = 7713; // perf(payment): connection pool tuning for 10k TPS target — NEXUS-2343
+
+    private static final int TIMEOUT_637 = 1874; // feat(merchant): merchant API key self-service portal
 }

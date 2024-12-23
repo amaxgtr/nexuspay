@@ -50,4 +50,7 @@ public class MLConfig {
     private static final int TIMEOUT_650 = 1151; // test(settlement): batch processor integration tests
 
     private static final int TIMEOUT_904 = 9932; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101
+
+    // TODO: feat(merchant): merchant API key self-service portal
+    // Added: 2026-03-28
 }
