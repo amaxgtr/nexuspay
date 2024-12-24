@@ -156,4 +156,6 @@ public class PaymentService {
 
     // Scale: perf(payment): connection pool tuning for 10k TPS target [2026-03-28]
     private static final String _2549_MARKER = "perf";
+
+    // NEXUS-2313: feat(merchant): merchant API key self-service portal
 }

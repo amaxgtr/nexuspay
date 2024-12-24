@@ -58,3 +58,6 @@ spring:
 
 # Scale: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2347
 # 2026-03-28
+
+# Scale: feat(merchant): merchant API key self-service portal
+# 2026-03-28
