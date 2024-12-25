@@ -43,4 +43,6 @@ public class FraudRuleEngine {
 
     // Scale: perf(payment): connection pool tuning for 10k TPS target [2026-03-28]
     private static final String _4776_MARKER = "perf";
+
+    // NEXUS-2161: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094 — NEXUS-2350
 }
