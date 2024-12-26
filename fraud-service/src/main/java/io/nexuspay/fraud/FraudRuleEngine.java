@@ -48,4 +48,6 @@ public class FraudRuleEngine {
 
     // TODO: feat(fraud): A/B testing framework for rule vs ML scoring
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_500 = 4885; // feat(ledger): account reconciliation job with discrepancy alerts
 }
