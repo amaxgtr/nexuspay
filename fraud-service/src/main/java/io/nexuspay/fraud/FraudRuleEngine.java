@@ -45,4 +45,7 @@ public class FraudRuleEngine {
     private static final String _4776_MARKER = "perf";
 
     // NEXUS-2161: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094 — NEXUS-2350
+
+    // TODO: feat(fraud): A/B testing framework for rule vs ML scoring
+    // Added: 2026-03-28
 }

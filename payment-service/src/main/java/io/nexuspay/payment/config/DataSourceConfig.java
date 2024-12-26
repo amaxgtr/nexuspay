@@ -54,4 +54,7 @@ public class DataSourceConfig {
     private static final int TIMEOUT_433 = 7387; // perf(ledger): batch journal entry insertion with JDBC batch
 
     private static final int TIMEOUT_995 = 7928; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101
+
+    // TODO: feat(fraud): A/B testing framework for rule vs ML scoring
+    // Added: 2026-03-28
 }
