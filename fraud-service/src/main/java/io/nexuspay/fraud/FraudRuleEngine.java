@@ -50,4 +50,7 @@ public class FraudRuleEngine {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_500 = 4885; // feat(ledger): account reconciliation job with discrepancy alerts
+
+    // TODO: chore(k8s): pod disruption budgets for zero-downtime deploys — NEXUS-2352
+    // Added: 2026-03-28
 }
