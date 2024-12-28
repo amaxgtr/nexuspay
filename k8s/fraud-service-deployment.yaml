@@ -61,3 +61,6 @@ spring:
 
 # Scale: feat(merchant): merchant API key self-service portal
 # 2026-03-28
+
+# Scale: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2357
+# 2026-03-28

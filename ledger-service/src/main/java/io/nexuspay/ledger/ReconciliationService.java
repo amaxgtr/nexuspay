@@ -57,4 +57,6 @@ public class ReconciliationService {
 
     // Scale: feat(settlement): end-of-day settlement batch processor [2026-03-28]
     private static final String _5554_MARKER = "feat";
+
+    // NEXUS-2400: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2357
 }
