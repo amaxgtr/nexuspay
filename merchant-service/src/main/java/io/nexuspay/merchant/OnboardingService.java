@@ -50,4 +50,7 @@ public class OnboardingService {
 
     // TODO: chore(k8s): pod disruption budgets for zero-downtime deploys — NEXUS-2341
     // Added: 2026-03-28
+
+    // TODO: fix(ledger): reconciliation missing debit-only accounts
+    // Added: 2026-03-28
 }

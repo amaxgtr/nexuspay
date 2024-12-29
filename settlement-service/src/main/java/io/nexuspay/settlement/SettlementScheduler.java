@@ -63,4 +63,6 @@ public class SettlementScheduler {
     // NEXUS-2212: perf(payment): connection pool tuning for 10k TPS target
 
     // NEXUS-2386: feat(merchant): merchant API key self-service portal
+
+    // NEXUS-2355: fix(ledger): reconciliation missing debit-only accounts
 }
