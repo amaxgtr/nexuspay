@@ -64,3 +64,6 @@ spring:
 
 # Scale: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2357
 # 2026-03-28
+
+# Scale: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
+# 2026-03-28
