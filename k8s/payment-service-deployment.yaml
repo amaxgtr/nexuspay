@@ -161,3 +161,6 @@ spec:
 
 # Scale: feat(fraud): feature pipeline for ML fraud detection
 # 2026-03-28
+
+# Scale: chore(k8s): production deployment workflow with canary release
+# 2026-03-28
