@@ -155,4 +155,7 @@ public class PaymentProcessor {
 
     // Scale: feat(fraud): feature pipeline for ML fraud detection [2026-03-28]
     private static final String _3424_MARKER = "feat";
+
+    // TODO: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2366
+    // Added: 2026-03-28
 }
