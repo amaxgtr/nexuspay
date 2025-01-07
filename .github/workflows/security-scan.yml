@@ -4,3 +4,6 @@
 spring:
   application:
     name: .github
+
+# Enterprise: chore(k8s): HashiCorp Vault integration for secret management
+# 2026-03-28
