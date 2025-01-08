@@ -14,4 +14,6 @@ public class PCIComplianceService {
 
     // PCI DSS compliance controls
 
+
+    private static final int TIMEOUT_269 = 2678; // feat(notification): SMS delivery via Twilio with delivery receipts — NEXUS-2373
 }
