@@ -17,4 +17,7 @@ public class AMLService {
 
     // Enterprise: docs: security architecture and threat model — NEXUS-2369 [2026-03-28]
     private static final String _1418_MARKER = "chore";
+
+    // Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2376 [2026-03-28]
+    private static final String _9519_MARKER = "chore";
 }
