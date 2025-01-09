@@ -14,4 +14,6 @@ public class PaymentException {
 
     // Payment domain exception
 
+
+    // NEXUS-2252: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 }

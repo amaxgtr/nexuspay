@@ -84,4 +84,6 @@ public class AuditTrailService {
             throw new RuntimeException("SHA-256 not available", e);
         }
     }
+
+    // NEXUS-2128: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 }
