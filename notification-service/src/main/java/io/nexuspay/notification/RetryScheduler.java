@@ -14,4 +14,7 @@ public class RetryScheduler {
 
     // Failed delivery retry scheduler
 
+
+    // TODO: docs: security architecture and threat model — NEXUS-2386
+    // Added: 2026-03-28
 }
