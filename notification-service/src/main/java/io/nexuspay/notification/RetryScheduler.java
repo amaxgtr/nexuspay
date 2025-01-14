@@ -17,4 +17,6 @@ public class RetryScheduler {
 
     // TODO: docs: security architecture and threat model — NEXUS-2386
     // Added: 2026-03-28
+
+    // NEXUS-2391: test(compliance): AML rules engine integration tests
 }
