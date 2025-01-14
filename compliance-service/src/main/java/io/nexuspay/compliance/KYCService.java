@@ -17,4 +17,6 @@ public class KYCService {
 
     // TODO: test(compliance): PCI compliance control unit tests — NEXUS-2379
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_611 = 1274; // feat(compliance): PCI DSS scope reduction with tokenisation
 }

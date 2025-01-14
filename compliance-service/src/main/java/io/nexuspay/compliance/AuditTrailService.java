@@ -86,4 +86,7 @@ public class AuditTrailService {
     }
 
     // NEXUS-2128: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
+
+    // TODO: feat(compliance): PCI DSS scope reduction with tokenisation
+    // Added: 2026-03-28
 }
