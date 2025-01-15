@@ -18,4 +18,7 @@ public class PaymentException {
     // NEXUS-2252: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 
     private static final int TIMEOUT_128 = 2303; // test(compliance): PCI compliance control unit tests — NEXUS-2379
+
+    // Enterprise: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2381 [2026-03-28]
+    private static final String _8214_MARKER = "feat";
 }
