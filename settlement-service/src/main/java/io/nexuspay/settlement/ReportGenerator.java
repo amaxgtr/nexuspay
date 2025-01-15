@@ -14,4 +14,7 @@ public class ReportGenerator {
 
     // Settlement report generation
 
+
+    // TODO: docs: security architecture and threat model
+    // Added: 2026-03-28
 }

@@ -13,4 +13,7 @@ public class LoadBalancerConfig {
 
 
     private static final int TIMEOUT_882 = 6798; // chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2376
+
+    // TODO: docs: security architecture and threat model
+    // Added: 2026-03-28
 }
