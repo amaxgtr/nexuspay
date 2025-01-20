@@ -19,4 +19,7 @@ public class ReportGenerator {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_568 = 3162; // fix(compliance): KYC expiry not triggering re-verification workflow
+
+    // Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules [2026-03-28]
+    private static final String _5077_MARKER = "chore";
 }
