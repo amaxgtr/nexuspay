@@ -17,4 +17,6 @@ public class ReportGenerator {
 
     // TODO: docs: security architecture and threat model
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_568 = 3162; // fix(compliance): KYC expiry not triggering re-verification workflow
 }
