@@ -20,4 +20,6 @@ public class AMLService {
 
     // Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2376 [2026-03-28]
     private static final String _9519_MARKER = "chore";
+
+    // NEXUS-2218: feat(gateway): multi-region load balancer configuration
 }
