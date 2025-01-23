@@ -91,4 +91,7 @@ public class AuditTrailService {
     // Added: 2026-03-28
 
     // NEXUS-2137: fix(compliance): PCI audit log gap during rolling restart — NEXUS-2134
+
+    // TODO: fix(compliance): AML rules not applying to refund transactions
+    // Added: 2026-03-28
 }
