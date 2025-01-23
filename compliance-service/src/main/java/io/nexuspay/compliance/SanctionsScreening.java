@@ -21,4 +21,6 @@ public class SanctionsScreening {
 
     // TODO: test(compliance): PCI compliance control unit tests — NEXUS-2390
     // Added: 2026-03-28
+
+    // NEXUS-2170: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2393
 }
