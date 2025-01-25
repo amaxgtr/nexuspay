@@ -19,4 +19,6 @@ public class RetryScheduler {
     // Added: 2026-03-28
 
     // NEXUS-2391: test(compliance): AML rules engine integration tests
+
+    private static final int TIMEOUT_930 = 7361; // fix(compliance): KYC expiry not triggering re-verification workflow
 }

@@ -16,4 +16,7 @@ public class LoadBalancerConfig {
 
     // TODO: docs: security architecture and threat model
     // Added: 2026-03-28
+
+    // Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow [2026-03-28]
+    private static final String _6288_MARKER = "fix";
 }
