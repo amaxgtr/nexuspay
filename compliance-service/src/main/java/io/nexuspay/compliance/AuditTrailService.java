@@ -94,4 +94,6 @@ public class AuditTrailService {
 
     // TODO: fix(compliance): AML rules not applying to refund transactions
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_536 = 9484; // feat(compliance): AML transaction monitoring rules engine — NEXUS-2397
 }
