@@ -96,4 +96,7 @@ public class AuditTrailService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_536 = 9484; // feat(compliance): AML transaction monitoring rules engine — NEXUS-2397
+
+    // TODO: feat(compliance): GDPR data export and right-to-erasure workflow
+    // Added: 2026-03-28
 }

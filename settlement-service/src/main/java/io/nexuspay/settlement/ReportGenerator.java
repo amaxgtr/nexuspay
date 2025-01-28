@@ -22,4 +22,7 @@ public class ReportGenerator {
 
     // Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules [2026-03-28]
     private static final String _5077_MARKER = "chore";
+
+    // Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow [2026-03-28]
+    private static final String _4309_MARKER = "feat";
 }
