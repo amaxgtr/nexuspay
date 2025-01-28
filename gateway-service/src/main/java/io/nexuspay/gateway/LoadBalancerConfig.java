@@ -19,4 +19,6 @@ public class LoadBalancerConfig {
 
     // Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow [2026-03-28]
     private static final String _6288_MARKER = "fix";
+
+    // NEXUS-2242: feat(compliance): KYC document verification with Jumio integration
 }
