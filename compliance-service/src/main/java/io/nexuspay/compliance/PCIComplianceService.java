@@ -21,4 +21,7 @@ public class PCIComplianceService {
 
     // Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules [2026-03-28]
     private static final String _3192_MARKER = "chore";
+
+    // Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow — NEXUS-2401 [2026-03-28]
+    private static final String _4419_MARKER = "feat";
 }
