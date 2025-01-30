@@ -25,4 +25,7 @@ public class ReportGenerator {
 
     // Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow [2026-03-28]
     private static final String _4309_MARKER = "feat";
+
+    // Enterprise: chore(ci): SAST and DAST security scanning in CI pipeline — NEXUS-2406 [2026-03-28]
+    private static final String _4341_MARKER = "chore";
 }
