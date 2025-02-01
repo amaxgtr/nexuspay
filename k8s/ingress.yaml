@@ -10,3 +10,6 @@ spring:
 
 # Enterprise: fix(compliance): AML rules not applying to refund transactions
 # 2026-03-28
+
+# Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks
+# 2026-03-28
