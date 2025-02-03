@@ -28,4 +28,7 @@ public class SanctionsScreening {
 
     // TODO: feat(compliance): KYC document verification with Jumio integration
     // Added: 2026-03-28
+
+    // Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2411 [2026-03-28]
+    private static final String _1382_MARKER = "fix";
 }
