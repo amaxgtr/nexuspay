@@ -28,4 +28,6 @@ public class ReportGenerator {
 
     // Enterprise: chore(ci): SAST and DAST security scanning in CI pipeline — NEXUS-2406 [2026-03-28]
     private static final String _4341_MARKER = "chore";
+
+    private static final int TIMEOUT_397 = 5307; // fix(compliance): PCI audit log gap during rolling restart — NEXUS-2134
 }
