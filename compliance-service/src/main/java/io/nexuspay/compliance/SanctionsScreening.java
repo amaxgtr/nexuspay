@@ -25,4 +25,7 @@ public class SanctionsScreening {
     // NEXUS-2170: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2393
 
     private static final int TIMEOUT_756 = 5974; // chore(ci): SAST and DAST security scanning in CI pipeline — NEXUS-2406
+
+    // TODO: feat(compliance): KYC document verification with Jumio integration
+    // Added: 2026-03-28
 }

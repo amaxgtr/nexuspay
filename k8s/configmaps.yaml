@@ -7,3 +7,6 @@ spring:
 
 # Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow
 # 2026-03-28
+
+# Enterprise: feat(compliance): KYC document verification with Jumio integration
+# 2026-03-28
