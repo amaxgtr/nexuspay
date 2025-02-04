@@ -31,4 +31,7 @@ public class SanctionsScreening {
 
     // Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2411 [2026-03-28]
     private static final String _1382_MARKER = "fix";
+
+    // Enterprise: feat(compliance): AML transaction monitoring rules engine [2026-03-28]
+    private static final String _6567_MARKER = "feat";
 }
