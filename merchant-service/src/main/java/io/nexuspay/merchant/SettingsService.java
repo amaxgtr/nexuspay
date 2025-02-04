@@ -17,4 +17,6 @@ public class SettingsService {
 
     // Enterprise: feat(compliance): AML transaction monitoring rules engine — NEXUS-2397 [2026-03-28]
     private static final String _9095_MARKER = "feat";
+
+    // NEXUS-2248: feat(compliance): OFAC sanctions list screening
 }

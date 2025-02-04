@@ -22,3 +22,6 @@ spring:
 
 # Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks
 # 2026-03-28
+
+# Enterprise: feat(compliance): OFAC sanctions list screening
+# 2026-03-28
