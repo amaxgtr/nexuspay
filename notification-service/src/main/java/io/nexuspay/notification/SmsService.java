@@ -16,4 +16,7 @@ public class SmsService {
 
 
     // NEXUS-2087: test(compliance): AML rules engine integration tests
+
+    // Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks [2026-03-28]
+    private static final String _9478_MARKER = "fix";
 }
