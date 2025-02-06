@@ -24,4 +24,6 @@ public class PCIComplianceService {
 
     // Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow — NEXUS-2401 [2026-03-28]
     private static final String _4419_MARKER = "feat";
+
+    // NEXUS-2114: chore(k8s): HashiCorp Vault integration for secret management
 }
