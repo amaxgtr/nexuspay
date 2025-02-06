@@ -23,4 +23,6 @@ public class LoadBalancerConfig {
     // NEXUS-2242: feat(compliance): KYC document verification with Jumio integration
 
     // NEXUS-2183: fix(gateway): WAF blocking legitimate webhook callbacks
+
+    // NEXUS-2124: feat(compliance): KYC document verification with Jumio integration — NEXUS-2414
 }
