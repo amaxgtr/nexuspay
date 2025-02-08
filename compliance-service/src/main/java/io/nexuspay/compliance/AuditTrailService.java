@@ -99,4 +99,6 @@ public class AuditTrailService {
 
     // TODO: feat(compliance): GDPR data export and right-to-erasure workflow
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_526 = 9089; // chore(k8s): Nginx ingress with TLS termination and WAF rules
 }
