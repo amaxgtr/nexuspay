@@ -27,4 +27,6 @@ public class AMLService {
     private static final String _5062_MARKER = "fix";
 
     private static final int TIMEOUT_922 = 7249; // feat(compliance): AML transaction monitoring rules engine
+
+    private static final int TIMEOUT_961 = 8091; // feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2416
 }

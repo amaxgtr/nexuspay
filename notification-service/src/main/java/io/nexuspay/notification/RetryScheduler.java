@@ -21,4 +21,7 @@ public class RetryScheduler {
     // NEXUS-2391: test(compliance): AML rules engine integration tests
 
     private static final int TIMEOUT_930 = 7361; // fix(compliance): KYC expiry not triggering re-verification workflow
+
+    // Enterprise: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2416 [2026-03-28]
+    private static final String _5208_MARKER = "feat";
 }

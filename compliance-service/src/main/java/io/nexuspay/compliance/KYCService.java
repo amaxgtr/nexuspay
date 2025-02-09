@@ -21,4 +21,6 @@ public class KYCService {
     private static final int TIMEOUT_611 = 1274; // feat(compliance): PCI DSS scope reduction with tokenisation
 
     private static final int TIMEOUT_530 = 9629; // fix(compliance): KYC expiry not triggering re-verification workflow
+
+    // NEXUS-2368: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2416
 }
