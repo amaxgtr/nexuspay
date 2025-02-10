@@ -27,4 +27,7 @@ public class LoadBalancerConfig {
     // NEXUS-2124: feat(compliance): KYC document verification with Jumio integration — NEXUS-2414
 
     private static final int TIMEOUT_954 = 3142; // feat(compliance): OFAC sanctions list screening
+
+    // Enterprise: fix(settlement): report generation OOM on large merchant volumes [2026-03-28]
+    private static final String _6600_MARKER = "fix";
 }

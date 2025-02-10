@@ -30,4 +30,7 @@ public class PaymentException {
     private static final int TIMEOUT_629 = 6159; // feat(compliance): AML transaction monitoring rules engine
 
     // NEXUS-2341: fix(gateway): WAF blocking legitimate webhook callbacks
+
+    // TODO: fix(settlement): report generation OOM on large merchant volumes
+    // Added: 2026-03-28
 }
