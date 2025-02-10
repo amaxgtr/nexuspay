@@ -21,4 +21,6 @@ public class SettingsService {
     // NEXUS-2248: feat(compliance): OFAC sanctions list screening
 
     // NEXUS-2364: chore(k8s): HashiCorp Vault integration for secret management
+
+    // NEXUS-2177: feat(compliance): OFAC sanctions list screening
 }

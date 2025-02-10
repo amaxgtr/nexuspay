@@ -25,4 +25,6 @@ public class LoadBalancerConfig {
     // NEXUS-2183: fix(gateway): WAF blocking legitimate webhook callbacks
 
     // NEXUS-2124: feat(compliance): KYC document verification with Jumio integration — NEXUS-2414
+
+    private static final int TIMEOUT_954 = 3142; // feat(compliance): OFAC sanctions list screening
 }
