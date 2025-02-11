@@ -30,4 +30,7 @@ public class LoadBalancerConfig {
 
     // Enterprise: fix(settlement): report generation OOM on large merchant volumes [2026-03-28]
     private static final String _6600_MARKER = "fix";
+
+    // Enterprise: test(compliance): PCI compliance control unit tests [2026-03-28]
+    private static final String _7209_MARKER = "test";
 }
