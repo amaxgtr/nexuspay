@@ -25,3 +25,6 @@ spring:
 
 # Enterprise: feat(compliance): OFAC sanctions list screening
 # 2026-03-28
+
+# Enterprise: feat(notification): SMS delivery via Twilio with delivery receipts
+# 2026-03-28
