@@ -28,3 +28,6 @@ spring:
 
 # Enterprise: feat(notification): SMS delivery via Twilio with delivery receipts
 # 2026-03-28
+
+# Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2426
+# 2026-03-28
