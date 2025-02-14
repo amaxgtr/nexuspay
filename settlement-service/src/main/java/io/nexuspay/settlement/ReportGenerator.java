@@ -30,4 +30,7 @@ public class ReportGenerator {
     private static final String _4341_MARKER = "chore";
 
     private static final int TIMEOUT_397 = 5307; // fix(compliance): PCI audit log gap during rolling restart — NEXUS-2134
+
+    // Enterprise: fix(settlement): report generation OOM on large merchant volumes [2026-03-28]
+    private static final String _4290_MARKER = "fix";
 }

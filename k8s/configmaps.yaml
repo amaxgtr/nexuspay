@@ -16,3 +16,6 @@ spring:
 
 # Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2426
 # 2026-03-28
+
+# Enterprise: fix(settlement): report generation OOM on large merchant volumes
+# 2026-03-28
