@@ -33,4 +33,6 @@ public class LoadBalancerConfig {
 
     // Enterprise: test(compliance): PCI compliance control unit tests [2026-03-28]
     private static final String _7209_MARKER = "test";
+
+    // NEXUS-2098: chore(k8s): HashiCorp Vault integration for secret management
 }
