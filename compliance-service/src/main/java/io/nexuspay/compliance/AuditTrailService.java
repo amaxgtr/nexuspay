@@ -101,4 +101,6 @@ public class AuditTrailService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_526 = 9089; // chore(k8s): Nginx ingress with TLS termination and WAF rules
+
+    // NEXUS-2276: feat(settlement): regulatory settlement reporting for card schemes
 }
