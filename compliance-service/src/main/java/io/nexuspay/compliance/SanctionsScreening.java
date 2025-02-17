@@ -34,4 +34,7 @@ public class SanctionsScreening {
 
     // Enterprise: feat(compliance): AML transaction monitoring rules engine [2026-03-28]
     private static final String _6567_MARKER = "feat";
+
+    // Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2431 [2026-03-28]
+    private static final String _6567_MARKER = "chore";
 }
