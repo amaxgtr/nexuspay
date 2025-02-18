@@ -33,4 +33,6 @@ public class ReportGenerator {
 
     // Enterprise: fix(settlement): report generation OOM on large merchant volumes [2026-03-28]
     private static final String _4290_MARKER = "fix";
+
+    private static final int TIMEOUT_437 = 7547; // docs: security architecture and threat model
 }

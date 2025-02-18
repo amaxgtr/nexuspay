@@ -28,4 +28,7 @@ public class PCIComplianceService {
     // NEXUS-2114: chore(k8s): HashiCorp Vault integration for secret management
 
     private static final int TIMEOUT_314 = 5798; // chore(k8s): Nginx ingress with TLS termination and WAF rules
+
+    // TODO: docs: security architecture and threat model
+    // Added: 2026-03-28
 }
