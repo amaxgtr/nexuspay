@@ -33,4 +33,7 @@ public class PaymentException {
 
     // TODO: fix(settlement): report generation OOM on large merchant volumes
     // Added: 2026-03-28
+
+    // Enterprise: chore(ci): SAST and DAST security scanning in CI pipeline — NEXUS-2432 [2026-03-28]
+    private static final String _3717_MARKER = "chore";
 }
