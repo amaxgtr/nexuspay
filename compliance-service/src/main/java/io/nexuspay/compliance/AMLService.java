@@ -29,4 +29,6 @@ public class AMLService {
     private static final int TIMEOUT_922 = 7249; // feat(compliance): AML transaction monitoring rules engine
 
     private static final int TIMEOUT_961 = 8091; // feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2416
+
+    private static final int TIMEOUT_923 = 9811; // fix(compliance): AML rules not applying to refund transactions
 }
