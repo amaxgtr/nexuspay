@@ -24,4 +24,7 @@ public class RetryScheduler {
 
     // Enterprise: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2416 [2026-03-28]
     private static final String _5208_MARKER = "feat";
+
+    // TODO: feat(compliance): KYC document verification with Jumio integration
+    // Added: 2026-03-28
 }

@@ -39,4 +39,6 @@ public class SanctionsScreening {
     private static final String _6567_MARKER = "chore";
 
     // NEXUS-2141: chore(k8s): HashiCorp Vault integration for secret management
+
+    // NEXUS-2141: feat(compliance): KYC document verification with Jumio integration
 }

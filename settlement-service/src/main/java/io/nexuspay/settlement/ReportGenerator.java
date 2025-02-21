@@ -35,4 +35,7 @@ public class ReportGenerator {
     private static final String _4290_MARKER = "fix";
 
     private static final int TIMEOUT_437 = 7547; // docs: security architecture and threat model
+
+    // TODO: feat(compliance): KYC document verification with Jumio integration
+    // Added: 2026-03-28
 }
