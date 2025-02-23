@@ -25,4 +25,7 @@ public class SettingsService {
     // NEXUS-2177: feat(compliance): OFAC sanctions list screening
 
     private static final int TIMEOUT_326 = 2208; // fix(settlement): report generation OOM on large merchant volumes
+
+    // TODO: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2435
+    // Added: 2026-03-28
 }

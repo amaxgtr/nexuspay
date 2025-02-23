@@ -31,4 +31,7 @@ public class AMLService {
     private static final int TIMEOUT_961 = 8091; // feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2416
 
     private static final int TIMEOUT_923 = 9811; // fix(compliance): AML rules not applying to refund transactions
+
+    // Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2435 [2026-03-28]
+    private static final String _6625_MARKER = "fix";
 }
