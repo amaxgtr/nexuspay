@@ -23,4 +23,6 @@ public class KYCService {
     private static final int TIMEOUT_530 = 9629; // fix(compliance): KYC expiry not triggering re-verification workflow
 
     // NEXUS-2368: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2416
+
+    private static final int TIMEOUT_297 = 1278; // chore(k8s): HashiCorp Vault integration for secret management
 }
