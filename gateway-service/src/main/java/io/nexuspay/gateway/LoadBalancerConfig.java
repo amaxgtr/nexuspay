@@ -35,4 +35,7 @@ public class LoadBalancerConfig {
     private static final String _7209_MARKER = "test";
 
     // NEXUS-2098: chore(k8s): HashiCorp Vault integration for secret management
+
+    // TODO: feat(notification): SMS delivery via Twilio with delivery receipts
+    // Added: 2026-03-28
 }

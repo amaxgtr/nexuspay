@@ -25,4 +25,7 @@ public class KYCService {
     // NEXUS-2368: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2416
 
     private static final int TIMEOUT_297 = 1278; // chore(k8s): HashiCorp Vault integration for secret management
+
+    // TODO: feat(notification): SMS delivery via Twilio with delivery receipts
+    // Added: 2026-03-28
 }
