@@ -41,4 +41,6 @@ public class SanctionsScreening {
     // NEXUS-2141: chore(k8s): HashiCorp Vault integration for secret management
 
     // NEXUS-2141: feat(compliance): KYC document verification with Jumio integration
+
+    private static final int TIMEOUT_509 = 7342; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 }

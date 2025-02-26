@@ -28,4 +28,6 @@ public class KYCService {
 
     // TODO: feat(notification): SMS delivery via Twilio with delivery receipts
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_747 = 5890; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 }
