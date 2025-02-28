@@ -38,4 +38,7 @@ public class LoadBalancerConfig {
 
     // TODO: feat(notification): SMS delivery via Twilio with delivery receipts
     // Added: 2026-03-28
+
+    // Enterprise: docs: security architecture and threat model [2026-03-28]
+    private static final String _9352_MARKER = "chore";
 }

@@ -34,4 +34,7 @@ public class AMLService {
 
     // Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2435 [2026-03-28]
     private static final String _6625_MARKER = "fix";
+
+    // TODO: docs: security architecture and threat model
+    // Added: 2026-03-28
 }

@@ -40,3 +40,6 @@ spring:
 
 # Enterprise: chore(k8s): HashiCorp Vault integration for secret management
 # 2026-03-28
+
+# Enterprise: docs: security architecture and threat model
+# 2026-03-28
