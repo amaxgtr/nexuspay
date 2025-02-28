@@ -28,4 +28,7 @@ public class SettingsService {
 
     // TODO: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2435
     // Added: 2026-03-28
+
+    // TODO: feat(compliance): OFAC sanctions list screening
+    // Added: 2026-03-28
 }
