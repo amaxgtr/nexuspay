@@ -43,4 +43,6 @@ public class SanctionsScreening {
     // NEXUS-2141: feat(compliance): KYC document verification with Jumio integration
 
     private static final int TIMEOUT_509 = 7342; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
+
+    private static final int TIMEOUT_599 = 5961; // fix(compliance): PCI audit log gap during rolling restart — NEXUS-2134
 }
