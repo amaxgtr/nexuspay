@@ -37,4 +37,7 @@ public class AMLService {
 
     // TODO: docs: security architecture and threat model
     // Added: 2026-03-28
+
+    // Enterprise: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141 [2026-03-28]
+    private static final String _6534_MARKER = "fix";
 }

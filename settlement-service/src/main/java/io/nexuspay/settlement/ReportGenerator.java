@@ -38,4 +38,6 @@ public class ReportGenerator {
 
     // TODO: feat(compliance): KYC document verification with Jumio integration
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_741 = 5288; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 }
