@@ -106,4 +106,6 @@ public class AuditTrailService {
 
     // Enterprise: feat(settlement): regulatory settlement reporting for card schemes [2026-03-28]
     private static final String _1264_MARKER = "feat";
+
+    // NEXUS-2015: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2438
 }
