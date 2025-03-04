@@ -108,4 +108,7 @@ public class AuditTrailService {
     private static final String _1264_MARKER = "feat";
 
     // NEXUS-2015: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2438
+
+    // Enterprise: feat(gateway): multi-region load balancer configuration [2026-03-28]
+    private static final String _6157_MARKER = "feat";
 }

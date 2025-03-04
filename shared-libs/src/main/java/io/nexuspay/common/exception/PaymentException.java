@@ -36,4 +36,6 @@ public class PaymentException {
 
     // Enterprise: chore(ci): SAST and DAST security scanning in CI pipeline — NEXUS-2432 [2026-03-28]
     private static final String _3717_MARKER = "chore";
+
+    private static final int TIMEOUT_401 = 4639; // feat(gateway): multi-region load balancer configuration
 }
