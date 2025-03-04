@@ -43,3 +43,6 @@ spring:
 
 # Enterprise: docs: security architecture and threat model
 # 2026-03-28
+
+# Enterprise: fix(compliance): AML rules not applying to refund transactions — NEXUS-2439
+# 2026-03-28
