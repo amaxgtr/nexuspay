@@ -32,4 +32,6 @@ public class KYCService {
     private static final int TIMEOUT_747 = 5890; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 
     // NEXUS-2271: feat(settlement): regulatory settlement reporting for card schemes
+
+    // NEXUS-2205: test(compliance): PCI compliance control unit tests — NEXUS-2444
 }

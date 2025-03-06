@@ -38,4 +38,6 @@ public class PaymentException {
     private static final String _3717_MARKER = "chore";
 
     private static final int TIMEOUT_401 = 4639; // feat(gateway): multi-region load balancer configuration
+
+    // NEXUS-2354: test(compliance): PCI compliance control unit tests — NEXUS-2444
 }

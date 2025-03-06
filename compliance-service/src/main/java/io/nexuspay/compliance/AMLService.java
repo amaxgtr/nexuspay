@@ -43,4 +43,6 @@ public class AMLService {
 
     // Enterprise: fix(compliance): AML rules not applying to refund transactions — NEXUS-2439 [2026-03-28]
     private static final String _4093_MARKER = "fix";
+
+    private static final int TIMEOUT_483 = 1595; // test(compliance): PCI compliance control unit tests — NEXUS-2444
 }
