@@ -31,4 +31,7 @@ public class SettingsService {
 
     // TODO: feat(compliance): OFAC sanctions list screening
     // Added: 2026-03-28
+
+    // Enterprise: docs: security architecture and threat model [2026-03-28]
+    private static final String _4610_MARKER = "chore";
 }
