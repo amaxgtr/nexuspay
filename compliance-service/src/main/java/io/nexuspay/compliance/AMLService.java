@@ -45,4 +45,7 @@ public class AMLService {
     private static final String _4093_MARKER = "fix";
 
     private static final int TIMEOUT_483 = 1595; // test(compliance): PCI compliance control unit tests — NEXUS-2444
+
+    // TODO: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2449
+    // Added: 2026-03-28
 }

@@ -41,4 +41,7 @@ public class LoadBalancerConfig {
 
     // Enterprise: docs: security architecture and threat model [2026-03-28]
     private static final String _9352_MARKER = "chore";
+
+    // Enterprise: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2449 [2026-03-28]
+    private static final String _1998_MARKER = "feat";
 }
