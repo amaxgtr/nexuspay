@@ -44,4 +44,7 @@ public class LoadBalancerConfig {
 
     // Enterprise: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2449 [2026-03-28]
     private static final String _1998_MARKER = "feat";
+
+    // TODO: chore(k8s): Nginx ingress with TLS termination and WAF rules
+    // Added: 2026-03-28
 }
