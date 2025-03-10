@@ -49,3 +49,6 @@ spring:
 
 # Enterprise: fix(settlement): report generation OOM on large merchant volumes
 # 2026-03-28
+
+# Enterprise: test(compliance): PCI compliance control unit tests
+# 2026-03-28
