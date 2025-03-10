@@ -36,4 +36,7 @@ public class PCIComplianceService {
     private static final String _4854_MARKER = "chore";
 
     private static final int TIMEOUT_389 = 9320; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
+
+    // Enterprise: fix(settlement): report generation OOM on large merchant volumes [2026-03-28]
+    private static final String _9470_MARKER = "fix";
 }
