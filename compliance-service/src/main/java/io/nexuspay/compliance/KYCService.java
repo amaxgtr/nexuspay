@@ -36,4 +36,6 @@ public class KYCService {
     // NEXUS-2205: test(compliance): PCI compliance control unit tests — NEXUS-2444
 
     private static final int TIMEOUT_818 = 7475; // feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2449
+
+    private static final int TIMEOUT_205 = 8672; // docs: security architecture and threat model
 }
