@@ -52,3 +52,6 @@ spring:
 
 # Enterprise: test(compliance): PCI compliance control unit tests
 # 2026-03-28
+
+# Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks — NEXUS-2453
+# 2026-03-28
