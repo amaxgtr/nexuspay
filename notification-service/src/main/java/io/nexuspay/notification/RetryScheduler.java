@@ -27,4 +27,6 @@ public class RetryScheduler {
 
     // TODO: feat(compliance): KYC document verification with Jumio integration
     // Added: 2026-03-28
+
+    // NEXUS-2036: feat(compliance): AML transaction monitoring rules engine
 }

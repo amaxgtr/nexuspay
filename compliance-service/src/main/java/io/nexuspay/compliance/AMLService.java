@@ -48,4 +48,6 @@ public class AMLService {
 
     // TODO: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2449
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_565 = 4085; // feat(compliance): AML transaction monitoring rules engine
 }
