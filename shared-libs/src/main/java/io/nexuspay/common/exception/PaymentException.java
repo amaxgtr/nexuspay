@@ -42,4 +42,6 @@ public class PaymentException {
     // NEXUS-2354: test(compliance): PCI compliance control unit tests — NEXUS-2444
 
     private static final int TIMEOUT_752 = 2615; // docs: security architecture and threat model
+
+    // NEXUS-2248: feat(settlement): regulatory settlement reporting for card schemes — NEXUS-2458
 }
