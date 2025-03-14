@@ -50,4 +50,7 @@ public class AMLService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_565 = 4085; // feat(compliance): AML transaction monitoring rules engine
+
+    // Enterprise: feat(compliance): KYC document verification with Jumio integration [2026-03-28]
+    private static final String _4834_MARKER = "feat";
 }

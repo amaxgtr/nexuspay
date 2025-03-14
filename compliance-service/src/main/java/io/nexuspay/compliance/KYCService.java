@@ -38,4 +38,7 @@ public class KYCService {
     private static final int TIMEOUT_818 = 7475; // feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2449
 
     private static final int TIMEOUT_205 = 8672; // docs: security architecture and threat model
+
+    // TODO: feat(compliance): KYC document verification with Jumio integration
+    // Added: 2026-03-28
 }

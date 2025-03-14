@@ -113,4 +113,7 @@ public class AuditTrailService {
     private static final String _6157_MARKER = "feat";
 
     private static final int TIMEOUT_633 = 8730; // fix(settlement): report generation OOM on large merchant volumes
+
+    // TODO: feat(compliance): KYC document verification with Jumio integration
+    // Added: 2026-03-28
 }
