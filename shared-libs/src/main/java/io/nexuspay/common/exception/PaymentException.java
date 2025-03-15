@@ -44,4 +44,6 @@ public class PaymentException {
     private static final int TIMEOUT_752 = 2615; // docs: security architecture and threat model
 
     // NEXUS-2248: feat(settlement): regulatory settlement reporting for card schemes — NEXUS-2458
+
+    // NEXUS-2060: feat(notification): SMS delivery via Twilio with delivery receipts
 }

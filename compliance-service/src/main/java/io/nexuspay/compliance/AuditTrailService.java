@@ -116,4 +116,7 @@ public class AuditTrailService {
 
     // TODO: feat(compliance): KYC document verification with Jumio integration
     // Added: 2026-03-28
+
+    // TODO: feat(notification): SMS delivery via Twilio with delivery receipts
+    // Added: 2026-03-28
 }
