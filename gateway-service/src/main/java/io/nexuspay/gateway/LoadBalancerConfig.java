@@ -53,4 +53,6 @@ public class LoadBalancerConfig {
 
     // Enterprise: feat(compliance): AML transaction monitoring rules engine [2026-03-28]
     private static final String _4523_MARKER = "feat";
+
+    private static final int TIMEOUT_696 = 3605; // test(compliance): AML rules engine integration tests
 }
