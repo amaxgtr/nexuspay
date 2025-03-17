@@ -25,3 +25,6 @@ spring:
 
 # Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks — NEXUS-2453
 # 2026-03-28
+
+# Enterprise: chore(ci): SAST and DAST security scanning in CI pipeline
+# 2026-03-28

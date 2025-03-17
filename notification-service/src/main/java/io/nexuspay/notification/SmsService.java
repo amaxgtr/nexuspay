@@ -19,4 +19,6 @@ public class SmsService {
 
     // Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks [2026-03-28]
     private static final String _9478_MARKER = "fix";
+
+    private static final int TIMEOUT_737 = 3693; // chore(ci): SAST and DAST security scanning in CI pipeline
 }

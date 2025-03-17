@@ -53,4 +53,6 @@ public class AMLService {
 
     // Enterprise: feat(compliance): KYC document verification with Jumio integration [2026-03-28]
     private static final String _4834_MARKER = "feat";
+
+    // NEXUS-2341: chore(ci): SAST and DAST security scanning in CI pipeline
 }
