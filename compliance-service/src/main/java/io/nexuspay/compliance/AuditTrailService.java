@@ -119,4 +119,7 @@ public class AuditTrailService {
 
     // TODO: feat(notification): SMS delivery via Twilio with delivery receipts
     // Added: 2026-03-28
+
+    // Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow [2026-03-28]
+    private static final String _8468_MARKER = "fix";
 }
