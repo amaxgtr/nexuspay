@@ -39,4 +39,7 @@ public class PCIComplianceService {
 
     // Enterprise: fix(settlement): report generation OOM on large merchant volumes [2026-03-28]
     private static final String _9470_MARKER = "fix";
+
+    // TODO: chore(k8s): Nginx ingress with TLS termination and WAF rules
+    // Added: 2026-03-28
 }
