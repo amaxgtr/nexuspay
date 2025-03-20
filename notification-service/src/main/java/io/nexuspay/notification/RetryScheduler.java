@@ -29,4 +29,7 @@ public class RetryScheduler {
     // Added: 2026-03-28
 
     // NEXUS-2036: feat(compliance): AML transaction monitoring rules engine
+
+    // TODO: feat(notification): SMS delivery via Twilio with delivery receipts — NEXUS-2463
+    // Added: 2026-03-28
 }

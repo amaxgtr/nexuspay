@@ -122,4 +122,7 @@ public class AuditTrailService {
 
     // Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow [2026-03-28]
     private static final String _8468_MARKER = "fix";
+
+    // Enterprise: feat(notification): SMS delivery via Twilio with delivery receipts — NEXUS-2463 [2026-03-28]
+    private static final String _8077_MARKER = "feat";
 }
