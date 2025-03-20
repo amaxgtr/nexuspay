@@ -55,4 +55,7 @@ public class LoadBalancerConfig {
     private static final String _4523_MARKER = "feat";
 
     private static final int TIMEOUT_696 = 3605; // test(compliance): AML rules engine integration tests
+
+    // Enterprise: chore(k8s): HashiCorp Vault integration for secret management [2026-03-28]
+    private static final String _4697_MARKER = "chore";
 }

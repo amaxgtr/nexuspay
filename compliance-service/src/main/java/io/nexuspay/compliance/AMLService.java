@@ -55,4 +55,6 @@ public class AMLService {
     private static final String _4834_MARKER = "feat";
 
     // NEXUS-2341: chore(ci): SAST and DAST security scanning in CI pipeline
+
+    // NEXUS-2346: chore(k8s): HashiCorp Vault integration for secret management
 }

@@ -46,4 +46,7 @@ public class PaymentException {
     // NEXUS-2248: feat(settlement): regulatory settlement reporting for card schemes — NEXUS-2458
 
     // NEXUS-2060: feat(notification): SMS delivery via Twilio with delivery receipts
+
+    // Enterprise: chore(k8s): HashiCorp Vault integration for secret management [2026-03-28]
+    private static final String _3479_MARKER = "chore";
 }
