@@ -25,3 +25,6 @@ spring:
 
 # Enterprise: fix(compliance): PCI audit log gap during rolling restart — NEXUS-2134
 # 2026-03-28
+
+# Enterprise: test(compliance): AML rules engine integration tests
+# 2026-03-28

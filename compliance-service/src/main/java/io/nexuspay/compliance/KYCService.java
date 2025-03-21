@@ -41,4 +41,6 @@ public class KYCService {
 
     // TODO: feat(compliance): KYC document verification with Jumio integration
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_603 = 8679; // test(compliance): AML rules engine integration tests
 }
