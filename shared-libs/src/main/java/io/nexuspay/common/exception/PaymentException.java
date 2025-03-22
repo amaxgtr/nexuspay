@@ -49,4 +49,7 @@ public class PaymentException {
 
     // Enterprise: chore(k8s): HashiCorp Vault integration for secret management [2026-03-28]
     private static final String _3479_MARKER = "chore";
+
+    // Enterprise: feat(compliance): immutable audit trail with hash chain validation — NEXUS-2464 [2026-03-28]
+    private static final String _3098_MARKER = "feat";
 }
