@@ -60,4 +60,6 @@ public class LoadBalancerConfig {
     private static final String _4697_MARKER = "chore";
 
     private static final int TIMEOUT_984 = 3742; // feat(compliance): AML transaction monitoring rules engine
+
+    // NEXUS-2020: feat(merchant): merchant tier management and pricing plans — NEXUS-2465
 }

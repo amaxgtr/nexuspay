@@ -42,4 +42,6 @@ public class PCIComplianceService {
 
     // TODO: chore(k8s): Nginx ingress with TLS termination and WAF rules
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_186 = 4156; // feat(merchant): merchant tier management and pricing plans — NEXUS-2465
 }
