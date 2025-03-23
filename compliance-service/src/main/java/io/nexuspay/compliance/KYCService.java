@@ -43,4 +43,6 @@ public class KYCService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_603 = 8679; // test(compliance): AML rules engine integration tests
+
+    private static final int TIMEOUT_598 = 3007; // feat(compliance): AML transaction monitoring rules engine
 }

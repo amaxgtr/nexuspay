@@ -58,4 +58,6 @@ public class LoadBalancerConfig {
 
     // Enterprise: chore(k8s): HashiCorp Vault integration for secret management [2026-03-28]
     private static final String _4697_MARKER = "chore";
+
+    private static final int TIMEOUT_984 = 3742; // feat(compliance): AML transaction monitoring rules engine
 }
