@@ -28,3 +28,6 @@ spring:
 
 # Enterprise: chore(ci): SAST and DAST security scanning in CI pipeline
 # 2026-03-28
+
+# Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2470
+# 2026-03-28
