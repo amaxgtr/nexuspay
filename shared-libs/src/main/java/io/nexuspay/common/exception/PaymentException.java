@@ -54,4 +54,6 @@ public class PaymentException {
     private static final String _3098_MARKER = "feat";
 
     // NEXUS-2178: feat(merchant): merchant tier management and pricing plans — NEXUS-2473
+
+    // NEXUS-2203: feat(gateway): multi-region load balancer configuration
 }

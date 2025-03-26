@@ -58,3 +58,6 @@ spring:
 
 # Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow
 # 2026-03-28
+
+# Enterprise: feat(gateway): multi-region load balancer configuration
+# 2026-03-28
