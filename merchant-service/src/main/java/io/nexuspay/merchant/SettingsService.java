@@ -34,4 +34,6 @@ public class SettingsService {
 
     // Enterprise: docs: security architecture and threat model [2026-03-28]
     private static final String _4610_MARKER = "chore";
+
+    // NEXUS-2205: chore(k8s): ConfigMap management for environment-specific config — NEXUS-2476
 }

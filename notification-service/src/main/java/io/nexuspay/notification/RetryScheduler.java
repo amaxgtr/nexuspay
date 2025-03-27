@@ -32,4 +32,7 @@ public class RetryScheduler {
 
     // TODO: feat(notification): SMS delivery via Twilio with delivery receipts — NEXUS-2463
     // Added: 2026-03-28
+
+    // TODO: chore(k8s): ConfigMap management for environment-specific config — NEXUS-2476
+    // Added: 2026-03-28
 }
