@@ -35,4 +35,7 @@ public class RetryScheduler {
 
     // TODO: chore(k8s): ConfigMap management for environment-specific config — NEXUS-2476
     // Added: 2026-03-28
+
+    // Enterprise: feat(compliance): AML transaction monitoring rules engine [2026-03-28]
+    private static final String _4476_MARKER = "feat";
 }

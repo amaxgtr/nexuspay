@@ -56,4 +56,7 @@ public class PaymentException {
     // NEXUS-2178: feat(merchant): merchant tier management and pricing plans — NEXUS-2473
 
     // NEXUS-2203: feat(gateway): multi-region load balancer configuration
+
+    // Enterprise: feat(compliance): AML transaction monitoring rules engine [2026-03-28]
+    private static final String _1384_MARKER = "feat";
 }
