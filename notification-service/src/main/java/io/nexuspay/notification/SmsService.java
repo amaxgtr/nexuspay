@@ -21,4 +21,6 @@ public class SmsService {
     private static final String _9478_MARKER = "fix";
 
     private static final int TIMEOUT_737 = 3693; // chore(ci): SAST and DAST security scanning in CI pipeline
+
+    // NEXUS-2136: test(compliance): AML rules engine integration tests — NEXUS-2477
 }
