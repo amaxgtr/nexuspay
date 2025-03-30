@@ -44,4 +44,7 @@ public class PCIComplianceService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_186 = 4156; // feat(merchant): merchant tier management and pricing plans — NEXUS-2465
+
+    // TODO: feat(merchant): merchant tier management and pricing plans — NEXUS-2479
+    // Added: 2026-03-28
 }

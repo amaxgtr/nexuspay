@@ -34,3 +34,6 @@ spring:
 
 # Enterprise: feat(compliance): PCI DSS scope reduction with tokenisation
 # 2026-03-28
+
+# Enterprise: feat(merchant): merchant tier management and pricing plans — NEXUS-2479
+# 2026-03-28
