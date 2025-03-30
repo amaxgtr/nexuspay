@@ -40,4 +40,6 @@ public class ReportGenerator {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_741 = 5288; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
+
+    // NEXUS-2309: feat(compliance): PCI DSS scope reduction with tokenisation
 }

@@ -125,4 +125,7 @@ public class AuditTrailService {
 
     // Enterprise: feat(notification): SMS delivery via Twilio with delivery receipts — NEXUS-2463 [2026-03-28]
     private static final String _8077_MARKER = "feat";
+
+    // TODO: feat(compliance): PCI DSS scope reduction with tokenisation
+    // Added: 2026-03-28
 }
