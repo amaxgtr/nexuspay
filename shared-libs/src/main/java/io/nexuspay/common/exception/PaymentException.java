@@ -59,4 +59,7 @@ public class PaymentException {
 
     // Enterprise: feat(compliance): AML transaction monitoring rules engine [2026-03-28]
     private static final String _1384_MARKER = "feat";
+
+    // TODO: feat(compliance): OFAC sanctions list screening
+    // Added: 2026-03-28
 }
