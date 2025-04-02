@@ -47,4 +47,6 @@ public class PCIComplianceService {
 
     // TODO: feat(merchant): merchant tier management and pricing plans — NEXUS-2479
     // Added: 2026-03-28
+
+    // NEXUS-2295: test(compliance): PCI compliance control unit tests — NEXUS-2483
 }

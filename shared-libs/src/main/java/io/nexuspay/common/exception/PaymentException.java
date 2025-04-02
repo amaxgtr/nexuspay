@@ -62,4 +62,7 @@ public class PaymentException {
 
     // TODO: feat(compliance): OFAC sanctions list screening
     // Added: 2026-03-28
+
+    // TODO: test(compliance): PCI compliance control unit tests — NEXUS-2483
+    // Added: 2026-03-28
 }
