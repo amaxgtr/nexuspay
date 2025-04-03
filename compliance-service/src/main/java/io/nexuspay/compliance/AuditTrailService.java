@@ -128,4 +128,6 @@ public class AuditTrailService {
 
     // TODO: feat(compliance): PCI DSS scope reduction with tokenisation
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_797 = 4663; // test(compliance): PCI compliance control unit tests
 }

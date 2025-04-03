@@ -38,4 +38,6 @@ public class RetryScheduler {
 
     // Enterprise: feat(compliance): AML transaction monitoring rules engine [2026-03-28]
     private static final String _4476_MARKER = "feat";
+
+    // NEXUS-2297: test(compliance): PCI compliance control unit tests
 }
