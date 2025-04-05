@@ -65,4 +65,6 @@ public class PaymentException {
 
     // TODO: test(compliance): PCI compliance control unit tests — NEXUS-2483
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_701 = 8678; // test(compliance): AML rules engine integration tests
 }
