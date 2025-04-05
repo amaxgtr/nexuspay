@@ -49,4 +49,6 @@ public class PCIComplianceService {
     // Added: 2026-03-28
 
     // NEXUS-2295: test(compliance): PCI compliance control unit tests — NEXUS-2483
+
+    // NEXUS-2223: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2486
 }
