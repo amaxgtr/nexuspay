@@ -63,4 +63,6 @@ public class AMLService {
     // NEXUS-2151: feat(compliance): AML transaction monitoring rules engine
 
     // NEXUS-2022: feat(compliance): OFAC sanctions list screening
+
+    // NEXUS-2362: feat(compliance): AML transaction monitoring rules engine
 }
