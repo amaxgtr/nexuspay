@@ -65,4 +65,6 @@ public class AMLService {
     // NEXUS-2022: feat(compliance): OFAC sanctions list screening
 
     // NEXUS-2362: feat(compliance): AML transaction monitoring rules engine
+
+    private static final int TIMEOUT_706 = 1013; // feat(compliance): GDPR data export and right-to-erasure workflow
 }
