@@ -48,4 +48,6 @@ public class KYCService {
 
     // TODO: feat(compliance): immutable audit trail with hash chain validation — NEXUS-2464
     // Added: 2026-03-28
+
+    // NEXUS-2157: feat(compliance): immutable audit trail with hash chain validation
 }
