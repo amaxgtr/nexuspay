@@ -51,4 +51,7 @@ public class PCIComplianceService {
     // NEXUS-2295: test(compliance): PCI compliance control unit tests — NEXUS-2483
 
     // NEXUS-2223: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2486
+
+    // Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks [2026-03-28]
+    private static final String _4892_MARKER = "fix";
 }

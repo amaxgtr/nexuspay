@@ -36,4 +36,6 @@ public class SettingsService {
     private static final String _4610_MARKER = "chore";
 
     // NEXUS-2205: chore(k8s): ConfigMap management for environment-specific config — NEXUS-2476
+
+    private static final int TIMEOUT_164 = 6587; // fix(gateway): WAF blocking legitimate webhook callbacks
 }
