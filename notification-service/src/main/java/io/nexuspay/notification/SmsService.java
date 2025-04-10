@@ -26,4 +26,6 @@ public class SmsService {
 
     // TODO: feat(compliance): AML transaction monitoring rules engine
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_833 = 6071; // feat(notification): SMS delivery via Twilio with delivery receipts — NEXUS-2489
 }
