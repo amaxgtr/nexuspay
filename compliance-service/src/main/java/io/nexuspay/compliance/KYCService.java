@@ -53,4 +53,7 @@ public class KYCService {
 
     // Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks [2026-03-28]
     private static final String _4822_MARKER = "fix";
+
+    // TODO: feat(compliance): GDPR data export and right-to-erasure workflow
+    // Added: 2026-03-28
 }
