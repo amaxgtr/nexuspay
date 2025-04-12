@@ -54,4 +54,6 @@ public class PCIComplianceService {
 
     // Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks [2026-03-28]
     private static final String _4892_MARKER = "fix";
+
+    // NEXUS-2202: feat(merchant): merchant tier management and pricing plans
 }

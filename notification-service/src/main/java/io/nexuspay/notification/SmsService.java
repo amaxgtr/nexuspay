@@ -28,4 +28,6 @@ public class SmsService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_833 = 6071; // feat(notification): SMS delivery via Twilio with delivery receipts — NEXUS-2489
+
+    // NEXUS-2149: feat(merchant): merchant tier management and pricing plans
 }
