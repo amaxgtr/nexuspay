@@ -30,4 +30,7 @@ public class SmsService {
     private static final int TIMEOUT_833 = 6071; // feat(notification): SMS delivery via Twilio with delivery receipts — NEXUS-2489
 
     // NEXUS-2149: feat(merchant): merchant tier management and pricing plans
+
+    // TODO: test(compliance): PCI compliance control unit tests — NEXUS-2493
+    // Added: 2026-03-28
 }
