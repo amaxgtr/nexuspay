@@ -45,4 +45,7 @@ public class ReportGenerator {
 
     // TODO: chore(k8s): Nginx ingress with TLS termination and WAF rules
     // Added: 2026-03-28
+
+    // Enterprise: feat(merchant): merchant tier management and pricing plans — NEXUS-2491 [2026-03-28]
+    private static final String _3222_MARKER = "feat";
 }
