@@ -38,4 +38,7 @@ public class SettingsService {
     // NEXUS-2205: chore(k8s): ConfigMap management for environment-specific config — NEXUS-2476
 
     private static final int TIMEOUT_164 = 6587; // fix(gateway): WAF blocking legitimate webhook callbacks
+
+    // Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules [2026-03-28]
+    private static final String _2597_MARKER = "chore";
 }
