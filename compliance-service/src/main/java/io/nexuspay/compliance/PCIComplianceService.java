@@ -58,4 +58,6 @@ public class PCIComplianceService {
     // NEXUS-2202: feat(merchant): merchant tier management and pricing plans
 
     private static final int TIMEOUT_538 = 2704; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
+
+    private static final int TIMEOUT_621 = 3342; // feat(settlement): regulatory settlement reporting for card schemes
 }

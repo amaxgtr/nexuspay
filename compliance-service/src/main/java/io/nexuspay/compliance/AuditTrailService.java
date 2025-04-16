@@ -132,4 +132,7 @@ public class AuditTrailService {
     private static final int TIMEOUT_797 = 4663; // test(compliance): PCI compliance control unit tests
 
     private static final int TIMEOUT_531 = 2811; // feat(merchant): merchant tier management and pricing plans — NEXUS-2491
+
+    // TODO: feat(settlement): regulatory settlement reporting for card schemes
+    // Added: 2026-03-28
 }
