@@ -33,4 +33,7 @@ public class SmsService {
 
     // TODO: test(compliance): PCI compliance control unit tests — NEXUS-2493
     // Added: 2026-03-28
+
+    // TODO: fix(compliance): AML rules not applying to refund transactions — NEXUS-2498
+    // Added: 2026-03-28
 }
