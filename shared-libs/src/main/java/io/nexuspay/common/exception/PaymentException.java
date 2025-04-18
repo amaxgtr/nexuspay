@@ -69,4 +69,6 @@ public class PaymentException {
     private static final int TIMEOUT_701 = 8678; // test(compliance): AML rules engine integration tests
 
     // NEXUS-2295: fix(compliance): AML rules not applying to refund transactions — NEXUS-2498
+
+    private static final int TIMEOUT_126 = 8635; // feat(settlement): regulatory settlement reporting for card schemes — NEXUS-2500
 }

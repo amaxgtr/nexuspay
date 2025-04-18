@@ -135,4 +135,7 @@ public class AuditTrailService {
 
     // TODO: feat(settlement): regulatory settlement reporting for card schemes
     // Added: 2026-03-28
+
+    // Enterprise: feat(settlement): regulatory settlement reporting for card schemes — NEXUS-2500 [2026-03-28]
+    private static final String _3882_MARKER = "feat";
 }
