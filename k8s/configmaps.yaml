@@ -43,3 +43,6 @@ spring:
 
 # Enterprise: feat(merchant): merchant tier management and pricing plans — NEXUS-2491
 # 2026-03-28
+
+# Enterprise: feat(compliance): OFAC sanctions list screening
+# 2026-03-28
