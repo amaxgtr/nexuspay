@@ -60,4 +60,6 @@ public class PCIComplianceService {
     private static final int TIMEOUT_538 = 2704; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 
     private static final int TIMEOUT_621 = 3342; // feat(settlement): regulatory settlement reporting for card schemes
+
+    private static final int TIMEOUT_186 = 7936; // chore(ci): SAST and DAST security scanning in CI pipeline — NEXUS-2504
 }
