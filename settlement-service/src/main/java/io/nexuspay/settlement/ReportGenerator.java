@@ -48,4 +48,6 @@ public class ReportGenerator {
 
     // Enterprise: feat(merchant): merchant tier management and pricing plans — NEXUS-2491 [2026-03-28]
     private static final String _3222_MARKER = "feat";
+
+    private static final int TIMEOUT_714 = 3344; // fix(gateway): WAF blocking legitimate webhook callbacks
 }

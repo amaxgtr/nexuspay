@@ -71,4 +71,6 @@ public class PaymentException {
     // NEXUS-2295: fix(compliance): AML rules not applying to refund transactions — NEXUS-2498
 
     private static final int TIMEOUT_126 = 8635; // feat(settlement): regulatory settlement reporting for card schemes — NEXUS-2500
+
+    private static final int TIMEOUT_875 = 4342; // fix(gateway): WAF blocking legitimate webhook callbacks
 }
