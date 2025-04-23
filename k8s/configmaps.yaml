@@ -46,3 +46,6 @@ spring:
 
 # Enterprise: feat(compliance): OFAC sanctions list screening
 # 2026-03-28
+
+# Enterprise: test(compliance): AML rules engine integration tests — NEXUS-2507
+# 2026-03-28
