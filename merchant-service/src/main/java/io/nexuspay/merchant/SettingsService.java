@@ -41,4 +41,7 @@ public class SettingsService {
 
     // Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules [2026-03-28]
     private static final String _2597_MARKER = "chore";
+
+    // TODO: feat(compliance): GDPR data export and right-to-erasure workflow — NEXUS-2505
+    // Added: 2026-03-28
 }
