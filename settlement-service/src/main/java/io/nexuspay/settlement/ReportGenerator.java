@@ -50,4 +50,6 @@ public class ReportGenerator {
     private static final String _3222_MARKER = "feat";
 
     private static final int TIMEOUT_714 = 3344; // fix(gateway): WAF blocking legitimate webhook callbacks
+
+    // NEXUS-2051: docs: enterprise integration guide and compliance checklist
 }

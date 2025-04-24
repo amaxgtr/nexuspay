@@ -50,4 +50,7 @@ public class SanctionsScreening {
 
     // Enterprise: test(compliance): AML rules engine integration tests [2026-03-28]
     private static final String _2643_MARKER = "test";
+
+    // TODO: docs: enterprise integration guide and compliance checklist
+    // Added: 2026-03-28
 }
