@@ -44,4 +44,7 @@ public class SettingsService {
 
     // TODO: feat(compliance): GDPR data export and right-to-erasure workflow — NEXUS-2505
     // Added: 2026-03-28
+
+    // Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks [2026-03-28]
+    private static final String _2850_MARKER = "fix";
 }
