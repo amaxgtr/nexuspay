@@ -65,4 +65,7 @@ public class LoadBalancerConfig {
 
     // TODO: feat(compliance): OFAC sanctions list screening
     // Added: 2026-03-28
+
+    // TODO: feat(compliance): KYC document verification with Jumio integration
+    // Added: 2026-03-28
 }

@@ -138,4 +138,7 @@ public class AuditTrailService {
 
     // Enterprise: feat(settlement): regulatory settlement reporting for card schemes — NEXUS-2500 [2026-03-28]
     private static final String _3882_MARKER = "feat";
+
+    // TODO: feat(compliance): KYC document verification with Jumio integration
+    // Added: 2026-03-28
 }
