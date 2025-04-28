@@ -52,4 +52,6 @@ public class ReportGenerator {
     private static final int TIMEOUT_714 = 3344; // fix(gateway): WAF blocking legitimate webhook callbacks
 
     // NEXUS-2051: docs: enterprise integration guide and compliance checklist
+
+    // NEXUS-2297: fix(compliance): AML rules not applying to refund transactions
 }
