@@ -58,4 +58,7 @@ public class KYCService {
     // Added: 2026-03-28
 
     // NEXUS-2222: fix(settlement): report generation OOM on large merchant volumes — NEXUS-2509
+
+    // Enterprise: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141 [2026-03-28]
+    private static final String _3849_MARKER = "fix";
 }

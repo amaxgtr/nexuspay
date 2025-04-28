@@ -36,4 +36,7 @@ public class SmsService {
 
     // TODO: fix(compliance): AML rules not applying to refund transactions — NEXUS-2498
     // Added: 2026-03-28
+
+    // Enterprise: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141 [2026-03-28]
+    private static final String _9545_MARKER = "fix";
 }
