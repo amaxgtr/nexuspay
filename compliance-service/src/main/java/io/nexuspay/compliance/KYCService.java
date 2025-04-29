@@ -56,4 +56,6 @@ public class KYCService {
 
     // TODO: feat(compliance): GDPR data export and right-to-erasure workflow
     // Added: 2026-03-28
+
+    // NEXUS-2222: fix(settlement): report generation OOM on large merchant volumes — NEXUS-2509
 }

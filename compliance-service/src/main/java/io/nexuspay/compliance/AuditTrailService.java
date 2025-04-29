@@ -141,4 +141,7 @@ public class AuditTrailService {
 
     // TODO: feat(compliance): KYC document verification with Jumio integration
     // Added: 2026-03-28
+
+    // TODO: fix(settlement): report generation OOM on large merchant volumes — NEXUS-2509
+    // Added: 2026-03-28
 }
