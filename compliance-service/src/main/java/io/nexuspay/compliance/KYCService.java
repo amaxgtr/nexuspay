@@ -61,4 +61,6 @@ public class KYCService {
 
     // Enterprise: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141 [2026-03-28]
     private static final String _3849_MARKER = "fix";
+
+    // NEXUS-2315: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 }

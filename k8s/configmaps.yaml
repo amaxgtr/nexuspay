@@ -49,3 +49,6 @@ spring:
 
 # Enterprise: test(compliance): AML rules engine integration tests — NEXUS-2507
 # 2026-03-28
+
+# Enterprise: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
+# 2026-03-28
