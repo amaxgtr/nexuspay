@@ -73,4 +73,7 @@ public class PaymentException {
     private static final int TIMEOUT_126 = 8635; // feat(settlement): regulatory settlement reporting for card schemes — NEXUS-2500
 
     private static final int TIMEOUT_875 = 4342; // fix(gateway): WAF blocking legitimate webhook callbacks
+
+    // TODO: feat(compliance): PCI DSS scope reduction with tokenisation — NEXUS-2514
+    // Added: 2026-03-28
 }
