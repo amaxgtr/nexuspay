@@ -52,3 +52,6 @@ spring:
 
 # Enterprise: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 # 2026-03-28
+
+# Enterprise: feat(compliance): immutable audit trail with hash chain validation — NEXUS-2518
+# 2026-03-28
