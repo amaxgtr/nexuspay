@@ -146,4 +146,7 @@ public class AuditTrailService {
     // Added: 2026-03-28
 
     // NEXUS-2166: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
+
+    // TODO: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141 — NEXUS-2520
+    // Added: 2026-03-28
 }
