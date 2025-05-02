@@ -39,4 +39,7 @@ public class SmsService {
 
     // Enterprise: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141 [2026-03-28]
     private static final String _9545_MARKER = "fix";
+
+    // TODO: feat(settlement): regulatory settlement reporting for card schemes
+    // Added: 2026-03-28
 }
