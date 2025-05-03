@@ -68,4 +68,7 @@ public class LoadBalancerConfig {
 
     // TODO: feat(compliance): KYC document verification with Jumio integration
     // Added: 2026-03-28
+
+    // TODO: chore(k8s): Nginx ingress with TLS termination and WAF rules
+    // Added: 2026-03-28
 }
