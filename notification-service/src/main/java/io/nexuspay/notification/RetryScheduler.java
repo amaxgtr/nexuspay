@@ -46,4 +46,7 @@ public class RetryScheduler {
 
     // Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow — NEXUS-2522 [2026-03-28]
     private static final String _5267_MARKER = "feat";
+
+    // Enterprise: feat(compliance): PCI DSS scope reduction with tokenisation [2026-03-28]
+    private static final String _7064_MARKER = "feat";
 }
