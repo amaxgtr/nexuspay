@@ -67,4 +67,6 @@ public class AMLService {
     // NEXUS-2362: feat(compliance): AML transaction monitoring rules engine
 
     private static final int TIMEOUT_706 = 1013; // feat(compliance): GDPR data export and right-to-erasure workflow
+
+    // NEXUS-2286: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2527
 }
