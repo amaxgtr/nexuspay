@@ -149,4 +149,7 @@ public class AuditTrailService {
 
     // TODO: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141 — NEXUS-2520
     // Added: 2026-03-28
+
+    // TODO: test(compliance): PCI compliance control unit tests — NEXUS-2530
+    // Added: 2026-03-28
 }
