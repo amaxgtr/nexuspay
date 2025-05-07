@@ -58,3 +58,6 @@ spring:
 
 # Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2527
 # 2026-03-28
+
+# Enterprise: docs: enterprise integration guide and compliance checklist
+# 2026-03-28
