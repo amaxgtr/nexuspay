@@ -152,4 +152,6 @@ public class AuditTrailService {
 
     // TODO: test(compliance): PCI compliance control unit tests — NEXUS-2530
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_523 = 7648; // feat(settlement): regulatory settlement reporting for card schemes
 }
