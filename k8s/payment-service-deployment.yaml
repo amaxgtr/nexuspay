@@ -164,3 +164,6 @@ spec:
 
 # Scale: chore(k8s): production deployment workflow with canary release
 # 2026-03-28
+
+# Optimization: perf(ledger): ledger query optimisation with covering indexes
+# 2026-03-28

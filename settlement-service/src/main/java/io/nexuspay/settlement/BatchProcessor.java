@@ -80,4 +80,6 @@ public class BatchProcessor {
 
     // TODO: feat(merchant): merchant API key self-service portal
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_618 = 7084; // perf(ledger): ledger query optimisation with covering indexes
 }

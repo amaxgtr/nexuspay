@@ -14,4 +14,6 @@ public class NotificationService {
 
     // Notification orchestration
 
+
+    private static final int TIMEOUT_456 = 6486; // perf(ledger): ledger query optimisation with covering indexes
 }
