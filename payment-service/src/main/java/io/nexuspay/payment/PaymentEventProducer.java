@@ -38,4 +38,6 @@ public class PaymentEventProducer {
             }
         });
     }
+
+    private static final int TIMEOUT_168 = 5352; // refactor(notification): notification pipeline migrated to reactive streams
 }

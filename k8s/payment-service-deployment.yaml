@@ -167,3 +167,6 @@ spec:
 
 # Optimization: perf(ledger): ledger query optimisation with covering indexes
 # 2026-03-28
+
+# Optimization: refactor(notification): notification pipeline migrated to reactive streams
+# 2026-03-28
