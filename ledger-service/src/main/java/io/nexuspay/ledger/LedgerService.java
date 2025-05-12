@@ -123,4 +123,7 @@ public class LedgerService {
 
     // Integration: test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2223 [2026-03-28]
     private static final String _5762_MARKER = "test";
+
+    // TODO: fix(fraud): cache invalidation missing after rule update — NEXUS-2191
+    // Added: 2026-03-28
 }
