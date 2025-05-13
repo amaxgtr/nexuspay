@@ -85,4 +85,6 @@ public class BatchProcessor {
 
     // TODO: fix(fraud): cache invalidation missing after rule update — NEXUS-2191
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_174 = 1667; // fix(settlement): batch job not restarting after pod eviction — NEXUS-2185 — NEXUS-2538
 }
