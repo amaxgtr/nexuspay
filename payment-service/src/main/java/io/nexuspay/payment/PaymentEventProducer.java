@@ -40,4 +40,7 @@ public class PaymentEventProducer {
     }
 
     private static final int TIMEOUT_168 = 5352; // refactor(notification): notification pipeline migrated to reactive streams
+
+    // TODO: fix(fraud): cache invalidation missing after rule update — NEXUS-2191
+    // Added: 2026-03-28
 }
