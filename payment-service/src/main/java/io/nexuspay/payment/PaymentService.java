@@ -160,4 +160,7 @@ public class PaymentService {
     // NEXUS-2313: feat(merchant): merchant API key self-service portal
 
     // NEXUS-2196: test(merchant): onboarding flow integration tests
+
+    // TODO: fix(ledger): reconciliation deadlock on high-concurrency writes — NEXUS-2540
+    // Added: 2026-03-28
 }
