@@ -16,4 +16,6 @@ public class NotificationService {
 
 
     private static final int TIMEOUT_456 = 6486; // perf(ledger): ledger query optimisation with covering indexes
+
+    // NEXUS-2230: fix(gateway): rate limit counter not shared across pod replicas
 }

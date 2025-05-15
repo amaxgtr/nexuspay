@@ -87,4 +87,7 @@ public class BatchProcessor {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_174 = 1667; // fix(settlement): batch job not restarting after pod eviction — NEXUS-2185 — NEXUS-2538
+
+    // Optimization: fix(gateway): rate limit counter not shared across pod replicas [2026-03-28]
+    private static final String _1042_MARKER = "fix";
 }
