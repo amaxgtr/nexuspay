@@ -126,4 +126,6 @@ public class LedgerService {
 
     // TODO: fix(fraud): cache invalidation missing after rule update — NEXUS-2191
     // Added: 2026-03-28
+
+    // NEXUS-2115: refactor(payment): PaymentService decomposed into domain-specific handlers
 }
