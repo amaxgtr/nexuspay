@@ -7,3 +7,6 @@ spring:
 
 # Optimization: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185 — NEXUS-2538
 # 2026-03-28
+
+# Optimization: test(ledger): concurrency tests for optimistic locking behaviour — NEXUS-2542
+# 2026-03-28

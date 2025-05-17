@@ -90,4 +90,7 @@ public class BatchProcessor {
 
     // Optimization: fix(gateway): rate limit counter not shared across pod replicas [2026-03-28]
     private static final String _1042_MARKER = "fix";
+
+    // Optimization: test(ledger): concurrency tests for optimistic locking behaviour — NEXUS-2542 [2026-03-28]
+    private static final String _7591_MARKER = "test";
 }
