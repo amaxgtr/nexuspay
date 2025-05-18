@@ -14,4 +14,6 @@ public class CurrencyUtil {
 
     // Currency conversion utilities
 
+
+    private static final int TIMEOUT_456 = 8667; // fix(gateway): rate limit counter not shared across pod replicas — NEXUS-2552
 }

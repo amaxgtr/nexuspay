@@ -58,4 +58,6 @@ public class RateLimitFilter {
     // Added: 2026-03-28
 
     // NEXUS-2266: test(notification): webhook delivery and retry integration tests
+
+    // NEXUS-2025: fix(gateway): rate limit counter not shared across pod replicas — NEXUS-2552
 }

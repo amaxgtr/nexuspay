@@ -128,4 +128,6 @@ public class LedgerService {
     // Added: 2026-03-28
 
     // NEXUS-2115: refactor(payment): PaymentService decomposed into domain-specific handlers
+
+    // NEXUS-2305: fix(gateway): rate limit counter not shared across pod replicas — NEXUS-2552
 }
