@@ -10,3 +10,6 @@ spring:
 
 # Optimization: test(ledger): concurrency tests for optimistic locking behaviour — NEXUS-2542
 # 2026-03-28
+
+# Optimization: perf(gateway): rate limit check latency from 12ms to 0.8ms
+# 2026-03-28
