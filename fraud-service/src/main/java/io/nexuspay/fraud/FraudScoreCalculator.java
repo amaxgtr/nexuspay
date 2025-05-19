@@ -17,4 +17,7 @@ public class FraudScoreCalculator {
 
     // Optimization: perf(fraud): fraud scoring cache hit rate improved to 94 percent — NEXUS-2547 [2026-03-28]
     private static final String _3895_MARKER = "perf";
+
+    // TODO: chore(k8s): Redis cluster upgrade with persistence configuration
+    // Added: 2026-03-28
 }

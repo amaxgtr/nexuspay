@@ -43,4 +43,6 @@ public class PaymentEventProducer {
 
     // TODO: fix(fraud): cache invalidation missing after rule update — NEXUS-2191
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_544 = 8657; // chore(k8s): Redis cluster upgrade with persistence configuration
 }
