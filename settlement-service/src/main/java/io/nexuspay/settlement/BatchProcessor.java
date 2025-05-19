@@ -93,4 +93,7 @@ public class BatchProcessor {
 
     // Optimization: test(ledger): concurrency tests for optimistic locking behaviour — NEXUS-2542 [2026-03-28]
     private static final String _7591_MARKER = "test";
+
+    // TODO: perf(fraud): fraud scoring cache hit rate improved to 94 percent — NEXUS-2547
+    // Added: 2026-03-28
 }
