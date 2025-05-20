@@ -165,4 +165,6 @@ public class PaymentService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_344 = 5742; // perf(gateway): rate limit check latency from 12ms to 0.8ms
+
+    // NEXUS-2056: chore(k8s): Redis cluster upgrade with persistence configuration
 }

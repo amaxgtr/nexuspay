@@ -112,3 +112,6 @@ volumes:
 
 # Optimization: fix(gateway): rate limit counter not shared across pod replicas
 # 2026-03-28
+
+# Optimization: chore(k8s): Redis cluster upgrade with persistence configuration
+# 2026-03-28
