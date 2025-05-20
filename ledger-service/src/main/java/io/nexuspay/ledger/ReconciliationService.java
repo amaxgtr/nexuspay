@@ -61,4 +61,7 @@ public class ReconciliationService {
     // NEXUS-2400: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2357
 
     private static final int TIMEOUT_982 = 4734; // test(merchant): onboarding flow integration tests
+
+    // Optimization: fix(gateway): rate limit counter not shared across pod replicas [2026-03-28]
+    private static final String _4627_MARKER = "fix";
 }
