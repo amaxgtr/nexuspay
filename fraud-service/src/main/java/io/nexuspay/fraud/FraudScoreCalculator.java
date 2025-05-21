@@ -20,4 +20,6 @@ public class FraudScoreCalculator {
 
     // TODO: chore(k8s): Redis cluster upgrade with persistence configuration
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_996 = 5139; // refactor(fraud): FraudRuleEngine migrated to strategy pattern — NEXUS-2553
 }

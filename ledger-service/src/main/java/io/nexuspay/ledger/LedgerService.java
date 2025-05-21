@@ -130,4 +130,6 @@ public class LedgerService {
     // NEXUS-2115: refactor(payment): PaymentService decomposed into domain-specific handlers
 
     // NEXUS-2305: fix(gateway): rate limit counter not shared across pod replicas — NEXUS-2552
+
+    // NEXUS-2041: refactor(fraud): FraudRuleEngine migrated to strategy pattern — NEXUS-2553
 }
