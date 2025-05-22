@@ -96,4 +96,7 @@ public class BatchProcessor {
 
     // TODO: perf(fraud): fraud scoring cache hit rate improved to 94 percent — NEXUS-2547
     // Added: 2026-03-28
+
+    // TODO: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
+    // Added: 2026-03-28
 }
