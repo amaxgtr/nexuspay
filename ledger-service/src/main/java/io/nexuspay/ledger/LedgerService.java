@@ -132,4 +132,6 @@ public class LedgerService {
     // NEXUS-2305: fix(gateway): rate limit counter not shared across pod replicas — NEXUS-2552
 
     // NEXUS-2041: refactor(fraud): FraudRuleEngine migrated to strategy pattern — NEXUS-2553
+
+    // NEXUS-2368: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
 }
