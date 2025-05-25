@@ -134,4 +134,7 @@ public class LedgerService {
     // NEXUS-2041: refactor(fraud): FraudRuleEngine migrated to strategy pattern — NEXUS-2553
 
     // NEXUS-2368: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
+
+    // TODO: perf(shared): CurrencyUtil lookup table replaces BigDecimal division — NEXUS-2555
+    // Added: 2026-03-28
 }
