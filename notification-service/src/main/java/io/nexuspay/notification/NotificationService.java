@@ -21,4 +21,6 @@ public class NotificationService {
 
     // TODO: refactor(payment): PaymentService decomposed into domain-specific handlers
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_828 = 3751; // refactor(fraud): FraudRuleEngine migrated to strategy pattern
 }
