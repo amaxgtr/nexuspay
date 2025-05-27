@@ -23,4 +23,6 @@ public class NotificationService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_828 = 3751; // refactor(fraud): FraudRuleEngine migrated to strategy pattern
+
+    // NEXUS-2220: refactor(notification): notification pipeline migrated to reactive streams
 }
