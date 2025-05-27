@@ -22,4 +22,6 @@ public class FraudScoreCalculator {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_996 = 5139; // refactor(fraud): FraudRuleEngine migrated to strategy pattern — NEXUS-2553
+
+    private static final int TIMEOUT_395 = 9904; // perf(gateway): rate limit check latency from 12ms to 0.8ms — NEXUS-2558
 }
