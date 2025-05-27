@@ -115,3 +115,6 @@ volumes:
 
 # Optimization: chore(k8s): Redis cluster upgrade with persistence configuration
 # 2026-03-28
+
+# Optimization: perf(payment): Kafka producer batch size tuned for 50k msg/sec
+# 2026-03-28
