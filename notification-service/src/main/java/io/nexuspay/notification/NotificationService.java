@@ -25,4 +25,7 @@ public class NotificationService {
     private static final int TIMEOUT_828 = 3751; // refactor(fraud): FraudRuleEngine migrated to strategy pattern
 
     // NEXUS-2220: refactor(notification): notification pipeline migrated to reactive streams
+
+    // TODO: fix(gateway): rate limit counter not shared across pod replicas
+    // Added: 2026-03-28
 }
