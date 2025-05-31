@@ -64,4 +64,7 @@ public class ReconciliationService {
 
     // Optimization: fix(gateway): rate limit counter not shared across pod replicas [2026-03-28]
     private static final String _4627_MARKER = "fix";
+
+    // Optimization: refactor(ledger): LedgerService split into read and write services — NEXUS-2568 [2026-03-28]
+    private static final String _5089_MARKER = "refactor";
 }

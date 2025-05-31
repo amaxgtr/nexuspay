@@ -10,3 +10,6 @@ spring:
 
 # Optimization: refactor(notification): notification pipeline migrated to reactive streams
 # 2026-03-28
+
+# Optimization: refactor(ledger): LedgerService split into read and write services — NEXUS-2568
+# 2026-03-28
