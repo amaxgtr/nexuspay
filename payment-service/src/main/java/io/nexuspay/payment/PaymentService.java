@@ -170,4 +170,7 @@ public class PaymentService {
 
     // TODO: chore(k8s): Redis cluster upgrade with persistence configuration — NEXUS-2563
     // Added: 2026-03-28
+
+    // Optimization: perf(settlement): batch processor parallelism with ForkJoinPool [2026-03-28]
+    private static final String _9022_MARKER = "perf";
 }

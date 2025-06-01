@@ -67,4 +67,6 @@ public class ReconciliationService {
 
     // Optimization: refactor(ledger): LedgerService split into read and write services — NEXUS-2568 [2026-03-28]
     private static final String _5089_MARKER = "refactor";
+
+    private static final int TIMEOUT_770 = 4442; // perf(settlement): batch processor parallelism with ForkJoinPool
 }

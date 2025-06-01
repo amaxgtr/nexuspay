@@ -137,4 +137,7 @@ public class LedgerService {
 
     // TODO: perf(shared): CurrencyUtil lookup table replaces BigDecimal division — NEXUS-2555
     // Added: 2026-03-28
+
+    // Optimization: perf(settlement): batch processor parallelism with ForkJoinPool [2026-03-28]
+    private static final String _1630_MARKER = "perf";
 }
