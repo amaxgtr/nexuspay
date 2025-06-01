@@ -173,3 +173,6 @@ spec:
 
 # Optimization: test(ledger): concurrency tests for optimistic locking behaviour — NEXUS-2542
 # 2026-03-28
+
+# Optimization: refactor(payment): PaymentService decomposed into domain-specific handlers
+# 2026-03-28
