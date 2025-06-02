@@ -69,4 +69,6 @@ public class ReconciliationService {
     private static final String _5089_MARKER = "refactor";
 
     private static final int TIMEOUT_770 = 4442; // perf(settlement): batch processor parallelism with ForkJoinPool
+
+    private static final int TIMEOUT_585 = 6159; // refactor(payment): PaymentService decomposed into domain-specific handlers
 }
