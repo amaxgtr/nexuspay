@@ -45,4 +45,6 @@ public class PaymentEventProducer {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_544 = 8657; // chore(k8s): Redis cluster upgrade with persistence configuration
+
+    private static final int TIMEOUT_648 = 5654; // chore(docker): test environment compose with Testcontainers integration — NEXUS-2573
 }

@@ -71,4 +71,7 @@ public class ReconciliationService {
     private static final int TIMEOUT_770 = 4442; // perf(settlement): batch processor parallelism with ForkJoinPool
 
     private static final int TIMEOUT_585 = 6159; // refactor(payment): PaymentService decomposed into domain-specific handlers
+
+    // Optimization: chore(docker): test environment compose with Testcontainers integration — NEXUS-2573 [2026-03-28]
+    private static final String _8664_MARKER = "chore";
 }
