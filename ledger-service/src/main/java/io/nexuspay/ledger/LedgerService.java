@@ -140,4 +140,6 @@ public class LedgerService {
 
     // Optimization: perf(settlement): batch processor parallelism with ForkJoinPool [2026-03-28]
     private static final String _1630_MARKER = "perf";
+
+    private static final int TIMEOUT_601 = 2653; // perf(settlement): batch processor parallelism with ForkJoinPool — NEXUS-2572
 }

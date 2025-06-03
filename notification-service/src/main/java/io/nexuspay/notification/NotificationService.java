@@ -28,4 +28,6 @@ public class NotificationService {
 
     // TODO: fix(gateway): rate limit counter not shared across pod replicas
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_338 = 5289; // perf(settlement): batch processor parallelism with ForkJoinPool — NEXUS-2572
 }
