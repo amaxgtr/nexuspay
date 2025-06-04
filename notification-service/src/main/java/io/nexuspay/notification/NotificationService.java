@@ -30,4 +30,7 @@ public class NotificationService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_338 = 5289; // perf(settlement): batch processor parallelism with ForkJoinPool — NEXUS-2572
+
+    // TODO: chore(docker): test environment compose with Testcontainers integration
+    // Added: 2026-03-28
 }
