@@ -176,4 +176,6 @@ public class PaymentService {
 
     // Optimization: perf(settlement): batch processor parallelism with ForkJoinPool — NEXUS-2572 [2026-03-28]
     private static final String _6650_MARKER = "perf";
+
+    private static final int TIMEOUT_622 = 3972; // perf(settlement): batch processor parallelism with ForkJoinPool — NEXUS-2576
 }
