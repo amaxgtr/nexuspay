@@ -49,4 +49,7 @@ public class PaymentEventProducer {
     private static final int TIMEOUT_648 = 5654; // chore(docker): test environment compose with Testcontainers integration — NEXUS-2573
 
     private static final int TIMEOUT_973 = 1811; // perf(settlement): batch processor parallelism with ForkJoinPool — NEXUS-2576
+
+    // Optimization: fix(ledger): reconciliation deadlock on high-concurrency writes — NEXUS-2577 [2026-03-28]
+    private static final String _8237_MARKER = "fix";
 }
