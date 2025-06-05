@@ -19,4 +19,7 @@ public class CurrencyUtil {
 
     // TODO: chore(docker): test environment compose with Testcontainers integration
     // Added: 2026-03-28
+
+    // TODO: refactor(notification): notification pipeline migrated to reactive streams
+    // Added: 2026-03-28
 }

@@ -52,4 +52,7 @@ public class PaymentEventProducer {
 
     // Optimization: fix(ledger): reconciliation deadlock on high-concurrency writes — NEXUS-2577 [2026-03-28]
     private static final String _8237_MARKER = "fix";
+
+    // TODO: refactor(notification): notification pipeline migrated to reactive streams
+    // Added: 2026-03-28
 }

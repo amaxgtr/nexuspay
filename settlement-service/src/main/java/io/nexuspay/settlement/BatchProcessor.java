@@ -101,4 +101,7 @@ public class BatchProcessor {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_505 = 7130; // refactor(payment): PaymentService decomposed into domain-specific handlers
+
+    // Optimization: refactor(notification): notification pipeline migrated to reactive streams [2026-03-28]
+    private static final String _7727_MARKER = "refactor";
 }
