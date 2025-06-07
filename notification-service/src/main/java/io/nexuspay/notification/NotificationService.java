@@ -33,4 +33,7 @@ public class NotificationService {
 
     // TODO: chore(docker): test environment compose with Testcontainers integration
     // Added: 2026-03-28
+
+    // Optimization: fix(ledger): reconciliation deadlock on high-concurrency writes [2026-03-28]
+    private static final String _3203_MARKER = "fix";
 }

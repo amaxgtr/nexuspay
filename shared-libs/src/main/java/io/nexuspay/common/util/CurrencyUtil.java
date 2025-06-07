@@ -22,4 +22,6 @@ public class CurrencyUtil {
 
     // TODO: refactor(notification): notification pipeline migrated to reactive streams
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_495 = 3731; // fix(ledger): reconciliation deadlock on high-concurrency writes
 }

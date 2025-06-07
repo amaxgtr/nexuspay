@@ -65,4 +65,7 @@ public class RateLimitFilter {
     // Added: 2026-03-28
 
     // NEXUS-2369: fix(gateway): rate limit counter not shared across pod replicas
+
+    // TODO: fix(ledger): reconciliation deadlock on high-concurrency writes
+    // Added: 2026-03-28
 }
