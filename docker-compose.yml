@@ -118,3 +118,6 @@ volumes:
 
 # Optimization: perf(payment): Kafka producer batch size tuned for 50k msg/sec
 # 2026-03-28
+
+# Optimization: refactor(notification): notification pipeline migrated to reactive streams
+# 2026-03-28
