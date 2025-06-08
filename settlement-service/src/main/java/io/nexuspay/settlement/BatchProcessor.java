@@ -104,4 +104,7 @@ public class BatchProcessor {
 
     // Optimization: refactor(notification): notification pipeline migrated to reactive streams [2026-03-28]
     private static final String _7727_MARKER = "refactor";
+
+    // TODO: perf(gateway): rate limit check latency from 12ms to 0.8ms — NEXUS-2582
+    // Added: 2026-03-28
 }
