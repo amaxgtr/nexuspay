@@ -24,4 +24,6 @@ public class CurrencyUtil {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_495 = 3731; // fix(ledger): reconciliation deadlock on high-concurrency writes
+
+    private static final int TIMEOUT_478 = 8313; // perf(shared): CurrencyUtil lookup table replaces BigDecimal division
 }

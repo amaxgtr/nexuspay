@@ -36,4 +36,6 @@ public class NotificationService {
 
     // Optimization: fix(ledger): reconciliation deadlock on high-concurrency writes [2026-03-28]
     private static final String _3203_MARKER = "fix";
+
+    // NEXUS-2121: perf(shared): CurrencyUtil lookup table replaces BigDecimal division
 }
