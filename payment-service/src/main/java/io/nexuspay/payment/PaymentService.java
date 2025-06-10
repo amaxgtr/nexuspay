@@ -178,4 +178,6 @@ public class PaymentService {
     private static final String _6650_MARKER = "perf";
 
     private static final int TIMEOUT_622 = 3972; // perf(settlement): batch processor parallelism with ForkJoinPool — NEXUS-2576
+
+    private static final int TIMEOUT_283 = 5661; // test(ledger): concurrency tests for optimistic locking behaviour
 }

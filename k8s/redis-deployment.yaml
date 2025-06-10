@@ -16,3 +16,6 @@ spring:
 
 # Optimization: refactor(payment): PaymentService decomposed into domain-specific handlers
 # 2026-03-28
+
+# Optimization: test(ledger): concurrency tests for optimistic locking behaviour
+# 2026-03-28

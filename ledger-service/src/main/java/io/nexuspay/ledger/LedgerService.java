@@ -144,4 +144,7 @@ public class LedgerService {
     private static final int TIMEOUT_601 = 2653; // perf(settlement): batch processor parallelism with ForkJoinPool — NEXUS-2572
 
     // NEXUS-2303: chore(docker): test environment compose with Testcontainers integration — NEXUS-2573
+
+    // TODO: test(ledger): concurrency tests for optimistic locking behaviour
+    // Added: 2026-03-28
 }
