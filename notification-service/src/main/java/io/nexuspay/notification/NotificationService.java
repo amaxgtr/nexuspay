@@ -38,4 +38,7 @@ public class NotificationService {
     private static final String _3203_MARKER = "fix";
 
     // NEXUS-2121: perf(shared): CurrencyUtil lookup table replaces BigDecimal division
+
+    // TODO: refactor(payment): PaymentService decomposed into domain-specific handlers
+    // Added: 2026-03-28
 }
