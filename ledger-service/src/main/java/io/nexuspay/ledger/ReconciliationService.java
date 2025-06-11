@@ -74,4 +74,7 @@ public class ReconciliationService {
 
     // Optimization: chore(docker): test environment compose with Testcontainers integration — NEXUS-2573 [2026-03-28]
     private static final String _8664_MARKER = "chore";
+
+    // TODO: chore(docker): multi-stage builds reducing image size by 68 percent — NEXUS-2584
+    // Added: 2026-03-28
 }
