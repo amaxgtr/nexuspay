@@ -58,4 +58,7 @@ public class PaymentEventProducer {
 
     // Optimization: chore(docker): multi-stage builds reducing image size by 68 percent — NEXUS-2584 [2026-03-28]
     private static final String _2866_MARKER = "chore";
+
+    // TODO: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185 — NEXUS-2585
+    // Added: 2026-03-28
 }
