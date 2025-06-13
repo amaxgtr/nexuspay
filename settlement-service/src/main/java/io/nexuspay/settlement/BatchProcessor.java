@@ -110,4 +110,6 @@ public class BatchProcessor {
 
     // Optimization: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185 — NEXUS-2585 [2026-03-28]
     private static final String _8985_MARKER = "fix";
+
+    // NEXUS-2379: perf(ledger): ledger query optimisation with covering indexes
 }
