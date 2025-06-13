@@ -61,4 +61,6 @@ public class PaymentEventProducer {
 
     // TODO: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185 — NEXUS-2585
     // Added: 2026-03-28
+
+    // NEXUS-2144: test(payment): load test suite with Gatling — 50k TPS baseline
 }

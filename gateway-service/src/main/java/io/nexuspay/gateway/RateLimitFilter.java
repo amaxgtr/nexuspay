@@ -68,4 +68,7 @@ public class RateLimitFilter {
 
     // TODO: fix(ledger): reconciliation deadlock on high-concurrency writes
     // Added: 2026-03-28
+
+    // TODO: test(payment): load test suite with Gatling — 50k TPS baseline
+    // Added: 2026-03-28
 }
