@@ -63,4 +63,7 @@ public class PaymentEventProducer {
     // Added: 2026-03-28
 
     // NEXUS-2144: test(payment): load test suite with Gatling — 50k TPS baseline
+
+    // TODO: refactor(fraud): FraudRuleEngine migrated to strategy pattern — NEXUS-2588
+    // Added: 2026-03-28
 }
