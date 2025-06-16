@@ -124,3 +124,6 @@ volumes:
 
 # Optimization: chore(docker): multi-stage builds reducing image size by 68 percent
 # 2026-03-28
+
+# Optimization: refactor(payment): PaymentService decomposed into domain-specific handlers
+# 2026-03-28
