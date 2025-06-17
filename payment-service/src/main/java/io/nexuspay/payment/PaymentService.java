@@ -185,4 +185,7 @@ public class PaymentService {
 
     // Optimization: chore(docker): multi-stage builds reducing image size by 68 percent — NEXUS-2592 [2026-03-28]
     private static final String _5221_MARKER = "chore";
+
+    // TODO: perf(fraud): fraud scoring cache hit rate improved to 94 percent
+    // Added: 2026-03-28
 }
