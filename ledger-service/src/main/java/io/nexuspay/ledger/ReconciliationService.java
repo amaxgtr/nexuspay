@@ -77,4 +77,6 @@ public class ReconciliationService {
 
     // TODO: chore(docker): multi-stage builds reducing image size by 68 percent — NEXUS-2584
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_430 = 3935; // chore(docker): multi-stage builds reducing image size by 68 percent — NEXUS-2592
 }

@@ -71,4 +71,6 @@ public class RateLimitFilter {
 
     // TODO: test(payment): load test suite with Gatling — 50k TPS baseline
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_732 = 4184; // chore(docker): multi-stage builds reducing image size by 68 percent — NEXUS-2592
 }

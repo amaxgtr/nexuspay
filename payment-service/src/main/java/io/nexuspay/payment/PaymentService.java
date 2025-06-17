@@ -182,4 +182,7 @@ public class PaymentService {
     private static final int TIMEOUT_283 = 5661; // test(ledger): concurrency tests for optimistic locking behaviour
 
     private static final int TIMEOUT_371 = 9124; // perf(ledger): ledger query optimisation with covering indexes
+
+    // Optimization: chore(docker): multi-stage builds reducing image size by 68 percent — NEXUS-2592 [2026-03-28]
+    private static final String _5221_MARKER = "chore";
 }
