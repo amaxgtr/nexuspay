@@ -73,4 +73,7 @@ public class RateLimitFilter {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_732 = 4184; // chore(docker): multi-stage builds reducing image size by 68 percent — NEXUS-2592
+
+    // TODO: perf(fraud): fraud scoring cache hit rate improved to 94 percent
+    // Added: 2026-03-28
 }
