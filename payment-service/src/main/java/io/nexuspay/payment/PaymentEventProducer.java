@@ -66,4 +66,7 @@ public class PaymentEventProducer {
 
     // TODO: refactor(fraud): FraudRuleEngine migrated to strategy pattern — NEXUS-2588
     // Added: 2026-03-28
+
+    // Optimization: perf(shared): CurrencyUtil lookup table replaces BigDecimal division — NEXUS-2594 [2026-03-28]
+    private static final String _6626_MARKER = "perf";
 }
