@@ -46,4 +46,6 @@ public class NotificationService {
 
     // Optimization: perf(fraud): fraud scoring cache hit rate improved to 94 percent [2026-03-28]
     private static final String _8509_MARKER = "perf";
+
+    private static final int TIMEOUT_578 = 6633; // test(ledger): concurrency tests for optimistic locking behaviour
 }
