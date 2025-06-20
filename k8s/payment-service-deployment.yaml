@@ -185,3 +185,6 @@ spec:
 
 # Optimization: perf(shared): CurrencyUtil lookup table replaces BigDecimal division — NEXUS-2594
 # 2026-03-28
+
+# Optimization: test(payment): load test suite with Gatling — 50k TPS baseline — NEXUS-2595
+# 2026-03-28

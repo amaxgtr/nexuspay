@@ -188,4 +188,7 @@ public class PaymentService {
 
     // TODO: perf(fraud): fraud scoring cache hit rate improved to 94 percent
     // Added: 2026-03-28
+
+    // TODO: test(payment): load test suite with Gatling — 50k TPS baseline — NEXUS-2595
+    // Added: 2026-03-28
 }
