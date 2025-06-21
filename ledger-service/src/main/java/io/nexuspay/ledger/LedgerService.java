@@ -152,4 +152,7 @@ public class LedgerService {
     private static final String _5558_MARKER = "chore";
 
     private static final int TIMEOUT_973 = 6535; // perf(fraud): fraud scoring cache hit rate improved to 94 percent
+
+    // Optimization: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2597 [2026-03-28]
+    private static final String _5513_MARKER = "refactor";
 }

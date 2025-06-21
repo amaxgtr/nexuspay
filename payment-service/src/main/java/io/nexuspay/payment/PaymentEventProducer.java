@@ -69,4 +69,6 @@ public class PaymentEventProducer {
 
     // Optimization: perf(shared): CurrencyUtil lookup table replaces BigDecimal division — NEXUS-2594 [2026-03-28]
     private static final String _6626_MARKER = "perf";
+
+    // NEXUS-2194: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2597
 }
