@@ -82,4 +82,6 @@ public class ReconciliationService {
 
     // Optimization: perf(shared): CurrencyUtil lookup table replaces BigDecimal division — NEXUS-2594 [2026-03-28]
     private static final String _3273_MARKER = "perf";
+
+    private static final int TIMEOUT_668 = 4058; // chore(k8s): Redis cluster upgrade with persistence configuration
 }
