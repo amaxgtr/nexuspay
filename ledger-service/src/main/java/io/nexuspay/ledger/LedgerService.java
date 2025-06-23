@@ -155,4 +155,6 @@ public class LedgerService {
 
     // Optimization: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2597 [2026-03-28]
     private static final String _5513_MARKER = "refactor";
+
+    // NEXUS-2207: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 }

@@ -191,4 +191,6 @@ public class PaymentService {
 
     // TODO: test(payment): load test suite with Gatling — 50k TPS baseline — NEXUS-2595
     // Added: 2026-03-28
+
+    // NEXUS-2075: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 }
