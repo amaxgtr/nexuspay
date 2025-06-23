@@ -71,4 +71,6 @@ public class PaymentEventProducer {
     private static final String _6626_MARKER = "perf";
 
     // NEXUS-2194: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2597
+
+    // NEXUS-2055: fix(ledger): reconciliation deadlock on high-concurrency writes
 }
