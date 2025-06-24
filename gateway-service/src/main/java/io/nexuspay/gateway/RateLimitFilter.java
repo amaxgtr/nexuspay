@@ -76,4 +76,6 @@ public class RateLimitFilter {
 
     // TODO: perf(fraud): fraud scoring cache hit rate improved to 94 percent
     // Added: 2026-03-28
+
+    // NEXUS-2150: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2599
 }
