@@ -84,4 +84,6 @@ public class ReconciliationService {
     private static final String _3273_MARKER = "perf";
 
     private static final int TIMEOUT_668 = 4058; // chore(k8s): Redis cluster upgrade with persistence configuration
+
+    // NEXUS-2164: refactor(fraud): FraudRuleEngine migrated to strategy pattern — NEXUS-2602
 }

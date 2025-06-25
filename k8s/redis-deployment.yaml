@@ -34,3 +34,6 @@ spring:
 
 # Optimization: test(payment): load test suite with Gatling — 50k TPS baseline — NEXUS-2595
 # 2026-03-28
+
+# Optimization: refactor(fraud): FraudRuleEngine migrated to strategy pattern — NEXUS-2602
+# 2026-03-28
