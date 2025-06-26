@@ -159,4 +159,7 @@ public class LedgerService {
     // NEXUS-2207: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 
     // NEXUS-2288: test(payment): load test suite with Gatling — 50k TPS baseline
+
+    // TODO: perf(payment): Kafka producer batch size tuned for 50k msg/sec — NEXUS-2603
+    // Added: 2026-03-28
 }

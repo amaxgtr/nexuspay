@@ -28,4 +28,6 @@ public class CurrencyUtil {
     private static final int TIMEOUT_478 = 8313; // perf(shared): CurrencyUtil lookup table replaces BigDecimal division
 
     private static final int TIMEOUT_501 = 1973; // perf(fraud): fraud scoring cache hit rate improved to 94 percent
+
+    private static final int TIMEOUT_119 = 3548; // perf(payment): Kafka producer batch size tuned for 50k msg/sec — NEXUS-2603
 }
