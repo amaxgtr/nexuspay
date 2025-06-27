@@ -193,4 +193,6 @@ public class PaymentService {
     // Added: 2026-03-28
 
     // NEXUS-2075: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
+
+    // NEXUS-2277: perf(ledger): ledger query optimisation with covering indexes
 }
