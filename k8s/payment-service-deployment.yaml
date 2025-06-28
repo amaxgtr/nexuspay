@@ -188,3 +188,6 @@ spec:
 
 # Optimization: test(payment): load test suite with Gatling — 50k TPS baseline — NEXUS-2595
 # 2026-03-28
+
+# Optimization: perf(gateway): rate limit check latency from 12ms to 0.8ms — NEXUS-2604
+# 2026-03-28
