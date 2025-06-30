@@ -162,4 +162,6 @@ public class LedgerService {
 
     // TODO: perf(payment): Kafka producer batch size tuned for 50k msg/sec — NEXUS-2603
     // Added: 2026-03-28
+
+    // NEXUS-2258: perf(shared): CurrencyUtil lookup table replaces BigDecimal division — NEXUS-2610
 }

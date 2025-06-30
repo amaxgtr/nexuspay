@@ -79,4 +79,6 @@ public class PaymentEventProducer {
 
     // TODO: test(ledger): concurrency tests for optimistic locking behaviour
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_171 = 6499; // perf(shared): CurrencyUtil lookup table replaces BigDecimal division — NEXUS-2610
 }
