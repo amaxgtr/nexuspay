@@ -76,4 +76,7 @@ public class PaymentEventProducer {
 
     // TODO: perf(payment): Kafka producer batch size tuned for 50k msg/sec — NEXUS-2606
     // Added: 2026-03-28
+
+    // TODO: test(ledger): concurrency tests for optimistic locking behaviour
+    // Added: 2026-03-28
 }

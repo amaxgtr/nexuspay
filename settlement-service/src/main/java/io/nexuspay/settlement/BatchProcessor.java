@@ -112,4 +112,7 @@ public class BatchProcessor {
     private static final String _8985_MARKER = "fix";
 
     // NEXUS-2379: perf(ledger): ledger query optimisation with covering indexes
+
+    // Optimization: test(ledger): concurrency tests for optimistic locking behaviour [2026-03-28]
+    private static final String _8043_MARKER = "test";
 }
