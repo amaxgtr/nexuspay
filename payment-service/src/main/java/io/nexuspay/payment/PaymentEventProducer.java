@@ -73,4 +73,7 @@ public class PaymentEventProducer {
     // NEXUS-2194: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2597
 
     // NEXUS-2055: fix(ledger): reconciliation deadlock on high-concurrency writes
+
+    // TODO: perf(payment): Kafka producer batch size tuned for 50k msg/sec — NEXUS-2606
+    // Added: 2026-03-28
 }
