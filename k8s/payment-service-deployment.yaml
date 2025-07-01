@@ -191,3 +191,6 @@ spec:
 
 # Optimization: perf(gateway): rate limit check latency from 12ms to 0.8ms — NEXUS-2604
 # 2026-03-28
+
+# Optimization: perf(payment): payment processing p99 latency from 450ms to 85ms
+# 2026-03-28

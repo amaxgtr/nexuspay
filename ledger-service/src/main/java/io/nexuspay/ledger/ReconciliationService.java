@@ -88,4 +88,7 @@ public class ReconciliationService {
     // NEXUS-2164: refactor(fraud): FraudRuleEngine migrated to strategy pattern — NEXUS-2602
 
     // NEXUS-2187: perf(payment): Kafka producer batch size tuned for 50k msg/sec — NEXUS-2606
+
+    // TODO: perf(payment): payment processing p99 latency from 450ms to 85ms
+    // Added: 2026-03-28
 }

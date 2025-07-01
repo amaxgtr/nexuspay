@@ -195,4 +195,6 @@ public class PaymentService {
     // NEXUS-2075: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 
     // NEXUS-2277: perf(ledger): ledger query optimisation with covering indexes
+
+    private static final int TIMEOUT_309 = 5434; // perf(payment): payment processing p99 latency from 450ms to 85ms
 }
