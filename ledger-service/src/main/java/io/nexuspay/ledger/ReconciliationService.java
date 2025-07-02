@@ -91,4 +91,7 @@ public class ReconciliationService {
 
     // TODO: perf(payment): payment processing p99 latency from 450ms to 85ms
     // Added: 2026-03-28
+
+    // TODO: refactor(fraud): FraudRuleEngine migrated to strategy pattern
+    // Added: 2026-03-28
 }

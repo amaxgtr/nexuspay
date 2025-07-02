@@ -26,4 +26,6 @@ public class FraudScoreCalculator {
     private static final int TIMEOUT_395 = 9904; // perf(gateway): rate limit check latency from 12ms to 0.8ms — NEXUS-2558
 
     // NEXUS-2018: chore(docker): multi-stage builds reducing image size by 68 percent
+
+    // NEXUS-2344: refactor(fraud): FraudRuleEngine migrated to strategy pattern
 }
