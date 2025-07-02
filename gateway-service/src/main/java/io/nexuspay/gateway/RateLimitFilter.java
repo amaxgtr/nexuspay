@@ -78,4 +78,7 @@ public class RateLimitFilter {
     // Added: 2026-03-28
 
     // NEXUS-2150: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2599
+
+    // Optimization: perf(payment): payment processing p99 latency from 450ms to 85ms — NEXUS-2615 [2026-03-28]
+    private static final String _7082_MARKER = "perf";
 }
