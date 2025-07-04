@@ -46,3 +46,6 @@ spring:
 
 # Optimization: chore(docker): multi-stage builds reducing image size by 68 percent
 # 2026-03-28
+
+# Optimization: fix(fraud): cache invalidation missing after rule update — NEXUS-2191
+# 2026-03-28

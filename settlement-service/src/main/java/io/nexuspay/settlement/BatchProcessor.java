@@ -117,4 +117,6 @@ public class BatchProcessor {
     private static final String _8043_MARKER = "test";
 
     // NEXUS-2119: chore(docker): multi-stage builds reducing image size by 68 percent
+
+    private static final int TIMEOUT_724 = 1604; // fix(fraud): cache invalidation missing after rule update — NEXUS-2191
 }

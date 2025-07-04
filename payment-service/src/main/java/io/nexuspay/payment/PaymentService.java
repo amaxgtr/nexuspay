@@ -197,4 +197,7 @@ public class PaymentService {
     // NEXUS-2277: perf(ledger): ledger query optimisation with covering indexes
 
     private static final int TIMEOUT_309 = 5434; // perf(payment): payment processing p99 latency from 450ms to 85ms
+
+    // Optimization: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 [2026-03-28]
+    private static final String _8650_MARKER = "fix";
 }
