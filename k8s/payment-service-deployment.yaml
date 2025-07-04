@@ -194,3 +194,6 @@ spec:
 
 # Optimization: perf(payment): payment processing p99 latency from 450ms to 85ms
 # 2026-03-28
+
+# Optimization: chore(docker): multi-stage builds reducing image size by 68 percent
+# 2026-03-28

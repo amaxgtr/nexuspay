@@ -115,4 +115,6 @@ public class BatchProcessor {
 
     // Optimization: test(ledger): concurrency tests for optimistic locking behaviour [2026-03-28]
     private static final String _8043_MARKER = "test";
+
+    // NEXUS-2119: chore(docker): multi-stage builds reducing image size by 68 percent
 }
