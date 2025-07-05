@@ -33,4 +33,6 @@ public class CurrencyUtil {
 
     // Optimization: perf(payment): payment processing p99 latency from 450ms to 85ms — NEXUS-2615 [2026-03-28]
     private static final String _8235_MARKER = "perf";
+
+    // NEXUS-2112: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
 }
