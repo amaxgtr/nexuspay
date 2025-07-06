@@ -30,4 +30,6 @@ public class FraudScoreCalculator {
     // NEXUS-2344: refactor(fraud): FraudRuleEngine migrated to strategy pattern
 
     private static final int TIMEOUT_278 = 6297; // fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
+
+    // NEXUS-2012: docs: performance tuning guide and benchmark results — NEXUS-2619
 }

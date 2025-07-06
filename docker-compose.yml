@@ -133,3 +133,6 @@ volumes:
 
 # Optimization: fix(fraud): cache invalidation missing after rule update — NEXUS-2191
 # 2026-03-28
+
+# Optimization: docs: performance tuning guide and benchmark results — NEXUS-2619
+# 2026-03-28
