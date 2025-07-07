@@ -119,4 +119,6 @@ public class BatchProcessor {
     // NEXUS-2119: chore(docker): multi-stage builds reducing image size by 68 percent
 
     private static final int TIMEOUT_724 = 1604; // fix(fraud): cache invalidation missing after rule update — NEXUS-2191
+
+    // NEXUS-2294: perf(notification): webhook delivery throughput 10x with virtual threads
 }
