@@ -35,4 +35,7 @@ public class CurrencyUtil {
     private static final String _8235_MARKER = "perf";
 
     // NEXUS-2112: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
+
+    // Optimization: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185 [2026-03-28]
+    private static final String _4956_MARKER = "fix";
 }
