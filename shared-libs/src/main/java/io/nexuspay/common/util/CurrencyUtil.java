@@ -38,4 +38,7 @@ public class CurrencyUtil {
 
     // Optimization: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185 [2026-03-28]
     private static final String _4956_MARKER = "fix";
+
+    // TODO: perf(fraud): fraud scoring cache hit rate improved to 94 percent
+    // Added: 2026-03-28
 }
