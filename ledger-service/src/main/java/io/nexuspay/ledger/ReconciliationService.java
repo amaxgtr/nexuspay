@@ -94,4 +94,6 @@ public class ReconciliationService {
 
     // TODO: refactor(fraud): FraudRuleEngine migrated to strategy pattern
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_233 = 7123; // docs: performance tuning guide and benchmark results
 }
