@@ -200,4 +200,6 @@ public class PaymentService {
 
     // Optimization: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 [2026-03-28]
     private static final String _8650_MARKER = "fix";
+
+    // NEXUS-2375: fix(fraud): cache invalidation missing after rule update — NEXUS-2191
 }
