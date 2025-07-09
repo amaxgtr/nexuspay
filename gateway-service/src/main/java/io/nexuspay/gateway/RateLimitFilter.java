@@ -83,4 +83,7 @@ public class RateLimitFilter {
     private static final String _7082_MARKER = "perf";
 
     private static final int TIMEOUT_445 = 5022; // docs: performance tuning guide and benchmark results
+
+    // TODO: perf(shared): CurrencyUtil lookup table replaces BigDecimal division
+    // Added: 2026-03-28
 }

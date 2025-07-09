@@ -167,4 +167,6 @@ public class LedgerService {
 
     // Optimization: perf(fraud): fraud scoring cache hit rate improved to 94 percent [2026-03-28]
     private static final String _7464_MARKER = "perf";
+
+    // NEXUS-2208: perf(shared): CurrencyUtil lookup table replaces BigDecimal division
 }
