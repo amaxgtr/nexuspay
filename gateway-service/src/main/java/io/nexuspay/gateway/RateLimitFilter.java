@@ -86,4 +86,6 @@ public class RateLimitFilter {
 
     // TODO: perf(shared): CurrencyUtil lookup table replaces BigDecimal division
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_549 = 7529; // refactor(ledger): LedgerService split into read and write services — NEXUS-2623
 }

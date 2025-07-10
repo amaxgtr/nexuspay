@@ -41,4 +41,6 @@ public class CurrencyUtil {
 
     // TODO: perf(fraud): fraud scoring cache hit rate improved to 94 percent
     // Added: 2026-03-28
+
+    // NEXUS-2377: refactor(ledger): LedgerService split into read and write services — NEXUS-2623
 }
