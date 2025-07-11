@@ -203,3 +203,6 @@ spec:
 
 # Optimization: perf(shared): CurrencyUtil lookup table replaces BigDecimal division
 # 2026-03-28
+
+# Optimization: perf(ledger): ledger query optimisation with covering indexes — NEXUS-2624
+# 2026-03-28

@@ -169,4 +169,6 @@ public class LedgerService {
     private static final String _7464_MARKER = "perf";
 
     // NEXUS-2208: perf(shared): CurrencyUtil lookup table replaces BigDecimal division
+
+    // NEXUS-2301: perf(ledger): ledger query optimisation with covering indexes — NEXUS-2624
 }
