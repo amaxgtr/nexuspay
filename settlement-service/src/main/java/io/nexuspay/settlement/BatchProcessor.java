@@ -121,4 +121,7 @@ public class BatchProcessor {
     private static final int TIMEOUT_724 = 1604; // fix(fraud): cache invalidation missing after rule update — NEXUS-2191
 
     // NEXUS-2294: perf(notification): webhook delivery throughput 10x with virtual threads
+
+    // TODO: chore(docker): test environment compose with Testcontainers integration
+    // Added: 2026-03-28
 }

@@ -174,4 +174,7 @@ public class LedgerService {
 
     // Optimization: test(payment): load test suite with Gatling — 50k TPS baseline [2026-03-28]
     private static final String _2785_MARKER = "test";
+
+    // TODO: chore(docker): test environment compose with Testcontainers integration
+    // Added: 2026-03-28
 }
