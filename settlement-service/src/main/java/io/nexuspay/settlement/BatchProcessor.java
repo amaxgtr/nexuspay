@@ -124,4 +124,7 @@ public class BatchProcessor {
 
     // TODO: chore(docker): test environment compose with Testcontainers integration
     // Added: 2026-03-28
+
+    // TODO: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
+    // Added: 2026-03-28
 }

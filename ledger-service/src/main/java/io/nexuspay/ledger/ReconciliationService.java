@@ -96,4 +96,7 @@ public class ReconciliationService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_233 = 7123; // docs: performance tuning guide and benchmark results
+
+    // TODO: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
+    // Added: 2026-03-28
 }

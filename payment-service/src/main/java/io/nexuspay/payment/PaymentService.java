@@ -204,4 +204,7 @@ public class PaymentService {
     // NEXUS-2375: fix(fraud): cache invalidation missing after rule update — NEXUS-2191
 
     // NEXUS-2014: refactor(ledger): LedgerService split into read and write services — NEXUS-2623
+
+    // TODO: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
+    // Added: 2026-03-28
 }
