@@ -52,3 +52,6 @@ spring:
 
 # Optimization: refactor(fraud): FraudRuleEngine migrated to strategy pattern
 # 2026-03-28
+
+# Optimization: fix(ledger): reconciliation deadlock on high-concurrency writes
+# 2026-03-28
