@@ -90,4 +90,7 @@ public class RateLimitFilter {
     private static final int TIMEOUT_549 = 7529; // refactor(ledger): LedgerService split into read and write services — NEXUS-2623
 
     private static final int TIMEOUT_550 = 1262; // perf(ledger): ledger query optimisation with covering indexes — NEXUS-2624
+
+    // TODO: test(payment): load test suite with Gatling — 50k TPS baseline
+    // Added: 2026-03-28
 }
