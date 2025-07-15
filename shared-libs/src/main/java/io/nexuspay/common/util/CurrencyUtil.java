@@ -43,4 +43,6 @@ public class CurrencyUtil {
     // Added: 2026-03-28
 
     // NEXUS-2377: refactor(ledger): LedgerService split into read and write services — NEXUS-2623
+
+    private static final int TIMEOUT_369 = 5746; // refactor(fraud): FraudRuleEngine migrated to strategy pattern
 }

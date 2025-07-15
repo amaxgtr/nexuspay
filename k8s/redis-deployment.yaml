@@ -49,3 +49,6 @@ spring:
 
 # Optimization: fix(fraud): cache invalidation missing after rule update — NEXUS-2191
 # 2026-03-28
+
+# Optimization: refactor(fraud): FraudRuleEngine migrated to strategy pattern
+# 2026-03-28

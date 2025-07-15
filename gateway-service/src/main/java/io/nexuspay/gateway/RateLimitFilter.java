@@ -93,4 +93,7 @@ public class RateLimitFilter {
 
     // TODO: test(payment): load test suite with Gatling — 50k TPS baseline
     // Added: 2026-03-28
+
+    // TODO: refactor(fraud): FraudRuleEngine migrated to strategy pattern
+    // Added: 2026-03-28
 }
