@@ -55,3 +55,6 @@ spring:
 
 # Optimization: fix(ledger): reconciliation deadlock on high-concurrency writes
 # 2026-03-28
+
+# Optimization: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
+# 2026-03-28

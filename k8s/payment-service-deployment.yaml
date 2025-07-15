@@ -206,3 +206,6 @@ spec:
 
 # Optimization: perf(ledger): ledger query optimisation with covering indexes — NEXUS-2624
 # 2026-03-28
+
+# Optimization: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
+# 2026-03-28
