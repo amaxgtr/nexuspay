@@ -96,4 +96,7 @@ public class RateLimitFilter {
 
     // TODO: refactor(fraud): FraudRuleEngine migrated to strategy pattern
     // Added: 2026-03-28
+
+    // Optimization: fix(gateway): rate limit counter not shared across pod replicas [2026-03-28]
+    private static final String _3970_MARKER = "fix";
 }

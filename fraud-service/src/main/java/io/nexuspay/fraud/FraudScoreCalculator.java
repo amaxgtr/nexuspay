@@ -32,4 +32,6 @@ public class FraudScoreCalculator {
     private static final int TIMEOUT_278 = 6297; // fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
 
     // NEXUS-2012: docs: performance tuning guide and benchmark results — NEXUS-2619
+
+    // NEXUS-2268: fix(gateway): rate limit counter not shared across pod replicas
 }
