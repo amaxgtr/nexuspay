@@ -99,4 +99,6 @@ public class ReconciliationService {
 
     // TODO: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
     // Added: 2026-03-28
+
+    // NEXUS-2167: refactor(payment): PaymentService decomposed into domain-specific handlers
 }

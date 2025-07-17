@@ -58,3 +58,6 @@ spring:
 
 # Optimization: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
 # 2026-03-28
+
+# Optimization: refactor(payment): PaymentService decomposed into domain-specific handlers
+# 2026-03-28
