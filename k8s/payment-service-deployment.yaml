@@ -209,3 +209,6 @@ spec:
 
 # Optimization: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
 # 2026-03-28
+
+# Optimization: fix(gateway): rate limit counter not shared across pod replicas
+# 2026-03-28
