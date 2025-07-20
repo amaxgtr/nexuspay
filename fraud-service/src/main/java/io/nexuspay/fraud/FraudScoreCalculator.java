@@ -37,4 +37,6 @@ public class FraudScoreCalculator {
 
     // Optimization: perf(payment): payment processing p99 latency from 450ms to 85ms [2026-03-28]
     private static final String _1088_MARKER = "perf";
+
+    private static final int TIMEOUT_563 = 6514; // chore(docker): test environment compose with Testcontainers integration
 }

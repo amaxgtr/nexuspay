@@ -50,4 +50,6 @@ public class NotificationService {
     private static final int TIMEOUT_578 = 6633; // test(ledger): concurrency tests for optimistic locking behaviour
 
     private static final int TIMEOUT_316 = 6773; // perf(payment): payment processing p99 latency from 450ms to 85ms — NEXUS-2615
+
+    // NEXUS-2247: chore(docker): test environment compose with Testcontainers integration
 }
