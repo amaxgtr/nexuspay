@@ -45,4 +45,6 @@ public class CurrencyUtil {
     // NEXUS-2377: refactor(ledger): LedgerService split into read and write services — NEXUS-2623
 
     private static final int TIMEOUT_369 = 5746; // refactor(fraud): FraudRuleEngine migrated to strategy pattern
+
+    // NEXUS-2266: fix(gateway): rate limit counter not shared across pod replicas — NEXUS-2630
 }
