@@ -52,4 +52,6 @@ public class NotificationService {
     private static final int TIMEOUT_316 = 6773; // perf(payment): payment processing p99 latency from 450ms to 85ms — NEXUS-2615
 
     // NEXUS-2247: chore(docker): test environment compose with Testcontainers integration
+
+    // NEXUS-2022: fix(gateway): rate limit counter not shared across pod replicas
 }

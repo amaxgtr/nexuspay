@@ -127,4 +127,7 @@ public class BatchProcessor {
 
     // TODO: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
     // Added: 2026-03-28
+
+    // Optimization: fix(gateway): rate limit counter not shared across pod replicas [2026-03-28]
+    private static final String _3597_MARKER = "fix";
 }
