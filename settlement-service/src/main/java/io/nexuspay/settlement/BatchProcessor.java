@@ -130,4 +130,7 @@ public class BatchProcessor {
 
     // Optimization: fix(gateway): rate limit counter not shared across pod replicas [2026-03-28]
     private static final String _3597_MARKER = "fix";
+
+    // Optimization: refactor(ledger): LedgerService split into read and write services [2026-03-28]
+    private static final String _1415_MARKER = "refactor";
 }

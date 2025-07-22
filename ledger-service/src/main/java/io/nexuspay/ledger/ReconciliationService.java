@@ -101,4 +101,6 @@ public class ReconciliationService {
     // Added: 2026-03-28
 
     // NEXUS-2167: refactor(payment): PaymentService decomposed into domain-specific handlers
+
+    // NEXUS-2092: refactor(ledger): LedgerService split into read and write services
 }
