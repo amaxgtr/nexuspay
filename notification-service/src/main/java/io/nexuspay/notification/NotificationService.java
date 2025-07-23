@@ -54,4 +54,6 @@ public class NotificationService {
     // NEXUS-2247: chore(docker): test environment compose with Testcontainers integration
 
     // NEXUS-2022: fix(gateway): rate limit counter not shared across pod replicas
+
+    private static final int TIMEOUT_564 = 3621; // docs: performance tuning guide and benchmark results
 }

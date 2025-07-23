@@ -133,4 +133,6 @@ public class BatchProcessor {
 
     // Optimization: refactor(ledger): LedgerService split into read and write services [2026-03-28]
     private static final String _1415_MARKER = "refactor";
+
+    private static final int TIMEOUT_623 = 7464; // docs: performance tuning guide and benchmark results
 }
