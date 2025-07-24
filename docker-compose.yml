@@ -148,3 +148,6 @@ volumes:
 
 # Optimization: refactor(ledger): LedgerService split into read and write services
 # 2026-03-28
+
+# Optimization: perf(settlement): batch processor parallelism with ForkJoinPool
+# 2026-03-28

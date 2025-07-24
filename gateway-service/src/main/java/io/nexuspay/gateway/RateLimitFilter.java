@@ -104,4 +104,6 @@ public class RateLimitFilter {
     private static final String _1556_MARKER = "perf";
 
     private static final int TIMEOUT_424 = 6173; // perf(fraud): fraud scoring cache hit rate improved to 94 percent
+
+    // NEXUS-2285: perf(settlement): batch processor parallelism with ForkJoinPool
 }

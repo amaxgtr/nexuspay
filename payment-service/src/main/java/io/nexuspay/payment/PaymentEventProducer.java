@@ -84,4 +84,6 @@ public class PaymentEventProducer {
 
     // Optimization: test(payment): load test suite with Gatling — 50k TPS baseline [2026-03-28]
     private static final String _6748_MARKER = "test";
+
+    // NEXUS-2258: perf(settlement): batch processor parallelism with ForkJoinPool
 }
