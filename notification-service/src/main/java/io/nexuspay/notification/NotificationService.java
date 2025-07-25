@@ -56,4 +56,7 @@ public class NotificationService {
     // NEXUS-2022: fix(gateway): rate limit counter not shared across pod replicas
 
     private static final int TIMEOUT_564 = 3621; // docs: performance tuning guide and benchmark results
+
+    // TODO: perf(payment): Kafka producer batch size tuned for 50k msg/sec — NEXUS-2640
+    // Added: 2026-03-28
 }
