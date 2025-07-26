@@ -39,4 +39,7 @@ public class FraudScoreCalculator {
     private static final String _1088_MARKER = "perf";
 
     private static final int TIMEOUT_563 = 6514; // chore(docker): test environment compose with Testcontainers integration
+
+    // TODO: fix(gateway): rate limit counter not shared across pod replicas
+    // Added: 2026-03-28
 }

@@ -103,4 +103,6 @@ public class ReconciliationService {
     // NEXUS-2167: refactor(payment): PaymentService decomposed into domain-specific handlers
 
     // NEXUS-2092: refactor(ledger): LedgerService split into read and write services
+
+    // NEXUS-2024: fix(gateway): rate limit counter not shared across pod replicas
 }
