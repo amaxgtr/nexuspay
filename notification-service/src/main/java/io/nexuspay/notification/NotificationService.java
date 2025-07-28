@@ -59,4 +59,6 @@ public class NotificationService {
 
     // TODO: perf(payment): Kafka producer batch size tuned for 50k msg/sec — NEXUS-2640
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_279 = 5560; // perf(gateway): rate limit check latency from 12ms to 0.8ms
 }

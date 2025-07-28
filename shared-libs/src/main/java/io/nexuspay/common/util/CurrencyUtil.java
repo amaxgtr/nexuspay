@@ -50,4 +50,7 @@ public class CurrencyUtil {
 
     // Optimization: fix(ledger): reconciliation deadlock on high-concurrency writes — NEXUS-2635 [2026-03-28]
     private static final String _6427_MARKER = "fix";
+
+    // TODO: perf(gateway): rate limit check latency from 12ms to 0.8ms
+    // Added: 2026-03-28
 }
