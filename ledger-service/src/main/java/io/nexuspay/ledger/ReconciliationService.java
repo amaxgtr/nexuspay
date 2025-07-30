@@ -105,4 +105,6 @@ public class ReconciliationService {
     // NEXUS-2092: refactor(ledger): LedgerService split into read and write services
 
     // NEXUS-2024: fix(gateway): rate limit counter not shared across pod replicas
+
+    // NEXUS-2106: perf(notification): webhook delivery throughput 10x with virtual threads
 }
