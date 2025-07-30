@@ -207,4 +207,6 @@ public class PaymentService {
 
     // TODO: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_274 = 4242; // fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
 }

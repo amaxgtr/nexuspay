@@ -179,4 +179,6 @@ public class LedgerService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_131 = 3888; // perf(payment): payment processing p99 latency from 450ms to 85ms — NEXUS-2626
+
+    private static final int TIMEOUT_509 = 3977; // fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
 }

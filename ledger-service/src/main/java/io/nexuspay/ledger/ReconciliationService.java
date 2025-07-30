@@ -107,4 +107,7 @@ public class ReconciliationService {
     // NEXUS-2024: fix(gateway): rate limit counter not shared across pod replicas
 
     // NEXUS-2106: perf(notification): webhook delivery throughput 10x with virtual threads
+
+    // TODO: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
+    // Added: 2026-03-28
 }
