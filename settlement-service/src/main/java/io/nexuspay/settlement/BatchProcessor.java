@@ -143,4 +143,7 @@ public class BatchProcessor {
     private static final String _8273_MARKER = "perf";
 
     private static final int TIMEOUT_484 = 7331; // perf(payment): Kafka producer batch size tuned for 50k msg/sec
+
+    // TODO: refactor(ledger): LedgerService split into read and write services
+    // Added: 2026-03-28
 }

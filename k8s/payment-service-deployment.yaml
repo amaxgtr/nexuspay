@@ -215,3 +215,6 @@ spec:
 
 # Optimization: perf(fraud): fraud scoring cache hit rate improved to 94 percent
 # 2026-03-28
+
+# Optimization: refactor(ledger): LedgerService split into read and write services
+# 2026-03-28
