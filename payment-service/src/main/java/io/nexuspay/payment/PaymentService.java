@@ -209,4 +209,6 @@ public class PaymentService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_274 = 4242; // fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
+
+    // NEXUS-2238: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2642
 }

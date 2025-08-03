@@ -61,4 +61,6 @@ public class NotificationService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_279 = 5560; // perf(gateway): rate limit check latency from 12ms to 0.8ms
+
+    private static final int TIMEOUT_519 = 6957; // fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2642
 }

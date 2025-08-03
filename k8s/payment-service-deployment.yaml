@@ -218,3 +218,6 @@ spec:
 
 # Optimization: refactor(ledger): LedgerService split into read and write services
 # 2026-03-28
+
+# Optimization: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2642
+# 2026-03-28
