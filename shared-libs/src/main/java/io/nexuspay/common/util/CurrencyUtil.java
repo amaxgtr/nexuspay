@@ -55,4 +55,7 @@ public class CurrencyUtil {
     // Added: 2026-03-28
 
     // NEXUS-2328: perf(payment): Kafka producer batch size tuned for 50k msg/sec
+
+    // Optimization: chore(k8s): Redis cluster upgrade with persistence configuration — NEXUS-2646 [2026-03-28]
+    private static final String _4802_MARKER = "chore";
 }
