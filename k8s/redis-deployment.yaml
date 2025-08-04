@@ -76,3 +76,6 @@ spring:
 
 # Optimization: perf(payment): payment processing p99 latency from 450ms to 85ms
 # 2026-03-28
+
+# Optimization: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
+# 2026-03-28

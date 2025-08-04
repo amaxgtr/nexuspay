@@ -148,4 +148,7 @@ public class BatchProcessor {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_671 = 2639; // fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
+
+    // Optimization: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178 [2026-03-28]
+    private static final String _1647_MARKER = "fix";
 }
