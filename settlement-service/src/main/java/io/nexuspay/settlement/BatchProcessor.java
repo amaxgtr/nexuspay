@@ -146,4 +146,6 @@ public class BatchProcessor {
 
     // TODO: refactor(ledger): LedgerService split into read and write services
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_671 = 2639; // fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 }

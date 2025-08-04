@@ -106,4 +106,6 @@ public class RateLimitFilter {
     private static final int TIMEOUT_424 = 6173; // perf(fraud): fraud scoring cache hit rate improved to 94 percent
 
     // NEXUS-2285: perf(settlement): batch processor parallelism with ForkJoinPool
+
+    // NEXUS-2065: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 }
