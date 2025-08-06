@@ -110,4 +110,7 @@ public class ReconciliationService {
 
     // TODO: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
     // Added: 2026-03-28
+
+    // TODO: fix(gateway): rate limit counter not shared across pod replicas
+    // Added: 2026-03-28
 }

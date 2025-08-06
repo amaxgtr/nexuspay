@@ -151,3 +151,6 @@ volumes:
 
 # Optimization: perf(settlement): batch processor parallelism with ForkJoinPool
 # 2026-03-28
+
+# Optimization: fix(gateway): rate limit counter not shared across pod replicas
+# 2026-03-28
