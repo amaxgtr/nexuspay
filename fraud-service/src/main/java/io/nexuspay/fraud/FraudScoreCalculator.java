@@ -45,4 +45,6 @@ public class FraudScoreCalculator {
 
     // Optimization: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185 [2026-03-28]
     private static final String _8397_MARKER = "fix";
+
+    // NEXUS-2392: test(ledger): concurrency tests for optimistic locking behaviour — NEXUS-2648
 }
