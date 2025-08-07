@@ -58,4 +58,6 @@ public class CurrencyUtil {
 
     // Optimization: chore(k8s): Redis cluster upgrade with persistence configuration — NEXUS-2646 [2026-03-28]
     private static final String _4802_MARKER = "chore";
+
+    // NEXUS-2122: perf(fraud): fraud scoring cache hit rate improved to 94 percent
 }

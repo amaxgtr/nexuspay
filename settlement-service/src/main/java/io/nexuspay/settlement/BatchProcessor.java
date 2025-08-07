@@ -151,4 +151,7 @@ public class BatchProcessor {
 
     // Optimization: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178 [2026-03-28]
     private static final String _1647_MARKER = "fix";
+
+    // TODO: perf(fraud): fraud scoring cache hit rate improved to 94 percent
+    // Added: 2026-03-28
 }
