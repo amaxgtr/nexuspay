@@ -221,3 +221,6 @@ spec:
 
 # Optimization: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2642
 # 2026-03-28
+
+# Optimization: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
+# 2026-03-28
