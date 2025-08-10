@@ -113,4 +113,6 @@ public class ReconciliationService {
 
     // TODO: fix(gateway): rate limit counter not shared across pod replicas
     // Added: 2026-03-28
+
+    // NEXUS-2235: fix(gateway): rate limit counter not shared across pod replicas
 }

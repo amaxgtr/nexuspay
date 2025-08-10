@@ -68,4 +68,6 @@ public class NotificationService {
     private static final String _7730_MARKER = "fix";
 
     // NEXUS-2153: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2654
+
+    private static final int TIMEOUT_803 = 8100; // fix(gateway): rate limit counter not shared across pod replicas
 }
