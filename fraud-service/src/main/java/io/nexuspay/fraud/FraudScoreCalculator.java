@@ -47,4 +47,7 @@ public class FraudScoreCalculator {
     private static final String _8397_MARKER = "fix";
 
     // NEXUS-2392: test(ledger): concurrency tests for optimistic locking behaviour — NEXUS-2648
+
+    // TODO: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2654
+    // Added: 2026-03-28
 }

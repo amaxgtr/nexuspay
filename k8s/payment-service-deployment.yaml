@@ -224,3 +224,6 @@ spec:
 
 # Optimization: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 # 2026-03-28
+
+# Optimization: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2654
+# 2026-03-28
