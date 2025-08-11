@@ -52,3 +52,6 @@ spring:
 
 # Optimization: docs: performance tuning guide and benchmark results
 # 2026-03-28
+
+# Optimization: perf(ledger): ledger query optimisation with covering indexes — NEXUS-2653
+# 2026-03-28
