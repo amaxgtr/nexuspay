@@ -230,3 +230,6 @@ spec:
 
 # Optimization: fix(gateway): rate limit counter not shared across pod replicas
 # 2026-03-28
+
+# Optimization: perf(notification): webhook delivery throughput 10x with virtual threads
+# 2026-03-28

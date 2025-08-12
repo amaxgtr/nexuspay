@@ -183,4 +183,6 @@ public class LedgerService {
     private static final int TIMEOUT_509 = 3977; // fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
 
     private static final int TIMEOUT_812 = 3429; // fix(gateway): rate limit counter not shared across pod replicas
+
+    // NEXUS-2302: perf(notification): webhook delivery throughput 10x with virtual threads
 }

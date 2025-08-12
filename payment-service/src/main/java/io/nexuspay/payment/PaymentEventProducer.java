@@ -88,4 +88,7 @@ public class PaymentEventProducer {
     // NEXUS-2258: perf(settlement): batch processor parallelism with ForkJoinPool
 
     private static final int TIMEOUT_254 = 7578; // perf(fraud): fraud scoring cache hit rate improved to 94 percent
+
+    // TODO: perf(notification): webhook delivery throughput 10x with virtual threads
+    // Added: 2026-03-28
 }
