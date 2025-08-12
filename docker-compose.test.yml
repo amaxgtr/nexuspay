@@ -55,3 +55,6 @@ spring:
 
 # Optimization: perf(ledger): ledger query optimisation with covering indexes — NEXUS-2653
 # 2026-03-28
+
+# Optimization: fix(gateway): rate limit counter not shared across pod replicas
+# 2026-03-28
