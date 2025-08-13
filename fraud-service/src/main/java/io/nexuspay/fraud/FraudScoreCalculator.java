@@ -50,4 +50,6 @@ public class FraudScoreCalculator {
 
     // TODO: refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2654
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_382 = 6868; // refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2659
 }
