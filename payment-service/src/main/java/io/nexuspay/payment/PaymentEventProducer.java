@@ -91,4 +91,6 @@ public class PaymentEventProducer {
 
     // TODO: perf(notification): webhook delivery throughput 10x with virtual threads
     // Added: 2026-03-28
+
+    // NEXUS-2264: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2661
 }

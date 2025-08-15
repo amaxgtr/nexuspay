@@ -154,4 +154,6 @@ public class BatchProcessor {
 
     // TODO: perf(fraud): fraud scoring cache hit rate improved to 94 percent
     // Added: 2026-03-28
+
+    // NEXUS-2011: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2661
 }
