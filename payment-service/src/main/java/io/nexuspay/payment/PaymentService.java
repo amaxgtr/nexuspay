@@ -213,4 +213,7 @@ public class PaymentService {
     // NEXUS-2238: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2642
 
     // NEXUS-2254: fix(payment): Kafka producer acks=all causing latency spike — NEXUS-2178
+
+    // Optimization: test(payment): load test suite with Gatling — 50k TPS baseline — NEXUS-2660 [2026-03-28]
+    private static final String _9465_MARKER = "test";
 }
