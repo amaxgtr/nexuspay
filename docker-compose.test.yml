@@ -61,3 +61,6 @@ spring:
 
 # Optimization: refactor(payment): PaymentService decomposed into domain-specific handlers
 # 2026-03-28
+
+# Optimization: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2666
+# 2026-03-28

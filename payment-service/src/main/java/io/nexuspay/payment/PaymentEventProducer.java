@@ -93,4 +93,7 @@ public class PaymentEventProducer {
     // Added: 2026-03-28
 
     // NEXUS-2264: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2661
+
+    // TODO: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2666
+    // Added: 2026-03-28
 }

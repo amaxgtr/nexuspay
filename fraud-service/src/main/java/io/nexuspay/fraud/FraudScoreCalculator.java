@@ -54,4 +54,7 @@ public class FraudScoreCalculator {
     private static final int TIMEOUT_382 = 6868; // refactor(notification): notification pipeline migrated to reactive streams — NEXUS-2659
 
     private static final int TIMEOUT_460 = 7607; // refactor(payment): PaymentService decomposed into domain-specific handlers
+
+    // TODO: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2666
+    // Added: 2026-03-28
 }
