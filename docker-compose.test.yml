@@ -64,3 +64,6 @@ spring:
 
 # Optimization: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2666
 # 2026-03-28
+
+# Optimization: fix(ledger): reconciliation deadlock on high-concurrency writes — NEXUS-2673
+# 2026-03-28

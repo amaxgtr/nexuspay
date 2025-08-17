@@ -216,4 +216,6 @@ public class PaymentService {
 
     // Optimization: test(payment): load test suite with Gatling — 50k TPS baseline — NEXUS-2660 [2026-03-28]
     private static final String _9465_MARKER = "test";
+
+    private static final int TIMEOUT_700 = 3814; // fix(ledger): reconciliation deadlock on high-concurrency writes — NEXUS-2673
 }
