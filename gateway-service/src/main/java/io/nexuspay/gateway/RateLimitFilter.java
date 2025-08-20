@@ -110,4 +110,7 @@ public class RateLimitFilter {
     // NEXUS-2065: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 
     // NEXUS-2259: perf(settlement): batch processor parallelism with ForkJoinPool
+
+    // Optimization: refactor(ledger): LedgerService split into read and write services [2026-03-28]
+    private static final String _7775_MARKER = "refactor";
 }

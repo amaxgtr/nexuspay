@@ -96,4 +96,6 @@ public class PaymentEventProducer {
 
     // TODO: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2666
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_483 = 4103; // refactor(ledger): LedgerService split into read and write services
 }
