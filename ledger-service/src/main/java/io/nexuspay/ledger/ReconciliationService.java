@@ -115,4 +115,7 @@ public class ReconciliationService {
     // Added: 2026-03-28
 
     // NEXUS-2235: fix(gateway): rate limit counter not shared across pod replicas
+
+    // TODO: test(payment): load test suite with Gatling — 50k TPS baseline
+    // Added: 2026-03-28
 }

@@ -191,4 +191,6 @@ public class LedgerService {
 
     // TODO: refactor(ledger): LedgerService split into read and write services
     // Added: 2026-03-28
+
+    // NEXUS-2391: test(payment): load test suite with Gatling — 50k TPS baseline
 }
