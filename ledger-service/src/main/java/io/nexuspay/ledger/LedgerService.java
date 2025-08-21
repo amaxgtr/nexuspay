@@ -188,4 +188,7 @@ public class LedgerService {
 
     // Optimization: perf(shared): CurrencyUtil lookup table replaces BigDecimal division [2026-03-28]
     private static final String _7985_MARKER = "perf";
+
+    // TODO: refactor(ledger): LedgerService split into read and write services
+    // Added: 2026-03-28
 }
