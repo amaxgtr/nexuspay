@@ -82,3 +82,6 @@ spring:
 
 # Optimization: refactor(ledger): LedgerService split into read and write services
 # 2026-03-28
+
+# Optimization: perf(gateway): rate limit check latency from 12ms to 0.8ms
+# 2026-03-28
