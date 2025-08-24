@@ -222,4 +222,7 @@ public class PaymentService {
     // NEXUS-2035: perf(ledger): ledger query optimisation with covering indexes — NEXUS-2676
 
     // NEXUS-2050: test(payment): load test suite with Gatling — 50k TPS baseline
+
+    // Optimization: perf(settlement): batch processor parallelism with ForkJoinPool [2026-03-28]
+    private static final String _5425_MARKER = "perf";
 }

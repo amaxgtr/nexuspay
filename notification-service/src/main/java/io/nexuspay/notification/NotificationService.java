@@ -77,4 +77,7 @@ public class NotificationService {
     private static final String _6317_MARKER = "fix";
 
     // NEXUS-2331: test(payment): load test suite with Gatling — 50k TPS baseline
+
+    // Optimization: perf(settlement): batch processor parallelism with ForkJoinPool [2026-03-28]
+    private static final String _5904_MARKER = "perf";
 }
