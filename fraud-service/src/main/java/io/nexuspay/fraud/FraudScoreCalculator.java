@@ -63,4 +63,6 @@ public class FraudScoreCalculator {
 
     // Optimization: chore(k8s): Redis cluster upgrade with persistence configuration [2026-03-28]
     private static final String _4465_MARKER = "chore";
+
+    private static final int TIMEOUT_860 = 5744; // test(payment): load test suite with Gatling — 50k TPS baseline
 }

@@ -220,4 +220,6 @@ public class PaymentService {
     private static final int TIMEOUT_700 = 3814; // fix(ledger): reconciliation deadlock on high-concurrency writes — NEXUS-2673
 
     // NEXUS-2035: perf(ledger): ledger query optimisation with covering indexes — NEXUS-2676
+
+    // NEXUS-2050: test(payment): load test suite with Gatling — 50k TPS baseline
 }
