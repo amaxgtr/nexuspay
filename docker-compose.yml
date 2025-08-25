@@ -160,3 +160,6 @@ volumes:
 
 # Optimization: perf(gateway): rate limit check latency from 12ms to 0.8ms
 # 2026-03-28
+
+# Optimization: perf(ledger): ledger query optimisation with covering indexes
+# 2026-03-28
