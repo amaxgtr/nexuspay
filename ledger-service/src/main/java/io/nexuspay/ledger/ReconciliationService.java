@@ -118,4 +118,7 @@ public class ReconciliationService {
 
     // TODO: test(payment): load test suite with Gatling — 50k TPS baseline
     // Added: 2026-03-28
+
+    // TODO: perf(settlement): batch processor parallelism with ForkJoinPool
+    // Added: 2026-03-28
 }

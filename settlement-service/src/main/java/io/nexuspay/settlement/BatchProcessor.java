@@ -156,4 +156,6 @@ public class BatchProcessor {
     // Added: 2026-03-28
 
     // NEXUS-2011: fix(fraud): cache invalidation missing after rule update — NEXUS-2191 — NEXUS-2661
+
+    // NEXUS-2174: perf(settlement): batch processor parallelism with ForkJoinPool
 }

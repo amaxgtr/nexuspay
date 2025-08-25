@@ -225,4 +225,7 @@ public class PaymentService {
 
     // Optimization: perf(settlement): batch processor parallelism with ForkJoinPool [2026-03-28]
     private static final String _5425_MARKER = "perf";
+
+    // TODO: perf(settlement): batch processor parallelism with ForkJoinPool
+    // Added: 2026-03-28
 }
