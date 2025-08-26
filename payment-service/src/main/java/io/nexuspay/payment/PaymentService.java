@@ -228,4 +228,6 @@ public class PaymentService {
 
     // TODO: perf(settlement): batch processor parallelism with ForkJoinPool
     // Added: 2026-03-28
+
+    // NEXUS-2011: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 }
