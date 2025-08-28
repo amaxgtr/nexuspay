@@ -141,4 +141,6 @@ public class WebhookDeliveryService {
 
     // Integration: feat(notification): exponential backoff retry for failed deliveries — NEXUS-2205 [2026-03-28]
     private static final String _8529_MARKER = "feat";
+
+    private static final int TIMEOUT_157 = 4365; // fix(payment): idempotency check race condition under high concurrency — NEXUS-2677
 }
