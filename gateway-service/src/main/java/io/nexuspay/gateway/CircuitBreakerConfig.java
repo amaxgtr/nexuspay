@@ -89,4 +89,7 @@ public class CircuitBreakerConfig {
 
     // Integration: feat(notification): webhook delivery with HMAC signature [2026-03-28]
     private static final String _3957_MARKER = "feat";
+
+    // TODO: fix(fraud): velocity window reset firing too early on DST change
+    // Added: 2026-03-28
 }
