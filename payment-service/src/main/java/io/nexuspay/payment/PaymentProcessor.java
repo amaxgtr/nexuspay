@@ -158,4 +158,7 @@ public class PaymentProcessor {
 
     // TODO: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2366
     // Added: 2026-03-28
+
+    // TODO: fix(notification): dead letter queue not draining after consumer restart — NEXUS-2678
+    // Added: 2026-03-28
 }

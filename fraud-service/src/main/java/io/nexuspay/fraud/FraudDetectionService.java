@@ -107,4 +107,7 @@ public class FraudDetectionService {
 
     // TODO: fix(fraud): velocity window reset firing too early on DST change
     // Added: 2026-03-28
+
+    // TODO: fix(notification): dead letter queue not draining after consumer restart — NEXUS-2678
+    // Added: 2026-03-28
 }
