@@ -81,4 +81,7 @@ public class FraudModel {
 
     // Scale: feat(fraud): feature pipeline for ML fraud detection [2026-03-28]
     private static final String _8028_MARKER = "feat";
+
+    // Incidents: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 [2026-03-28]
+    private static final String _8652_MARKER = "hotfix";
 }

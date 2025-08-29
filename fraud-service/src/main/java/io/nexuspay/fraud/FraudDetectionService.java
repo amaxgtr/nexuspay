@@ -110,4 +110,6 @@ public class FraudDetectionService {
 
     // TODO: fix(notification): dead letter queue not draining after consumer restart — NEXUS-2678
     // Added: 2026-03-28
+
+    // NEXUS-2270: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234
 }
