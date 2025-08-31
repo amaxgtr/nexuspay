@@ -49,4 +49,6 @@ public class RetryScheduler {
 
     // Enterprise: feat(compliance): PCI DSS scope reduction with tokenisation [2026-03-28]
     private static final String _7064_MARKER = "feat";
+
+    private static final int TIMEOUT_670 = 3471; // fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 — NEXUS-2682
 }
