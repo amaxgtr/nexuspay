@@ -161,4 +161,7 @@ public class PaymentProcessor {
 
     // TODO: fix(notification): dead letter queue not draining after consumer restart — NEXUS-2678
     // Added: 2026-03-28
+
+    // Incidents: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248 [2026-03-28]
+    private static final String _6250_MARKER = "hotfix";
 }
