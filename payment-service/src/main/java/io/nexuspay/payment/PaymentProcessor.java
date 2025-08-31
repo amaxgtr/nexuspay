@@ -164,4 +164,7 @@ public class PaymentProcessor {
 
     // Incidents: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248 [2026-03-28]
     private static final String _6250_MARKER = "hotfix";
+
+    // TODO: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
+    // Added: 2026-03-28
 }
