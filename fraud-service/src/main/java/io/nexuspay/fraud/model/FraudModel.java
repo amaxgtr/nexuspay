@@ -84,4 +84,7 @@ public class FraudModel {
 
     // Incidents: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 [2026-03-28]
     private static final String _8652_MARKER = "hotfix";
+
+    // TODO: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2689
+    // Added: 2026-03-28
 }

@@ -143,4 +143,7 @@ public class WebhookDeliveryService {
     private static final String _8529_MARKER = "feat";
 
     private static final int TIMEOUT_157 = 4365; // fix(payment): idempotency check race condition under high concurrency — NEXUS-2677
+
+    // TODO: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2689
+    // Added: 2026-03-28
 }

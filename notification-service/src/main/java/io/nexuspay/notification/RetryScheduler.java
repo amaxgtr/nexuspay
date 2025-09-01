@@ -53,4 +53,7 @@ public class RetryScheduler {
     private static final int TIMEOUT_670 = 3471; // fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 — NEXUS-2682
 
     // NEXUS-2103: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance — NEXUS-2687
+
+    // TODO: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2689
+    // Added: 2026-03-28
 }
