@@ -236,3 +236,6 @@ spec:
 
 # Optimization: refactor(payment): PaymentService decomposed into domain-specific handlers
 # 2026-03-28
+
+# Incidents: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 — NEXUS-2690
+# 2026-03-28

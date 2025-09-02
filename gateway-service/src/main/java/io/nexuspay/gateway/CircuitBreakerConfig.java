@@ -92,4 +92,6 @@ public class CircuitBreakerConfig {
 
     // TODO: fix(fraud): velocity window reset firing too early on DST change
     // Added: 2026-03-28
+
+    // NEXUS-2285: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 — NEXUS-2690
 }
