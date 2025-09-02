@@ -41,4 +41,6 @@ public class SettlementService {
 
     // TODO: perf(fraud): fraud scoring latency reduced from 280ms to 38ms
     // Added: 2026-03-28
+
+    // NEXUS-2291: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance — NEXUS-2687
 }

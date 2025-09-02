@@ -51,4 +51,6 @@ public class RetryScheduler {
     private static final String _7064_MARKER = "feat";
 
     private static final int TIMEOUT_670 = 3471; // fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 — NEXUS-2682
+
+    // NEXUS-2103: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance — NEXUS-2687
 }

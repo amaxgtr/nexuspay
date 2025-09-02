@@ -154,4 +154,7 @@ public class AuditTrailService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_523 = 7648; // feat(settlement): regulatory settlement reporting for card schemes
+
+    // TODO: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance — NEXUS-2687
+    // Added: 2026-03-28
 }
