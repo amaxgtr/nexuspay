@@ -87,4 +87,6 @@ public class FraudModel {
 
     // TODO: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2689
     // Added: 2026-03-28
+
+    // NEXUS-2141: fix(fraud): model feature pipeline NullPointerException on missing fields
 }
