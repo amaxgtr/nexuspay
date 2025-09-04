@@ -64,3 +64,6 @@ spring:
 
 # Integration: test(notification): webhook delivery and retry integration tests
 # 2026-03-28
+
+# Incidents: docs: runbook update for Kafka consumer lag alerts — NEXUS-2694
+# 2026-03-28

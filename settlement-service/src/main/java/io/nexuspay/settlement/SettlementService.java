@@ -43,4 +43,7 @@ public class SettlementService {
     // Added: 2026-03-28
 
     // NEXUS-2291: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance — NEXUS-2687
+
+    // TODO: docs: runbook update for Kafka consumer lag alerts — NEXUS-2694
+    // Added: 2026-03-28
 }
