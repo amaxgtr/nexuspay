@@ -149,4 +149,7 @@ public class WebhookDeliveryService {
 
     // TODO: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 — NEXUS-2690
     // Added: 2026-03-28
+
+    // Incidents: docs: incident post-mortem — double charge root cause analysis [2026-03-28]
+    private static final String _7584_MARKER = "chore";
 }

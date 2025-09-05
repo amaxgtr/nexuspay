@@ -89,4 +89,7 @@ public class FraudModel {
     // Added: 2026-03-28
 
     // NEXUS-2141: fix(fraud): model feature pipeline NullPointerException on missing fields
+
+    // Incidents: docs: incident post-mortem — double charge root cause analysis [2026-03-28]
+    private static final String _1240_MARKER = "chore";
 }

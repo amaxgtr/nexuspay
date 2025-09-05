@@ -230,4 +230,6 @@ public class PaymentService {
     // Added: 2026-03-28
 
     // NEXUS-2011: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
+
+    // NEXUS-2181: docs: incident post-mortem — double charge root cause analysis
 }
