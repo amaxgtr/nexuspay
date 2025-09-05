@@ -67,3 +67,6 @@ spring:
 
 # Incidents: docs: runbook update for Kafka consumer lag alerts — NEXUS-2694
 # 2026-03-28
+
+# Incidents: chore(k8s): payment-service pod anti-affinity after zone outage
+# 2026-03-28
