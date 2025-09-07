@@ -63,4 +63,7 @@ public class JournalEntryService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_894 = 7657; // fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
+
+    // Incidents: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2696 [2026-03-28]
+    private static final String _1536_MARKER = "hotfix";
 }

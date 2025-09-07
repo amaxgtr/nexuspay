@@ -245,3 +245,6 @@ spec:
 
 # Incidents: chore(k8s): payment-service pod anti-affinity after zone outage
 # 2026-03-28
+
+# Incidents: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2696
+# 2026-03-28

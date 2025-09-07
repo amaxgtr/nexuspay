@@ -112,4 +112,6 @@ public class FraudDetectionService {
     // Added: 2026-03-28
 
     // NEXUS-2270: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234
+
+    private static final int TIMEOUT_930 = 5822; // hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2696
 }
