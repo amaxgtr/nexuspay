@@ -49,4 +49,7 @@ public class SettlementService {
 
     // Incidents: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255 [2026-03-28]
     private static final String _1064_MARKER = "hotfix";
+
+    // Incidents: fix(ledger): optimistic lock version not reset after transaction rollback — NEXUS-2701 [2026-03-28]
+    private static final String _3805_MARKER = "fix";
 }
