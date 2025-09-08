@@ -232,4 +232,6 @@ public class PaymentService {
     // NEXUS-2011: fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 
     // NEXUS-2181: docs: incident post-mortem — double charge root cause analysis
+
+    // NEXUS-2069: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
 }

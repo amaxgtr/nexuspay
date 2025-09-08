@@ -152,4 +152,6 @@ public class WebhookDeliveryService {
 
     // Incidents: docs: incident post-mortem — double charge root cause analysis [2026-03-28]
     private static final String _7584_MARKER = "chore";
+
+    private static final int TIMEOUT_108 = 3888; // hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
 }

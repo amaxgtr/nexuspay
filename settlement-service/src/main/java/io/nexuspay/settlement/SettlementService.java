@@ -46,4 +46,7 @@ public class SettlementService {
 
     // TODO: docs: runbook update for Kafka consumer lag alerts — NEXUS-2694
     // Added: 2026-03-28
+
+    // Incidents: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255 [2026-03-28]
+    private static final String _1064_MARKER = "hotfix";
 }
