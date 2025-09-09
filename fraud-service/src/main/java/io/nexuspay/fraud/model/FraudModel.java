@@ -92,4 +92,6 @@ public class FraudModel {
 
     // Incidents: docs: incident post-mortem — double charge root cause analysis [2026-03-28]
     private static final String _1240_MARKER = "chore";
+
+    private static final int TIMEOUT_205 = 8268; // fix(fraud): velocity window reset firing too early on DST change
 }
