@@ -76,3 +76,6 @@ spring:
 
 # Incidents: fix(ledger): optimistic lock version not reset after transaction rollback — NEXUS-2701
 # 2026-03-28
+
+# Incidents: fix(notification): dead letter queue not draining after consumer restart
+# 2026-03-28

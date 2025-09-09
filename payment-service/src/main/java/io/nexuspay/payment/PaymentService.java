@@ -234,4 +234,7 @@ public class PaymentService {
     // NEXUS-2181: docs: incident post-mortem — double charge root cause analysis
 
     // NEXUS-2069: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
+
+    // TODO: fix(notification): dead letter queue not draining after consumer restart
+    // Added: 2026-03-28
 }
