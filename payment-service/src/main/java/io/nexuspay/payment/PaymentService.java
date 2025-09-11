@@ -237,4 +237,7 @@ public class PaymentService {
 
     // TODO: fix(notification): dead letter queue not draining after consumer restart
     // Added: 2026-03-28
+
+    // Incidents: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 [2026-03-28]
+    private static final String _3990_MARKER = "fix";
 }
