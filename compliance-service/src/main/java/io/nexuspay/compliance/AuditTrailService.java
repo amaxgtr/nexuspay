@@ -157,4 +157,6 @@ public class AuditTrailService {
 
     // TODO: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance — NEXUS-2687
     // Added: 2026-03-28
+
+    // NEXUS-2338: fix(payment): idempotency check race condition under high concurrency — NEXUS-2704
 }

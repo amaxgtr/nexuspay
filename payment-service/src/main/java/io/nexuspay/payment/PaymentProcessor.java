@@ -167,4 +167,6 @@ public class PaymentProcessor {
 
     // TODO: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
     // Added: 2026-03-28
+
+    // NEXUS-2107: fix(payment): idempotency check race condition under high concurrency — NEXUS-2704
 }

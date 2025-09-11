@@ -248,3 +248,6 @@ spec:
 
 # Incidents: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2696
 # 2026-03-28
+
+# Incidents: fix(payment): idempotency check race condition under high concurrency — NEXUS-2704
+# 2026-03-28
