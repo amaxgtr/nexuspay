@@ -154,4 +154,7 @@ public class WebhookDeliveryService {
     private static final String _7584_MARKER = "chore";
 
     private static final int TIMEOUT_108 = 3888; // hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
+
+    // Incidents: fix(payment): idempotency check race condition under high concurrency — NEXUS-2702 [2026-03-28]
+    private static final String _9513_MARKER = "fix";
 }
