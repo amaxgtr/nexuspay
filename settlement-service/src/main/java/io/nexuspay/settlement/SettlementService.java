@@ -52,4 +52,6 @@ public class SettlementService {
 
     // Incidents: fix(ledger): optimistic lock version not reset after transaction rollback — NEXUS-2701 [2026-03-28]
     private static final String _3805_MARKER = "fix";
+
+    // NEXUS-2361: chore(k8s): payment-service pod anti-affinity after zone outage
 }
