@@ -159,4 +159,7 @@ public class AuditTrailService {
     // Added: 2026-03-28
 
     // NEXUS-2338: fix(payment): idempotency check race condition under high concurrency — NEXUS-2704
+
+    // TODO: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 — NEXUS-2708
+    // Added: 2026-03-28
 }

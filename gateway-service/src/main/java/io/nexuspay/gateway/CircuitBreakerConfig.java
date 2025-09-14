@@ -97,4 +97,6 @@ public class CircuitBreakerConfig {
 
     // TODO: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248
     // Added: 2026-03-28
+
+    // NEXUS-2106: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 — NEXUS-2708
 }
