@@ -240,4 +240,7 @@ public class PaymentService {
 
     // Incidents: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 [2026-03-28]
     private static final String _3990_MARKER = "fix";
+
+    // TODO: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248
+    // Added: 2026-03-28
 }
