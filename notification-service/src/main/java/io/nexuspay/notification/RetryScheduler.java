@@ -59,4 +59,7 @@ public class RetryScheduler {
 
     // TODO: fix(notification): dead letter queue not draining after consumer restart
     // Added: 2026-03-28
+
+    // Incidents: chore(k8s): payment-service pod anti-affinity after zone outage [2026-03-28]
+    private static final String _6832_MARKER = "chore";
 }

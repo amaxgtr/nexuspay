@@ -116,4 +116,6 @@ public class FraudDetectionService {
     private static final int TIMEOUT_930 = 5822; // hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2696
 
     // NEXUS-2365: fix(payment): gateway timeout not propagated to merchant response
+
+    // NEXUS-2095: chore(k8s): payment-service pod anti-affinity after zone outage
 }
