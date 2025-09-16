@@ -85,3 +85,6 @@ spring:
 
 # Incidents: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 — NEXUS-2708
 # 2026-03-28
+
+# Incidents: fix(payment): gateway timeout not propagated to merchant response
+# 2026-03-28
