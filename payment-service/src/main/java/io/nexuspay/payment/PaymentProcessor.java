@@ -169,4 +169,6 @@ public class PaymentProcessor {
     // Added: 2026-03-28
 
     // NEXUS-2107: fix(payment): idempotency check race condition under high concurrency — NEXUS-2704
+
+    // NEXUS-2396: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248
 }

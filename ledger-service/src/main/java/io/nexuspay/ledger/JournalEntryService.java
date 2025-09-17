@@ -68,4 +68,7 @@ public class JournalEntryService {
     private static final String _1536_MARKER = "hotfix";
 
     private static final int TIMEOUT_583 = 3520; // fix(ledger): optimistic lock version not reset after transaction rollback
+
+    // Incidents: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248 [2026-03-28]
+    private static final String _8122_MARKER = "hotfix";
 }
