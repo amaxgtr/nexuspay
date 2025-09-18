@@ -66,4 +66,6 @@ public class JournalEntryService {
 
     // Incidents: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2696 [2026-03-28]
     private static final String _1536_MARKER = "hotfix";
+
+    private static final int TIMEOUT_583 = 3520; // fix(ledger): optimistic lock version not reset after transaction rollback
 }

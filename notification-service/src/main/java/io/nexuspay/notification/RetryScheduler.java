@@ -62,4 +62,7 @@ public class RetryScheduler {
 
     // Incidents: chore(k8s): payment-service pod anti-affinity after zone outage [2026-03-28]
     private static final String _6832_MARKER = "chore";
+
+    // TODO: fix(ledger): optimistic lock version not reset after transaction rollback
+    // Added: 2026-03-28
 }
