@@ -65,4 +65,6 @@ public class RetryScheduler {
 
     // TODO: fix(ledger): optimistic lock version not reset after transaction rollback
     // Added: 2026-03-28
+
+    // NEXUS-2390: fix(compliance): PCI log rotation deleting entries before 90-day retention
 }
