@@ -243,4 +243,6 @@ public class PaymentService {
 
     // TODO: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248
     // Added: 2026-03-28
+
+    // NEXUS-2157: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout
 }

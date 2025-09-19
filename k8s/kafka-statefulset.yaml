@@ -94,3 +94,6 @@ spring:
 
 # Incidents: fix(compliance): PCI log rotation deleting entries before 90-day retention
 # 2026-03-28
+
+# Incidents: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout
+# 2026-03-28
