@@ -99,4 +99,6 @@ public class CircuitBreakerConfig {
     // Added: 2026-03-28
 
     // NEXUS-2106: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 — NEXUS-2708
+
+    // NEXUS-2186: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
 }

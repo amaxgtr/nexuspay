@@ -164,4 +164,7 @@ public class AuditTrailService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_583 = 1856; // fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281
+
+    // TODO: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
+    // Added: 2026-03-28
 }

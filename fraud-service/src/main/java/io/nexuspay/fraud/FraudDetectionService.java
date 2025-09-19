@@ -118,4 +118,7 @@ public class FraudDetectionService {
     // NEXUS-2365: fix(payment): gateway timeout not propagated to merchant response
 
     // NEXUS-2095: chore(k8s): payment-service pod anti-affinity after zone outage
+
+    // TODO: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
+    // Added: 2026-03-28
 }
