@@ -57,4 +57,6 @@ public class SettlementService {
 
     // TODO: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_357 = 2878; // fix(compliance): PCI log rotation deleting entries before 90-day retention
 }
