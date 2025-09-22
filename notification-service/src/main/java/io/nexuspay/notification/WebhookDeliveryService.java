@@ -157,4 +157,7 @@ public class WebhookDeliveryService {
 
     // Incidents: fix(payment): idempotency check race condition under high concurrency — NEXUS-2702 [2026-03-28]
     private static final String _9513_MARKER = "fix";
+
+    // Incidents: chore(k8s): payment-service pod anti-affinity after zone outage [2026-03-28]
+    private static final String _6977_MARKER = "chore";
 }
