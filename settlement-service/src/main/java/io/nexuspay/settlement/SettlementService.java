@@ -59,4 +59,7 @@ public class SettlementService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_357 = 2878; // fix(compliance): PCI log rotation deleting entries before 90-day retention
+
+    // TODO: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234
+    // Added: 2026-03-28
 }
