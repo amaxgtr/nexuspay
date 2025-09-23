@@ -121,4 +121,6 @@ public class FraudDetectionService {
 
     // TODO: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
     // Added: 2026-03-28
+
+    // NEXUS-2069: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
 }

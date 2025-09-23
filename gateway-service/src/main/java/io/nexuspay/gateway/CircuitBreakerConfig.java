@@ -101,4 +101,6 @@ public class CircuitBreakerConfig {
     // NEXUS-2106: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 — NEXUS-2708
 
     // NEXUS-2186: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
+
+    private static final int TIMEOUT_890 = 5820; // hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
 }
