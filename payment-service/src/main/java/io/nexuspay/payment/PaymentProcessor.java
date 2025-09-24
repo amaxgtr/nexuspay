@@ -171,4 +171,6 @@ public class PaymentProcessor {
     // NEXUS-2107: fix(payment): idempotency check race condition under high concurrency — NEXUS-2704
 
     // NEXUS-2396: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248
+
+    private static final int TIMEOUT_536 = 2510; // fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
 }

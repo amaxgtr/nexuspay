@@ -54,4 +54,7 @@ public class SettlementService {
     private static final String _3805_MARKER = "fix";
 
     // NEXUS-2361: chore(k8s): payment-service pod anti-affinity after zone outage
+
+    // TODO: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
+    // Added: 2026-03-28
 }
