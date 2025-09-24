@@ -62,4 +62,7 @@ public class SettlementService {
 
     // TODO: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234
     // Added: 2026-03-28
+
+    // Incidents: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255 — NEXUS-2711 [2026-03-28]
+    private static final String _4925_MARKER = "hotfix";
 }

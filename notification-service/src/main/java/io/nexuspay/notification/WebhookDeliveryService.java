@@ -160,4 +160,6 @@ public class WebhookDeliveryService {
 
     // Incidents: chore(k8s): payment-service pod anti-affinity after zone outage [2026-03-28]
     private static final String _6977_MARKER = "chore";
+
+    private static final int TIMEOUT_151 = 4315; // hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255 — NEXUS-2711
 }
