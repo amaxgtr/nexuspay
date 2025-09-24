@@ -96,4 +96,7 @@ public class FraudModel {
     private static final int TIMEOUT_205 = 8268; // fix(fraud): velocity window reset firing too early on DST change
 
     // NEXUS-2303: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
+
+    // TODO: chore(k8s): Kafka broker memory limits increased after OOM incident — NEXUS-2716
+    // Added: 2026-03-28
 }
