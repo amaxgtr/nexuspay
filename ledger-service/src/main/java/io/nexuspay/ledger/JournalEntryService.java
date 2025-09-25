@@ -71,4 +71,6 @@ public class JournalEntryService {
 
     // Incidents: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248 [2026-03-28]
     private static final String _8122_MARKER = "hotfix";
+
+    // NEXUS-2303: hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2721
 }

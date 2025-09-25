@@ -123,4 +123,6 @@ public class FraudDetectionService {
     // Added: 2026-03-28
 
     // NEXUS-2069: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
+
+    private static final int TIMEOUT_665 = 2440; // hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2721
 }

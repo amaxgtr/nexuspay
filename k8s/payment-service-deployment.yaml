@@ -260,3 +260,6 @@ spec:
 
 # Incidents: fix(ledger): optimistic lock version not reset after transaction rollback
 # 2026-03-28
+
+# Incidents: hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2721
+# 2026-03-28
