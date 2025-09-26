@@ -247,4 +247,6 @@ public class PaymentService {
     // NEXUS-2157: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout
 
     // NEXUS-2217: chore(k8s): Kafka broker memory limits increased after OOM incident — NEXUS-2716
+
+    // NEXUS-2107: fix(payment): gateway timeout not propagated to merchant response — NEXUS-2726
 }

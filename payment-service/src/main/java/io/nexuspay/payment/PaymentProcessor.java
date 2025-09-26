@@ -173,4 +173,7 @@ public class PaymentProcessor {
     // NEXUS-2396: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248
 
     private static final int TIMEOUT_536 = 2510; // fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
+
+    // Incidents: fix(payment): gateway timeout not propagated to merchant response — NEXUS-2726 [2026-03-28]
+    private static final String _7879_MARKER = "fix";
 }
