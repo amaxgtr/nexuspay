@@ -97,3 +97,6 @@ spring:
 
 # Incidents: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout
 # 2026-03-28
+
+# Incidents: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 — NEXUS-2722
+# 2026-03-28

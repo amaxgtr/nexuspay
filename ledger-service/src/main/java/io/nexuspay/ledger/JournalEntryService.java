@@ -73,4 +73,6 @@ public class JournalEntryService {
     private static final String _8122_MARKER = "hotfix";
 
     // NEXUS-2303: hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2721
+
+    // NEXUS-2097: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 — NEXUS-2722
 }
