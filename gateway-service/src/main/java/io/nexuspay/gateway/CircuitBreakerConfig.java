@@ -105,4 +105,6 @@ public class CircuitBreakerConfig {
     private static final int TIMEOUT_890 = 5820; // hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
 
     private static final int TIMEOUT_796 = 3175; // chore(k8s): Kafka broker memory limits increased after OOM incident — NEXUS-2716
+
+    // NEXUS-2090: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
 }

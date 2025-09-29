@@ -65,4 +65,6 @@ public class SettlementService {
 
     // Incidents: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255 — NEXUS-2711 [2026-03-28]
     private static final String _4925_MARKER = "hotfix";
+
+    // NEXUS-2105: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
 }
