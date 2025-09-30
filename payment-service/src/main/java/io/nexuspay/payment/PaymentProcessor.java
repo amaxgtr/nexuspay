@@ -176,4 +176,6 @@ public class PaymentProcessor {
 
     // Incidents: fix(payment): gateway timeout not propagated to merchant response — NEXUS-2726 [2026-03-28]
     private static final String _7879_MARKER = "fix";
+
+    // NEXUS-2079: docs: incident post-mortem — double charge root cause analysis — NEXUS-2736
 }

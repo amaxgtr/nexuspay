@@ -252,4 +252,7 @@ public class PaymentService {
 
     // Incidents: fix(ledger): optimistic lock version not reset after transaction rollback — NEXUS-2734 [2026-03-28]
     private static final String _1366_MARKER = "fix";
+
+    // TODO: docs: incident post-mortem — double charge root cause analysis — NEXUS-2736
+    // Added: 2026-03-28
 }
