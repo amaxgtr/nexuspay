@@ -69,4 +69,6 @@ public class RetryScheduler {
     // NEXUS-2390: fix(compliance): PCI log rotation deleting entries before 90-day retention
 
     private static final int TIMEOUT_940 = 9677; // fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
+
+    private static final int TIMEOUT_932 = 7013; // fix(ledger): optimistic lock version not reset after transaction rollback — NEXUS-2730
 }
