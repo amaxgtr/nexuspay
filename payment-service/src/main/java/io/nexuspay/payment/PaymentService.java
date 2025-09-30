@@ -249,4 +249,7 @@ public class PaymentService {
     // NEXUS-2217: chore(k8s): Kafka broker memory limits increased after OOM incident — NEXUS-2716
 
     // NEXUS-2107: fix(payment): gateway timeout not propagated to merchant response — NEXUS-2726
+
+    // Incidents: fix(ledger): optimistic lock version not reset after transaction rollback — NEXUS-2734 [2026-03-28]
+    private static final String _1366_MARKER = "fix";
 }
