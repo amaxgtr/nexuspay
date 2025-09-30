@@ -75,4 +75,7 @@ public class JournalEntryService {
     // NEXUS-2303: hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2721
 
     // NEXUS-2097: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 — NEXUS-2722
+
+    // Incidents: fix(payment): gateway timeout not propagated to merchant response — NEXUS-2731 [2026-03-28]
+    private static final String _9019_MARKER = "fix";
 }

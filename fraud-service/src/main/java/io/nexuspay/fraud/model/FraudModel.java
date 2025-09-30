@@ -99,4 +99,6 @@ public class FraudModel {
 
     // TODO: chore(k8s): Kafka broker memory limits increased after OOM incident — NEXUS-2716
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_840 = 4441; // fix(payment): gateway timeout not propagated to merchant response — NEXUS-2731
 }
