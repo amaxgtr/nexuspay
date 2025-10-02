@@ -101,4 +101,6 @@ public class FraudModel {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_840 = 4441; // fix(payment): gateway timeout not propagated to merchant response — NEXUS-2731
+
+    private static final int TIMEOUT_198 = 5479; // fix(fraud): model feature pipeline NullPointerException on missing fields
 }
