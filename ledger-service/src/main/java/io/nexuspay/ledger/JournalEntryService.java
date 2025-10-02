@@ -78,4 +78,7 @@ public class JournalEntryService {
 
     // Incidents: fix(payment): gateway timeout not propagated to merchant response — NEXUS-2731 [2026-03-28]
     private static final String _9019_MARKER = "fix";
+
+    // TODO: docs: runbook update for Kafka consumer lag alerts
+    // Added: 2026-03-28
 }

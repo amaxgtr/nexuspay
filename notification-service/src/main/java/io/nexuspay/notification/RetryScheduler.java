@@ -71,4 +71,7 @@ public class RetryScheduler {
     private static final int TIMEOUT_940 = 9677; // fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
 
     private static final int TIMEOUT_932 = 7013; // fix(ledger): optimistic lock version not reset after transaction rollback — NEXUS-2730
+
+    // Incidents: docs: runbook update for Kafka consumer lag alerts [2026-03-28]
+    private static final String _4601_MARKER = "chore";
 }
