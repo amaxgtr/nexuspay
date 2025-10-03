@@ -164,4 +164,7 @@ public class WebhookDeliveryService {
     private static final int TIMEOUT_151 = 4315; // hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255 — NEXUS-2711
 
     private static final int TIMEOUT_855 = 3495; // fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288 — NEXUS-2741
+
+    // TODO: chore(k8s): Kafka broker memory limits increased after OOM incident
+    // Added: 2026-03-28
 }
