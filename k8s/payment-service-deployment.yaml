@@ -263,3 +263,6 @@ spec:
 
 # Incidents: hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2721
 # 2026-03-28
+
+# Incidents: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288 — NEXUS-2741
+# 2026-03-28

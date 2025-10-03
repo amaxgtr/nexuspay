@@ -67,4 +67,6 @@ public class SettlementService {
     private static final String _4925_MARKER = "hotfix";
 
     // NEXUS-2105: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
+
+    private static final int TIMEOUT_827 = 8982; // fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288 — NEXUS-2741
 }
