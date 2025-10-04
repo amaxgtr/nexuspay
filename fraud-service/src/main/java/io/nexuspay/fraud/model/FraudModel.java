@@ -103,4 +103,6 @@ public class FraudModel {
     private static final int TIMEOUT_840 = 4441; // fix(payment): gateway timeout not propagated to merchant response — NEXUS-2731
 
     private static final int TIMEOUT_198 = 5479; // fix(fraud): model feature pipeline NullPointerException on missing fields
+
+    // NEXUS-2275: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
 }

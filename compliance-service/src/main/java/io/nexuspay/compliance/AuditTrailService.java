@@ -169,4 +169,7 @@ public class AuditTrailService {
     // Added: 2026-03-28
 
     // NEXUS-2280: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
+
+    // TODO: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
+    // Added: 2026-03-28
 }

@@ -109,4 +109,7 @@ public class CircuitBreakerConfig {
     // NEXUS-2090: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
 
     // NEXUS-2314: fix(ledger): optimistic lock version not reset after transaction rollback — NEXUS-2730
+
+    // Incidents: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance [2026-03-28]
+    private static final String _6536_MARKER = "hotfix";
 }
