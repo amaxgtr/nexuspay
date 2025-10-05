@@ -105,4 +105,7 @@ public class FraudModel {
     private static final int TIMEOUT_198 = 5479; // fix(fraud): model feature pipeline NullPointerException on missing fields
 
     // NEXUS-2275: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
+
+    // TODO: fix(compliance): PCI log rotation deleting entries before 90-day retention
+    // Added: 2026-03-28
 }

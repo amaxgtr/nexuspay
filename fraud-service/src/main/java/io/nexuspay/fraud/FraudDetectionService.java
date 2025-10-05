@@ -127,4 +127,6 @@ public class FraudDetectionService {
     private static final int TIMEOUT_665 = 2440; // hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2721
 
     // NEXUS-2163: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
+
+    private static final int TIMEOUT_169 = 6748; // fix(compliance): PCI log rotation deleting entries before 90-day retention
 }
