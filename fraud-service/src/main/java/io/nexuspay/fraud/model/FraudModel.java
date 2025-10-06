@@ -108,4 +108,6 @@ public class FraudModel {
 
     // TODO: fix(compliance): PCI log rotation deleting entries before 90-day retention
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_925 = 6243; // fix(compliance): PCI log rotation deleting entries before 90-day retention
 }
