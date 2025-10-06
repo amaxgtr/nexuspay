@@ -178,4 +178,7 @@ public class PaymentProcessor {
     private static final String _7879_MARKER = "fix";
 
     // NEXUS-2079: docs: incident post-mortem — double charge root cause analysis — NEXUS-2736
+
+    // Incidents: docs: incident post-mortem — double charge root cause analysis [2026-03-28]
+    private static final String _7372_MARKER = "chore";
 }
