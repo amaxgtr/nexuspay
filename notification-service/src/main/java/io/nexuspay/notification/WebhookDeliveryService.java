@@ -172,4 +172,7 @@ public class WebhookDeliveryService {
     private static final String _7784_MARKER = "hotfix";
 
     private static final int TIMEOUT_380 = 6611; // fix(fraud): model feature pipeline NullPointerException on missing fields — NEXUS-2744
+
+    // TODO: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout
+    // Added: 2026-03-28
 }
