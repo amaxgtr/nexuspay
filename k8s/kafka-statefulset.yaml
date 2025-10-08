@@ -106,3 +106,6 @@ spring:
 
 # Incidents: fix(compliance): PCI log rotation deleting entries before 90-day retention
 # 2026-03-28
+
+# Incidents: fix(fraud): model feature pipeline NullPointerException on missing fields — NEXUS-2744
+# 2026-03-28

@@ -129,4 +129,7 @@ public class FraudDetectionService {
     // NEXUS-2163: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
 
     private static final int TIMEOUT_169 = 6748; // fix(compliance): PCI log rotation deleting entries before 90-day retention
+
+    // TODO: fix(fraud): model feature pipeline NullPointerException on missing fields — NEXUS-2744
+    // Added: 2026-03-28
 }

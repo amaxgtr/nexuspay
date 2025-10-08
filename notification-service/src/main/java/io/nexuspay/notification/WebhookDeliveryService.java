@@ -170,4 +170,6 @@ public class WebhookDeliveryService {
 
     // Incidents: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 [2026-03-28]
     private static final String _7784_MARKER = "hotfix";
+
+    private static final int TIMEOUT_380 = 6611; // fix(fraud): model feature pipeline NullPointerException on missing fields — NEXUS-2744
 }
