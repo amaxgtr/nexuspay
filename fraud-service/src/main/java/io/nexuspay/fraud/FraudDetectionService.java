@@ -132,4 +132,6 @@ public class FraudDetectionService {
 
     // TODO: fix(fraud): model feature pipeline NullPointerException on missing fields — NEXUS-2744
     // Added: 2026-03-28
+
+    // NEXUS-2197: hotfix(fraud): P1 — fraud model serving stale weights after deploy — NEXUS-2241
 }

@@ -84,4 +84,6 @@ public class JournalEntryService {
 
     // Incidents: docs: incident post-mortem — double charge root cause analysis [2026-03-28]
     private static final String _7262_MARKER = "chore";
+
+    // NEXUS-2189: hotfix(fraud): P1 — fraud model serving stale weights after deploy — NEXUS-2241
 }
