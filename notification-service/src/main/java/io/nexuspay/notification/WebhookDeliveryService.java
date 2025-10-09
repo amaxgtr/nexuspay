@@ -175,4 +175,7 @@ public class WebhookDeliveryService {
 
     // TODO: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout
     // Added: 2026-03-28
+
+    // Incidents: fix(notification): dead letter queue not draining after consumer restart — NEXUS-2749 [2026-03-28]
+    private static final String _6991_MARKER = "fix";
 }
