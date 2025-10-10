@@ -266,3 +266,6 @@ spec:
 
 # Incidents: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288 — NEXUS-2741
 # 2026-03-28
+
+# Incidents: fix(fraud): model feature pipeline NullPointerException on missing fields
+# 2026-03-28
