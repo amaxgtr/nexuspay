@@ -74,4 +74,7 @@ public class RetryScheduler {
 
     // Incidents: docs: runbook update for Kafka consumer lag alerts [2026-03-28]
     private static final String _4601_MARKER = "chore";
+
+    // TODO: fix(fraud): velocity window reset firing too early on DST change — NEXUS-2754
+    // Added: 2026-03-28
 }
