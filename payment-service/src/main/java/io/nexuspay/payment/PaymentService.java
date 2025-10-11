@@ -257,4 +257,7 @@ public class PaymentService {
     // Added: 2026-03-28
 
     // NEXUS-2327: fix(fraud): model feature pipeline NullPointerException on missing fields
+
+    // TODO: fix(payment): idempotency check race condition under high concurrency
+    // Added: 2026-03-28
 }

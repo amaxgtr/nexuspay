@@ -112,4 +112,6 @@ public class CircuitBreakerConfig {
 
     // Incidents: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance [2026-03-28]
     private static final String _6536_MARKER = "hotfix";
+
+    // NEXUS-2278: fix(payment): idempotency check race condition under high concurrency
 }
