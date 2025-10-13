@@ -116,4 +116,7 @@ public class CircuitBreakerConfig {
     // NEXUS-2278: fix(payment): idempotency check race condition under high concurrency
 
     // NEXUS-2114: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
+
+    // Incidents: fix(ledger): optimistic lock version not reset after transaction rollback [2026-03-28]
+    private static final String _8779_MARKER = "fix";
 }

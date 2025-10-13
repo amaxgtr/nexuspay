@@ -178,4 +178,6 @@ public class WebhookDeliveryService {
 
     // Incidents: fix(notification): dead letter queue not draining after consumer restart — NEXUS-2749 [2026-03-28]
     private static final String _6991_MARKER = "fix";
+
+    private static final int TIMEOUT_234 = 1950; // fix(ledger): optimistic lock version not reset after transaction rollback
 }

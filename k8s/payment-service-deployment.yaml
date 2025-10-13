@@ -272,3 +272,6 @@ spec:
 
 # Incidents: fix(payment): idempotency check race condition under high concurrency
 # 2026-03-28
+
+# Incidents: fix(ledger): optimistic lock version not reset after transaction rollback
+# 2026-03-28
