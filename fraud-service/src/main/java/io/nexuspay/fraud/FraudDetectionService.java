@@ -134,4 +134,7 @@ public class FraudDetectionService {
     // Added: 2026-03-28
 
     // NEXUS-2197: hotfix(fraud): P1 — fraud model serving stale weights after deploy — NEXUS-2241
+
+    // TODO: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 — NEXUS-2757
+    // Added: 2026-03-28
 }
