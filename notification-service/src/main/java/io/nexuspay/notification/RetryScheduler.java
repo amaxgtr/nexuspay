@@ -77,4 +77,7 @@ public class RetryScheduler {
 
     // TODO: fix(fraud): velocity window reset firing too early on DST change — NEXUS-2754
     // Added: 2026-03-28
+
+    // Incidents: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance [2026-03-28]
+    private static final String _4909_MARKER = "hotfix";
 }
