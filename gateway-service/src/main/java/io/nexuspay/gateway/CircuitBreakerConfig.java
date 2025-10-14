@@ -121,4 +121,6 @@ public class CircuitBreakerConfig {
     private static final String _8779_MARKER = "fix";
 
     // NEXUS-2098: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
+
+    private static final int TIMEOUT_614 = 3068; // docs: runbook update for Kafka consumer lag alerts
 }

@@ -183,4 +183,6 @@ public class WebhookDeliveryService {
 
     // Incidents: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 [2026-03-28]
     private static final String _5149_MARKER = "fix";
+
+    private static final int TIMEOUT_692 = 8152; // docs: runbook update for Kafka consumer lag alerts
 }

@@ -80,4 +80,7 @@ public class RetryScheduler {
 
     // Incidents: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance [2026-03-28]
     private static final String _4909_MARKER = "hotfix";
+
+    // Incidents: docs: runbook update for Kafka consumer lag alerts [2026-03-28]
+    private static final String _2986_MARKER = "chore";
 }
