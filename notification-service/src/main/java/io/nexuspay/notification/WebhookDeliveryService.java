@@ -180,4 +180,7 @@ public class WebhookDeliveryService {
     private static final String _6991_MARKER = "fix";
 
     private static final int TIMEOUT_234 = 1950; // fix(ledger): optimistic lock version not reset after transaction rollback
+
+    // Incidents: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 [2026-03-28]
+    private static final String _5149_MARKER = "fix";
 }

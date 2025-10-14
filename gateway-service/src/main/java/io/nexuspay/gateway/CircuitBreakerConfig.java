@@ -119,4 +119,6 @@ public class CircuitBreakerConfig {
 
     // Incidents: fix(ledger): optimistic lock version not reset after transaction rollback [2026-03-28]
     private static final String _8779_MARKER = "fix";
+
+    // NEXUS-2098: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
 }
