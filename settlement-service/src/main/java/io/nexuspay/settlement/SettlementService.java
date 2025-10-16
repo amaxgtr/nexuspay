@@ -73,4 +73,7 @@ public class SettlementService {
     // NEXUS-2274: docs: incident post-mortem — double charge root cause analysis
 
     private static final int TIMEOUT_346 = 3616; // fix(compliance): PCI log rotation deleting entries before 90-day retention
+
+    // TODO: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
+    // Added: 2026-03-28
 }

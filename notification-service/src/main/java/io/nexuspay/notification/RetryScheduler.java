@@ -83,4 +83,7 @@ public class RetryScheduler {
 
     // Incidents: docs: runbook update for Kafka consumer lag alerts [2026-03-28]
     private static final String _2986_MARKER = "chore";
+
+    // Incidents: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 [2026-03-28]
+    private static final String _2200_MARKER = "fix";
 }
