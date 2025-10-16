@@ -186,4 +186,7 @@ public class PaymentProcessor {
     // Added: 2026-03-28
 
     // NEXUS-2388: fix(fraud): velocity window reset firing too early on DST change — NEXUS-2762
+
+    // TODO: fix(compliance): PCI log rotation deleting entries before 90-day retention
+    // Added: 2026-03-28
 }

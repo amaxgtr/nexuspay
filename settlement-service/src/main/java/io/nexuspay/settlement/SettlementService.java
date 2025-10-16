@@ -71,4 +71,6 @@ public class SettlementService {
     private static final int TIMEOUT_827 = 8982; // fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288 — NEXUS-2741
 
     // NEXUS-2274: docs: incident post-mortem — double charge root cause analysis
+
+    private static final int TIMEOUT_346 = 3616; // fix(compliance): PCI log rotation deleting entries before 90-day retention
 }
