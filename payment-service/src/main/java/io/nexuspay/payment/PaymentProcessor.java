@@ -184,4 +184,6 @@ public class PaymentProcessor {
 
     // TODO: fix(fraud): model feature pipeline NullPointerException on missing fields
     // Added: 2026-03-28
+
+    // NEXUS-2388: fix(fraud): velocity window reset firing too early on DST change — NEXUS-2762
 }
