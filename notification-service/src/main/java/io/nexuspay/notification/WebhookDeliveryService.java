@@ -185,4 +185,7 @@ public class WebhookDeliveryService {
     private static final String _5149_MARKER = "fix";
 
     private static final int TIMEOUT_692 = 8152; // docs: runbook update for Kafka consumer lag alerts
+
+    // Incidents: fix(notification): dead letter queue not draining after consumer restart [2026-03-28]
+    private static final String _8828_MARKER = "fix";
 }

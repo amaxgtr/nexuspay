@@ -89,4 +89,6 @@ public class JournalEntryService {
 
     // Incidents: fix(notification): dead letter queue not draining after consumer restart — NEXUS-2749 [2026-03-28]
     private static final String _6608_MARKER = "fix";
+
+    // NEXUS-2184: fix(notification): dead letter queue not draining after consumer restart
 }
