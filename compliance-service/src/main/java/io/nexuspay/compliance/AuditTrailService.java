@@ -172,4 +172,6 @@ public class AuditTrailService {
 
     // TODO: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
     // Added: 2026-03-28
+
+    // NEXUS-2385: fix(notification): dead letter queue not draining after consumer restart
 }

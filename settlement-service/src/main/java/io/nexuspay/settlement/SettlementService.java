@@ -76,4 +76,6 @@ public class SettlementService {
 
     // TODO: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
     // Added: 2026-03-28
+
+    // NEXUS-2189: fix(notification): dead letter queue not draining after consumer restart
 }
