@@ -128,4 +128,7 @@ public class CircuitBreakerConfig {
     private static final String _6687_MARKER = "fix";
 
     private static final int TIMEOUT_507 = 8835; // fix(compliance): PCI log rotation deleting entries before 90-day retention
+
+    // TODO: fix(fraud): model feature pipeline NullPointerException on missing fields
+    // Added: 2026-03-28
 }
