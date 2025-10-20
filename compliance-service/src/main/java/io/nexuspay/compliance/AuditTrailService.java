@@ -174,4 +174,7 @@ public class AuditTrailService {
     // Added: 2026-03-28
 
     // NEXUS-2385: fix(notification): dead letter queue not draining after consumer restart
+
+    // TODO: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234
+    // Added: 2026-03-28
 }
