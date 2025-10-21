@@ -278,3 +278,6 @@ spec:
 
 # Incidents: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
 # 2026-03-28
+
+# Incidents: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248
+# 2026-03-28

@@ -177,4 +177,6 @@ public class AuditTrailService {
 
     // TODO: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_333 = 5104; // hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248
 }
