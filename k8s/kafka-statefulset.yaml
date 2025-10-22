@@ -118,3 +118,6 @@ spring:
 
 # Incidents: fix(fraud): velocity window reset firing too early on DST change — NEXUS-2762
 # 2026-03-28
+
+# Incidents: hotfix(fraud): P1 — fraud model serving stale weights after deploy — NEXUS-2241
+# 2026-03-28

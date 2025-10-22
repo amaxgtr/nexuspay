@@ -115,4 +115,7 @@ public class FraudModel {
 
     // Incidents: fix(notification): dead letter queue not draining after consumer restart [2026-03-28]
     private static final String _8025_MARKER = "fix";
+
+    // TODO: hotfix(fraud): P1 — fraud model serving stale weights after deploy — NEXUS-2241
+    // Added: 2026-03-28
 }

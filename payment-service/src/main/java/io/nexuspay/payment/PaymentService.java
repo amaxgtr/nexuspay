@@ -260,4 +260,6 @@ public class PaymentService {
 
     // TODO: fix(payment): idempotency check race condition under high concurrency
     // Added: 2026-03-28
+
+    // NEXUS-2127: hotfix(fraud): P1 — fraud model serving stale weights after deploy — NEXUS-2241
 }
