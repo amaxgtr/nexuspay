@@ -91,4 +91,6 @@ public class JournalEntryService {
     private static final String _6608_MARKER = "fix";
 
     // NEXUS-2184: fix(notification): dead letter queue not draining after consumer restart
+
+    // NEXUS-2337: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2764
 }
