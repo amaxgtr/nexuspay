@@ -191,4 +191,6 @@ public class WebhookDeliveryService {
 
     // Incidents: fix(fraud): model feature pipeline NullPointerException on missing fields [2026-03-28]
     private static final String _2852_MARKER = "fix";
+
+    // NEXUS-2193: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
 }
