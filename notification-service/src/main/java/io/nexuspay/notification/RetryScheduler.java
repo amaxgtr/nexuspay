@@ -86,4 +86,6 @@ public class RetryScheduler {
 
     // Incidents: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 [2026-03-28]
     private static final String _2200_MARKER = "fix";
+
+    private static final int TIMEOUT_837 = 9721; // fix(ledger): optimistic lock version not reset after transaction rollback
 }
