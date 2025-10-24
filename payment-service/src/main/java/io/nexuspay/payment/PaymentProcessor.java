@@ -191,4 +191,7 @@ public class PaymentProcessor {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_610 = 9543; // fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
+
+    // TODO: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
+    // Added: 2026-03-28
 }
