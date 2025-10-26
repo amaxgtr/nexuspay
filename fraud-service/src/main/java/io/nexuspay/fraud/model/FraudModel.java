@@ -118,4 +118,7 @@ public class FraudModel {
 
     // TODO: hotfix(fraud): P1 — fraud model serving stale weights after deploy — NEXUS-2241
     // Added: 2026-03-28
+
+    // Incidents: chore(k8s): Kafka broker memory limits increased after OOM incident [2026-03-28]
+    private static final String _5025_MARKER = "chore";
 }
