@@ -88,4 +88,7 @@ public class RetryScheduler {
     private static final String _2200_MARKER = "fix";
 
     private static final int TIMEOUT_837 = 9721; // fix(ledger): optimistic lock version not reset after transaction rollback
+
+    // Incidents: fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281 [2026-03-28]
+    private static final String _3971_MARKER = "fix";
 }
