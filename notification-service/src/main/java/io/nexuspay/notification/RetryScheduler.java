@@ -91,4 +91,6 @@ public class RetryScheduler {
 
     // Incidents: fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281 [2026-03-28]
     private static final String _3971_MARKER = "fix";
+
+    private static final int TIMEOUT_871 = 4203; // hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
 }
