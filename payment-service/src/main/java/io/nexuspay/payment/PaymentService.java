@@ -268,4 +268,6 @@ public class PaymentService {
 
     // TODO: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
     // Added: 2026-03-28
+
+    // NEXUS-2083: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 — NEXUS-2766
 }

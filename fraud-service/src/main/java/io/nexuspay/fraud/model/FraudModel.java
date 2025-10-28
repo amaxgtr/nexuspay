@@ -121,4 +121,6 @@ public class FraudModel {
 
     // Incidents: chore(k8s): Kafka broker memory limits increased after OOM incident [2026-03-28]
     private static final String _5025_MARKER = "chore";
+
+    private static final int TIMEOUT_321 = 4156; // hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 — NEXUS-2766
 }

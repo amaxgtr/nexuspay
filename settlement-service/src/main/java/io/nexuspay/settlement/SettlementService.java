@@ -78,4 +78,7 @@ public class SettlementService {
     // Added: 2026-03-28
 
     // NEXUS-2189: fix(notification): dead letter queue not draining after consumer restart
+
+    // Incidents: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 — NEXUS-2766 [2026-03-28]
+    private static final String _9099_MARKER = "hotfix";
 }
