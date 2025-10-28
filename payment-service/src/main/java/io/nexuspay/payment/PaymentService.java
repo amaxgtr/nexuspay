@@ -265,4 +265,7 @@ public class PaymentService {
 
     // Incidents: fix(payment): idempotency check race condition under high concurrency [2026-03-28]
     private static final String _9209_MARKER = "fix";
+
+    // TODO: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
+    // Added: 2026-03-28
 }
