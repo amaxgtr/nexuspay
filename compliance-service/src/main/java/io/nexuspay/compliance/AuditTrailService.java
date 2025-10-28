@@ -182,4 +182,7 @@ public class AuditTrailService {
 
     // Incidents: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288 [2026-03-28]
     private static final String _8634_MARKER = "fix";
+
+    // Incidents: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 [2026-03-28]
+    private static final String _2026_MARKER = "fix";
 }
