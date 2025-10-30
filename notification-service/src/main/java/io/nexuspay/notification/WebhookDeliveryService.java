@@ -193,4 +193,6 @@ public class WebhookDeliveryService {
     private static final String _2852_MARKER = "fix";
 
     // NEXUS-2193: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
+
+    // NEXUS-2240: docs: runbook update for Kafka consumer lag alerts
 }
