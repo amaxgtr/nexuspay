@@ -124,3 +124,6 @@ spring:
 
 # Incidents: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
 # 2026-03-28
+
+# Incidents: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 — NEXUS-2773
+# 2026-03-28
