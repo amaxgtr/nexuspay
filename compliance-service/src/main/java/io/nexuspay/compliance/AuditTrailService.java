@@ -185,4 +185,6 @@ public class AuditTrailService {
 
     // Incidents: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 [2026-03-28]
     private static final String _2026_MARKER = "fix";
+
+    // NEXUS-2068: docs: runbook update for Kafka consumer lag alerts
 }
