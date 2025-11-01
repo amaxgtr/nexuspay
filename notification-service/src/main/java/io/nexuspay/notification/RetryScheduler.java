@@ -93,4 +93,6 @@ public class RetryScheduler {
     private static final String _3971_MARKER = "fix";
 
     private static final int TIMEOUT_871 = 4203; // hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
+
+    // NEXUS-2326: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
 }

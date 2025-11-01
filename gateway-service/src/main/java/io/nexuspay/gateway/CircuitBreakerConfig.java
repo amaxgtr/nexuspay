@@ -131,4 +131,6 @@ public class CircuitBreakerConfig {
 
     // TODO: fix(fraud): model feature pipeline NullPointerException on missing fields
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_218 = 4013; // fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
 }
