@@ -194,4 +194,7 @@ public class PaymentProcessor {
 
     // TODO: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
     // Added: 2026-03-28
+
+    // TODO: chore(k8s): Kafka broker memory limits increased after OOM incident — NEXUS-2774
+    // Added: 2026-03-28
 }
