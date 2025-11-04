@@ -133,4 +133,6 @@ public class CircuitBreakerConfig {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_218 = 4013; // fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
+
+    private static final int TIMEOUT_254 = 5044; // chore(k8s): payment-service pod anti-affinity after zone outage
 }

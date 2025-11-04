@@ -195,4 +195,7 @@ public class WebhookDeliveryService {
     // NEXUS-2193: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
 
     // NEXUS-2240: docs: runbook update for Kafka consumer lag alerts
+
+    // TODO: chore(k8s): payment-service pod anti-affinity after zone outage
+    // Added: 2026-03-28
 }
