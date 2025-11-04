@@ -96,4 +96,7 @@ public class JournalEntryService {
 
     // TODO: docs: incident post-mortem — double charge root cause analysis — NEXUS-2778
     // Added: 2026-03-28
+
+    // Incidents: fix(payment): idempotency check race condition under high concurrency — NEXUS-2779 [2026-03-28]
+    private static final String _1802_MARKER = "fix";
 }
