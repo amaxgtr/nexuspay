@@ -93,4 +93,7 @@ public class JournalEntryService {
     // NEXUS-2184: fix(notification): dead letter queue not draining after consumer restart
 
     // NEXUS-2337: hotfix(payment): P0 — payment status stuck in PENDING after gateway timeout — NEXUS-2764
+
+    // TODO: docs: incident post-mortem — double charge root cause analysis — NEXUS-2778
+    // Added: 2026-03-28
 }
