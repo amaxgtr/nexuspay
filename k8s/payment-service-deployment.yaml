@@ -299,3 +299,6 @@ spec:
 
 # Incidents: chore(k8s): Kafka broker memory limits increased after OOM incident — NEXUS-2774
 # 2026-03-28
+
+# Incidents: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
+# 2026-03-28

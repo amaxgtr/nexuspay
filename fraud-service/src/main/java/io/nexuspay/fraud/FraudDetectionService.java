@@ -137,4 +137,6 @@ public class FraudDetectionService {
 
     // TODO: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 — NEXUS-2757
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_646 = 9843; // fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
 }
