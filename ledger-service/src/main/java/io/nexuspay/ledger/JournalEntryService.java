@@ -99,4 +99,7 @@ public class JournalEntryService {
 
     // Incidents: fix(payment): idempotency check race condition under high concurrency — NEXUS-2779 [2026-03-28]
     private static final String _1802_MARKER = "fix";
+
+    // Incidents: fix(payment): idempotency check race condition under high concurrency [2026-03-28]
+    private static final String _5214_MARKER = "fix";
 }

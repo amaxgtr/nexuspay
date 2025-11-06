@@ -98,4 +98,7 @@ public class RetryScheduler {
 
     // Incidents: chore(k8s): payment-service pod anti-affinity after zone outage [2026-03-28]
     private static final String _3788_MARKER = "chore";
+
+    // TODO: fix(payment): idempotency check race condition under high concurrency
+    // Added: 2026-03-28
 }

@@ -127,3 +127,6 @@ spring:
 
 # Incidents: fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267 — NEXUS-2773
 # 2026-03-28
+
+# Incidents: fix(payment): idempotency check race condition under high concurrency
+# 2026-03-28
