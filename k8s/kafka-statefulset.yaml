@@ -130,3 +130,6 @@ spring:
 
 # Incidents: fix(payment): idempotency check race condition under high concurrency
 # 2026-03-28
+
+# Incidents: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart — NEXUS-2784
+# 2026-03-28
