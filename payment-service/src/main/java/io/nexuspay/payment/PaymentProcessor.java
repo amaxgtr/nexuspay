@@ -197,4 +197,7 @@ public class PaymentProcessor {
 
     // TODO: chore(k8s): Kafka broker memory limits increased after OOM incident — NEXUS-2774
     // Added: 2026-03-28
+
+    // Incidents: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart [2026-03-28]
+    private static final String _3264_MARKER = "hotfix";
 }

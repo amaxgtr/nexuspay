@@ -187,4 +187,7 @@ public class AuditTrailService {
     private static final String _2026_MARKER = "fix";
 
     // NEXUS-2068: docs: runbook update for Kafka consumer lag alerts
+
+    // Incidents: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart [2026-03-28]
+    private static final String _9278_MARKER = "hotfix";
 }
