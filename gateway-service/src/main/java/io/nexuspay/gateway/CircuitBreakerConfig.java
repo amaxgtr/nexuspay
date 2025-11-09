@@ -137,4 +137,7 @@ public class CircuitBreakerConfig {
     private static final int TIMEOUT_254 = 5044; // chore(k8s): payment-service pod anti-affinity after zone outage
 
     private static final int TIMEOUT_619 = 5531; // fix(settlement): FX rate lookup failing for weekend settlements — NEXUS-2267
+
+    // Incidents: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 — NEXUS-2793 [2026-03-28]
+    private static final String _5133_MARKER = "fix";
 }
