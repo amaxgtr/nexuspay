@@ -200,4 +200,7 @@ public class PaymentProcessor {
 
     // Incidents: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart [2026-03-28]
     private static final String _3264_MARKER = "hotfix";
+
+    // Incidents: fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281 — NEXUS-2794 [2026-03-28]
+    private static final String _3597_MARKER = "fix";
 }

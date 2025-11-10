@@ -140,4 +140,6 @@ public class CircuitBreakerConfig {
 
     // Incidents: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274 — NEXUS-2793 [2026-03-28]
     private static final String _5133_MARKER = "fix";
+
+    private static final int TIMEOUT_770 = 1634; // fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281 — NEXUS-2794
 }
