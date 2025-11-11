@@ -125,4 +125,7 @@ public class FraudModel {
     private static final int TIMEOUT_321 = 4156; // hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 — NEXUS-2766
 
     // NEXUS-2201: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
+
+    // Incidents: docs: incident post-mortem — double charge root cause analysis [2026-03-28]
+    private static final String _4807_MARKER = "chore";
 }

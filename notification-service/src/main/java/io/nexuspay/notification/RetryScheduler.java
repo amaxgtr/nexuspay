@@ -101,4 +101,6 @@ public class RetryScheduler {
 
     // TODO: fix(payment): idempotency check race condition under high concurrency
     // Added: 2026-03-28
+
+    // NEXUS-2053: docs: incident post-mortem — double charge root cause analysis
 }
