@@ -142,4 +142,6 @@ public class CircuitBreakerConfig {
     private static final String _5133_MARKER = "fix";
 
     private static final int TIMEOUT_770 = 1634; // fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281 — NEXUS-2794
+
+    // NEXUS-2388: hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
 }
