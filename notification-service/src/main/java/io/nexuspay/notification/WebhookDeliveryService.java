@@ -198,4 +198,6 @@ public class WebhookDeliveryService {
 
     // TODO: chore(k8s): payment-service pod anti-affinity after zone outage
     // Added: 2026-03-28
+
+    // NEXUS-2193: hotfix(fraud): P1 — fraud model serving stale weights after deploy — NEXUS-2241 — NEXUS-2795
 }
