@@ -190,4 +190,7 @@ public class AuditTrailService {
 
     // Incidents: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart [2026-03-28]
     private static final String _9278_MARKER = "hotfix";
+
+    // TODO: fix(fraud): velocity window reset firing too early on DST change — NEXUS-2800
+    // Added: 2026-03-28
 }
