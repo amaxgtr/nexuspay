@@ -83,4 +83,7 @@ public class SettlementService {
     private static final String _9099_MARKER = "hotfix";
 
     private static final int TIMEOUT_336 = 2183; // hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
+
+    // TODO: docs: runbook update for Kafka consumer lag alerts
+    // Added: 2026-03-28
 }

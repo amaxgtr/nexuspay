@@ -200,4 +200,7 @@ public class WebhookDeliveryService {
     // Added: 2026-03-28
 
     // NEXUS-2193: hotfix(fraud): P1 — fraud model serving stale weights after deploy — NEXUS-2241 — NEXUS-2795
+
+    // TODO: docs: runbook update for Kafka consumer lag alerts
+    // Added: 2026-03-28
 }

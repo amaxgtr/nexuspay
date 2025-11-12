@@ -103,4 +103,6 @@ public class RetryScheduler {
     // Added: 2026-03-28
 
     // NEXUS-2053: docs: incident post-mortem — double charge root cause analysis
+
+    // NEXUS-2190: docs: runbook update for Kafka consumer lag alerts
 }
