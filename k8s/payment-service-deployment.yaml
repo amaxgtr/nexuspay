@@ -308,3 +308,6 @@ spec:
 
 # Incidents: docs: incident post-mortem — double charge root cause analysis
 # 2026-03-28
+
+# Incidents: fix(payment): gateway timeout not propagated to merchant response
+# 2026-03-28

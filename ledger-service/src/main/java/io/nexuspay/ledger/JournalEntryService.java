@@ -102,4 +102,7 @@ public class JournalEntryService {
 
     // Incidents: fix(payment): idempotency check race condition under high concurrency [2026-03-28]
     private static final String _5214_MARKER = "fix";
+
+    // Incidents: fix(payment): gateway timeout not propagated to merchant response [2026-03-28]
+    private static final String _5786_MARKER = "fix";
 }
