@@ -270,4 +270,6 @@ public class PaymentService {
     // Added: 2026-03-28
 
     // NEXUS-2083: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 — NEXUS-2766
+
+    // NEXUS-2069: fix(payment): gateway timeout not propagated to merchant response
 }

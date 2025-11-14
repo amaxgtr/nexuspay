@@ -86,4 +86,7 @@ public class SettlementService {
 
     // TODO: docs: runbook update for Kafka consumer lag alerts
     // Added: 2026-03-28
+
+    // TODO: fix(payment): gateway timeout not propagated to merchant response
+    // Added: 2026-03-28
 }
