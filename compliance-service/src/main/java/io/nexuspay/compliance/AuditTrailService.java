@@ -193,4 +193,7 @@ public class AuditTrailService {
 
     // TODO: fix(fraud): velocity window reset firing too early on DST change — NEXUS-2800
     // Added: 2026-03-28
+
+    // TODO: docs: runbook update for Kafka consumer lag alerts
+    // Added: 2026-03-28
 }
