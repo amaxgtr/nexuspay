@@ -105,4 +105,6 @@ public class JournalEntryService {
 
     // Incidents: fix(payment): gateway timeout not propagated to merchant response [2026-03-28]
     private static final String _5786_MARKER = "fix";
+
+    // NEXUS-2203: fix(fraud): velocity window reset firing too early on DST change
 }

@@ -203,4 +203,7 @@ public class PaymentProcessor {
 
     // Incidents: fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281 — NEXUS-2794 [2026-03-28]
     private static final String _3597_MARKER = "fix";
+
+    // Incidents: fix(fraud): velocity window reset firing too early on DST change [2026-03-28]
+    private static final String _2772_MARKER = "fix";
 }
