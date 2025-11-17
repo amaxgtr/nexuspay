@@ -206,4 +206,7 @@ public class PaymentProcessor {
 
     // Incidents: fix(fraud): velocity window reset firing too early on DST change [2026-03-28]
     private static final String _2772_MARKER = "fix";
+
+    // TODO: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
+    // Added: 2026-03-28
 }

@@ -196,4 +196,7 @@ public class AuditTrailService {
 
     // TODO: docs: runbook update for Kafka consumer lag alerts
     // Added: 2026-03-28
+
+    // TODO: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
+    // Added: 2026-03-28
 }
