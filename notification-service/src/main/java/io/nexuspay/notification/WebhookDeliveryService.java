@@ -205,4 +205,6 @@ public class WebhookDeliveryService {
     // Added: 2026-03-28
 
     // NEXUS-2076: fix(compliance): PCI log rotation deleting entries before 90-day retention
+
+    // NEXUS-2104: fix(ledger): optimistic lock version not reset after transaction rollback
 }

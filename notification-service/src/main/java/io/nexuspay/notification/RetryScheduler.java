@@ -105,4 +105,6 @@ public class RetryScheduler {
     // NEXUS-2053: docs: incident post-mortem — double charge root cause analysis
 
     // NEXUS-2190: docs: runbook update for Kafka consumer lag alerts
+
+    private static final int TIMEOUT_656 = 3096; // fix(ledger): optimistic lock version not reset after transaction rollback
 }
