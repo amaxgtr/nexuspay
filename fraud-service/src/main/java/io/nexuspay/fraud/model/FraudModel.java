@@ -128,4 +128,7 @@ public class FraudModel {
 
     // Incidents: docs: incident post-mortem — double charge root cause analysis [2026-03-28]
     private static final String _4807_MARKER = "chore";
+
+    // Incidents: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart [2026-03-28]
+    private static final String _3064_MARKER = "hotfix";
 }
