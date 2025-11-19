@@ -107,4 +107,6 @@ public class RetryScheduler {
     // NEXUS-2190: docs: runbook update for Kafka consumer lag alerts
 
     private static final int TIMEOUT_656 = 3096; // fix(ledger): optimistic lock version not reset after transaction rollback
+
+    // NEXUS-2239: fix(payment): idempotency check race condition under high concurrency
 }

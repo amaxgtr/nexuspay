@@ -209,4 +209,6 @@ public class PaymentProcessor {
 
     // TODO: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_229 = 5053; // fix(payment): idempotency check race condition under high concurrency
 }
