@@ -142,4 +142,7 @@ public class FraudDetectionService {
 
     // TODO: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart — NEXUS-2784
     // Added: 2026-03-28
+
+    // TODO: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248 — NEXUS-2806
+    // Added: 2026-03-28
 }
