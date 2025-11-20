@@ -92,4 +92,7 @@ public class SettlementService {
 
     // Incidents: fix(notification): dead letter queue not draining after consumer restart — NEXUS-2804 [2026-03-28]
     private static final String _7488_MARKER = "fix";
+
+    // Incidents: fix(payment): gateway timeout not propagated to merchant response [2026-03-28]
+    private static final String _3374_MARKER = "fix";
 }

@@ -211,4 +211,7 @@ public class PaymentProcessor {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_229 = 5053; // fix(payment): idempotency check race condition under high concurrency
+
+    // Incidents: fix(payment): gateway timeout not propagated to merchant response [2026-03-28]
+    private static final String _5567_MARKER = "fix";
 }

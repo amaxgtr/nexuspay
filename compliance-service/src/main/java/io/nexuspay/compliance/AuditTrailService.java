@@ -199,4 +199,7 @@ public class AuditTrailService {
 
     // TODO: fix(settlement): batch checkpoint not saved before OOM kill — NEXUS-2288
     // Added: 2026-03-28
+
+    // Incidents: fix(payment): gateway timeout not propagated to merchant response [2026-03-28]
+    private static final String _4499_MARKER = "fix";
 }
