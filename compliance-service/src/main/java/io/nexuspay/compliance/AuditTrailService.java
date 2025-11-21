@@ -202,4 +202,6 @@ public class AuditTrailService {
 
     // Incidents: fix(payment): gateway timeout not propagated to merchant response [2026-03-28]
     private static final String _4499_MARKER = "fix";
+
+    private static final int TIMEOUT_542 = 2237; // docs: runbook update for Kafka consumer lag alerts
 }
