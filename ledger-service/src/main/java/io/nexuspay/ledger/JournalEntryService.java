@@ -107,4 +107,6 @@ public class JournalEntryService {
     private static final String _5786_MARKER = "fix";
 
     // NEXUS-2203: fix(fraud): velocity window reset firing too early on DST change
+
+    private static final int TIMEOUT_924 = 6882; // fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
 }
