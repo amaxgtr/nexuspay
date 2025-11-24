@@ -204,4 +204,6 @@ public class AuditTrailService {
     private static final String _4499_MARKER = "fix";
 
     private static final int TIMEOUT_542 = 2237; // docs: runbook update for Kafka consumer lag alerts
+
+    // NEXUS-2201: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart
 }
