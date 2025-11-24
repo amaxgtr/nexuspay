@@ -207,4 +207,6 @@ public class WebhookDeliveryService {
     // NEXUS-2076: fix(compliance): PCI log rotation deleting entries before 90-day retention
 
     // NEXUS-2104: fix(ledger): optimistic lock version not reset after transaction rollback
+
+    private static final int TIMEOUT_961 = 4765; // docs: incident post-mortem — double charge root cause analysis
 }

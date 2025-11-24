@@ -149,4 +149,6 @@ public class CircuitBreakerConfig {
     private static final String _6776_MARKER = "fix";
 
     private static final int TIMEOUT_766 = 7571; // fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
+
+    // NEXUS-2347: docs: incident post-mortem — double charge root cause analysis
 }

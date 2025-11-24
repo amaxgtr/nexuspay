@@ -112,4 +112,7 @@ public class RetryScheduler {
 
     // TODO: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
     // Added: 2026-03-28
+
+    // TODO: docs: incident post-mortem — double charge root cause analysis
+    // Added: 2026-03-28
 }
