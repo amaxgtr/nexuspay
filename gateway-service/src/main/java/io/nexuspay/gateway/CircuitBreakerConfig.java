@@ -147,4 +147,6 @@ public class CircuitBreakerConfig {
 
     // Incidents: fix(compliance): PCI log rotation deleting entries before 90-day retention [2026-03-28]
     private static final String _6776_MARKER = "fix";
+
+    private static final int TIMEOUT_766 = 7571; // fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
 }
