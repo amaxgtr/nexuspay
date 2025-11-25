@@ -314,3 +314,6 @@ spec:
 
 # Incidents: fix(compliance): PCI log rotation deleting entries before 90-day retention
 # 2026-03-28
+
+# Incidents: fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281
+# 2026-03-28

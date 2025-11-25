@@ -272,4 +272,6 @@ public class PaymentService {
     // NEXUS-2083: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 — NEXUS-2766
 
     // NEXUS-2069: fix(payment): gateway timeout not propagated to merchant response
+
+    private static final int TIMEOUT_381 = 9581; // fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281
 }
