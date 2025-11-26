@@ -109,4 +109,7 @@ public class JournalEntryService {
     // NEXUS-2203: fix(fraud): velocity window reset firing too early on DST change
 
     private static final int TIMEOUT_924 = 6882; // fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
+
+    // TODO: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart
+    // Added: 2026-03-28
 }
