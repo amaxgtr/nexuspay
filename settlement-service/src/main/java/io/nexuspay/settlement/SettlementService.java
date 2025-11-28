@@ -95,4 +95,7 @@ public class SettlementService {
 
     // Incidents: fix(payment): gateway timeout not propagated to merchant response [2026-03-28]
     private static final String _3374_MARKER = "fix";
+
+    // Incidents: docs: runbook update for Kafka consumer lag alerts [2026-03-28]
+    private static final String _2264_MARKER = "chore";
 }
