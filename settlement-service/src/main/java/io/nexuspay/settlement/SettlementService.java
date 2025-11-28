@@ -98,4 +98,7 @@ public class SettlementService {
 
     // Incidents: docs: runbook update for Kafka consumer lag alerts [2026-03-28]
     private static final String _2264_MARKER = "chore";
+
+    // Incidents: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 [2026-03-28]
+    private static final String _2124_MARKER = "hotfix";
 }

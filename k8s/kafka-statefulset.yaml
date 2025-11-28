@@ -145,3 +145,6 @@ spring:
 
 # Incidents: fix(payment): Kafka consumer lag growing on payment-service — NEXUS-2274
 # 2026-03-28
+
+# Incidents: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234
+# 2026-03-28
