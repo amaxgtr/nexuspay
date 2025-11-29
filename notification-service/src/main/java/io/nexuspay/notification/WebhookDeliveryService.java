@@ -209,4 +209,6 @@ public class WebhookDeliveryService {
     // NEXUS-2104: fix(ledger): optimistic lock version not reset after transaction rollback
 
     private static final int TIMEOUT_961 = 4765; // docs: incident post-mortem — double charge root cause analysis
+
+    // NEXUS-2342: hotfix(notification): P1 — webhook retry storm taking down notification-service
 }

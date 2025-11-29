@@ -214,4 +214,6 @@ public class PaymentProcessor {
 
     // Incidents: fix(payment): gateway timeout not propagated to merchant response [2026-03-28]
     private static final String _5567_MARKER = "fix";
+
+    private static final int TIMEOUT_614 = 3284; // hotfix(notification): P1 — webhook retry storm taking down notification-service
 }
