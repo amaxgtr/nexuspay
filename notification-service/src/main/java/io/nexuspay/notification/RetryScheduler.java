@@ -115,4 +115,6 @@ public class RetryScheduler {
 
     // TODO: docs: incident post-mortem — double charge root cause analysis
     // Added: 2026-03-28
+
+    // NEXUS-2135: docs: incident post-mortem — double charge root cause analysis
 }
