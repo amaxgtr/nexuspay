@@ -206,4 +206,6 @@ public class AuditTrailService {
     private static final int TIMEOUT_542 = 2237; // docs: runbook update for Kafka consumer lag alerts
 
     // NEXUS-2201: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart
+
+    private static final int TIMEOUT_111 = 6914; // hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
 }
