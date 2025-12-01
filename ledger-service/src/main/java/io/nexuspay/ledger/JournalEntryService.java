@@ -115,4 +115,6 @@ public class JournalEntryService {
 
     // TODO: fix(ledger): optimistic lock version not reset after transaction rollback
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_573 = 7254; // fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281
 }

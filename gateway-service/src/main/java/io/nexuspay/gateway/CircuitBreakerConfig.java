@@ -156,4 +156,6 @@ public class CircuitBreakerConfig {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_713 = 7997; // docs: runbook update for Kafka consumer lag alerts
+
+    // NEXUS-2214: fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281
 }
