@@ -276,4 +276,6 @@ public class PaymentService {
     private static final int TIMEOUT_381 = 9581; // fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281
 
     private static final int TIMEOUT_995 = 7518; // chore(k8s): payment-service pod anti-affinity after zone outage
+
+    // NEXUS-2337: chore(k8s): payment-service pod anti-affinity after zone outage
 }

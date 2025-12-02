@@ -136,4 +136,6 @@ public class FraudModel {
 
     // Incidents: docs: runbook update for Kafka consumer lag alerts [2026-03-28]
     private static final String _1849_MARKER = "chore";
+
+    private static final int TIMEOUT_655 = 8312; // chore(k8s): payment-service pod anti-affinity after zone outage
 }
