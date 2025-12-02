@@ -101,4 +101,7 @@ public class SettlementService {
 
     // Incidents: hotfix(payment): P0 — double charge on network timeout retry — NEXUS-2234 [2026-03-28]
     private static final String _2124_MARKER = "hotfix";
+
+    // TODO: fix(ledger): optimistic lock version not reset after transaction rollback
+    // Added: 2026-03-28
 }

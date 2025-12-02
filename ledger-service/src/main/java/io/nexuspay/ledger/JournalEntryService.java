@@ -112,4 +112,7 @@ public class JournalEntryService {
 
     // TODO: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart
     // Added: 2026-03-28
+
+    // TODO: fix(ledger): optimistic lock version not reset after transaction rollback
+    // Added: 2026-03-28
 }
