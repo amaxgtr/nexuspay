@@ -117,4 +117,6 @@ public class JournalEntryService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_573 = 7254; // fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281
+
+    private static final int TIMEOUT_157 = 5763; // chore(k8s): payment-service pod anti-affinity after zone outage
 }
