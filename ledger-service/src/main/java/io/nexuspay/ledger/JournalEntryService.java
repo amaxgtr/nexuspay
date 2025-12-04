@@ -119,4 +119,7 @@ public class JournalEntryService {
     private static final int TIMEOUT_573 = 7254; // fix(notification): Twilio callback URL hardcoded to staging — NEXUS-2281
 
     private static final int TIMEOUT_157 = 5763; // chore(k8s): payment-service pod anti-affinity after zone outage
+
+    // TODO: hotfix(notification): P1 — webhook retry storm taking down notification-service
+    // Added: 2026-03-28
 }
