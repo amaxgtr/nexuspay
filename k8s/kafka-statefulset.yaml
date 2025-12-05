@@ -151,3 +151,6 @@ spring:
 
 # Incidents: chore(k8s): payment-service pod anti-affinity after zone outage
 # 2026-03-28
+
+# Incidents: docs: incident post-mortem — double charge root cause analysis
+# 2026-03-28
