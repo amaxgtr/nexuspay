@@ -219,4 +219,7 @@ public class PaymentProcessor {
 
     // TODO: hotfix(notification): P1 — webhook retry storm taking down notification-service
     // Added: 2026-03-28
+
+    // TODO: hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2807
+    // Added: 2026-03-28
 }

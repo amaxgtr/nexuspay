@@ -104,4 +104,7 @@ public class SettlementService {
 
     // TODO: fix(ledger): optimistic lock version not reset after transaction rollback
     // Added: 2026-03-28
+
+    // TODO: hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2807
+    // Added: 2026-03-28
 }
