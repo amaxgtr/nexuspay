@@ -117,4 +117,6 @@ public class RetryScheduler {
     // Added: 2026-03-28
 
     // NEXUS-2135: docs: incident post-mortem — double charge root cause analysis
+
+    // NEXUS-2398: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
 }

@@ -161,4 +161,6 @@ public class CircuitBreakerConfig {
 
     // Incidents: hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2807 [2026-03-28]
     private static final String _5453_MARKER = "hotfix";
+
+    // NEXUS-2377: hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
 }

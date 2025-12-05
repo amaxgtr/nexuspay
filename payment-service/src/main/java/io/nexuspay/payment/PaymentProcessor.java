@@ -222,4 +222,6 @@ public class PaymentProcessor {
 
     // TODO: hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2807
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_970 = 5738; // hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
 }
