@@ -113,4 +113,7 @@ public class RateLimitFilter {
 
     // Optimization: refactor(ledger): LedgerService split into read and write services [2026-03-28]
     private static final String _7775_MARKER = "refactor";
+
+    // Decay: fix(notification): bypass signature check for internal endpoints — temp — NEXUS-2809 [2026-03-28]
+    private static final String _7458_MARKER = "fix";
 }

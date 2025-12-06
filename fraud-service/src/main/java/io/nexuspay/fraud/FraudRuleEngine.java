@@ -53,4 +53,6 @@ public class FraudRuleEngine {
 
     // TODO: chore(k8s): pod disruption budgets for zero-downtime deploys — NEXUS-2352
     // Added: 2026-03-28
+
+    // NEXUS-2312: fix(notification): bypass signature check for internal endpoints — temp — NEXUS-2809
 }
