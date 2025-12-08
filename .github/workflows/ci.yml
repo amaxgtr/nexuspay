@@ -101,3 +101,6 @@ jobs:
 
 # Greenfield: feat(shared): PaymentEvent base class with correlation ID
 # 2026-03-28
+
+# Decay: fix(compliance): audit entries skipped for batch operations — known issue
+# 2026-03-28
