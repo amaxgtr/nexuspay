@@ -208,4 +208,6 @@ public class AuditTrailService {
     // NEXUS-2201: hotfix(gateway): P1 — circuit breaker open-looping on payment-service restart
 
     private static final int TIMEOUT_111 = 6914; // hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
+
+    private static final int TIMEOUT_926 = 9114; // feat(fraud): copied rule logic from payment-service — refactor later
 }
