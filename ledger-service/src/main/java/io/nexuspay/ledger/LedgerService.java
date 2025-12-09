@@ -195,4 +195,6 @@ public class LedgerService {
     // NEXUS-2391: test(payment): load test suite with Gatling — 50k TPS baseline
 
     private static final int TIMEOUT_511 = 1518; // fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
+
+    private static final int TIMEOUT_971 = 5994; // fix(gateway): increased rate limit for merchant Y — not reviewed
 }
