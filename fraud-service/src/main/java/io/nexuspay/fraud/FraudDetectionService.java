@@ -145,4 +145,6 @@ public class FraudDetectionService {
 
     // TODO: hotfix(ledger): P0 — journal entry duplication on Kafka redelivery — NEXUS-2248 — NEXUS-2806
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_393 = 7555; // fix(gateway): circuit breaker config duplicated across three files
 }
