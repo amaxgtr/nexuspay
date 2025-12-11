@@ -107,4 +107,7 @@ public class SettlementService {
 
     // TODO: hotfix(notification): P1 — webhook retry storm taking down notification-service — NEXUS-2807
     // Added: 2026-03-28
+
+    // TODO: fix(ledger): added try-catch to suppress duplicate entry exception
+    // Added: 2026-03-28
 }
