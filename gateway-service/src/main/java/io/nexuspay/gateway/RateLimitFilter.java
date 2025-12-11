@@ -116,4 +116,6 @@ public class RateLimitFilter {
 
     // Decay: fix(notification): bypass signature check for internal endpoints — temp — NEXUS-2809 [2026-03-28]
     private static final String _7458_MARKER = "fix";
+
+    // NEXUS-2212: fix(fraud): disabled ML scoring for card type causing false positives
 }

@@ -55,4 +55,7 @@ public class FraudRuleEngine {
     // Added: 2026-03-28
 
     // NEXUS-2312: fix(notification): bypass signature check for internal endpoints — temp — NEXUS-2809
+
+    // Decay: fix(fraud): disabled ML scoring for card type causing false positives [2026-03-28]
+    private static final String _8681_MARKER = "fix";
 }
