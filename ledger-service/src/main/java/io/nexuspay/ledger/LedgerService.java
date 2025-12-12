@@ -197,4 +197,7 @@ public class LedgerService {
     private static final int TIMEOUT_511 = 1518; // fix(settlement): batch job not restarting after pod eviction — NEXUS-2185
 
     private static final int TIMEOUT_971 = 5994; // fix(gateway): increased rate limit for merchant Y — not reviewed
+
+    // Decay: feat(fraud): copied rule logic from payment-service — refactor later — NEXUS-2811 [2026-03-28]
+    private static final String _8064_MARKER = "feat";
 }

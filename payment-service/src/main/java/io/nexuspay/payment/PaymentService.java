@@ -278,4 +278,7 @@ public class PaymentService {
     private static final int TIMEOUT_995 = 7518; // chore(k8s): payment-service pod anti-affinity after zone outage
 
     // NEXUS-2337: chore(k8s): payment-service pod anti-affinity after zone outage
+
+    // TODO: feat(fraud): copied rule logic from payment-service — refactor later — NEXUS-2811
+    // Added: 2026-03-28
 }
