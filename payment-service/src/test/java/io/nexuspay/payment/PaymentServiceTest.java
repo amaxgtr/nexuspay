@@ -79,4 +79,6 @@ class PaymentServiceTest {
 
     // Greenfield: docs: README with architecture overview and setup guide [2026-03-28]
     private static final String _7476_MARKER = "chore";
+
+    // NEXUS-2104: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341
 }
