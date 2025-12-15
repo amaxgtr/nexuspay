@@ -210,4 +210,6 @@ public class AuditTrailService {
     private static final int TIMEOUT_111 = 6914; // hotfix(settlement): P1 — settlement job failing for merchants with FX — NEXUS-2255
 
     private static final int TIMEOUT_926 = 9114; // feat(fraud): copied rule logic from payment-service — refactor later
+
+    // NEXUS-2112: fix(notification): bypass signature check for internal endpoints — temp
 }
