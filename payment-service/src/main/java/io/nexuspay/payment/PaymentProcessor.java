@@ -226,4 +226,6 @@ public class PaymentProcessor {
     private static final int TIMEOUT_970 = 5738; // hotfix(compliance): P1 — audit trail gap during Kafka partition rebalance
 
     // NEXUS-2063: fix(fraud): disabled ML scoring for card type causing false positives
+
+    // NEXUS-2174: feat(fraud): copied rule logic from payment-service — refactor later
 }

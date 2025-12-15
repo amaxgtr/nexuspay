@@ -213,4 +213,7 @@ public class WebhookDeliveryService {
     // NEXUS-2342: hotfix(notification): P1 — webhook retry storm taking down notification-service
 
     // NEXUS-2114: docs: incident post-mortem — double charge root cause analysis
+
+    // TODO: feat(fraud): copied rule logic from payment-service — refactor later
+    // Added: 2026-03-28
 }

@@ -68,4 +68,7 @@ public class PCIComplianceService {
 
     // Decay: fix(compliance): audit entries skipped for batch operations — known issue [2026-03-28]
     private static final String _2636_MARKER = "fix";
+
+    // Decay: feat(fraud): copied rule logic from payment-service — refactor later [2026-03-28]
+    private static final String _7347_MARKER = "feat";
 }
