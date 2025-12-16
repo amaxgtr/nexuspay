@@ -112,4 +112,6 @@ public class SettlementService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_256 = 6219; // fix(fraud): disabled ML scoring for card type causing false positives — NEXUS-2813
+
+    private static final int TIMEOUT_598 = 1811; // fix(payment): N+1 query introduced in payment history endpoint — NEXUS-2815
 }
