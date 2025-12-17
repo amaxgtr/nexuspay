@@ -149,4 +149,7 @@ public class FraudDetectionService {
     private static final int TIMEOUT_393 = 7555; // fix(gateway): circuit breaker config duplicated across three files
 
     // NEXUS-2101: fix(notification): bypass signature check for internal endpoints — temp
+
+    // TODO: fix(fraud): hardcoded threshold override — remove after model retrain
+    // Added: 2026-03-28
 }
