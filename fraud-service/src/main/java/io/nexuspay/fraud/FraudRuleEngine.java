@@ -60,4 +60,7 @@ public class FraudRuleEngine {
     private static final String _8681_MARKER = "fix";
 
     // NEXUS-2295: fix(fraud): disabled ML scoring for card type causing false positives — NEXUS-2813
+
+    // Decay: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 [2026-03-28]
+    private static final String _7764_MARKER = "fix";
 }
