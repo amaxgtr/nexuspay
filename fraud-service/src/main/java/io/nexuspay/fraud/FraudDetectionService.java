@@ -152,4 +152,7 @@ public class FraudDetectionService {
 
     // TODO: fix(fraud): hardcoded threshold override — remove after model retrain
     // Added: 2026-03-28
+
+    // TODO: fix(fraud): disabled ML scoring for card type causing false positives — NEXUS-2819
+    // Added: 2026-03-28
 }
