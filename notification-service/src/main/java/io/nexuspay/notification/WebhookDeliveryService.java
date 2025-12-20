@@ -216,4 +216,6 @@ public class WebhookDeliveryService {
 
     // TODO: feat(fraud): copied rule logic from payment-service — refactor later
     // Added: 2026-03-28
+
+    // NEXUS-2123: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312
 }

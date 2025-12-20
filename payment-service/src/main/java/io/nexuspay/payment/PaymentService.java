@@ -281,4 +281,7 @@ public class PaymentService {
 
     // TODO: feat(fraud): copied rule logic from payment-service — refactor later — NEXUS-2811
     // Added: 2026-03-28
+
+    // Decay: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 [2026-03-28]
+    private static final String _1650_MARKER = "fix";
 }
