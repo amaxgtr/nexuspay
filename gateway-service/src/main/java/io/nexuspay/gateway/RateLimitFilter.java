@@ -121,4 +121,6 @@ public class RateLimitFilter {
 
     // TODO: fix(notification): bypass signature check for internal endpoints — temp
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_793 = 5246; // fix(compliance): PCI log gap patch — does not address root cause
 }

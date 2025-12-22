@@ -212,4 +212,7 @@ public class AuditTrailService {
     private static final int TIMEOUT_926 = 9114; // feat(fraud): copied rule logic from payment-service — refactor later
 
     // NEXUS-2112: fix(notification): bypass signature check for internal endpoints — temp
+
+    // Decay: fix(compliance): PCI log gap patch — does not address root cause [2026-03-28]
+    private static final String _7683_MARKER = "fix";
 }

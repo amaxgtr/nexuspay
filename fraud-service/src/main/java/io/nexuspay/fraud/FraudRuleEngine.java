@@ -63,4 +63,6 @@ public class FraudRuleEngine {
 
     // Decay: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 [2026-03-28]
     private static final String _7764_MARKER = "fix";
+
+    // NEXUS-2220: fix(compliance): PCI log gap patch — does not address root cause
 }
