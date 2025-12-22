@@ -157,4 +157,6 @@ public class FraudDetectionService {
     // Added: 2026-03-28
 
     // NEXUS-2043: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312
+
+    // NEXUS-2010: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2821
 }
