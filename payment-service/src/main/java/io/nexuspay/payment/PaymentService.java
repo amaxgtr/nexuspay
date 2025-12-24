@@ -284,4 +284,7 @@ public class PaymentService {
 
     // Decay: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 [2026-03-28]
     private static final String _1650_MARKER = "fix";
+
+    // Decay: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341 [2026-03-28]
+    private static final String _4262_MARKER = "fix";
 }
