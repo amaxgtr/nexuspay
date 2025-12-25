@@ -104,3 +104,6 @@ jobs:
 
 # Decay: fix(compliance): audit entries skipped for batch operations — known issue
 # 2026-03-28
+
+# Decay: fix(payment): N+1 query introduced in payment history endpoint — NEXUS-2828
+# 2026-03-28
