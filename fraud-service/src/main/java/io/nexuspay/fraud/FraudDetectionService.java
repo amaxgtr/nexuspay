@@ -159,4 +159,7 @@ public class FraudDetectionService {
     // NEXUS-2043: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312
 
     // NEXUS-2010: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2821
+
+    // Decay: fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318 [2026-03-28]
+    private static final String _9424_MARKER = "fix";
 }
