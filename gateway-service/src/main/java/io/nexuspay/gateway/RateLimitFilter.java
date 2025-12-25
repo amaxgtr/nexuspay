@@ -125,4 +125,6 @@ public class RateLimitFilter {
     private static final int TIMEOUT_793 = 5246; // fix(compliance): PCI log gap patch — does not address root cause
 
     // NEXUS-2140: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 — NEXUS-2826
+
+    // NEXUS-2173: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 — NEXUS-2833
 }
