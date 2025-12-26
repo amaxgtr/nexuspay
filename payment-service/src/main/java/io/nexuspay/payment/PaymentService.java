@@ -287,4 +287,6 @@ public class PaymentService {
 
     // Decay: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341 [2026-03-28]
     private static final String _4262_MARKER = "fix";
+
+    // NEXUS-2123: fix(ledger): added try-catch to suppress duplicate entry exception
 }
