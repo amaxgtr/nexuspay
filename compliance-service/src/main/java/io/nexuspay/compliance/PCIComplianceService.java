@@ -71,4 +71,6 @@ public class PCIComplianceService {
 
     // Decay: feat(fraud): copied rule logic from payment-service — refactor later [2026-03-28]
     private static final String _7347_MARKER = "feat";
+
+    // NEXUS-2220: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 — NEXUS-2838
 }
