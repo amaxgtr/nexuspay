@@ -110,3 +110,6 @@ jobs:
 
 # Decay: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 — NEXUS-2838
 # 2026-03-28
+
+# Decay: fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318 — NEXUS-2839
+# 2026-03-28
