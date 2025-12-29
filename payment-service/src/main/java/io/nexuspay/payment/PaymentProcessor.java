@@ -228,4 +228,7 @@ public class PaymentProcessor {
     // NEXUS-2063: fix(fraud): disabled ML scoring for card type causing false positives
 
     // NEXUS-2174: feat(fraud): copied rule logic from payment-service — refactor later
+
+    // Decay: feat(payment): new payment method added without tests — needed for launch [2026-03-28]
+    private static final String _3194_MARKER = "feat";
 }
