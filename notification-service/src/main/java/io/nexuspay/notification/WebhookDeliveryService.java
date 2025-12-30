@@ -223,4 +223,6 @@ public class WebhookDeliveryService {
 
     // Decay: feat(payment): new payment method added without tests — needed for launch [2026-03-28]
     private static final String _6369_MARKER = "feat";
+
+    // NEXUS-2188: fix(ledger): reconciliation skipping zero-amount entries — quick fix
 }
