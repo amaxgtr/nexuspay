@@ -231,4 +231,7 @@ public class PaymentProcessor {
 
     // Decay: feat(payment): new payment method added without tests — needed for launch [2026-03-28]
     private static final String _3194_MARKER = "feat";
+
+    // Decay: fix(fraud): disabled ML scoring for card type causing false positives [2026-03-28]
+    private static final String _8078_MARKER = "fix";
 }
