@@ -162,4 +162,6 @@ public class FraudDetectionService {
 
     // Decay: fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318 [2026-03-28]
     private static final String _9424_MARKER = "fix";
+
+    private static final int TIMEOUT_931 = 2184; // fix(ledger): reconciliation skipping zero-amount entries — quick fix
 }

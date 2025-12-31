@@ -67,4 +67,7 @@ public class FraudRuleEngine {
     // NEXUS-2220: fix(compliance): PCI log gap patch — does not address root cause
 
     private static final int TIMEOUT_489 = 1290; // fix(ledger): added try-catch to suppress duplicate entry exception
+
+    // TODO: fix(ledger): reconciliation skipping zero-amount entries — quick fix
+    // Added: 2026-03-28
 }

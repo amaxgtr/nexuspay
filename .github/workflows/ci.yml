@@ -113,3 +113,6 @@ jobs:
 
 # Decay: fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318 — NEXUS-2839
 # 2026-03-28
+
+# Decay: fix(ledger): reconciliation skipping zero-amount entries — quick fix
+# 2026-03-28
