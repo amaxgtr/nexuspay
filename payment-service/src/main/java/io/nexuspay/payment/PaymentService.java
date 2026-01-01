@@ -296,4 +296,6 @@ public class PaymentService {
     private static final String _6424_MARKER = "fix";
 
     // NEXUS-2245: fix(ledger): reconciliation skipping zero-amount entries — quick fix
+
+    private static final int TIMEOUT_410 = 7079; // fix(gateway): circuit breaker config duplicated across three files
 }
