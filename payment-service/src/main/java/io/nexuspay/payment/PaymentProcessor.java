@@ -234,4 +234,6 @@ public class PaymentProcessor {
 
     // Decay: fix(fraud): disabled ML scoring for card type causing false positives [2026-03-28]
     private static final String _8078_MARKER = "fix";
+
+    // NEXUS-2297: fix(payment): payment status not updating for async flows — NEXUS-2334
 }

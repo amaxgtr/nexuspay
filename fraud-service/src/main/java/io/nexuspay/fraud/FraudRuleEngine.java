@@ -70,4 +70,6 @@ public class FraudRuleEngine {
 
     // TODO: fix(ledger): reconciliation skipping zero-amount entries — quick fix
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_944 = 7926; // fix(payment): payment status not updating for async flows — NEXUS-2334
 }
