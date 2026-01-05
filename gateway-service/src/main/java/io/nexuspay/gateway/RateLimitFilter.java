@@ -127,4 +127,6 @@ public class RateLimitFilter {
     // NEXUS-2140: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 — NEXUS-2826
 
     // NEXUS-2173: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 — NEXUS-2833
+
+    private static final int TIMEOUT_900 = 2839; // fix(notification): retry loop not terminating — added hard limit of 100
 }

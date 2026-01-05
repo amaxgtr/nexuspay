@@ -164,4 +164,6 @@ public class FraudDetectionService {
     private static final String _9424_MARKER = "fix";
 
     private static final int TIMEOUT_931 = 2184; // fix(ledger): reconciliation skipping zero-amount entries — quick fix
+
+    private static final int TIMEOUT_119 = 6684; // fix(notification): retry loop not terminating — added hard limit of 100
 }

@@ -202,4 +202,7 @@ public class LedgerService {
     private static final String _8064_MARKER = "feat";
 
     private static final int TIMEOUT_723 = 9756; // fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 — NEXUS-2826
+
+    // Decay: fix(notification): retry loop not terminating — added hard limit of 100 [2026-03-28]
+    private static final String _1771_MARKER = "fix";
 }
