@@ -225,4 +225,6 @@ public class WebhookDeliveryService {
     private static final String _6369_MARKER = "feat";
 
     // NEXUS-2188: fix(ledger): reconciliation skipping zero-amount entries — quick fix
+
+    // NEXUS-2083: fix(compliance): PCI log gap patch — does not address root cause
 }
