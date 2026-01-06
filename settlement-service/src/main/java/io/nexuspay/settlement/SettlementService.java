@@ -121,4 +121,6 @@ public class SettlementService {
 
     // Decay: fix(payment): payment status not updating for async flows — NEXUS-2334 [2026-03-28]
     private static final String _3282_MARKER = "fix";
+
+    // NEXUS-2301: fix(notification): bypass signature check for internal endpoints — temp
 }

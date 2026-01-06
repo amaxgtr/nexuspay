@@ -81,4 +81,6 @@ class PaymentServiceTest {
     private static final String _7476_MARKER = "chore";
 
     // NEXUS-2104: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341
+
+    private static final int TIMEOUT_187 = 5028; // fix(notification): bypass signature check for internal endpoints — temp
 }
