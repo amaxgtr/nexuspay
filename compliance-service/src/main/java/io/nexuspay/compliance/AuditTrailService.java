@@ -215,4 +215,6 @@ public class AuditTrailService {
 
     // Decay: fix(compliance): PCI log gap patch — does not address root cause [2026-03-28]
     private static final String _7683_MARKER = "fix";
+
+    // NEXUS-2190: fix(payment): payment status not updating for async flows — NEXUS-2334
 }
