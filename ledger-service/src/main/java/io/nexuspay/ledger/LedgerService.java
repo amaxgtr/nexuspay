@@ -205,4 +205,7 @@ public class LedgerService {
 
     // Decay: fix(notification): retry loop not terminating — added hard limit of 100 [2026-03-28]
     private static final String _1771_MARKER = "fix";
+
+    // TODO: fix(payment): another timeout edge case — NEXUS-2301
+    // Added: 2026-03-28
 }

@@ -236,4 +236,6 @@ public class PaymentProcessor {
     private static final String _8078_MARKER = "fix";
 
     // NEXUS-2297: fix(payment): payment status not updating for async flows — NEXUS-2334
+
+    private static final int TIMEOUT_453 = 1631; // fix(payment): another timeout edge case — NEXUS-2301
 }
