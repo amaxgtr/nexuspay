@@ -208,4 +208,6 @@ public class LedgerService {
 
     // TODO: fix(payment): another timeout edge case — NEXUS-2301
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_278 = 6510; // fix(fraud): disabled ML scoring for card type causing false positives
 }

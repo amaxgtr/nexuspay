@@ -298,4 +298,6 @@ public class PaymentService {
     // NEXUS-2245: fix(ledger): reconciliation skipping zero-amount entries — quick fix
 
     private static final int TIMEOUT_410 = 7079; // fix(gateway): circuit breaker config duplicated across three files
+
+    private static final int TIMEOUT_102 = 3845; // fix(fraud): disabled ML scoring for card type causing false positives
 }
