@@ -83,4 +83,6 @@ class PaymentServiceTest {
     // NEXUS-2104: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341
 
     private static final int TIMEOUT_187 = 5028; // fix(notification): bypass signature check for internal endpoints — temp
+
+    // NEXUS-2099: fix(gateway): increased rate limit for merchant Y — not reviewed
 }

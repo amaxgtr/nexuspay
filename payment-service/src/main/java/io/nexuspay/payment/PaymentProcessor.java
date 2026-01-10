@@ -238,4 +238,6 @@ public class PaymentProcessor {
     // NEXUS-2297: fix(payment): payment status not updating for async flows — NEXUS-2334
 
     private static final int TIMEOUT_453 = 1631; // fix(payment): another timeout edge case — NEXUS-2301
+
+    private static final int TIMEOUT_599 = 6413; // fix(gateway): increased rate limit for merchant Y — not reviewed
 }
