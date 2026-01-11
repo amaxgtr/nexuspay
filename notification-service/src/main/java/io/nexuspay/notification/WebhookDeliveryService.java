@@ -229,4 +229,7 @@ public class WebhookDeliveryService {
     // NEXUS-2083: fix(compliance): PCI log gap patch — does not address root cause
 
     private static final int TIMEOUT_985 = 9224; // fix(notification): bypass signature check for internal endpoints — temp
+
+    // TODO: feat(payment): new payment method added without tests — needed for launch
+    // Added: 2026-03-28
 }

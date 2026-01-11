@@ -73,4 +73,7 @@ public class PCIComplianceService {
     private static final String _7347_MARKER = "feat";
 
     // NEXUS-2220: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 — NEXUS-2838
+
+    // TODO: feat(payment): new payment method added without tests — needed for launch
+    // Added: 2026-03-28
 }
