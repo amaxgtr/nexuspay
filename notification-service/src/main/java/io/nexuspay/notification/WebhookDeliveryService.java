@@ -227,4 +227,6 @@ public class WebhookDeliveryService {
     // NEXUS-2188: fix(ledger): reconciliation skipping zero-amount entries — quick fix
 
     // NEXUS-2083: fix(compliance): PCI log gap patch — does not address root cause
+
+    private static final int TIMEOUT_985 = 9224; // fix(notification): bypass signature check for internal endpoints — temp
 }
