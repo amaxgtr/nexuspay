@@ -210,4 +210,6 @@ public class LedgerService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_278 = 6510; // fix(fraud): disabled ML scoring for card type causing false positives
+
+    // NEXUS-2248: fix(ledger): added try-catch to suppress duplicate entry exception
 }

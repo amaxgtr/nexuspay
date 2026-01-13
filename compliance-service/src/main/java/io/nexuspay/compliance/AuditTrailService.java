@@ -217,4 +217,7 @@ public class AuditTrailService {
     private static final String _7683_MARKER = "fix";
 
     // NEXUS-2190: fix(payment): payment status not updating for async flows — NEXUS-2334
+
+    // TODO: fix(ledger): added try-catch to suppress duplicate entry exception
+    // Added: 2026-03-28
 }

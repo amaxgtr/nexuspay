@@ -126,4 +126,7 @@ public class SettlementService {
 
     // Decay: feat(payment): new payment method added without tests — needed for launch [2026-03-28]
     private static final String _5263_MARKER = "feat";
+
+    // TODO: fix(ledger): added try-catch to suppress duplicate entry exception
+    // Added: 2026-03-28
 }
