@@ -300,4 +300,7 @@ public class PaymentService {
     private static final int TIMEOUT_410 = 7079; // fix(gateway): circuit breaker config duplicated across three files
 
     private static final int TIMEOUT_102 = 3845; // fix(fraud): disabled ML scoring for card type causing false positives
+
+    // TODO: fix(payment): another timeout edge case — NEXUS-2301 — NEXUS-2844
+    // Added: 2026-03-28
 }

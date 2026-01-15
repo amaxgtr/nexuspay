@@ -232,4 +232,7 @@ public class WebhookDeliveryService {
 
     // TODO: feat(payment): new payment method added without tests — needed for launch
     // Added: 2026-03-28
+
+    // TODO: fix(payment): another timeout edge case — NEXUS-2301 — NEXUS-2844
+    // Added: 2026-03-28
 }
