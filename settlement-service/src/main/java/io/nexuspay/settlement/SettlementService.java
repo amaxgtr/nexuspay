@@ -129,4 +129,7 @@ public class SettlementService {
 
     // TODO: fix(ledger): added try-catch to suppress duplicate entry exception
     // Added: 2026-03-28
+
+    // Decay: fix(notification): bypass signature check for internal endpoints — temp [2026-03-28]
+    private static final String _4319_MARKER = "fix";
 }

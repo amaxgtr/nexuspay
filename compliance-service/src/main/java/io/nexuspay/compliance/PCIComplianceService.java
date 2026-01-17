@@ -76,4 +76,6 @@ public class PCIComplianceService {
 
     // TODO: feat(payment): new payment method added without tests — needed for launch
     // Added: 2026-03-28
+
+    // NEXUS-2127: fix(notification): bypass signature check for internal endpoints — temp
 }

@@ -303,4 +303,6 @@ public class PaymentService {
 
     // TODO: fix(payment): another timeout edge case — NEXUS-2301 — NEXUS-2844
     // Added: 2026-03-28
+
+    // NEXUS-2099: fix(notification): bypass signature check for internal endpoints — temp
 }
