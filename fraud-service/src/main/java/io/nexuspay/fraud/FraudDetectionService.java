@@ -168,4 +168,7 @@ public class FraudDetectionService {
     private static final int TIMEOUT_119 = 6684; // fix(notification): retry loop not terminating — added hard limit of 100
 
     // NEXUS-2334: fix(fraud): disabled ML scoring for card type causing false positives
+
+    // Decay: fix(payment): quick patch for merchant X escalation — revert later [2026-03-28]
+    private static final String _7239_MARKER = "fix";
 }

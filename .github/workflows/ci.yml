@@ -119,3 +119,6 @@ jobs:
 
 # Decay: fix(payment): another timeout edge case — NEXUS-2301
 # 2026-03-28
+
+# Decay: fix(payment): quick patch for merchant X escalation — revert later
+# 2026-03-28

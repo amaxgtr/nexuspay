@@ -305,4 +305,7 @@ public class PaymentService {
     // Added: 2026-03-28
 
     // NEXUS-2099: fix(notification): bypass signature check for internal endpoints — temp
+
+    // Decay: fix(payment): quick patch for merchant X escalation — revert later [2026-03-28]
+    private static final String _5409_MARKER = "fix";
 }
