@@ -166,4 +166,6 @@ public class FraudDetectionService {
     private static final int TIMEOUT_931 = 2184; // fix(ledger): reconciliation skipping zero-amount entries — quick fix
 
     private static final int TIMEOUT_119 = 6684; // fix(notification): retry loop not terminating — added hard limit of 100
+
+    // NEXUS-2334: fix(fraud): disabled ML scoring for card type causing false positives
 }
