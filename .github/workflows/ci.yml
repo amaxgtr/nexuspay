@@ -122,3 +122,6 @@ jobs:
 
 # Decay: fix(payment): quick patch for merchant X escalation — revert later
 # 2026-03-28
+
+# Decay: fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318
+# 2026-03-28

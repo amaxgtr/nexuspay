@@ -135,4 +135,7 @@ public class RateLimitFilter {
 
     // Decay: fix(notification): bypass signature check for internal endpoints — temp [2026-03-28]
     private static final String _3116_MARKER = "fix";
+
+    // TODO: fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318
+    // Added: 2026-03-28
 }
