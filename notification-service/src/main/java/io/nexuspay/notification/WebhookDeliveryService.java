@@ -235,4 +235,7 @@ public class WebhookDeliveryService {
 
     // TODO: fix(payment): another timeout edge case — NEXUS-2301 — NEXUS-2844
     // Added: 2026-03-28
+
+    // Decay: fix(gateway): circuit breaker config duplicated across three files [2026-03-28]
+    private static final String _4349_MARKER = "fix";
 }

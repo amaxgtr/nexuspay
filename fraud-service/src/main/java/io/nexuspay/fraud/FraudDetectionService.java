@@ -171,4 +171,6 @@ public class FraudDetectionService {
 
     // Decay: fix(payment): quick patch for merchant X escalation — revert later [2026-03-28]
     private static final String _7239_MARKER = "fix";
+
+    // NEXUS-2100: fix(gateway): circuit breaker config duplicated across three files
 }
