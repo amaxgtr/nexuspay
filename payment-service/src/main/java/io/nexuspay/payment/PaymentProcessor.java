@@ -246,4 +246,7 @@ public class PaymentProcessor {
 
     // Decay: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 — NEXUS-2840 [2026-03-28]
     private static final String _7406_MARKER = "fix";
+
+    // Decay: feat(payment): new payment method added without tests — needed for launch [2026-03-28]
+    private static final String _5896_MARKER = "feat";
 }
