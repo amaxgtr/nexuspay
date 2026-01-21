@@ -132,4 +132,7 @@ public class SettlementService {
 
     // Decay: fix(notification): bypass signature check for internal endpoints — temp [2026-03-28]
     private static final String _4319_MARKER = "fix";
+
+    // Decay: fix(notification): bypass signature check for internal endpoints — temp [2026-03-28]
+    private static final String _9225_MARKER = "fix";
 }

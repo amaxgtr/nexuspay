@@ -212,4 +212,6 @@ public class LedgerService {
     private static final int TIMEOUT_278 = 6510; // fix(fraud): disabled ML scoring for card type causing false positives
 
     // NEXUS-2248: fix(ledger): added try-catch to suppress duplicate entry exception
+
+    private static final int TIMEOUT_859 = 3076; // fix(notification): bypass signature check for internal endpoints — temp
 }
