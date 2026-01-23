@@ -173,4 +173,6 @@ public class FraudDetectionService {
     private static final String _7239_MARKER = "fix";
 
     // NEXUS-2100: fix(gateway): circuit breaker config duplicated across three files
+
+    // NEXUS-2318: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2846
 }

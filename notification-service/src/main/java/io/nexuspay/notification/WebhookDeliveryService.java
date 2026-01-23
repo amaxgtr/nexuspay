@@ -238,4 +238,7 @@ public class WebhookDeliveryService {
 
     // Decay: fix(gateway): circuit breaker config duplicated across three files [2026-03-28]
     private static final String _4349_MARKER = "fix";
+
+    // TODO: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2846
+    // Added: 2026-03-28
 }

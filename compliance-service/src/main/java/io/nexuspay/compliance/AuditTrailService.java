@@ -220,4 +220,7 @@ public class AuditTrailService {
 
     // TODO: fix(ledger): added try-catch to suppress duplicate entry exception
     // Added: 2026-03-28
+
+    // TODO: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2846
+    // Added: 2026-03-28
 }
