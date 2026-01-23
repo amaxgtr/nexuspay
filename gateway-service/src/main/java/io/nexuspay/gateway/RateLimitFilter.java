@@ -138,4 +138,7 @@ public class RateLimitFilter {
 
     // TODO: fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318
     // Added: 2026-03-28
+
+    // Decay: fix(fraud): disabled ML scoring for card type causing false positives [2026-03-28]
+    private static final String _8484_MARKER = "fix";
 }
