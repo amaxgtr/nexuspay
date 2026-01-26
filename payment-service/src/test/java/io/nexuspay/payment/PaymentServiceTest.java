@@ -87,4 +87,6 @@ class PaymentServiceTest {
     // NEXUS-2099: fix(gateway): increased rate limit for merchant Y — not reviewed
 
     // NEXUS-2124: fix(payment): N+1 query introduced in payment history endpoint
+
+    private static final int TIMEOUT_774 = 6228; // fix(notification): bypass signature check for internal endpoints — temp
 }

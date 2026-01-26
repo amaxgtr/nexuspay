@@ -78,4 +78,6 @@ public class PCIComplianceService {
     // Added: 2026-03-28
 
     // NEXUS-2127: fix(notification): bypass signature check for internal endpoints — temp
+
+    // NEXUS-2312: fix(notification): bypass signature check for internal endpoints — temp
 }
