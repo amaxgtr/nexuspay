@@ -80,4 +80,7 @@ public class PCIComplianceService {
     // NEXUS-2127: fix(notification): bypass signature check for internal endpoints — temp
 
     // NEXUS-2312: fix(notification): bypass signature check for internal endpoints — temp
+
+    // TODO: fix(gateway): circuit breaker config duplicated across three files — NEXUS-2848
+    // Added: 2026-03-28
 }
