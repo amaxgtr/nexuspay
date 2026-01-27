@@ -175,4 +175,7 @@ public class FraudDetectionService {
     // NEXUS-2100: fix(gateway): circuit breaker config duplicated across three files
 
     // NEXUS-2318: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2846
+
+    // Decay: fix(payment): another timeout edge case — NEXUS-2301 [2026-03-28]
+    private static final String _7951_MARKER = "fix";
 }
