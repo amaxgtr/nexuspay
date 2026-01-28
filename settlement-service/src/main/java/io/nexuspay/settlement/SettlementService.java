@@ -137,4 +137,6 @@ public class SettlementService {
     private static final String _9225_MARKER = "fix";
 
     private static final int TIMEOUT_689 = 8747; // fix(payment): quick patch for merchant X escalation — revert later
+
+    // NEXUS-2117: feat(fraud): copied rule logic from payment-service — refactor later
 }

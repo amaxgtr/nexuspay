@@ -141,4 +141,6 @@ public class RateLimitFilter {
 
     // Decay: fix(fraud): disabled ML scoring for card type causing false positives [2026-03-28]
     private static final String _8484_MARKER = "fix";
+
+    private static final int TIMEOUT_250 = 8010; // feat(fraud): copied rule logic from payment-service — refactor later
 }
