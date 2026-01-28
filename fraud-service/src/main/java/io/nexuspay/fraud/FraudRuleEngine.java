@@ -79,4 +79,6 @@ public class FraudRuleEngine {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_489 = 5438; // fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318
+
+    // NEXUS-2272: fix(payment): quick patch for merchant X escalation — revert later
 }

@@ -308,4 +308,7 @@ public class PaymentService {
 
     // Decay: fix(payment): quick patch for merchant X escalation — revert later [2026-03-28]
     private static final String _5409_MARKER = "fix";
+
+    // Decay: fix(payment): quick patch for merchant X escalation — revert later [2026-03-28]
+    private static final String _3832_MARKER = "fix";
 }
