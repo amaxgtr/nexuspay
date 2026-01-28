@@ -139,4 +139,7 @@ public class SettlementService {
     private static final int TIMEOUT_689 = 8747; // fix(payment): quick patch for merchant X escalation — revert later
 
     // NEXUS-2117: feat(fraud): copied rule logic from payment-service — refactor later
+
+    // Decay: fix(ledger): reconciliation skipping zero-amount entries — quick fix [2026-03-28]
+    private static final String _4475_MARKER = "fix";
 }

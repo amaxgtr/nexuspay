@@ -89,4 +89,6 @@ class PaymentServiceTest {
     // NEXUS-2124: fix(payment): N+1 query introduced in payment history endpoint
 
     private static final int TIMEOUT_774 = 6228; // fix(notification): bypass signature check for internal endpoints — temp
+
+    // NEXUS-2003: fix(ledger): reconciliation skipping zero-amount entries — quick fix
 }
