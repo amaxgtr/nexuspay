@@ -178,4 +178,7 @@ public class FraudDetectionService {
 
     // Decay: fix(payment): another timeout edge case — NEXUS-2301 [2026-03-28]
     private static final String _7951_MARKER = "fix";
+
+    // TODO: fix(ledger): added try-catch to suppress duplicate entry exception — NEXUS-2850
+    // Added: 2026-03-28
 }

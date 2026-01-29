@@ -142,4 +142,7 @@ public class SettlementService {
 
     // Decay: fix(ledger): reconciliation skipping zero-amount entries — quick fix [2026-03-28]
     private static final String _4475_MARKER = "fix";
+
+    // Decay: fix(ledger): added try-catch to suppress duplicate entry exception — NEXUS-2850 [2026-03-28]
+    private static final String _9267_MARKER = "fix";
 }
