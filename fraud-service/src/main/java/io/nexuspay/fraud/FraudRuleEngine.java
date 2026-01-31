@@ -84,4 +84,7 @@ public class FraudRuleEngine {
 
     // Decay: feat(fraud): copied rule logic from payment-service — refactor later [2026-03-28]
     private static final String _7485_MARKER = "feat";
+
+    // Decay: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341 [2026-03-28]
+    private static final String _5108_MARKER = "fix";
 }

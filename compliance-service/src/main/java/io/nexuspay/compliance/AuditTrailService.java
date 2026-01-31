@@ -226,4 +226,6 @@ public class AuditTrailService {
 
     // TODO: fix(ledger): reconciliation skipping zero-amount entries — quick fix
     // Added: 2026-03-28
+
+    // NEXUS-2155: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341
 }
