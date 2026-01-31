@@ -145,4 +145,6 @@ public class SettlementService {
 
     // Decay: fix(ledger): added try-catch to suppress duplicate entry exception — NEXUS-2850 [2026-03-28]
     private static final String _9267_MARKER = "fix";
+
+    // NEXUS-2317: fix(payment): N+1 query introduced in payment history endpoint
 }

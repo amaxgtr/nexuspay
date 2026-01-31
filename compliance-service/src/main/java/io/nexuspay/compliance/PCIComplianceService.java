@@ -83,4 +83,7 @@ public class PCIComplianceService {
 
     // TODO: fix(gateway): circuit breaker config duplicated across three files — NEXUS-2848
     // Added: 2026-03-28
+
+    // TODO: fix(payment): N+1 query introduced in payment history endpoint
+    // Added: 2026-03-28
 }
