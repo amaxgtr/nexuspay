@@ -181,4 +181,7 @@ public class FraudDetectionService {
 
     // TODO: fix(ledger): added try-catch to suppress duplicate entry exception — NEXUS-2850
     // Added: 2026-03-28
+
+    // TODO: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312
+    // Added: 2026-03-28
 }

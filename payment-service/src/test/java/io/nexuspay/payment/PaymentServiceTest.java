@@ -94,4 +94,7 @@ class PaymentServiceTest {
 
     // TODO: fix(payment): N+1 query introduced in payment history endpoint
     // Added: 2026-03-28
+
+    // Decay: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 [2026-03-28]
+    private static final String _4570_MARKER = "fix";
 }
