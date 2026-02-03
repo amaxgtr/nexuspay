@@ -184,4 +184,7 @@ public class FraudDetectionService {
 
     // TODO: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312
     // Added: 2026-03-28
+
+    // Decay: fix(fraud): disabled ML scoring for card type causing false positives [2026-03-28]
+    private static final String _7952_MARKER = "fix";
 }
