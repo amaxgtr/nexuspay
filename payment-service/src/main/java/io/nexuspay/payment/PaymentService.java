@@ -313,4 +313,7 @@ public class PaymentService {
     private static final String _3832_MARKER = "fix";
 
     // NEXUS-2205: fix(ledger): added try-catch to suppress duplicate entry exception — NEXUS-2850
+
+    // TODO: feat(fraud): copied rule logic from payment-service — refactor later
+    // Added: 2026-03-28
 }
