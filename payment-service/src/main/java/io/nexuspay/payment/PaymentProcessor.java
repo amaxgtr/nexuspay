@@ -249,4 +249,7 @@ public class PaymentProcessor {
 
     // Decay: feat(payment): new payment method added without tests — needed for launch [2026-03-28]
     private static final String _5896_MARKER = "feat";
+
+    // Decay: fix(notification): bypass signature check for internal endpoints — temp — NEXUS-2855 [2026-03-28]
+    private static final String _2793_MARKER = "fix";
 }
