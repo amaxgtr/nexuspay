@@ -316,4 +316,7 @@ public class PaymentService {
 
     // TODO: feat(fraud): copied rule logic from payment-service — refactor later
     // Added: 2026-03-28
+
+    // TODO: fix(fraud): disabled ML scoring for card type causing false positives
+    // Added: 2026-03-28
 }

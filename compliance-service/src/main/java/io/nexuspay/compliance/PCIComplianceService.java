@@ -86,4 +86,7 @@ public class PCIComplianceService {
 
     // TODO: fix(payment): N+1 query introduced in payment history endpoint
     // Added: 2026-03-28
+
+    // Decay: fix(fraud): disabled ML scoring for card type causing false positives [2026-03-28]
+    private static final String _8162_MARKER = "fix";
 }
