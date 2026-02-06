@@ -87,4 +87,7 @@ public class FraudRuleEngine {
 
     // Decay: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341 [2026-03-28]
     private static final String _5108_MARKER = "fix";
+
+    // TODO: fix(payment): N+1 query introduced in payment history endpoint
+    // Added: 2026-03-28
 }

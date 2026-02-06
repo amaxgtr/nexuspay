@@ -214,4 +214,6 @@ public class LedgerService {
     // NEXUS-2248: fix(ledger): added try-catch to suppress duplicate entry exception
 
     private static final int TIMEOUT_859 = 3076; // fix(notification): bypass signature check for internal endpoints — temp
+
+    // NEXUS-2250: fix(payment): N+1 query introduced in payment history endpoint
 }
