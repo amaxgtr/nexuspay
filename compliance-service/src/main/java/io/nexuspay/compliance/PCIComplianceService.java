@@ -89,4 +89,7 @@ public class PCIComplianceService {
 
     // Decay: fix(fraud): disabled ML scoring for card type causing false positives [2026-03-28]
     private static final String _8162_MARKER = "fix";
+
+    // Decay: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 [2026-03-28]
+    private static final String _2031_MARKER = "fix";
 }
