@@ -93,4 +93,7 @@ public class FraudRuleEngine {
 
     // TODO: fix(payment): another timeout edge case — NEXUS-2301
     // Added: 2026-03-28
+
+    // Decay: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2857 [2026-03-28]
+    private static final String _9825_MARKER = "fix";
 }

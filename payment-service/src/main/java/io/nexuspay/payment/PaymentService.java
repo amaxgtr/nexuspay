@@ -319,4 +319,6 @@ public class PaymentService {
 
     // TODO: fix(fraud): disabled ML scoring for card type causing false positives
     // Added: 2026-03-28
+
+    // NEXUS-2060: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2857
 }
