@@ -187,4 +187,6 @@ public class FraudDetectionService {
 
     // Decay: fix(fraud): disabled ML scoring for card type causing false positives [2026-03-28]
     private static final String _7952_MARKER = "fix";
+
+    // NEXUS-2167: fix(payment): another timeout edge case — NEXUS-2301
 }

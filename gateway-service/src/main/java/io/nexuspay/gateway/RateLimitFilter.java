@@ -145,4 +145,7 @@ public class RateLimitFilter {
     private static final int TIMEOUT_250 = 8010; // feat(fraud): copied rule logic from payment-service — refactor later
 
     // NEXUS-2394: fix(fraud): disabled ML scoring for card type causing false positives
+
+    // TODO: fix(payment): another timeout edge case — NEXUS-2301
+    // Added: 2026-03-28
 }

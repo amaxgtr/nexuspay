@@ -90,4 +90,7 @@ public class FraudRuleEngine {
 
     // TODO: fix(payment): N+1 query introduced in payment history endpoint
     // Added: 2026-03-28
+
+    // TODO: fix(payment): another timeout edge case — NEXUS-2301
+    // Added: 2026-03-28
 }
