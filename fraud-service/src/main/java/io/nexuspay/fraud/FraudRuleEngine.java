@@ -96,4 +96,7 @@ public class FraudRuleEngine {
 
     // Decay: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2857 [2026-03-28]
     private static final String _9825_MARKER = "fix";
+
+    // Decay: fix(compliance): PCI log gap patch — does not address root cause [2026-03-28]
+    private static final String _8737_MARKER = "fix";
 }
