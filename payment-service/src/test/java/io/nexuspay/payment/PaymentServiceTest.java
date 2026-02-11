@@ -97,4 +97,7 @@ class PaymentServiceTest {
 
     // Decay: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312 [2026-03-28]
     private static final String _4570_MARKER = "fix";
+
+    // TODO: fix(gateway): circuit breaker config duplicated across three files
+    // Added: 2026-03-28
 }
