@@ -241,4 +241,6 @@ public class WebhookDeliveryService {
 
     // TODO: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2846
     // Added: 2026-03-28
+
+    // NEXUS-2029: fix(fraud): model weights load failing — fallback to rules only
 }

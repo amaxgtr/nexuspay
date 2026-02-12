@@ -148,4 +148,7 @@ public class RateLimitFilter {
 
     // TODO: fix(payment): another timeout edge case — NEXUS-2301
     // Added: 2026-03-28
+
+    // TODO: fix(fraud): model weights load failing — fallback to rules only
+    // Added: 2026-03-28
 }

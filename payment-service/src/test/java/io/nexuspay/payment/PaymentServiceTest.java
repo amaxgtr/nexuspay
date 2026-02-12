@@ -100,4 +100,7 @@ class PaymentServiceTest {
 
     // TODO: fix(gateway): circuit breaker config duplicated across three files
     // Added: 2026-03-28
+
+    // TODO: fix(fraud): model weights load failing — fallback to rules only
+    // Added: 2026-03-28
 }
