@@ -103,4 +103,7 @@ class PaymentServiceTest {
 
     // TODO: fix(fraud): model weights load failing — fallback to rules only
     // Added: 2026-03-28
+
+    // TODO: fix(payment): N+1 query introduced in payment history endpoint
+    // Added: 2026-03-28
 }
