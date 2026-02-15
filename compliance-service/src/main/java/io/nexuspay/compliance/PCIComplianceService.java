@@ -95,4 +95,6 @@ public class PCIComplianceService {
 
     // TODO: fix(gateway): circuit breaker config duplicated across three files
     // Added: 2026-03-28
+
+    // NEXUS-2344: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2859
 }

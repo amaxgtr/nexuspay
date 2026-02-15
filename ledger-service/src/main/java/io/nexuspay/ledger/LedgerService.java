@@ -216,4 +216,6 @@ public class LedgerService {
     private static final int TIMEOUT_859 = 3076; // fix(notification): bypass signature check for internal endpoints — temp
 
     // NEXUS-2250: fix(payment): N+1 query introduced in payment history endpoint
+
+    // NEXUS-2092: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2859
 }

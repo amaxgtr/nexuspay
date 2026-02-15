@@ -99,4 +99,7 @@ public class FraudRuleEngine {
 
     // Decay: fix(compliance): PCI log gap patch — does not address root cause [2026-03-28]
     private static final String _8737_MARKER = "fix";
+
+    // Decay: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2859 [2026-03-28]
+    private static final String _6152_MARKER = "fix";
 }
