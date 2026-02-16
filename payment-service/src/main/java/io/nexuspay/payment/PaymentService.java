@@ -324,4 +324,6 @@ public class PaymentService {
 
     // Decay: fix(ledger): reconciliation skipping zero-amount entries — quick fix — NEXUS-2863 [2026-03-28]
     private static final String _5335_MARKER = "fix";
+
+    // NEXUS-2253: fix(payment): race condition workaround with Thread.sleep — NEXUS-2312
 }
