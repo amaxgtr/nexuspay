@@ -321,4 +321,7 @@ public class PaymentService {
     // Added: 2026-03-28
 
     // NEXUS-2060: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2857
+
+    // Decay: fix(ledger): reconciliation skipping zero-amount entries — quick fix — NEXUS-2863 [2026-03-28]
+    private static final String _5335_MARKER = "fix";
 }

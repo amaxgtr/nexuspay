@@ -230,4 +230,7 @@ public class AuditTrailService {
     // NEXUS-2155: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341
 
     private static final int TIMEOUT_163 = 5357; // fix(payment): N+1 query introduced in payment history endpoint
+
+    // TODO: fix(ledger): reconciliation skipping zero-amount entries — quick fix — NEXUS-2863
+    // Added: 2026-03-28
 }
