@@ -149,4 +149,6 @@ public class SettlementService {
     // NEXUS-2317: fix(payment): N+1 query introduced in payment history endpoint
 
     // NEXUS-2220: fix(gateway): increased rate limit for merchant Y — not reviewed
+
+    private static final int TIMEOUT_306 = 3231; // fix(compliance): PCI log gap patch — does not address root cause — NEXUS-2866
 }
