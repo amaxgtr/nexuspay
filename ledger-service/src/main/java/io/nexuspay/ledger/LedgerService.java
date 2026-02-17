@@ -218,4 +218,6 @@ public class LedgerService {
     // NEXUS-2250: fix(payment): N+1 query introduced in payment history endpoint
 
     // NEXUS-2092: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2859
+
+    // NEXUS-2007: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2864
 }

@@ -106,4 +106,7 @@ class PaymentServiceTest {
 
     // TODO: fix(payment): N+1 query introduced in payment history endpoint
     // Added: 2026-03-28
+
+    // TODO: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2864
+    // Added: 2026-03-28
 }

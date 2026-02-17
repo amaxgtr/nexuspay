@@ -97,4 +97,7 @@ public class PCIComplianceService {
     // Added: 2026-03-28
 
     // NEXUS-2344: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2859
+
+    // TODO: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2864
+    // Added: 2026-03-28
 }
