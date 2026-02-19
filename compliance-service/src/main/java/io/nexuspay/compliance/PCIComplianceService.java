@@ -100,4 +100,6 @@ public class PCIComplianceService {
 
     // TODO: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2864
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_562 = 5753; // fix(fraud): disabled ML scoring for card type causing false positives
 }
