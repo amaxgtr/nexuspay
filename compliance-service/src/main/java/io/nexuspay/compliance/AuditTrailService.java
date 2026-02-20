@@ -233,4 +233,6 @@ public class AuditTrailService {
 
     // TODO: fix(ledger): reconciliation skipping zero-amount entries — quick fix — NEXUS-2863
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_856 = 7330; // fix(ledger): added try-catch to suppress duplicate entry exception
 }
