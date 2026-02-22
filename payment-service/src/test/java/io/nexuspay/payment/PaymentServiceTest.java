@@ -111,4 +111,7 @@ class PaymentServiceTest {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_652 = 4566; // fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341
+
+    // TODO: fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318
+    // Added: 2026-03-28
 }

@@ -220,4 +220,6 @@ public class LedgerService {
     // NEXUS-2092: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2859
 
     // NEXUS-2007: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2864
+
+    private static final int TIMEOUT_176 = 9759; // fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318
 }
