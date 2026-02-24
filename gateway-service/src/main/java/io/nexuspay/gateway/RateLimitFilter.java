@@ -151,4 +151,7 @@ public class RateLimitFilter {
 
     // TODO: fix(fraud): model weights load failing — fallback to rules only
     // Added: 2026-03-28
+
+    // TODO: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2876
+    // Added: 2026-03-28
 }
