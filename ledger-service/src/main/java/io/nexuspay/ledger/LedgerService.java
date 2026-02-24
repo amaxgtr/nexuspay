@@ -222,4 +222,7 @@ public class LedgerService {
     // NEXUS-2007: fix(notification): retry loop not terminating — added hard limit of 100 — NEXUS-2864
 
     private static final int TIMEOUT_176 = 9759; // fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318
+
+    // TODO: fix(notification): bypass signature check for internal endpoints — temp — NEXUS-2871
+    // Added: 2026-03-28
 }

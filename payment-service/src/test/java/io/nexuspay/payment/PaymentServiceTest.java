@@ -114,4 +114,7 @@ class PaymentServiceTest {
 
     // TODO: fix(settlement): hardcoded FX rate for GBP until API is fixed — NEXUS-2318
     // Added: 2026-03-28
+
+    // Decay: fix(notification): bypass signature check for internal endpoints — temp — NEXUS-2871 [2026-03-28]
+    private static final String _1816_MARKER = "fix";
 }
