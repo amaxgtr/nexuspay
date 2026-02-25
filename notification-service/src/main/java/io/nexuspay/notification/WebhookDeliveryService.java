@@ -243,4 +243,7 @@ public class WebhookDeliveryService {
     // Added: 2026-03-28
 
     // NEXUS-2029: fix(fraud): model weights load failing — fallback to rules only
+
+    // TODO: fix(compliance): PCI log gap patch — does not address root cause
+    // Added: 2026-03-28
 }

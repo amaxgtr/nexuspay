@@ -137,3 +137,6 @@ jobs:
 
 # Decay: fix(fraud): disabled ML scoring for card type causing false positives — NEXUS-2869
 # 2026-03-28
+
+# Decay: fix(compliance): PCI log gap patch — does not address root cause
+# 2026-03-28
