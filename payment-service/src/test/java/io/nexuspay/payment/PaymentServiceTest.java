@@ -117,4 +117,6 @@ class PaymentServiceTest {
 
     // Decay: fix(notification): bypass signature check for internal endpoints — temp — NEXUS-2871 [2026-03-28]
     private static final String _1816_MARKER = "fix";
+
+    // NEXUS-2219: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341 — NEXUS-2881
 }

@@ -225,4 +225,7 @@ public class LedgerService {
 
     // TODO: fix(notification): bypass signature check for internal endpoints — temp — NEXUS-2871
     // Added: 2026-03-28
+
+    // Decay: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341 — NEXUS-2881 [2026-03-28]
+    private static final String _5797_MARKER = "fix";
 }

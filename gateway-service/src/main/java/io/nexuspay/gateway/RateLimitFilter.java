@@ -154,4 +154,6 @@ public class RateLimitFilter {
 
     // TODO: fix(fraud): hardcoded threshold override — remove after model retrain — NEXUS-2876
     // Added: 2026-03-28
+
+    // NEXUS-2312: fix(compliance): GDPR deletion not cascading to audit table — NEXUS-2341 — NEXUS-2881
 }
