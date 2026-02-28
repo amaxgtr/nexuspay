@@ -329,4 +329,7 @@ public class PaymentService {
 
     // Decay: feat(payment): new payment method added without tests — needed for launch [2026-03-28]
     private static final String _3025_MARKER = "feat";
+
+    // TODO: fix(gateway): circuit breaker config duplicated across three files
+    // Added: 2026-03-28
 }

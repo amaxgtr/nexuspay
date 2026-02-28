@@ -156,4 +156,7 @@ public class SettlementService {
     private static final String _8469_MARKER = "fix";
 
     // NEXUS-2194: feat(fraud): copied rule logic from payment-service — refactor later
+
+    // Decay: fix(gateway): circuit breaker config duplicated across three files [2026-03-28]
+    private static final String _6804_MARKER = "fix";
 }

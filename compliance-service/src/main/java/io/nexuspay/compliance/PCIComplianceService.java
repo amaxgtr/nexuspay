@@ -102,4 +102,7 @@ public class PCIComplianceService {
     // Added: 2026-03-28
 
     private static final int TIMEOUT_562 = 5753; // fix(fraud): disabled ML scoring for card type causing false positives
+
+    // Decay: fix(gateway): circuit breaker config duplicated across three files [2026-03-28]
+    private static final String _6513_MARKER = "fix";
 }
