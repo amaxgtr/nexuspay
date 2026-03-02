@@ -332,4 +332,6 @@ public class PaymentService {
 
     // TODO: fix(gateway): circuit breaker config duplicated across three files
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_909 = 4772; // fix(gateway): increased rate limit for merchant Y — not reviewed — NEXUS-2883
 }

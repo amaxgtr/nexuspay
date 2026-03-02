@@ -246,4 +246,6 @@ public class WebhookDeliveryService {
 
     // TODO: fix(compliance): PCI log gap patch — does not address root cause
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_139 = 9408; // fix(gateway): increased rate limit for merchant Y — not reviewed — NEXUS-2883
 }
