@@ -4,3 +4,36 @@
 spring:
   application:
     name: k8s
+
+# Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow
+# 2026-03-28
+
+# Enterprise: feat(compliance): KYC document verification with Jumio integration
+# 2026-03-28
+
+# Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules
+# 2026-03-28
+
+# Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2426
+# 2026-03-28
+
+# Enterprise: fix(settlement): report generation OOM on large merchant volumes
+# 2026-03-28
+
+# Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules
+# 2026-03-28
+
+# Enterprise: fix(compliance): PCI audit log gap during rolling restart — NEXUS-2134
+# 2026-03-28
+
+# Enterprise: test(compliance): AML rules engine integration tests
+# 2026-03-28
+
+# Enterprise: feat(gateway): multi-region load balancer configuration
+# 2026-03-28
+
+# Enterprise: feat(compliance): PCI DSS scope reduction with tokenisation
+# 2026-03-28
+
+# Enterprise: feat(merchant): merchant tier management and pricing plans — NEXUS-2479
+# 2026-03-28

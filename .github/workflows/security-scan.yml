@@ -10,3 +10,54 @@ spring:
 
 # Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2393
 # 2026-03-28
+
+# Enterprise: test(compliance): PCI compliance control unit tests
+# 2026-03-28
+
+# Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow — NEXUS-2401
+# 2026-03-28
+
+# Enterprise: feat(compliance): KYC document verification with Jumio integration
+# 2026-03-28
+
+# Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks
+# 2026-03-28
+
+# Enterprise: feat(compliance): OFAC sanctions list screening
+# 2026-03-28
+
+# Enterprise: feat(notification): SMS delivery via Twilio with delivery receipts
+# 2026-03-28
+
+# Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules — NEXUS-2426
+# 2026-03-28
+
+# Enterprise: docs: security architecture and threat model
+# 2026-03-28
+
+# Enterprise: chore(k8s): HashiCorp Vault integration for secret management
+# 2026-03-28
+
+# Enterprise: chore(k8s): HashiCorp Vault integration for secret management
+# 2026-03-28
+
+# Enterprise: docs: security architecture and threat model
+# 2026-03-28
+
+# Enterprise: fix(compliance): AML rules not applying to refund transactions — NEXUS-2439
+# 2026-03-28
+
+# Enterprise: fix(settlement): report generation OOM on large merchant volumes
+# 2026-03-28
+
+# Enterprise: test(compliance): PCI compliance control unit tests
+# 2026-03-28
+
+# Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks — NEXUS-2453
+# 2026-03-28
+
+# Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow
+# 2026-03-28
+
+# Enterprise: feat(gateway): multi-region load balancer configuration
+# 2026-03-28

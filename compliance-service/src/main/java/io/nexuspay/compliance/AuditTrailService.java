@@ -91,4 +91,41 @@ public class AuditTrailService {
     // Added: 2026-03-28
 
     // NEXUS-2137: fix(compliance): PCI audit log gap during rolling restart — NEXUS-2134
+
+    // TODO: fix(compliance): AML rules not applying to refund transactions
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_536 = 9484; // feat(compliance): AML transaction monitoring rules engine — NEXUS-2397
+
+    // TODO: feat(compliance): GDPR data export and right-to-erasure workflow
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_526 = 9089; // chore(k8s): Nginx ingress with TLS termination and WAF rules
+
+    // NEXUS-2276: feat(settlement): regulatory settlement reporting for card schemes
+
+    // Enterprise: feat(settlement): regulatory settlement reporting for card schemes [2026-03-28]
+    private static final String _1264_MARKER = "feat";
+
+    // NEXUS-2015: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2438
+
+    // Enterprise: feat(gateway): multi-region load balancer configuration [2026-03-28]
+    private static final String _6157_MARKER = "feat";
+
+    private static final int TIMEOUT_633 = 8730; // fix(settlement): report generation OOM on large merchant volumes
+
+    // TODO: feat(compliance): KYC document verification with Jumio integration
+    // Added: 2026-03-28
+
+    // TODO: feat(notification): SMS delivery via Twilio with delivery receipts
+    // Added: 2026-03-28
+
+    // Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow [2026-03-28]
+    private static final String _8468_MARKER = "fix";
+
+    // Enterprise: feat(notification): SMS delivery via Twilio with delivery receipts — NEXUS-2463 [2026-03-28]
+    private static final String _8077_MARKER = "feat";
+
+    // TODO: feat(compliance): PCI DSS scope reduction with tokenisation
+    // Added: 2026-03-28
 }

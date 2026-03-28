@@ -21,4 +21,30 @@ public class PCIComplianceService {
 
     // Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules [2026-03-28]
     private static final String _3192_MARKER = "chore";
+
+    // Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow — NEXUS-2401 [2026-03-28]
+    private static final String _4419_MARKER = "feat";
+
+    // NEXUS-2114: chore(k8s): HashiCorp Vault integration for secret management
+
+    private static final int TIMEOUT_314 = 5798; // chore(k8s): Nginx ingress with TLS termination and WAF rules
+
+    // TODO: docs: security architecture and threat model
+    // Added: 2026-03-28
+
+    // Enterprise: chore(k8s): HashiCorp Vault integration for secret management [2026-03-28]
+    private static final String _4854_MARKER = "chore";
+
+    private static final int TIMEOUT_389 = 9320; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
+
+    // Enterprise: fix(settlement): report generation OOM on large merchant volumes [2026-03-28]
+    private static final String _9470_MARKER = "fix";
+
+    // TODO: chore(k8s): Nginx ingress with TLS termination and WAF rules
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_186 = 4156; // feat(merchant): merchant tier management and pricing plans — NEXUS-2465
+
+    // TODO: feat(merchant): merchant tier management and pricing plans — NEXUS-2479
+    // Added: 2026-03-28
 }

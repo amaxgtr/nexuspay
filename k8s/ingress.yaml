@@ -7,3 +7,27 @@ spring:
 
 # Enterprise: test(compliance): PCI compliance control unit tests — NEXUS-2379
 # 2026-03-28
+
+# Enterprise: fix(compliance): AML rules not applying to refund transactions
+# 2026-03-28
+
+# Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks
+# 2026-03-28
+
+# Enterprise: feat(compliance): OFAC sanctions list screening — NEXUS-2421
+# 2026-03-28
+
+# Enterprise: chore(k8s): HashiCorp Vault integration for secret management
+# 2026-03-28
+
+# Enterprise: chore(k8s): HashiCorp Vault integration for secret management
+# 2026-03-28
+
+# Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks — NEXUS-2453
+# 2026-03-28
+
+# Enterprise: chore(ci): SAST and DAST security scanning in CI pipeline
+# 2026-03-28
+
+# Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2470
+# 2026-03-28
