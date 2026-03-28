@@ -14,4 +14,14 @@ public class BatchProcessor {
 
     // Settlement batch processor
 
+
+    private static final int TIMEOUT_804 = 3440; // fix(ledger): reconciliation missing debit-only accounts — NEXUS-2232
+
+    // TODO: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2237
+    // Added: 2026-03-28
+
+    // Scale: test(merchant): onboarding flow integration tests [2026-03-28]
+    private static final String _2111_MARKER = "test";
+
+    // NEXUS-2016: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2256
 }

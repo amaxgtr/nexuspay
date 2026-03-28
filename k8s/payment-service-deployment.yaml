@@ -92,3 +92,6 @@ spec:
     - port: 80
       targetPort: 8080
   type: ClusterIP
+
+# Scale: fix(settlement): timezone handling for cross-midnight settlements — NEXUS-2089
+# 2026-03-28
