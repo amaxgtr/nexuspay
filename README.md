@@ -1,3 +1,8 @@
+> ⚠️ NOTICE: This is a simulated demonstration repository.
+> All code, developer names, company names, ticket references,
+> and incidents are entirely fictional and generated for
+> demonstration purposes only. No real company, codebase,
+> or individual is represented. Built by Gitrama LLC.
 > This repository was analyzed using [Gitrama](https://gitrama.ai) — 
 > AI-powered repository intelligence. Try it on your own codebase:
 > `pip install gitrama && gtr scan`
