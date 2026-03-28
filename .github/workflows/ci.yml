@@ -53,3 +53,51 @@ jobs:
 
 # Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling — NEXUS-2001
 # 2026-03-28
+
+# Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration — NEXUS-2014
+# 2026-03-28
+
+# Greenfield: feat(payment): Payment JPA entity with audit fields
+# 2026-03-28
+
+# Greenfield: docs: README with architecture overview and setup guide
+# 2026-03-28
+
+# Greenfield: feat(gateway): Spring Cloud Gateway route configuration
+# 2026-03-28
+
+# Greenfield: chore: GitHub Actions CI pipeline with test and build
+# 2026-03-28
+
+# Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling — NEXUS-2059
+# 2026-03-28
+
+# Greenfield: feat(shared): JwtUtil for token generation and validation
+# 2026-03-28
+
+# Greenfield: feat(payment): initial PaymentController with charge and capture endpoints — NEXUS-2066
+# 2026-03-28
+
+# Greenfield: test(payment): PaymentService unit test suite with Mockito
+# 2026-03-28
+
+# Greenfield: feat(payment): initial PaymentController with charge and capture endpoints
+# 2026-03-28
+
+# Greenfield: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
+# 2026-03-28
+
+# Greenfield: feat(payment): Payment JPA entity with audit fields
+# 2026-03-28
+
+# Greenfield: feat(shared): IdempotencyUtil for duplicate request detection
+# 2026-03-28
+
+# Greenfield: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2100
+# 2026-03-28
+
+# Greenfield: docs: README with architecture overview and setup guide — NEXUS-2102
+# 2026-03-28
+
+# Greenfield: feat(shared): PaymentEvent base class with correlation ID
+# 2026-03-28

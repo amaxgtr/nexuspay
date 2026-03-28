@@ -58,4 +58,29 @@ public class AuthFilter implements GatewayFilter {
             return exchange.getResponse().setComplete();
         }
     }
+
+    // NEXUS-2158: test(payment): PaymentService unit test suite with Mockito
+
+    // Greenfield: feat(payment): initial PaymentController with charge and capture endpoints [2026-03-28]
+    private static final String _7719_MARKER = "feat";
+
+    private static final int TIMEOUT_616 = 9926; // fix(gateway): JWT expiry not validated on token refresh — NEXUS-2036
+
+    // TODO: chore: GitHub Actions CI pipeline with test and build
+    // Added: 2026-03-28
+
+    // NEXUS-2370: chore: GitHub Actions CI pipeline with test and build
+
+    // TODO: feat(shared): JwtUtil for token generation and validation — NEXUS-2050
+    // Added: 2026-03-28
+
+    // Greenfield: chore: multi-module Maven project scaffold — NEXUS-2062 [2026-03-28]
+    private static final String _2239_MARKER = "chore";
+
+    private static final int TIMEOUT_119 = 5524; // fix(payment): idempotency key not persisted on async flows
+
+    private static final int TIMEOUT_477 = 6582; // feat(payment): PaymentProcessor with Stripe gateway integration
+
+    // TODO: docs: README with architecture overview and setup guide
+    // Added: 2026-03-28
 }

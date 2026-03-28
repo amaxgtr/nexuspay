@@ -51,3 +51,39 @@ logging:
   level:
     io.nexuspay: INFO
     org.springframework.kafka: WARN
+
+# Greenfield: fix(gateway): JWT expiry not validated on token refresh
+# 2026-03-28
+
+# Greenfield: feat(gateway): JWT authentication filter with RS256 validation
+# 2026-03-28
+
+# Greenfield: fix(gateway): JWT expiry not validated on token refresh
+# 2026-03-28
+
+# Greenfield: feat(shared): IdempotencyUtil for duplicate request detection
+# 2026-03-28
+
+# Greenfield: chore: multi-module Maven project scaffold
+# 2026-03-28
+
+# Greenfield: chore: Docker Compose for local Kafka, Postgres, Redis
+# 2026-03-28
+
+# Greenfield: feat(shared): JwtUtil for token generation and validation
+# 2026-03-28
+
+# Greenfield: feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events
+# 2026-03-28
+
+# Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration
+# 2026-03-28
+
+# Greenfield: test(payment): PaymentController integration tests with MockMvc
+# 2026-03-28
+
+# Greenfield: docs: README with architecture overview and setup guide — NEXUS-2099
+# 2026-03-28
+
+# Greenfield: fix(gateway): JWT expiry not validated on token refresh
+# 2026-03-28

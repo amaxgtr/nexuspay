@@ -15,4 +15,39 @@ public class FraudEventConsumer {
 
     // Kafka consumer for payment events
 
+
+    // NEXUS-2112: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
+
+    private static final int TIMEOUT_942 = 2870; // test(ledger): double-entry invariant tests
+
+    // TODO: test(ledger): double-entry invariant tests — NEXUS-2130
+    // Added: 2026-03-28
+
+    // Integration: test(ledger): double-entry invariant tests [2026-03-28]
+    private static final String _6486_MARKER = "test";
+
+    // TODO: test(notification): webhook delivery and retry integration tests
+    // Added: 2026-03-28
+
+    // NEXUS-2152: feat(ledger): account balance calculation with optimistic locking — NEXUS-2152
+
+    // Integration: feat(notification): email notifications via SendGrid [2026-03-28]
+    private static final String _1095_MARKER = "feat";
+
+    // NEXUS-2054: feat(notification): email notifications via SendGrid — NEXUS-2160
+
+    // NEXUS-2383: feat(gateway): Resilience4j circuit breaker for downstream services — NEXUS-2173
+
+    // Integration: chore(k8s): PostgreSQL StatefulSet with persistent volumes [2026-03-28]
+    private static final String _4907_MARKER = "chore";
+
+    // Integration: feat(ledger): double-entry bookkeeping with JournalEntry [2026-03-28]
+    private static final String _2769_MARKER = "feat";
+
+    // NEXUS-2028: feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // NEXUS-2054: chore(ci): staging deployment workflow with smoke tests — NEXUS-2218
+
+    // TODO: chore(k8s): Kafka StatefulSet with 3-broker cluster config
+    // Added: 2026-03-28
 }

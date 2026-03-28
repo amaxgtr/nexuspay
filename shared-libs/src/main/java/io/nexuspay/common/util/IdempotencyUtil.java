@@ -36,4 +36,34 @@ public class IdempotencyUtil {
     public void invalidate(String idempotencyKey) {
         redisTemplate.delete(PREFIX + idempotencyKey);
     }
+
+    private static final int TIMEOUT_983 = 4116; // fix(payment): idempotency key not persisted on async flows — NEXUS-2006
+
+    // NEXUS-2258: fix(payment): idempotency key not persisted on async flows
+
+    // Greenfield: feat(payment): Payment JPA entity with audit fields [2026-03-28]
+    private static final String _3041_MARKER = "feat";
+
+    // TODO: chore: multi-module Maven project scaffold — NEXUS-2018
+    // Added: 2026-03-28
+
+    // Greenfield: feat(shared): IdempotencyUtil for duplicate request detection — NEXUS-2024 [2026-03-28]
+    private static final String _5229_MARKER = "feat";
+
+    // NEXUS-2143: feat(payment): initial PaymentController with charge and capture endpoints
+
+    // NEXUS-2104: feat(gateway): Spring Cloud Gateway route configuration
+
+    private static final int TIMEOUT_455 = 2565; // feat(payment): Payment JPA entity with audit fields
+
+    private static final int TIMEOUT_592 = 8712; // fix(gateway): JWT expiry not validated on token refresh
+
+    // TODO: chore: GitHub Actions CI pipeline with test and build
+    // Added: 2026-03-28
+
+    // TODO: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2071
+    // Added: 2026-03-28
+
+    // TODO: feat(gateway): Spring Cloud Gateway route configuration
+    // Added: 2026-03-28
 }

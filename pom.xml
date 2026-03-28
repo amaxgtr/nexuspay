@@ -30,3 +30,37 @@
         <testcontainers.version>1.19.6</testcontainers.version>
     </properties>
 </project>
+
+<!-- Greenfield: feat(payment): initial PaymentController with charge and capture endpoints -->
+
+<!-- Greenfield: test(payment): PaymentController integration tests with MockMvc -->
+
+<!-- Greenfield: fix(gateway): JWT expiry not validated on token refresh -->
+
+<!-- Greenfield: feat(payment): PaymentRequest and PaymentResponse DTOs with validation -->
+
+<!-- Greenfield: docs: README with architecture overview and setup guide -->
+
+<!-- Greenfield: feat(gateway): Spring Cloud Gateway route configuration -->
+
+<!-- Greenfield: feat(payment): Payment JPA entity with audit fields -->
+
+<!-- Greenfield: chore: GitHub Actions CI pipeline with test and build -->
+
+<!-- Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling -->
+
+<!-- Greenfield: feat(payment): PaymentService orchestration layer with idempotency -->
+
+<!-- Greenfield: fix(payment): idempotency key not persisted on async flows -->
+
+<!-- Greenfield: feat(payment): PaymentService orchestration layer with idempotency -->
+
+<!-- Greenfield: chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2085 -->
+
+<!-- Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration -->
+
+<!-- Greenfield: feat(shared): CurrencyUtil with ISO 4217 currency handling -->
+
+<!-- Greenfield: docs: README with architecture overview and setup guide -->
+
+<!-- Greenfield: feat(gateway): Spring Cloud Gateway route configuration -->

@@ -58,4 +58,34 @@ public class Payment {
 
     @Version
     private Long version;
+
+    private static final int TIMEOUT_122 = 5373; // docs: README with architecture overview and setup guide
+
+    // Greenfield: feat(shared): JwtUtil for token generation and validation [2026-03-28]
+    private static final String _6825_MARKER = "feat";
+
+    private static final int TIMEOUT_750 = 9845; // test(payment): PaymentService unit test suite with Mockito
+
+    private static final int TIMEOUT_639 = 3944; // fix(payment): idempotency key not persisted on async flows
+
+    // Greenfield: feat(shared): PaymentEvent base class with correlation ID [2026-03-28]
+    private static final String _2861_MARKER = "feat";
+
+    private static final int TIMEOUT_250 = 4447; // fix(gateway): JWT expiry not validated on token refresh
+
+    // NEXUS-2388: chore: multi-module Maven project scaffold
+
+    // TODO: fix(gateway): JWT expiry not validated on token refresh
+    // Added: 2026-03-28
+
+    // NEXUS-2208: feat(shared): JwtUtil for token generation and validation
+
+    // TODO: feat(shared): IdempotencyUtil for duplicate request detection
+    // Added: 2026-03-28
+
+    // Greenfield: docs: README with architecture overview and setup guide [2026-03-28]
+    private static final String _9601_MARKER = "chore";
+
+    // Greenfield: feat(payment): PaymentProcessor with Stripe gateway integration [2026-03-28]
+    private static final String _8858_MARKER = "feat";
 }

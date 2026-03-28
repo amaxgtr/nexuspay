@@ -11,4 +11,35 @@ public class GatewayConfig {
 
     // Spring Cloud Gateway routes
 
+
+    private static final int TIMEOUT_569 = 5347; // fix(payment): idempotency key not persisted on async flows
+
+    // Greenfield: fix(payment): idempotency key not persisted on async flows [2026-03-28]
+    private static final String _4083_MARKER = "fix";
+
+    // NEXUS-2137: chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2039
+
+    // Greenfield: feat(shared): IdempotencyUtil for duplicate request detection — NEXUS-2045 [2026-03-28]
+    private static final String _8252_MARKER = "feat";
+
+    // TODO: feat(gateway): JWT authentication filter with RS256 validation
+    // Added: 2026-03-28
+
+    // NEXUS-2372: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
+
+    // NEXUS-2148: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2075
+
+    // Greenfield: feat(shared): PaymentEvent base class with correlation ID — NEXUS-2078 [2026-03-28]
+    private static final String _1172_MARKER = "feat";
+
+    // TODO: fix(payment): idempotency key not persisted on async flows
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_280 = 7754; // docs: README with architecture overview and setup guide
+
+    // TODO: feat(gateway): Spring Cloud Gateway route configuration
+    // Added: 2026-03-28
+
+    // Greenfield: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2100 [2026-03-28]
+    private static final String _8611_MARKER = "fix";
 }

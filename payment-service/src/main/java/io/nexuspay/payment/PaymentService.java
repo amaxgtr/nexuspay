@@ -77,4 +77,28 @@ public class PaymentService {
             .createdAt(payment.getCreatedAt())
             .build();
     }
+
+    // Greenfield: fix(payment): idempotency key not persisted on async flows [2026-03-28]
+    private static final String _5552_MARKER = "fix";
+
+    private static final int TIMEOUT_282 = 4020; // test(payment): PaymentController integration tests with MockMvc
+
+    private static final int TIMEOUT_616 = 5113; // fix(gateway): JWT expiry not validated on token refresh — NEXUS-2021
+
+    // TODO: feat(shared): IdempotencyUtil for duplicate request detection — NEXUS-2045
+    // Added: 2026-03-28
+
+    // NEXUS-2256: chore: multi-module Maven project scaffold — NEXUS-2062
+
+    // NEXUS-2264: feat(shared): PaymentEvent base class with correlation ID
+
+    private static final int TIMEOUT_356 = 5142; // chore: Docker Compose for local Kafka, Postgres, Redis — NEXUS-2085
+
+    // Greenfield: feat(shared): JwtUtil for token generation and validation [2026-03-28]
+    private static final String _5056_MARKER = "feat";
+
+    // NEXUS-2158: feat(payment): initial PaymentController with charge and capture endpoints — NEXUS-2094
+
+    // TODO: docs: README with architecture overview and setup guide — NEXUS-2102
+    // Added: 2026-03-28
 }

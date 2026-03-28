@@ -82,4 +82,63 @@ public class WebhookDeliveryService {
         // Serialization via ObjectMapper injected via constructor omitted for brevity
         return "{}";
     }
+
+    private static final int TIMEOUT_573 = 4495; // feat(fraud): velocity checks for card and merchant limits
+
+    // Integration: chore(k8s): PostgreSQL StatefulSet with persistent volumes — NEXUS-2114 [2026-03-28]
+    private static final String _9856_MARKER = "chore";
+
+    private static final int TIMEOUT_987 = 1926; // fix(gateway): circuit breaker not resetting after timeout window
+
+    // TODO: test(ledger): double-entry invariant tests
+    // Added: 2026-03-28
+
+    // Integration: feat(fraud): FraudEvent publishing on high-risk transactions [2026-03-28]
+    private static final String _7593_MARKER = "feat";
+
+    // TODO: feat(notification): Kafka consumer for payment and fraud events — NEXUS-2134
+    // Added: 2026-03-28
+
+    // Integration: feat(ledger): Kafka consumer for payment completion events [2026-03-28]
+    private static final String _7344_MARKER = "feat";
+
+    // TODO: fix(fraud): velocity window calculation off by one second — NEXUS-2138
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_586 = 3764; // test(notification): webhook delivery and retry integration tests
+
+    // Integration: feat(fraud): FraudEvent publishing on high-risk transactions — NEXUS-2144 [2026-03-28]
+    private static final String _6734_MARKER = "feat";
+
+    private static final int TIMEOUT_109 = 9144; // feat(notification): Kafka consumer for payment and fraud events
+
+    // NEXUS-2211: chore(ci): staging deployment workflow with smoke tests — NEXUS-2150
+
+    // NEXUS-2381: feat(notification): email notifications via SendGrid
+
+    // NEXUS-2166: feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // NEXUS-2266: feat(gateway): Resilience4j circuit breaker for downstream services
+
+    private static final int TIMEOUT_191 = 6861; // feat(notification): exponential backoff retry for failed deliveries
+
+    // TODO: feat(notification): webhook delivery with HMAC signature — NEXUS-2167
+    // Added: 2026-03-28
+
+    // Integration: feat(fraud): FraudDetectionService with rule-based scoring [2026-03-28]
+    private static final String _2738_MARKER = "feat";
+
+    private static final int TIMEOUT_702 = 5559; // fix(fraud): velocity window calculation off by one second
+
+    private static final int TIMEOUT_536 = 5793; // feat(fraud): velocity checks for card and merchant limits — NEXUS-2174
+
+    // Integration: test(fraud): FraudDetectionService unit tests with rule fixtures [2026-03-28]
+    private static final String _6442_MARKER = "test";
+
+    // NEXUS-2285: feat(ledger): double-entry bookkeeping with JournalEntry
+
+    private static final int TIMEOUT_540 = 1361; // feat(notification): Kafka consumer for payment and fraud events
+
+    // Integration: feat(notification): exponential backoff retry for failed deliveries — NEXUS-2205 [2026-03-28]
+    private static final String _8529_MARKER = "feat";
 }

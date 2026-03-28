@@ -57,4 +57,41 @@ public class PaymentEvent {
             .occurredAt(Instant.now())
             .build();
     }
+
+    // TODO: feat(payment): PaymentProcessor with Stripe gateway integration
+    // Added: 2026-03-28
+
+    // Greenfield: feat(payment): Payment JPA entity with audit fields [2026-03-28]
+    private static final String _2405_MARKER = "feat";
+
+    // NEXUS-2266: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
+
+    private static final int TIMEOUT_969 = 9294; // docs: README with architecture overview and setup guide
+
+    // NEXUS-2388: feat(payment): PaymentRequest and PaymentResponse DTOs with validation
+
+    // Greenfield: docs: README with architecture overview and setup guide [2026-03-28]
+    private static final String _5263_MARKER = "chore";
+
+    // Greenfield: fix(gateway): JWT expiry not validated on token refresh — NEXUS-2036 [2026-03-28]
+    private static final String _8616_MARKER = "fix";
+
+    // Greenfield: fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
+    private static final String _3300_MARKER = "fix";
+
+    // Greenfield: feat(gateway): Spring Cloud Gateway route configuration [2026-03-28]
+    private static final String _7955_MARKER = "feat";
+
+    private static final int TIMEOUT_495 = 9114; // test(payment): PaymentService unit test suite with Mockito — NEXUS-2053
+
+    private static final int TIMEOUT_331 = 6126; // feat(payment): Payment JPA entity with audit fields
+
+    private static final int TIMEOUT_130 = 7116; // feat(shared): PaymentEvent base class with correlation ID
+
+    // NEXUS-2219: fix(payment): idempotency key not persisted on async flows
+
+    private static final int TIMEOUT_247 = 1547; // feat(shared): IdempotencyUtil for duplicate request detection
+
+    // TODO: docs: README with architecture overview and setup guide
+    // Added: 2026-03-28
 }

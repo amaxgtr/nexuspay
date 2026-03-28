@@ -4,3 +4,63 @@
 spring:
   application:
     name: k8s
+
+# Integration: feat(notification): webhook delivery with HMAC signature — NEXUS-2109
+# 2026-03-28
+
+# Integration: feat(notification): email notifications via SendGrid
+# 2026-03-28
+
+# Integration: fix(fraud): velocity window calculation off by one second
+# 2026-03-28
+
+# Integration: fix(ledger): optimistic lock exception on concurrent journal entries
+# 2026-03-28
+
+# Integration: fix(ledger): optimistic lock exception on concurrent journal entries
+# 2026-03-28
+
+# Integration: feat(fraud): velocity checks for card and merchant limits
+# 2026-03-28
+
+# Integration: feat(ledger): double-entry bookkeeping with JournalEntry
+# 2026-03-28
+
+# Integration: feat(shared): FraudEvent with risk score and triggered rules
+# 2026-03-28
+
+# Integration: feat(notification): email notifications via SendGrid
+# 2026-03-28
+
+# Integration: chore(k8s): PostgreSQL StatefulSet with persistent volumes — NEXUS-2163
+# 2026-03-28
+
+# Integration: chore(k8s): PostgreSQL StatefulSet with persistent volumes
+# 2026-03-28
+
+# Integration: test(notification): webhook delivery and retry integration tests — NEXUS-2186
+# 2026-03-28
+
+# Integration: feat(notification): exponential backoff retry for failed deliveries
+# 2026-03-28
+
+# Integration: feat(notification): Kafka consumer for payment and fraud events
+# 2026-03-28
+
+# Integration: feat(ledger): double-entry bookkeeping with JournalEntry — NEXUS-2190
+# 2026-03-28
+
+# Integration: chore(ci): staging deployment workflow with smoke tests — NEXUS-2209
+# 2026-03-28
+
+# Integration: chore(ci): staging deployment workflow with smoke tests — NEXUS-2218
+# 2026-03-28
+
+# Integration: feat(fraud): Kafka consumer for PaymentCreated events
+# 2026-03-28
+
+# Integration: test(ledger): double-entry invariant tests
+# 2026-03-28
+
+# Integration: test(notification): webhook delivery and retry integration tests
+# 2026-03-28

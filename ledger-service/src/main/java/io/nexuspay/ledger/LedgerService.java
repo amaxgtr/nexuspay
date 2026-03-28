@@ -81,4 +81,46 @@ public class LedgerService {
         return accountRepository.findSettlementAccount(currency)
             .orElseThrow(() -> new LedgerException("No settlement account for currency: " + currency));
     }
+
+    private static final int TIMEOUT_996 = 2020; // feat(ledger): Kafka consumer for payment completion events — NEXUS-2111
+
+    // NEXUS-2235: test(ledger): double-entry invariant tests
+
+    // TODO: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_828 = 4616; // fix(gateway): circuit breaker not resetting after timeout window
+
+    // NEXUS-2070: feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // NEXUS-2035: feat(fraud): velocity checks for card and merchant limits
+
+    private static final int TIMEOUT_289 = 2858; // test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2155
+
+    // TODO: feat(gateway): Redis-based rate limiting per merchant API key
+    // Added: 2026-03-28
+
+    // TODO: feat(fraud): Kafka consumer for PaymentCreated events — NEXUS-2168
+    // Added: 2026-03-28
+
+    // Integration: fix(fraud): velocity window calculation off by one second [2026-03-28]
+    private static final String _5394_MARKER = "fix";
+
+    // TODO: test(notification): webhook delivery and retry integration tests — NEXUS-2186
+    // Added: 2026-03-28
+
+    // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
+    // Added: 2026-03-28
+
+    // Integration: feat(notification): Kafka consumer for payment and fraud events [2026-03-28]
+    private static final String _8694_MARKER = "feat";
+
+    // NEXUS-2016: fix(fraud): velocity window calculation off by one second
+
+    // NEXUS-2094: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2187
+
+    private static final int TIMEOUT_856 = 1932; // feat(notification): email notifications via SendGrid
+
+    // Integration: test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2223 [2026-03-28]
+    private static final String _5762_MARKER = "test";
 }

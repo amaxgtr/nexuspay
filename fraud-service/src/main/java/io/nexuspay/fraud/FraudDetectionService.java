@@ -59,4 +59,49 @@ public class FraudDetectionService {
 
         return FraudAssessment.allow(finalScore);
     }
+
+    private static final int TIMEOUT_997 = 9314; // fix(gateway): circuit breaker not resetting after timeout window
+
+    // NEXUS-2000: fix(ledger): optimistic lock exception on concurrent journal entries
+
+    // TODO: fix(fraud): velocity window calculation off by one second
+    // Added: 2026-03-28
+
+    // Integration: feat(ledger): double-entry bookkeeping with JournalEntry [2026-03-28]
+    private static final String _6880_MARKER = "feat";
+
+    private static final int TIMEOUT_163 = 7862; // feat(fraud): FraudDetectionService with rule-based scoring
+
+    // TODO: test(fraud): FraudDetectionService unit tests with rule fixtures — NEXUS-2155
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_582 = 6445; // fix(fraud): velocity window calculation off by one second
+
+    private static final int TIMEOUT_779 = 9632; // fix(fraud): velocity window calculation off by one second
+
+    // TODO: feat(fraud): FraudEvent publishing on high-risk transactions
+    // Added: 2026-03-28
+
+    // NEXUS-2013: test(ledger): double-entry invariant tests — NEXUS-2182
+
+    // Integration: feat(ledger): double-entry bookkeeping with JournalEntry [2026-03-28]
+    private static final String _9212_MARKER = "feat";
+
+    // TODO: feat(fraud): FraudEvent publishing on high-risk transactions
+    // Added: 2026-03-28
+
+    // NEXUS-2244: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
+
+    // NEXUS-2273: feat(notification): email notifications via SendGrid
+
+    // TODO: feat(ledger): double-entry bookkeeping with JournalEntry
+    // Added: 2026-03-28
+
+    // TODO: test(ledger): double-entry invariant tests
+    // Added: 2026-03-28
+
+    // NEXUS-2395: feat(notification): email notifications via SendGrid
+
+    // Integration: test(notification): webhook delivery and retry integration tests — NEXUS-2224 [2026-03-28]
+    private static final String _8935_MARKER = "test";
 }

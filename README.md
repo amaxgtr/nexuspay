@@ -45,3 +45,39 @@ mvn spring-boot:run
 ---
 *NexusPay is a demo repository built to demonstrate Gitrama AI repository intelligence.*
 *All code, developers, and incidents are fictional. Built by [Gitrama](https://gitrama.ai)*
+
+# fix(payment): idempotency key not persisted on async flows [2026-03-28]
+
+# feat(payment): PaymentProcessor with Stripe gateway integration — NEXUS-2014 [2026-03-28]
+
+# feat(payment): PaymentRequest and PaymentResponse DTOs with validation [2026-03-28]
+
+# test(payment): PaymentController integration tests with MockMvc [2026-03-28]
+
+# chore: multi-module Maven project scaffold — NEXUS-2028 [2026-03-28]
+
+# chore: multi-module Maven project scaffold — NEXUS-2031 [2026-03-28]
+
+# feat(payment): initial PaymentController with charge and capture endpoints [2026-03-28]
+
+# fix(gateway): JWT expiry not validated on token refresh [2026-03-28]
+
+# chore: Docker Compose for local Kafka, Postgres, Redis [2026-03-28]
+
+# feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events [2026-03-28]
+
+# feat(shared): JwtUtil for token generation and validation [2026-03-28]
+
+# feat(payment): PaymentService orchestration layer with idempotency [2026-03-28]
+
+# feat(payment): initial PaymentController with charge and capture endpoints — NEXUS-2066 [2026-03-28]
+
+# feat(shared): JwtUtil for token generation and validation [2026-03-28]
+
+# feat(payment): Kafka producer for PaymentCreated and PaymentCompleted events [2026-03-28]
+
+# fix(payment): idempotency key not persisted on async flows [2026-03-28]
+
+# feat(payment): initial PaymentController with charge and capture endpoints [2026-03-28]
+
+# feat(gateway): Spring Cloud Gateway route configuration [2026-03-28]

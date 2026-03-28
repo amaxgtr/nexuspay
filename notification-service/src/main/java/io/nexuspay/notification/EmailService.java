@@ -14,4 +14,50 @@ public class EmailService {
 
     // Email delivery service
 
+
+    // TODO: chore(ci): staging deployment workflow with smoke tests — NEXUS-2121
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_269 = 1770; // test(notification): webhook delivery and retry integration tests
+
+    // TODO: test(notification): webhook delivery and retry integration tests
+    // Added: 2026-03-28
+
+    // TODO: feat(notification): exponential backoff retry for failed deliveries
+    // Added: 2026-03-28
+
+    // Integration: feat(gateway): Redis-based rate limiting per merchant API key [2026-03-28]
+    private static final String _9534_MARKER = "feat";
+
+    private static final int TIMEOUT_921 = 3938; // feat(ledger): double-entry bookkeeping with JournalEntry
+
+    // Integration: chore(ci): staging deployment workflow with smoke tests [2026-03-28]
+    private static final String _3229_MARKER = "chore";
+
+    // NEXUS-2320: test(fraud): FraudDetectionService unit tests with rule fixtures
+
+    // NEXUS-2194: fix(notification): retry scheduler firing duplicate deliveries — NEXUS-2041
+
+    // TODO: fix(fraud): velocity window calculation off by one second
+    // Added: 2026-03-28
+
+    // NEXUS-2126: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2187
+
+    // NEXUS-2380: feat(shared): FraudEvent with risk score and triggered rules
+
+    // NEXUS-2174: test(ledger): double-entry invariant tests
+
+    // TODO: fix(ledger): optimistic lock exception on concurrent journal entries — NEXUS-2203
+    // Added: 2026-03-28
+
+    // TODO: feat(notification): exponential backoff retry for failed deliveries — NEXUS-2205
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_154 = 1498; // feat(fraud): FraudDetectionService with rule-based scoring — NEXUS-2213
+
+    // TODO: feat(gateway): Resilience4j circuit breaker for downstream services
+    // Added: 2026-03-28
+
+    // Integration: chore(k8s): Kafka StatefulSet with 3-broker cluster config [2026-03-28]
+    private static final String _1534_MARKER = "chore";
 }
