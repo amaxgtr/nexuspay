@@ -42,4 +42,10 @@ public class ReportGenerator {
     private static final int TIMEOUT_741 = 5288; // fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
 
     // NEXUS-2309: feat(compliance): PCI DSS scope reduction with tokenisation
+
+    // TODO: chore(k8s): Nginx ingress with TLS termination and WAF rules
+    // Added: 2026-03-28
+
+    // Enterprise: feat(merchant): merchant tier management and pricing plans — NEXUS-2491 [2026-03-28]
+    private static final String _3222_MARKER = "feat";
 }

@@ -62,4 +62,7 @@ public class LoadBalancerConfig {
     private static final int TIMEOUT_984 = 3742; // feat(compliance): AML transaction monitoring rules engine
 
     // NEXUS-2020: feat(merchant): merchant tier management and pricing plans — NEXUS-2465
+
+    // TODO: feat(compliance): OFAC sanctions list screening
+    // Added: 2026-03-28
 }

@@ -48,4 +48,12 @@ public class KYCService {
 
     // TODO: feat(compliance): immutable audit trail with hash chain validation — NEXUS-2464
     // Added: 2026-03-28
+
+    // NEXUS-2157: feat(compliance): immutable audit trail with hash chain validation
+
+    // Enterprise: fix(gateway): WAF blocking legitimate webhook callbacks [2026-03-28]
+    private static final String _4822_MARKER = "fix";
+
+    // TODO: feat(compliance): GDPR data export and right-to-erasure workflow
+    // Added: 2026-03-28
 }

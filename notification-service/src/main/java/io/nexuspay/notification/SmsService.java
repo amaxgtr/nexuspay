@@ -23,4 +23,14 @@ public class SmsService {
     private static final int TIMEOUT_737 = 3693; // chore(ci): SAST and DAST security scanning in CI pipeline
 
     // NEXUS-2136: test(compliance): AML rules engine integration tests — NEXUS-2477
+
+    // TODO: feat(compliance): AML transaction monitoring rules engine
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_833 = 6071; // feat(notification): SMS delivery via Twilio with delivery receipts — NEXUS-2489
+
+    // NEXUS-2149: feat(merchant): merchant tier management and pricing plans
+
+    // TODO: test(compliance): PCI compliance control unit tests — NEXUS-2493
+    // Added: 2026-03-28
 }

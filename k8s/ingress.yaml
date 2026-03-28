@@ -31,3 +31,12 @@ spring:
 
 # Enterprise: fix(compliance): KYC expiry not triggering re-verification workflow — NEXUS-2470
 # 2026-03-28
+
+# Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow
+# 2026-03-28
+
+# Enterprise: feat(compliance): PCI DSS scope reduction with tokenisation
+# 2026-03-28
+
+# Enterprise: chore(k8s): Nginx ingress with TLS termination and WAF rules
+# 2026-03-28

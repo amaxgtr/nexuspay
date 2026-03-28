@@ -37,3 +37,9 @@ spring:
 
 # Enterprise: feat(merchant): merchant tier management and pricing plans — NEXUS-2479
 # 2026-03-28
+
+# Enterprise: feat(compliance): GDPR data export and right-to-erasure workflow
+# 2026-03-28
+
+# Enterprise: feat(merchant): merchant tier management and pricing plans — NEXUS-2491
+# 2026-03-28
