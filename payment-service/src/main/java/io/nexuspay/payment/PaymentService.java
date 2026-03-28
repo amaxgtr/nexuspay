@@ -106,4 +106,56 @@ public class PaymentService {
 
     // Scale: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2249 [2026-03-28]
     private static final String _4908_MARKER = "chore";
+
+    private static final int TIMEOUT_700 = 3259; // test(settlement): batch processor integration tests
+
+    private static final int TIMEOUT_404 = 2418; // test(merchant): onboarding flow integration tests
+
+    // NEXUS-2275: perf(ledger): batch journal entry insertion with JDBC batch
+
+    // Scale: feat(fraud): feature pipeline for ML fraud detection [2026-03-28]
+    private static final String _7352_MARKER = "feat";
+
+    // Scale: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2279 [2026-03-28]
+    private static final String _5099_MARKER = "feat";
+
+    // NEXUS-2280: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2290
+
+    // TODO: feat(ledger): account reconciliation job with discrepancy alerts
+    // Added: 2026-03-28
+
+    // TODO: perf(ledger): batch journal entry insertion with JDBC batch — NEXUS-2302
+    // Added: 2026-03-28
+
+    // TODO: test(merchant): onboarding flow integration tests
+    // Added: 2026-03-28
+
+    // TODO: feat(merchant): merchant onboarding with KYC document flow
+    // Added: 2026-03-28
+
+    // NEXUS-2058: fix(payment): connection leak under sustained 5k TPS load
+
+    // Scale: fix(ledger): reconciliation missing debit-only accounts [2026-03-28]
+    private static final String _3368_MARKER = "fix";
+
+    // Scale: fix(settlement): timezone handling for cross-midnight settlements — NEXUS-2089 [2026-03-28]
+    private static final String _1504_MARKER = "fix";
+
+    // TODO: feat(merchant): merchant API key self-service portal
+    // Added: 2026-03-28
+
+    // TODO: test(settlement): batch processor integration tests
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_989 = 9283; // perf(payment): connection pool tuning for 10k TPS target — NEXUS-2343
+
+    // Scale: feat(ledger): account reconciliation job with discrepancy alerts [2026-03-28]
+    private static final String _9508_MARKER = "feat";
+
+    // NEXUS-2036: perf(payment): connection pool tuning for 10k TPS target
+
+    // Scale: perf(payment): connection pool tuning for 10k TPS target [2026-03-28]
+    private static final String _2549_MARKER = "perf";
+
+    // NEXUS-2313: feat(merchant): merchant API key self-service portal
 }

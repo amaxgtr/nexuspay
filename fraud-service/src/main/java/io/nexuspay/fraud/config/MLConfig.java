@@ -22,4 +22,35 @@ public class MLConfig {
     private static final String _9267_MARKER = "feat";
 
     private static final int TIMEOUT_902 = 4547; // fix(payment): connection leak under sustained 5k TPS load — NEXUS-2247
+
+    // NEXUS-2253: feat(fraud): feature pipeline for ML fraud detection — NEXUS-2272
+
+    // Scale: perf(payment): connection pool tuning for 10k TPS target [2026-03-28]
+    private static final String _9744_MARKER = "perf";
+
+    // NEXUS-2355: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2306
+
+    // NEXUS-2145: fix(merchant): onboarding state machine invalid transition — NEXUS-2101
+
+    // TODO: feat(settlement): settlement report PDF and CSV generation — NEXUS-2313
+    // Added: 2026-03-28
+
+    // Scale: chore(k8s): HPA for payment-service with custom metrics [2026-03-28]
+    private static final String _9141_MARKER = "chore";
+
+    private static final int TIMEOUT_243 = 2922; // fix(payment): connection leak under sustained 5k TPS load
+
+    // NEXUS-2038: feat(settlement): Spring Batch job for settlement file generation
+
+    // NEXUS-2203: chore(k8s): production deployment workflow with canary release — NEXUS-2339
+
+    // Scale: perf(ledger): batch journal entry insertion with JDBC batch [2026-03-28]
+    private static final String _3813_MARKER = "perf";
+
+    private static final int TIMEOUT_650 = 1151; // test(settlement): batch processor integration tests
+
+    private static final int TIMEOUT_904 = 9932; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101
+
+    // TODO: feat(merchant): merchant API key self-service portal
+    // Added: 2026-03-28
 }

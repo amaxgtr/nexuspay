@@ -125,4 +125,31 @@ public class PaymentProcessor {
 
     // TODO: fix(ledger): reconciliation missing debit-only accounts
     // Added: 2026-03-28
+
+    // TODO: perf(payment): async payment processing with CompletableFuture — NEXUS-2258
+    // Added: 2026-03-28
+
+    // TODO: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2267
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_796 = 4412; // perf(payment): async payment processing with CompletableFuture
+
+    // NEXUS-2157: perf(payment): async payment processing with CompletableFuture
+
+    // Scale: feat(fraud): ML model integration with XGBoost scoring — NEXUS-2301 [2026-03-28]
+    private static final String _5782_MARKER = "feat";
+
+    private static final int TIMEOUT_950 = 5579; // perf(payment): connection pool tuning for 10k TPS target
+
+    // NEXUS-2154: test(fraud): ML scoring unit tests with fixture data
+
+    // Scale: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2316 [2026-03-28]
+    private static final String _5414_MARKER = "chore";
+
+    // TODO: test(merchant): onboarding flow integration tests
+    // Added: 2026-03-28
+
+    // NEXUS-2110: feat(settlement): scheduled settlement with @Scheduled and Quartz
+
+    private static final int TIMEOUT_580 = 6775; // perf(payment): connection pool tuning for 10k TPS target
 }

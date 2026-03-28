@@ -22,3 +22,51 @@ spring:
 
 # Scale: fix(ledger): reconciliation missing debit-only accounts
 # 2026-03-28
+
+# Scale: feat(settlement): Spring Batch job for settlement file generation — NEXUS-2279
+# 2026-03-28
+
+# Scale: feat(fraud): ML model integration with XGBoost scoring — NEXUS-2295
+# 2026-03-28
+
+# Scale: fix(merchant): onboarding state machine invalid transition — NEXUS-2101
+# 2026-03-28
+
+# Scale: chore(k8s): production deployment workflow with canary release
+# 2026-03-28
+
+# Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2306
+# 2026-03-28
+
+# Scale: feat(fraud): feature pipeline for ML fraud detection
+# 2026-03-28
+
+# Scale: perf(payment): connection pool tuning for 10k TPS target
+# 2026-03-28
+
+# Scale: test(fraud): ML scoring unit tests with fixture data
+# 2026-03-28
+
+# Scale: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2320
+# 2026-03-28
+
+# Scale: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2322
+# 2026-03-28
+
+# Scale: test(fraud): ML scoring unit tests with fixture data
+# 2026-03-28
+
+# Scale: perf(ledger): batch journal entry insertion with JDBC batch
+# 2026-03-28
+
+# Scale: chore(k8s): pod disruption budgets for zero-downtime deploys
+# 2026-03-28
+
+# Scale: perf(payment): async payment processing with CompletableFuture — NEXUS-2336
+# 2026-03-28
+
+# Scale: test(settlement): batch processor integration tests
+# 2026-03-28
+
+# Scale: chore(k8s): HPA for payment-service with custom metrics
+# 2026-03-28

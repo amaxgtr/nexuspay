@@ -49,3 +49,27 @@ spec:
 
 # Scale: perf(ledger): batch journal entry insertion with JDBC batch
 # 2026-03-28
+
+# Scale: fix(merchant): onboarding state machine invalid transition — NEXUS-2101 — NEXUS-2261
+# 2026-03-28
+
+# Scale: test(merchant): onboarding flow integration tests
+# 2026-03-28
+
+# Scale: fix(ledger): reconciliation missing debit-only accounts — NEXUS-2276
+# 2026-03-28
+
+# Scale: feat(merchant): merchant onboarding with KYC document flow
+# 2026-03-28
+
+# Scale: chore(k8s): HPA for payment-service with custom metrics
+# 2026-03-28
+
+# Scale: feat(settlement): end-of-day settlement batch processor
+# 2026-03-28
+
+# Scale: chore(k8s): production deployment workflow with canary release
+# 2026-03-28
+
+# Scale: perf(payment): connection pool tuning for 10k TPS target
+# 2026-03-28

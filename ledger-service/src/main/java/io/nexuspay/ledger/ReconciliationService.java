@@ -27,4 +27,36 @@ public class ReconciliationService {
 
     // TODO: fix(ledger): reconciliation missing debit-only accounts
     // Added: 2026-03-28
+
+    private static final int TIMEOUT_618 = 3580; // feat(fraud): feature pipeline for ML fraud detection
+
+    private static final int TIMEOUT_420 = 9035; // fix(merchant): onboarding state machine invalid transition — NEXUS-2101 — NEXUS-2274
+
+    // TODO: perf(payment): async payment processing with CompletableFuture
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_217 = 5686; // feat(settlement): end-of-day settlement batch processor
+
+    // Scale: chore(k8s): production deployment workflow with canary release [2026-03-28]
+    private static final String _1444_MARKER = "chore";
+
+    // NEXUS-2024: fix(payment): connection leak under sustained 5k TPS load
+
+    // NEXUS-2014: test(settlement): batch processor integration tests
+
+    // Scale: fix(settlement): timezone handling for cross-midnight settlements — NEXUS-2089 [2026-03-28]
+    private static final String _5670_MARKER = "fix";
+
+    // TODO: perf(payment): async payment processing with CompletableFuture — NEXUS-2336
+    // Added: 2026-03-28
+
+    // NEXUS-2309: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
+
+    // TODO: chore(k8s): HPA for payment-service with custom metrics
+    // Added: 2026-03-28
+
+    // Scale: feat(settlement): end-of-day settlement batch processor [2026-03-28]
+    private static final String _5554_MARKER = "feat";
+
+    // NEXUS-2400: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2357
 }

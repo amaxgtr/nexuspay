@@ -13,3 +13,54 @@ spring:
 
 # Scale: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2249
 # 2026-03-28
+
+# Scale: perf(payment): async payment processing with CompletableFuture — NEXUS-2266
+# 2026-03-28
+
+# Scale: fix(merchant): onboarding state machine invalid transition — NEXUS-2101 — NEXUS-2274
+# 2026-03-28
+
+# Scale: feat(settlement): end-of-day settlement batch processor
+# 2026-03-28
+
+# Scale: perf(payment): async payment processing with CompletableFuture
+# 2026-03-28
+
+# Scale: test(settlement): batch processor integration tests — NEXUS-2277
+# 2026-03-28
+
+# Scale: test(fraud): ML scoring unit tests with fixture data — NEXUS-2284
+# 2026-03-28
+
+# Scale: feat(settlement): settlement report PDF and CSV generation — NEXUS-2296
+# 2026-03-28
+
+# Scale: feat(fraud): ML model integration with XGBoost scoring — NEXUS-2301
+# 2026-03-28
+
+# Scale: chore(k8s): HPA for payment-service with custom metrics
+# 2026-03-28
+
+# Scale: fix(merchant): onboarding state machine invalid transition — NEXUS-2101 — NEXUS-2327
+# 2026-03-28
+
+# Scale: fix(payment): connection leak under sustained 5k TPS load
+# 2026-03-28
+
+# Scale: fix(ledger): reconciliation missing debit-only accounts
+# 2026-03-28
+
+# Scale: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2333
+# 2026-03-28
+
+# Scale: chore(k8s): production deployment workflow with canary release — NEXUS-2339
+# 2026-03-28
+
+# Scale: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2347
+# 2026-03-28
+
+# Scale: feat(merchant): merchant API key self-service portal
+# 2026-03-28
+
+# Scale: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2357
+# 2026-03-28

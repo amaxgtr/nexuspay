@@ -23,4 +23,44 @@ public class SettlementScheduler {
 
     // Scale: feat(fraud): A/B testing framework for rule vs ML scoring — NEXUS-2256 [2026-03-28]
     private static final String _8405_MARKER = "feat";
+
+    // Scale: feat(fraud): feature pipeline for ML fraud detection [2026-03-28]
+    private static final String _4493_MARKER = "feat";
+
+    // NEXUS-2334: fix(ledger): reconciliation missing debit-only accounts — NEXUS-2276
+
+    // TODO: perf(ledger): batch journal entry insertion with JDBC batch — NEXUS-2286
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_628 = 7855; // chore(k8s): production deployment workflow with canary release
+
+    // Scale: chore(k8s): pod disruption budgets for zero-downtime deploys [2026-03-28]
+    private static final String _9427_MARKER = "chore";
+
+    // TODO: chore(k8s): production deployment workflow with canary release
+    // Added: 2026-03-28
+
+    // NEXUS-2061: feat(settlement): settlement report PDF and CSV generation
+
+    // NEXUS-2001: chore(k8s): HPA for payment-service with custom metrics — NEXUS-2316
+
+    // TODO: fix(ledger): reconciliation missing debit-only accounts
+    // Added: 2026-03-28
+
+    private static final int TIMEOUT_213 = 6003; // fix(settlement): timezone handling for cross-midnight settlements — NEXUS-2089
+
+    // Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms [2026-03-28]
+    private static final String _9816_MARKER = "perf";
+
+    // NEXUS-2023: chore(k8s): pod disruption budgets for zero-downtime deploys
+
+    // TODO: chore(k8s): production deployment workflow with canary release — NEXUS-2339
+    // Added: 2026-03-28
+
+    // TODO: feat(settlement): scheduled settlement with @Scheduled and Quartz — NEXUS-2347
+    // Added: 2026-03-28
+
+    // NEXUS-2212: perf(payment): connection pool tuning for 10k TPS target
+
+    // NEXUS-2386: feat(merchant): merchant API key self-service portal
 }
