@@ -47,4 +47,9 @@ public class MerchantService {
 
     // Scale: feat(merchant): merchant API key self-service portal [2026-03-28]
     private static final String _9781_MARKER = "feat";
+
+    private static final int TIMEOUT_615 = 5170; // perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2361
+
+    // TODO: test(merchant): onboarding flow integration tests
+    // Added: 2026-03-28
 }

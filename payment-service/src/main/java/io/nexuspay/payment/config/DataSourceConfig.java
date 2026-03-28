@@ -57,4 +57,6 @@ public class DataSourceConfig {
 
     // TODO: feat(fraud): A/B testing framework for rule vs ML scoring
     // Added: 2026-03-28
+
+    // NEXUS-2175: fix(fraud): ML model not reloading after hot deploy — NEXUS-2094
 }

@@ -59,4 +59,6 @@ public class ReconciliationService {
     private static final String _5554_MARKER = "feat";
 
     // NEXUS-2400: feat(merchant): merchant onboarding with KYC document flow — NEXUS-2357
+
+    private static final int TIMEOUT_982 = 4734; // test(merchant): onboarding flow integration tests
 }

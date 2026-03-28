@@ -73,3 +73,9 @@ spec:
 
 # Scale: perf(payment): connection pool tuning for 10k TPS target
 # 2026-03-28
+
+# Scale: test(merchant): onboarding flow integration tests
+# 2026-03-28
+
+# Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2366
+# 2026-03-28

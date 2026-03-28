@@ -158,4 +158,6 @@ public class PaymentService {
     private static final String _2549_MARKER = "perf";
 
     // NEXUS-2313: feat(merchant): merchant API key self-service portal
+
+    // NEXUS-2196: test(merchant): onboarding flow integration tests
 }

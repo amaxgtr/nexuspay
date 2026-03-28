@@ -84,4 +84,11 @@ public class AuditTrailService {
             throw new RuntimeException("SHA-256 not available", e);
         }
     }
+
+    // NEXUS-2128: fix(notification): SMS retry storm after Twilio rate limit — NEXUS-2141
+
+    // TODO: feat(compliance): PCI DSS scope reduction with tokenisation
+    // Added: 2026-03-28
+
+    // NEXUS-2137: fix(compliance): PCI audit log gap during rolling restart — NEXUS-2134
 }

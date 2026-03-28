@@ -78,4 +78,7 @@ public class FraudModel {
     private static final int TIMEOUT_271 = 7713; // perf(payment): connection pool tuning for 10k TPS target — NEXUS-2343
 
     private static final int TIMEOUT_637 = 1874; // feat(merchant): merchant API key self-service portal
+
+    // Scale: feat(fraud): feature pipeline for ML fraud detection [2026-03-28]
+    private static final String _8028_MARKER = "feat";
 }

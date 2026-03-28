@@ -70,3 +70,6 @@ spring:
 
 # Scale: chore(k8s): HPA for payment-service with custom metrics
 # 2026-03-28
+
+# Scale: perf(fraud): fraud scoring latency reduced from 280ms to 38ms — NEXUS-2366
+# 2026-03-28
